@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Age of Kingdom Wars</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link url="style" rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link url="style" rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link url="style" rel="stylesheet" href="css/style_keyframes.css" type="text/css" media="screen">
+	<script type="text/javascript" src="js/page_save.js"></script>
+	<meta name="author" content="XMAF">
+	<link rel="shortcut icon" href="images/aokw_icon.png" type="image/icon">
+
+</head>
+<body onload="get_save()">
+<div class="kingdom_header">
+<div class="kp_buy_diamond" onclick="window.location.href='buy_diamond.html';"><span id="kp_buydiamonds_text" style="font-size: 12px;"></span><br><img class="diamond_icon" src="images/diamond_icon.png"><div class="kp_diamond_text"><span id="diamond">0</span></div></div>
+<div class="kp_message" onclick="window.location.href='messages_page.html';"><div class="kp_m_p_warning_1"><span id="kp_messages_text"></span></div><div class="kp_m_p_warning_2" style="background-image: url('images/warning_icon.png');"></div></div>
+<div class="kp_process" onclick="window.location.href='process_page.html';"><div class="kp_m_p_warning_1"><span id="kp_process_text"></span></div><div class="kp_m_p_warning_2" style="background-image: url('images/warning_icon.png');"></div></div>
+<div class="kp_settings" onclick="settingson()">
+<center>
+<img id="kp_settings_1" class="kp_settings_icon" src="images/settings_icon.png">
+</center>
+</div>
+<script src="js/kp_settings.js" type="text/javascript"></script>
+</div>
+<div class="attack_warning" style="background-image: url('images/user_attacker_icon.png');"></div>
+
+<div id="kp_settings_div_bg_display" class="kp_settings_div_bg"></div>
+<div id="kp_settings_div" class="kp_settings_displaynone">
+<div class="kp_settings_scroll_div">
+<div class="kp_settings_div_header"><div class="kp_settings_div_header_icon_left"></div><div class="kp_settings_div_header_text_center"><b id="kp_settings_top_text"></b></div><div class="kp_settings_div_header_icon_right" onclick="settingsoff()"><img class="kp_setttings_exit_icon" src="images/x_icon.png"></div></div>
+<div class="kp_settings_0px_div"></div>
+
+<div class="kp_settings_world_text_div"><p class="kp_settings_world_text"><b id="kp_world_text"> </b><b>1</b></p></div>
+
+<div class="kp_settings_a1">
+<div class="kp_settings_as_head_text"><b id="kp_setting_king_name"></b></div>
+<div id="set_king_name" class="kip_set_king_name"><center><div class="kip_set_king_name_in"><b id="set_king_name_text"></b></div></center></div>
+<div id="settings_king_name_1" class="kp_settings_king_name_1"><input id="king_name_input" class="kp_king_name_input" type="text" value="AoKW_00001" maxlength="12"></input><div id="king_name_input_button" class="kp_king_name_input_button" onclick="king_name_save()" style="background-image: url('images/button_lime_icon.png');">Kaydet</div></div>
+<div id="settings_king_name_2" class="kp_settings_king_name_2"><span id="setting_a1_bottom_text"></span></div>
+</div>
+<div class="kp_settings_white_line"></div>
+
+<div class="kp_settings_a2" onclick="settings_languageon()">
+<div class="kp_settings_as_head_text"><b id="flag_head_language"></b></div>
+<div class="kp_settings_flag_and_text"><div id="kp_flags_icons" class="kp_settings_flag" style="background-image: url('images/turkey_flag_icon.png');"></div><div class="kp_settings_flag_text"><b id="flag_language_text">Türkçe</b></div><div class="kp_settings_flag_text_next_icon" style="background-image: url('images/next_icon.png');"></div></div>
+</div>
+<div class="kp_settings_white_line"></div>
+
+</div>
+</div>
+
+<div id="kp_settings_div_2" class="kp_settings_displaynone">
+<div class="kp_settings_scroll_div">
+<div class="kp_settings_div_header"><div class="kp_settings_div_header_icon_left" onclick="settings_languageback()"><img class="kp_setttings_exit_icon" src="images/back_icon.png"></div><div class="kp_settings_div_header_text_center"><b id="kp_settings_top_text2"></b></div><div class="kp_settings_div_header_icon_right" onclick="settingsoff()"><img class="kp_setttings_exit_icon" src="images/x_icon.png"></div></div>
+<div class="kp_settings_0px_div"></div>
+
+<div class="kp_settings_world_text_div"><p id="flag_head_language2" class="kp_settings_world_text">Language</p></div>
+
+<div class="select_language_divs" onclick="settings_languageEN()"><div class="select_language_icon" style="background-image: url('images/united_states_flag_icon.png');"></div><div class="select_language_icon_text"><b>English</b></div></div>
+<div class="select_language_divs" onclick="settings_languageDE()"><div class="select_language_icon" style="background-image: url('images/germany_flag_icon.png');"></div><div class="select_language_icon_text"><b>Deutsche</b></div></div>
+<div class="select_language_divs" onclick="settings_languageFR()"><div class="select_language_icon" style="background-image: url('images/france_flag_icon.png');"></div><div class="select_language_icon_text"><b>Français</b></div></div>
+<div class="select_language_divs" onclick="settings_languageRU()"><div class="select_language_icon" style="background-image: url('images/russia_flag_icon.png');"></div><div class="select_language_icon_text"><b>Pусский</b></div></div>
+<div class="select_language_divs" onclick="settings_languageTR()"><div class="select_language_icon" style="background-image: url('images/turkey_flag_icon.png');"></div><div class="select_language_icon_text"><b>Türkçe</b></div></div>
+<div class="select_language_divs" onclick="settings_languagePT()"><div class="select_language_icon" style="background-image: url('images/portugal_flag_icon.png');"></div><div class="select_language_icon_text"><b>Português</b></div></div>
+<div class="select_language_divs" onclick="settings_languageES()"><div class="select_language_icon" style="background-image: url('images/spain_flag_icon.png');"></div><div class="select_language_icon_text"><b>Español</b></div></div>
+<div class="select_language_divs" onclick="settings_languageZH()"><div class="select_language_icon" style="background-image: url('images/china_flag_icon.png');"></div><div class="select_language_icon_text"><b>中文</b></div></div>
+<div class="select_language_divs" onclick="settings_languageJA()"><div class="select_language_icon" style="background-image: url('images/japan_flag_icon.png');"></div><div class="select_language_icon_text"><b>日本人</b></div></div>
+<div class="select_language_divs" onclick="settings_languageKO()"><div class="select_language_icon" style="background-image: url('images/south_korea_flag_icon.png');"></div><div class="select_language_icon_text"><b>한국어</b></div></div>
+
+</div>
+</div>
+
+<div class="kp_storage_info" onclick="window.location.href='kingdominfo_page.html';">
+
+<div class="kp_storage_gold_bar">
+<img class="kp_gold_icon" src="images/gold_icon.png">
+<div class="kp_gold_text">
+<b>10</b><b style="">K</b><b style="display: none;">M</b><b style="display: none;">B</b><b style="display: none;">T</b>
+</div>
+</div>
+
+<div class="kp_storage_food_bar">
+<img class="kp_food_icon" src="images/food_icon.png">
+<div class="kp_food_text">
+<b>10</b><b style="">K</b>
+</div>
+</div>
+
+<div class="kp_storage_wood_bar">
+<img class="kp_food_icon" src="images/wood_icon.png">
+<div class="kp_food_text">
+<b>10</b><b style="">K</b>
+</div>
+</div>
+
+<div class="kp_storage_xp_bar">
+<img class="kp_xp_icon" src="images/xp_icon.png">
+<div class="kp_xp_text">
+<b>0</b>
+</div>
+</div>
+
+</div>
+
+<div class="kp_bonus" onclick="window.location.href='bonus_page.html';">
+<img class="kp_bonus_icon" src="images/bonus_icon.png">
+<br>
+<div class="kp_bonus_bottom_text"><b>Bonus</b></div>
+</div>
+
+<div class="kp_quest" onclick="window.location.href='quest_page.html';">
+<img class="kp_quest_icon" src="images/quest_icon.png">
+<br>
+<div class="kp_quest_bottom_text"><b id="quests_text"></b></div>
+</div>
+
+<div class="kp_market" onclick="window.location.href='market_page.html';">
+<img class="kp_market_icon" src="images/market_icon.png">
+<br>
+<div class="kp_market_bottom_text"><b id="market_text">Market</b></div>
+</div>
+
+<div class="kp_barracks_div" onclick="window.location.href='barracks_page.html';" style="background-image: url('images/barracks_icon.png');">
+<b></b>
+</div>
+
+<div class="kp_castle_div" onclick="window.location.href='castle_page.html';" style="background-image: url('images/castle_icon.png');">
+<b></b>
+</div>
+
+<div class="kp_academy_div" onclick="window.location.href='academy_page.html';" style="background-image: url('images/academy_icon.png');">
+<b></b>
+</div>
+
+<div class="kp_wall_div" style="background-image: url('images/wall_kp_icon.png');">
+<div class="kp_wall_onclicks" onclick="window.location.href='wall_page.html';">
+<b></b>
+</div>
+</div>
+
+<div class="kp_workshop_div" onclick="window.location.href='workshop_page.html';" style="background-image: url('images/workshop_icon.png');">
+<b></b>
+</div>
+
+<div class="kp_village_div" onclick="window.location.href='village_page.html';" style="background-image: url('images/village_icon.png');">
+<b></b>
+</div>
+
+
+<div class="kp_news_bottom_div" onclick="window.location.href='news1_page.html';">
+<div class="kp_news_bottom_div_1"><b id="announcement_text"></b></div>
+<div class="kp_news_bottom_div_2"><marquee scrollamount="4"></marquee></div>
+<div class="kp_news_bottom_div_3" style="background-image: url('images/next_icon.png');"></div>
+</div>
+<div class="footer">
+<a href="military_page.html"><div class="menus"><b id="menus_military_text" class="menus_text"></b></div></a>
+<a href="log_page.html"><div class="menus"><b id="menus_logs_text" class="menus_text"></b></div></a>
+<a href="map_page.html" onclick="kingdom_gomap()"><div class="menus"><b id="menus_map_text" class="menus_text"></b></div></a>
+<a href="allies_page.html"><div class="menus"><b id="menus_allies_text" class="menus_text"></b></div></a>
+<a href="leaderboard_page.html"><div class="menus"><b id="menus_leaderboard_text" class="menus_text"></b></div></a>
+</div>
+
+<div class="menus_warning_log" style="background-image: url('images/warning_icon.png');"></div>
+<div class="menus_warning_allies" style="background-image: url('images/warning_icon.png');"></div>
+</body>
+</html>

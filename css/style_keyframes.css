@@ -1,0 +1,22 @@
+/****************************************
+*************Created by XMAF*************
+***********Age of Kingdom Wars***********
+****************************************/
+
+/* kingdom_page_quests */
+
+@keyframes quest_animation_kingdom {
+	from { background-color: red; }
+	to { }
+}
+
+@keyframes quest_animation_village {
+	from { background-color: red; color: red; }
+	to { }
+}
+
+@keyframes attack_warning_animation {
+	0% { width: 30px; height: 30px; }
+	50% { width: 25px; height: 25px; }
+	100% { width: 30px;  height: 30px; }
+}

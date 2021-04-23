@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Age of Kingdom Wars</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link url="style" rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link url="style" rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<script type="text/javascript" src="js/page_save.js"></script>
+	<meta name="author" content="XMAF">
+	<link rel="shortcut icon" href="images/aokw_icon.png" type="image/icon">
+
+</head>
+<body onload="wall_page_save()">
+
+<div class="header">
+<div class="header_icon_left" onclick="window.history.back();"><img class="back_icon" src="images/back_icon.png"></div>
+<div class="header_text_center"><b class="header_text">Duvar</b></div>
+<div class="header_icon_right" onclick="window.location.href='kingdom_page.html';"><img class="home_icon" src="images/home_icon.png"></div>
+</div>
+<div class="top_div_0px2"></div>
+
+<div class="wallp_div1">
+<div class="wallp_div1_image" style="background-image: url('images/wall_icon.png');"></div>
+<div class="wallp_div1_text"><b>Krallık merkezini korumak için suru sağlamlaştır!</b><br><br><b id="buildingcapacity_text"></b><b> 30</b><br><br><b>Defans Bonusu: </b><b>2</b><b>%</b></div>
+</div>
+
+<div class="v_a_p_1_divs">
+<div class="v_a_p_info_divs"><b style="margin-right: 6px;">Duvar </b><b style="margin-right: 6px;"> Lv: </b><b>0</b><b>/30</b></div>
+<div class="v_a_p_icon" style="background-image: url('images/wall1_warning_icon.png');" onclick="window.location.href='wall_build1.html';"></div>
+<div class="v_a_p_input_divs"></div>
+<div class="v_a_p_upgrade_place_r">
+<div class="v_a_p_button_upgrade" style="background-image: url('images/button_blue_icon.png');"><b id="boost_text"></b></div>
+<div class="v_a_p_upgrade_button_footer"><b>Lv </b><b>1</b></div>
+</div>
+</div>
+
+<div class="v_a_p_1_divs">
+<div class="v_a_p_info_divs"><b style="margin-right: 6px;">Gözcü Kulesi </b><b>x</b><b style="margin-right: 6px;">0</b><b style="margin-right: 6px;"> Lv: </b><b>0</b><b>/30</b></div>
+<div class="v_a_p_icon" style="background-image: url('images/wall2_warning_icon.png');" onclick="window.location.href='wall_build2.html';"></div>
+<div class="v_a_p_input_divs"><input class="v_a_p_input" type="number" maxlength="7" min="1" max="30"></input><b>Max: </b><b>0</b></div>
+<div class="v_a_p_button_production" style="background-image: url('images/button_lime_icon.png');"><b id="produce_text"></b></div>
+<div class="v_a_p_upgrade_place_l">
+<div class="v_a_p_button_upgrade" style="background-image: url('images/button_blue_icon.png');"><b id="boost_text2"></b></div>
+<div class="v_a_p_upgrade_button_footer"><b>Lv </b><b>1</b></div>
+</div>
+</div>
+
+<div class="bottom_div_0px2"></div>
+<div class="footer">
+<a href="military_page.html"><div class="menus"><b id="menus_military_text" class="menus_text"></b></div></a>
+<a href="log_page.html"><div class="menus"><b id="menus_logs_text" class="menus_text"></b></div></a>
+<a href="map_page.html" onclick="kingdom_gomap()"><div class="menus"><b id="menus_map_text" class="menus_text"></b></div></a>
+<a href="allies_page.html"><div class="menus"><b id="menus_allies_text" class="menus_text"></b></div></a>
+<a href="leaderboard_page.html"><div class="menus"><b id="menus_leaderboard_text" class="menus_text"></b></div></a>
+</div>
+</body>
+</html>

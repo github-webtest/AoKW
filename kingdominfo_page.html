@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Age of Kingdom Wars</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link url="style" rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link url="style" rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<script type="text/javascript" src="js/page_save.js"></script>
+	<meta name="author" content="XMAF">
+	<link rel="shortcut icon" href="images/aokw_icon.png" type="image/icon">
+	<style>
+	.display_block{
+		display: block;
+	}
+	
+	.display_none{
+		display: none;
+	}
+	
+	.kip_age_number_icon{
+		background-image: url('images/age_1_icon.png');
+	}
+	
+	#next_age_button_i{
+		display: block;
+	}
+	
+	</style>
+</head>
+<body onload="kingdominfo_page_save()">
+
+<div class="header">
+<div class="header_icon_left" onclick="window.history.back();"><img class="back_icon" src="images/back_icon.png"></div>
+<div class="header_text_center"><b class="header_text">Krallık Bilgileri</b></div>
+<div class="header_icon_right" onclick="window.location.href='kingdom_page.html';"><img class="home_icon" src="images/home_icon.png"></div>
+</div>
+<div class="top_div_0px"></div>
+
+<div class="kip_info_div1">
+<div class="kip_info_divs_1"><b id="age_text"></b></div>
+
+<div class="kip_info_div1_2">
+<div class="kip_info_div1_2_a1">
+<div class="kip_info_div1_2_a1_1"><center><div id="age_img" class="kip_age_number_icon"></div></center></div>
+<div class="kip_info_div1_2_a1_2"><b id="bronzeage_text" class="display_block"></b><b id="ironage_text" class="display_none"></b><b id="ancientage_text" class="display_none"></b><b id="classicalage_text" class="display_none"></b><b id="hellenisticage_text" class="display_none"></b></div>
+</div>
+</div>
+
+<div class="kip_info_div1_3"><b>Çağ Puanı: </b><b>0</b></div>
+<div class="kip_white_line"></div>
+
+<div class="kip_info_div1_4"><b style="color: #909090; display: none;">Sonraki çağa geçmek için 1000 çağ puanı gerektirmektedir.</b><center><div id="next_age_button_i" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_i()"></div><div id="next_age_button_a" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_a()"></div><div id="next_age_button_c" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_c()"></div><div id="next_age_button_h" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_h()"></div></center></div>
+
+</div>
+
+<div class="kip_info_div2">
+<div class="kip_info_divs_1"><b>Ekonomi</b></div>
+
+<div class="kip_info_divs_2">
+<div class="kip_info_divs_2_1">
+<img class="kip_food_wood_gold_diamond_other_icon" src="images/food_icon.png">
+</div>
+<div class="kip_info_divs_2_2">
+<b style="margin-left: 22px;">Besin: </b><b>237</b><b> besin/saat</b>
+</div>
+</div>
+
+<div class="kip_info_div2_3">
+<div class="kip_info_divs_3_divs"><img class="kip_plus_minus_icon" src="images/plus_icon.png"><b>240</b><b> besin/saat</b></div>
+<div class="kip_info_divs_3_divs"><img class="kip_plus_minus_icon" src="images/minus_icon.png"><b>3</b><b> besin/saat</b></div>
+</div>
+
+<div class="kip_info_divs_2">
+<div class="kip_info_divs_2_1">
+<img class="kip_food_wood_gold_diamond_other_icon" src="images/wood_icon.png">
+</div>
+<div class="kip_info_divs_2_2">
+<b style="margin-left: 22px;">Odun: </b><b>15</b><b> odun/saat</b>
+</div>
+</div>
+
+<div class="kip_info_divs_2">
+<div class="kip_info_divs_2_1">
+<img class="kip_food_wood_gold_diamond_other_icon" src="images/gold_icon.png">
+</div>
+<div class="kip_info_divs_2_2">
+<b style="margin-left: 22px;">Altın: </b><b>10</b><b> altın/saat</b>
+</div>
+</div>
+
+<div class="kip_info_divs_3">
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Krallık Merkezi: </b><b style="color: #909090;">10</b></div>
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Koloniler: </b><b style="color: #909090;">0</b></div>
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">İttifak: </b><b style="color: #909090;">0</b></div>
+</div>
+
+<div class="kip_info_divs_2">
+<div class="kip_info_divs_2_1">
+<img class="kip_food_wood_gold_diamond_other_icon" src="images/diamond_icon.png">
+</div>
+<div class="kip_info_divs_2_2">
+<b style="margin-left: 22px;">Elmas</b>
+</div>
+</div>
+
+<div class="kip_info_div2_4">
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Şehirler: </b><b style="color: #909090;">0</b><b style="color: #909090;"> elmas/saat</b></div>
+</div>
+
+</div>
+
+<div class="kip_info_div3">
+<div class="kip_info_divs_1"><b>Nüfus</b></div>
+
+<div class="kip_info_divs_2">
+<div class="kip_info_divs_2_1">
+<img class="kip_food_wood_gold_diamond_other_icon" src="images/population_icon.png">
+</div>
+<div class="kip_info_divs_2_2">
+<b style="margin-left: 22px; margin-right: 3px;">3</b><b id="peasant_text"></b>
+</div>
+</div>
+
+<div class="kip_info_divs_3">
+<div class="kip_info_divs_3_divs"><b id="farmer_text" style="margin-left: 2px;"></b><b>: </b><b style="color: #909090;">1</b></div>
+<div class="kip_info_divs_3_divs"><b id="woodcutter_text" style="margin-left: 2px;"></b><b>: </b><b style="color: #909090;">1</b></div>
+<div class="kip_info_divs_3_divs"><b id="goldminer_text" style="margin-left: 2px;"></b><b>: </b><b style="color: #909090;">1</b></div>
+</div>
+
+<div class="kip_info_divs_2">
+<div class="kip_info_divs_2_1">
+<img class="kip_food_wood_gold_diamond_other_icon" src="images/army_icon.png">
+</div>
+<div class="kip_info_divs_2_2">
+<b style="margin-left: 22px;">0</b><b> Ordu ünitesi</b>
+</div>
+</div>
+
+<div class="kip_info_div3_3">
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Krallık Merkezi: </b><b style="color: #909090;">0</b></div>
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Koloniler: </b><b style="color: #909090;">0</b></div>
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Şehirler: </b><b style="color: #909090;">0</b></div>
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Destek Üniteleri: </b><b style="color: #909090;">0</b></div>
+</div>
+
+<div class="kip_info_divs_2">
+<div class="kip_info_divs_2_1">
+<img class="kip_food_wood_gold_diamond_other_icon" src="images/kip_spy_icon.png">
+</div>
+<div class="kip_info_divs_2_2">
+<b style="margin-left: 22px;">0</b><b> Casus</b>
+</div>
+</div>
+
+<div class="kip_info_divs_3">
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Krallık Merkezi: </b><b style="color: #909090;">0</b></div>
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Koloniler: </b><b style="color: #909090;">0</b></div>
+<div class="kip_info_divs_3_divs"><b style="margin-left: 2px;">Şehirler: </b><b style="color: #909090;">0</b></div>
+</div>
+
+</div>
+
+<div class="kip_info_div4">
+<div class="kip_info_divs_1"><b>Depolama Sınırları</b></div>
+
+<div class="kip_info_div4_1">
+
+<div class="kip_info_div4_1_divs">
+
+<div class="kip_info_div4_1_divs_left"></div>
+<div class="kip_info_div4_1_divs_center"><b id="age_text2" style="color: red;"></b><b style="color: red;"> 1</b></div>
+<div class="kip_info_div4_1_divs_right"><b id="age_text3"></b><b> 2</b></div>
+
+</div>
+<div class="kip_info_div4_1_divs">
+
+<div class="kip_info_div4_1_divs_left"><b style="margin-left: 4px;">Besin</b></div>
+<div class="kip_info_div4_1_divs_center"><b>20K</b></div>
+<div class="kip_info_div4_1_divs_right"><b style="margin-right: 4px;">50K</b></div>
+
+</div>
+
+<div class="kip_info_div4_1_divs">
+
+<div class="kip_info_div4_1_divs_left"><b style="margin-left: 4px;">Odun</b></div>
+<div class="kip_info_div4_1_divs_center"><b>20K</b></div>
+<div class="kip_info_div4_1_divs_right"><b style="margin-right: 4px;">50K</b></div>
+
+</div>
+
+<div class="kip_info_div4_1_divs">
+
+<div class="kip_info_div4_1_divs_left"><b style="margin-left: 4px;">Altın</b></div>
+<div class="kip_info_div4_1_divs_center"><b>100K</b></div>
+<div class="kip_info_div4_1_divs_right"><b style="margin-right: 4px;">-</b></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="bottom_div_0px2"></div>
+<div class="footer">
+<a href="military_page.html"><div class="menus"><b id="menus_military_text" class="menus_text"></b></div></a>
+<a href="log_page.html"><div class="menus"><b id="menus_logs_text" class="menus_text"></b></div></a>
+<a href="map_page.html" onclick="kingdom_gomap()"><div class="menus"><b id="menus_map_text" class="menus_text"></b></div></a>
+<a href="allies_page.html"><div class="menus"><b id="menus_allies_text" class="menus_text"></b></div></a>
+<a href="leaderboard_page.html"><div class="menus"><b id="menus_leaderboard_text" class="menus_text"></b></div></a>
+</div>
+</body>
+</html>
