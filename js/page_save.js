@@ -82,6 +82,16 @@ var settoageclassical1 = localStorage.getItem("settoageclassical1");
 var settoageclassical2 = localStorage.getItem("settoageclassical2");
 var settoagehellenistic1 = localStorage.getItem("settoagehellenistic1");
 var settoagehellenistic2 = localStorage.getItem("settoagehellenistic2");
+var setage_points = localStorage.getItem("setage_points");
+var setkip_text1 = localStorage.getItem("setkip_text1");
+var setkip_text2 = localStorage.getItem("setkip_text2");
+var setkip_text3 = localStorage.getItem("setkip_text3");
+var setkip_text4 = localStorage.getItem("setkip_text4");
+var setkip_text5 = localStorage.getItem("setkip_text5");
+var setkip_text2_display = localStorage.getItem("setkip_text2_display");
+var setkip_text3_display = localStorage.getItem("setkip_text3_display");
+var setkip_text4_display = localStorage.getItem("setkip_text4_display");
+var setkip_text5_display = localStorage.getItem("setkip_text5_display");
 
 /* kp_settings */
 
@@ -267,6 +277,24 @@ function settings_languageEN(){
 
     var setnextage_textEN = "Next Age";
     localStorage.setItem("setnextage_text", setnextage_textEN);
+
+    var setage_pointsEN = "Age Points";
+    localStorage.setItem("setage_points", setage_pointsEN);
+
+    var setkip_text1EN = "Kingdom Info";
+    localStorage.setItem("setkip_text1", setkip_text1EN);
+
+    var setkip_text2EN = "1000 age points are required to move to the next age.";
+    localStorage.setItem("setkip_text2", setkip_text2EN);
+
+    var setkip_text3EN = "3000 age points are required to move to the next age.";
+    localStorage.setItem("setkip_text3", setkip_text3EN);
+
+    var setkip_text4EN = "7000 age points are required to move to the next age.";
+    localStorage.setItem("setkip_text4", setkip_text4EN);
+
+    var setkip_text5EN = "15000 age points are required to move to the next age.";
+    localStorage.setItem("setkip_text5", setkip_text5EN);
 	
 	window.location.reload();
 	
@@ -441,6 +469,24 @@ function settings_languageDE(){
 
     var setnextage_textDE = "Nächstes Alter";
     localStorage.setItem("setnextage_text", setnextage_textDE);
+
+    var setage_pointsDE = "Alterspunkte";
+    localStorage.setItem("setage_points", setage_pointsDE);
+
+    var setkip_text1EN = "Königreich Info";
+    localStorage.setItem("setkip_text1", setkip_text1EN);
+
+    var setkip_text2DE = "1000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
+    localStorage.setItem("setkip_text2", setkip_text2DE);
+
+    var setkip_text3DE = "3000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
+    localStorage.setItem("setkip_text3", setkip_text3DE);
+
+    var setkip_text4DE = "7000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
+    localStorage.setItem("setkip_text4", setkip_text4DE);
+
+    var setkip_text5DE = "15000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
+    localStorage.setItem("setkip_text5", setkip_text5DE);
 	
 	window.location.reload();
 	
@@ -615,6 +661,24 @@ function settings_languageFR(){
 
     var setnextage_textFR = "Âge suivant";
     localStorage.setItem("setnextage_text", setnextage_textFR);
+
+    var setage_pointsFR = "Points d'âge";
+    localStorage.setItem("setage_points", setage_pointsFR);
+
+    var setkip_text1FR = "Infos sur le royaume";
+    localStorage.setItem("setkip_text1", setkip_text1FR);
+
+    var setkip_text2FR = "1000 points d'âge sont nécessaires pour passer à l'âge suivant.";
+    localStorage.setItem("setkip_text2", setkip_text2FR);
+
+    var setkip_text3FR = "3000 points d'âge sont nécessaires pour passer à l'âge suivant.";
+    localStorage.setItem("setkip_text3", setkip_text3FR);
+
+    var setkip_text4FR = "7000 points d'âge sont nécessaires pour passer à l'âge suivant.";
+    localStorage.setItem("setkip_text4", setkip_text4FR);
+
+    var setkip_text5FR = "15000 points d'âge sont nécessaires pour passer à l'âge suivant.";
+    localStorage.setItem("setkip_text5", setkip_text5FR);
 	
 	window.location.reload();
 	
@@ -789,6 +853,24 @@ function settings_languageRU(){
 
     var setnextage_textRU = "Следующая эпоха";
     localStorage.setItem("setnextage_text", setnextage_textRU);
+
+    var setage_pointsRU = "Возрастные баллы";
+    localStorage.setItem("setage_points", setage_pointsRU);
+
+    var setkip_text1RU = "Информация о королевстве";
+    localStorage.setItem("setkip_text1", setkip_text1RU);
+
+    var setkip_text2RU = "Для перехода в следующий возраст требуется 1000 возрастных баллов.";
+    localStorage.setItem("setkip_text2", setkip_text2RU);
+
+    var setkip_text3RU = "Для перехода в следующий возраст требуется 3000 возрастных баллов.";
+    localStorage.setItem("setkip_text3", setkip_text3RU);
+
+    var setkip_text4RU = "Для перехода в следующий возраст требуется 7000 возрастных баллов.";
+    localStorage.setItem("setkip_text4", setkip_text4RU);
+
+    var setkip_text5RU = "Для перехода в следующий возраст требуется 15000 возрастных баллов.";
+    localStorage.setItem("setkip_text5", setkip_text5RU);
 	
 	window.location.reload();
 	
@@ -963,6 +1045,24 @@ function settings_languageTR(){
 
     var setnextage_textTR = "Çağı Geç";
     localStorage.setItem("setnextage_text", setnextage_textTR);
+
+    var setage_pointsTR = "Çağ Puanı";
+    localStorage.setItem("setage_points", setage_pointsTR);
+
+    var setkip_text1TR = "Krallık Bilgileri";
+    localStorage.setItem("setkip_text1", setkip_text1TR);
+
+    var setkip_text2TR = "Bir sonraki çağa geçmek için 1000 çağ puanı gerekmektedir.";
+    localStorage.setItem("setkip_text2", setkip_text2TR);
+
+    var setkip_text3TR = "Bir sonraki çağa geçmek için 3000 çağ puanı gerekmektedir.";
+    localStorage.setItem("setkip_text3", setkip_text3TR);
+
+    var setkip_text4TR = "Bir sonraki çağa geçmek için 7000 çağ puanı gerekmektedir.";
+    localStorage.setItem("setkip_text4", setkip_text4TR);
+
+    var setkip_text5TR = "Bir sonraki çağa geçmek için 15000 çağ puanı gerekmektedir.";
+    localStorage.setItem("setkip_text5", setkip_text5TR);
 	
 	window.location.reload();
 	
@@ -1137,6 +1237,24 @@ function settings_languagePT(){
 
     var setnextage_textPT = "Próxima Era";
     localStorage.setItem("setnextage_text", setnextage_textPT);
+
+    var setage_pointsPT = "Pontos de Idade";
+    localStorage.setItem("setage_points", setage_pointsPT);
+
+    var setkip_text1PT = "Informação do Reino";
+    localStorage.setItem("setkip_text1", setkip_text1PT);
+
+    var setkip_text2PT = "São necessários 1000 pontos de idade para passar para a próxima idade.";
+    localStorage.setItem("setkip_text2", setkip_text2PT);
+
+    var setkip_text3PT = "São necessários 3000 pontos de idade para passar para a próxima idade.";
+    localStorage.setItem("setkip_text3", setkip_text3PT);
+
+    var setkip_text4PT = "São necessários 7000 pontos de idade para passar para a próxima idade.";
+    localStorage.setItem("setkip_text4", setkip_text4PT);
+
+    var setkip_text5PT = "São necessários 15000 pontos de idade para passar para a próxima idade.";
+    localStorage.setItem("setkip_text5", setkip_text5PT);
 	
 	window.location.reload();
 	
@@ -1314,6 +1432,24 @@ function settings_languageES(){
 
     var setnextage_textES = "Próxima edad";
     localStorage.setItem("setnextage_text", setnextage_textES);
+
+    var setage_pointsES = "Puntos de edad";
+    localStorage.setItem("setage_points", setage_pointsES);
+
+    var setkip_text1ES = "Información del Reino";
+    localStorage.setItem("setkip_text1", setkip_text1ES);
+
+    var setkip_text2ES = "Se requieren 1000 puntos de edad para pasar a la siguiente edad.";
+    localStorage.setItem("setkip_text2", setkip_text2ES);
+
+    var setkip_text3ES = "Se requieren 3000 puntos de edad para pasar a la siguiente edad.";
+    localStorage.setItem("setkip_text3", setkip_text3ES);
+
+    var setkip_text4ES = "Se requieren 7000 puntos de edad para pasar a la siguiente edad.";
+    localStorage.setItem("setkip_text4", setkip_text4ES);
+
+    var setkip_text5ES = "Se requieren 15000 puntos de edad para pasar a la siguiente edad.";
+    localStorage.setItem("setkip_text5", setkip_text5ES);
 	
 	window.location.reload();
 	
@@ -1488,6 +1624,24 @@ function settings_languageZH(){
 
     var setnextage_textZH = "下一个时代";
     localStorage.setItem("setnextage_text", setnextage_textZH);
+
+    var setage_pointsZH = "年龄点";
+    localStorage.setItem("setage_points", setage_pointsZH);
+
+    var setkip_text1ZH = "王国信息";
+    localStorage.setItem("setkip_text1", setkip_text1ZH);
+
+    var setkip_text2ZH = "需要1000个年龄点才能移至下一个年龄。";
+    localStorage.setItem("setkip_text2", setkip_text2ZH);
+
+    var setkip_text3ZH = "需要3000个年龄点才能移至下一个年龄。";
+    localStorage.setItem("setkip_text3", setkip_text3ZH);
+
+    var setkip_text4ZH = "需要7000个年龄点才能移至下一个年龄。";
+    localStorage.setItem("setkip_text4", setkip_text4ZH);
+
+    var setkip_text5ZH = "需要15000个年龄点才能移至下一个年龄。";
+    localStorage.setItem("setkip_text5", setkip_text5ZH);
 	
 	window.location.reload();
 	
@@ -1662,6 +1816,24 @@ function settings_languageJA(){
 
     var setnextage_textJA = "ネクストエイジ";
     localStorage.setItem("setnextage_text", setnextage_textJA);
+
+    var setage_pointsJA = "年齢ポイント";
+    localStorage.setItem("setage_points", setage_pointsJA);
+
+    var setkip_text1JA = "王国情報";
+    localStorage.setItem("setkip_text1", setkip_text1JA);
+
+    var setkip_text2JA = "次の年齢に移行するには、1000年齢ポイントが必要です。";
+    localStorage.setItem("setkip_text2", setkip_text2JA);
+
+    var setkip_text3JA = "次の年齢に移行するには、3000年齢ポイントが必要です。";
+    localStorage.setItem("setkip_text3", setkip_text3JA);
+
+    var setkip_text4JA = "次の年齢に移行するには、7000年齢ポイントが必要です。";
+    localStorage.setItem("setkip_text4", setkip_text4JA);
+
+    var setkip_text5JA = "次の年齢に移行するには、15000年齢ポイントが必要です。";
+    localStorage.setItem("setkip_text5", setkip_text5JA);
 	
 	window.location.reload();
 	
@@ -1836,6 +2008,24 @@ function settings_languageKO(){
 
     var setnextage_textKO = "다음 시대";
     localStorage.setItem("setnextage_text", setnextage_textKO);
+
+    var setage_pointsKO = "나이 포인트";
+    localStorage.setItem("setage_points", setage_pointsKO);
+
+    var setkip_text1KO = "왕국 정보";
+    localStorage.setItem("setkip_text1", setkip_text1KO);
+
+    var setkip_text2KO = "다음 연령으로 이동하려면 1000 개의 연령 포인트가 필요합니다.";
+    localStorage.setItem("setkip_text2", setkip_text2KO);
+
+    var setkip_text3KO = "다음 연령으로 이동하려면 3000 개의 연령 포인트가 필요합니다.";
+    localStorage.setItem("setkip_text3", setkip_text3KO);
+
+    var setkip_text4KO = "다음 연령으로 이동하려면 7000 개의 연령 포인트가 필요합니다.";
+    localStorage.setItem("setkip_text4", setkip_text4KO);
+
+    var setkip_text5KO = "다음 연령으로 이동하려면 15000 개의 연령 포인트가 필요합니다.";
+    localStorage.setItem("setkip_text5", setkip_text5KO);
 	
 	window.location.reload();
 	
@@ -2011,6 +2201,24 @@ function login() {
 
     var setnextage_textEN = "Next Age";
     localStorage.setItem("setnextage_text", setnextage_textEN);
+
+    var setage_pointsEN = "Age Points";
+    localStorage.setItem("setage_points", setage_pointsEN);
+
+    var setkip_text1EN = "Kingdom Info";
+    localStorage.setItem("setkip_text1", setkip_text1EN);
+
+    var setkip_text2EN = "1000 age points are required to move to the next age.";
+    localStorage.setItem("setkip_text2", setkip_text2EN);
+
+    var setkip_text3EN = "3000 age points are required to move to the next age.";
+    localStorage.setItem("setkip_text3", setkip_text3EN);
+
+    var setkip_text4EN = "7000 age points are required to move to the next age.";
+    localStorage.setItem("setkip_text4", setkip_text4EN);
+
+    var setkip_text5EN = "15000 age points are required to move to the next age.";
+    localStorage.setItem("setkip_text5", setkip_text5EN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -2495,6 +2703,12 @@ function kingdominfo_page_save() {
 	localStorage.getItem("setkipnabdisplay4");
 	localStorage.getItem("setnextage_text");
 	localStorage.getItem("setage_img");
+	localStorage.getItem("setage_points");
+	localStorage.getItem("setkip_text1");
+	localStorage.getItem("setkip_text2");
+	localStorage.getItem("setkip_text3");
+	localStorage.getItem("setkip_text4");
+	localStorage.getItem("setkip_text5");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2527,6 +2741,12 @@ function kingdominfo_page_save() {
 	document.getElementById("next_age_button_c").innerHTML = setnextage_text;
 	document.getElementById("next_age_button_h").innerHTML = setnextage_text;
 	document.getElementById("age_img").style.backgroundImage = setage_img;
+	document.getElementById("age_points").innerHTML = setage_points;
+	document.getElementById("kip_text1").innerHTML = setkip_text1;
+	document.getElementById("kip_text2").innerHTML = setkip_text2;
+	document.getElementById("kip_text3").innerHTML = setkip_text3;
+	document.getElementById("kip_text4").innerHTML = setkip_text4;
+	document.getElementById("kip_text5").innerHTML = setkip_text5;
 };
 
 function leaderboard_page_save() {
@@ -3174,9 +3394,14 @@ function nextage_i() {
 	localStorage.setItem("setkipdisplay5", "none");
 	
 	localStorage.setItem("setkipnabdisplay1", "none");
-	localStorage.setItem("setkipnabdisplay2", "block");
+	localStorage.setItem("setkipnabdisplay2", "none");
 	localStorage.setItem("setkipnabdisplay3", "none");
 	localStorage.setItem("setkipnabdisplay4", "none");
+	
+	localStorage.setItem("setkip_text2_display", "none");
+	localStorage.setItem("setkip_text3_display", "block");
+	localStorage.setItem("setkip_text4_display", "none");
+	localStorage.setItem("setkip_text5_display", "none");
 	
 	localStorage.setItem("setage_img", "url('images/age_2_icon.png')");
 	
@@ -3199,7 +3424,7 @@ function nextage_a() {
 	
 	localStorage.setItem("setkipnabdisplay1", "none");
 	localStorage.setItem("setkipnabdisplay2", "none");
-	localStorage.setItem("setkipnabdisplay3", "block");
+	localStorage.setItem("setkipnabdisplay3", "none");
 	localStorage.setItem("setkipnabdisplay4", "none");
 	
 	localStorage.setItem("setage_img", "url('images/age_3_icon.png')");
@@ -3224,7 +3449,7 @@ function nextage_c() {
 	localStorage.setItem("setkipnabdisplay1", "none");
 	localStorage.setItem("setkipnabdisplay2", "none");
 	localStorage.setItem("setkipnabdisplay3", "none");
-	localStorage.setItem("setkipnabdisplay4", "block");
+	localStorage.setItem("setkipnabdisplay4", "none");
 	
 	localStorage.setItem("setage_img", "url('images/age_4_icon.png')");
 	

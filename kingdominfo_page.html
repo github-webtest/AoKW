@@ -23,17 +23,13 @@
 		background-image: url('images/age_1_icon.png');
 	}
 	
-	#next_age_button_i{
-		display: block;
-	}
-	
 	</style>
 </head>
 <body onload="kingdominfo_page_save()">
 
 <div class="header">
 <div class="header_icon_left" onclick="window.history.back();"><img class="back_icon" src="images/back_icon.png"></div>
-<div class="header_text_center"><b class="header_text">Krallık Bilgileri</b></div>
+<div class="header_text_center"><b id="kip_text1" class="header_text"></b></div>
 <div class="header_icon_right" onclick="window.location.href='kingdom_page.html';"><img class="home_icon" src="images/home_icon.png"></div>
 </div>
 <div class="top_div_0px"></div>
@@ -48,10 +44,10 @@
 </div>
 </div>
 
-<div class="kip_info_div1_3"><b>Çağ Puanı: </b><b>0</b></div>
+<div class="kip_info_div1_3"><b id="age_points"></b><b>: </b><b>0</b></div>
 <div class="kip_white_line"></div>
 
-<div class="kip_info_div1_4"><b style="color: #909090; display: none;">Sonraki çağa geçmek için 1000 çağ puanı gerektirmektedir.</b><center><div id="next_age_button_i" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_i()"></div><div id="next_age_button_a" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_a()"></div><div id="next_age_button_c" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_c()"></div><div id="next_age_button_h" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_h()"></div></center></div>
+<div class="kip_info_div1_4"><b id="kip_text2" style="color: #909090;"></b><b id="kip_text3" class="display_none" style="color: #909090;"></b><b id="kip_text4" class="display_none" style="color: #909090;"></b><b id="kip_text5" class="display_none" style="color: #909090;"></b><center><div id="next_age_button_i" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_i()"></div><div id="next_age_button_a" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_a()"></div><div id="next_age_button_c" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_c()"></div><div id="next_age_button_h" class="kip_next_age_button" style="background-image: url('images/button_lime_icon.png');" onclick="nextage_h()"></div></center></div>
 
 </div>
 
