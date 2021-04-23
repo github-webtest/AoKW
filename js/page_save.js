@@ -2709,6 +2709,10 @@ function kingdominfo_page_save() {
 	localStorage.getItem("setkip_text3");
 	localStorage.getItem("setkip_text4");
 	localStorage.getItem("setkip_text5");
+	localStorage.getItem("setkip_text2_display");
+	localStorage.getItem("setkip_text3_display");
+	localStorage.getItem("setkip_text4_display");
+	localStorage.getItem("setkip_text5_display");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2747,6 +2751,10 @@ function kingdominfo_page_save() {
 	document.getElementById("kip_text3").innerHTML = setkip_text3;
 	document.getElementById("kip_text4").innerHTML = setkip_text4;
 	document.getElementById("kip_text5").innerHTML = setkip_text5;
+	document.getElementById("next_age_button_i").style.display = setkipnabdisplay1;
+	document.getElementById("next_age_button_a").style.display = setkipnabdisplay2;
+	document.getElementById("next_age_button_c").style.display = setkipnabdisplay3;
+	document.getElementById("next_age_button_h").style.display = setkipnabdisplay4;
 };
 
 function leaderboard_page_save() {
@@ -3427,6 +3435,11 @@ function nextage_a() {
 	localStorage.setItem("setkipnabdisplay3", "none");
 	localStorage.setItem("setkipnabdisplay4", "none");
 	
+	localStorage.setItem("setkip_text2_display", "none");
+	localStorage.setItem("setkip_text3_display", "none");
+	localStorage.setItem("setkip_text4_display", "block");
+	localStorage.setItem("setkip_text5_display", "none");
+	
 	localStorage.setItem("setage_img", "url('images/age_3_icon.png')");
 	
 	localStorage.setItem("settoageancient1", "none");
@@ -3451,6 +3464,11 @@ function nextage_c() {
 	localStorage.setItem("setkipnabdisplay3", "none");
 	localStorage.setItem("setkipnabdisplay4", "none");
 	
+	localStorage.setItem("setkip_text2_display", "none");
+	localStorage.setItem("setkip_text3_display", "none");
+	localStorage.setItem("setkip_text4_display", "none");
+	localStorage.setItem("setkip_text5_display", "block");
+	
 	localStorage.setItem("setage_img", "url('images/age_4_icon.png')");
 	
 	localStorage.setItem("settoageclassical1", "none");
@@ -3474,6 +3492,11 @@ function nextage_h() {
 	localStorage.setItem("setkipnabdisplay2", "none");
 	localStorage.setItem("setkipnabdisplay3", "none");
 	localStorage.setItem("setkipnabdisplay4", "none");
+	
+	localStorage.setItem("setkip_text2_display", "none");
+	localStorage.setItem("setkip_text3_display", "none");
+	localStorage.setItem("setkip_text4_display", "none");
+	localStorage.setItem("setkip_text5_display", "none");
 	
 	localStorage.setItem("setage_img", "url('images/age_5_icon.png')");
 	
