@@ -2751,10 +2751,10 @@ function kingdominfo_page_save() {
 	document.getElementById("kip_text3").innerHTML = setkip_text3;
 	document.getElementById("kip_text4").innerHTML = setkip_text4;
 	document.getElementById("kip_text5").innerHTML = setkip_text5;
-	document.getElementById("next_age_button_i").style.display = setkipnabdisplay1;
-	document.getElementById("next_age_button_a").style.display = setkipnabdisplay2;
-	document.getElementById("next_age_button_c").style.display = setkipnabdisplay3;
-	document.getElementById("next_age_button_h").style.display = setkipnabdisplay4;
+	document.getElementById("kip_text2_display").style.display = setkip_text2_display;
+	document.getElementById("kip_text3_display").style.display = setkip_text3_display;
+	document.getElementById("kip_text4_display").style.display = setkip_text4_display;
+	document.getElementById("kip_text5_display").style.display = setkip_text5_display;
 };
 
 function leaderboard_page_save() {
@@ -3402,9 +3402,6 @@ function nextage_i() {
 	localStorage.setItem("setkipdisplay5", "none");
 	
 	localStorage.setItem("setkipnabdisplay1", "none");
-	localStorage.setItem("setkipnabdisplay2", "none");
-	localStorage.setItem("setkipnabdisplay3", "none");
-	localStorage.setItem("setkipnabdisplay4", "none");
 	
 	localStorage.setItem("setkip_text2_display", "none");
 	localStorage.setItem("setkip_text3_display", "block");
@@ -3432,8 +3429,6 @@ function nextage_a() {
 	
 	localStorage.setItem("setkipnabdisplay1", "none");
 	localStorage.setItem("setkipnabdisplay2", "none");
-	localStorage.setItem("setkipnabdisplay3", "none");
-	localStorage.setItem("setkipnabdisplay4", "none");
 	
 	localStorage.setItem("setkip_text2_display", "none");
 	localStorage.setItem("setkip_text3_display", "none");
@@ -3462,7 +3457,6 @@ function nextage_c() {
 	localStorage.setItem("setkipnabdisplay1", "none");
 	localStorage.setItem("setkipnabdisplay2", "none");
 	localStorage.setItem("setkipnabdisplay3", "none");
-	localStorage.setItem("setkipnabdisplay4", "none");
 	
 	localStorage.setItem("setkip_text2_display", "none");
 	localStorage.setItem("setkip_text3_display", "none");
