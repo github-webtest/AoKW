@@ -98,6 +98,7 @@ var setfood_text = localStorage.getItem("setfood_text");
 var setwood_text = localStorage.getItem("setwood_text");
 var setgold_text = localStorage.getItem("setgold_text");
 var setdiamond_text = localStorage.getItem("setdiamond_text");
+var setpopulation_text = localStorage.getItem("setpopulation_text");
 
 /* kp_settings */
 
@@ -319,6 +320,9 @@ function settings_languageEN(){
 
     var setdiamond_textEN = "Diamond";
     localStorage.setItem("setdiamond_text", setdiamond_textEN);
+
+    var setpopulation_textEN = "Population";
+    localStorage.setItem("setpopulation_text", setpopulation_textEN);
 	
 	window.location.reload();
 	
@@ -529,6 +533,9 @@ function settings_languageDE(){
 
     var setdiamond_textDE = "Diamant";
     localStorage.setItem("setdiamond_text", setdiamond_textDE);
+
+    var setpopulation_textDE = "Population";
+    localStorage.setItem("setpopulation_text", setpopulation_textDE);
 	
 	window.location.reload();
 	
@@ -739,6 +746,9 @@ function settings_languageFR(){
 
     var setdiamond_textFR = "Diamant";
     localStorage.setItem("setdiamond_text", setdiamond_textFR);
+
+    var setpopulation_textFR = "Population";
+    localStorage.setItem("setpopulation_text", setpopulation_textFR);
 	
 	window.location.reload();
 	
@@ -949,6 +959,9 @@ function settings_languageRU(){
 
     var setdiamond_textRU = "Алмазный";
     localStorage.setItem("setdiamond_text", setdiamond_textRU);
+
+    var setpopulation_textRU = "Население";
+    localStorage.setItem("setpopulation_text", setpopulation_textRU);
 	
 	window.location.reload();
 	
@@ -1159,6 +1172,9 @@ function settings_languageTR(){
 
     var setdiamond_textTR = "Elmas";
     localStorage.setItem("setdiamond_text", setdiamond_textTR);
+
+    var setpopulation_textTR = "Nüfus";
+    localStorage.setItem("setpopulation_text", setpopulation_textTR);
 	
 	window.location.reload();
 	
@@ -1369,6 +1385,9 @@ function settings_languagePT(){
 
     var setdiamond_textPT = "Diamante";
     localStorage.setItem("setdiamond_text", setdiamond_textPT);
+
+    var setpopulation_textPT = "População";
+    localStorage.setItem("setpopulation_text", setpopulation_textPT);
 	
 	window.location.reload();
 	
@@ -1582,6 +1601,9 @@ function settings_languageES(){
 
     var setdiamond_textES = "Diamante";
     localStorage.setItem("setdiamond_text", setdiamond_textES);
+
+    var setpopulation_textES = "Población";
+    localStorage.setItem("setpopulation_text", setpopulation_textES);
 	
 	window.location.reload();
 	
@@ -1792,6 +1814,9 @@ function settings_languageZH(){
 
     var setdiamond_textZH = "钻石";
     localStorage.setItem("setdiamond_text", setdiamond_textZH);
+
+    var setpopulation_textZH = "人口";
+    localStorage.setItem("setpopulation_text", setpopulation_textZH);
 	
 	window.location.reload();
 	
@@ -2002,6 +2027,9 @@ function settings_languageJA(){
 
     var setdiamond_textJA = "ダイヤモンド";
     localStorage.setItem("setdiamond_text", setdiamond_textJA);
+
+    var setpopulation_textJA = "人口";
+    localStorage.setItem("setpopulation_text", setpopulation_textJA);
 	
 	window.location.reload();
 	
@@ -2212,6 +2240,9 @@ function settings_languageKO(){
 
     var setdiamond_textKO = "다이아몬드";
     localStorage.setItem("setdiamond_text", setdiamond_textKO);
+
+    var setpopulation_textKO = "인구";
+    localStorage.setItem("setpopulation_text", setpopulation_textKO);
 	
 	window.location.reload();
 	
@@ -2423,6 +2454,9 @@ function login() {
 
     var setdiamond_textEN = "Diamond";
     localStorage.setItem("setdiamond_text", setdiamond_textEN);
+
+    var setpopulation_textEN = "Population";
+    localStorage.setItem("setpopulation_text", setpopulation_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -2924,6 +2958,7 @@ function kingdominfo_page_save() {
 	localStorage.getItem("setgold_text");
 	localStorage.getItem("setdiamond_text");
 	localStorage.getItem("setsupportunits_text");
+	localStorage.getItem("setpopulation_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2988,6 +3023,7 @@ function kingdominfo_page_save() {
 	document.getElementById("gold_text3").innerHTML = setgold_text;
 	document.getElementById("diamond_text1").innerHTML = setdiamond_text;
 	document.getElementById("diamond_text2").innerHTML = setdiamond_text;
+	document.getElementById("population_text").innerHTML = setpopulation_text;
 };
 
 function leaderboard_page_save() {
