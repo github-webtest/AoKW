@@ -103,7 +103,7 @@ var setkingdomcenter_text = localStorage.getItem("setkingdomcenter_text");
 var setcolonies_text = localStorage.getItem("setcolonies_text");
 var setcities_text = localStorage.getItem("setcities_text");
 var setspy_text = localStorage.getItem("setspy_text");
-var setstoragelimit = localStorage.getItem("setstoragelimit");
+var setstoragelimit_text = localStorage.getItem("setstoragelimit_text");
 var setarcher_text = localStorage.getItem("setarcher_text");
 var setplaces_text = localStorage.getItem("setplaces_text");
 
@@ -3211,7 +3211,7 @@ function kingdominfo_page_save() {
 	localStorage.getItem("setcities_text");
 	localStorage.getItem("setspy_text");
 	localStorage.getItem("setarmies_text");
-	localStorage.getItem("setstoragelimit");
+	localStorage.getItem("setstoragelimit_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3288,7 +3288,7 @@ function kingdominfo_page_save() {
 	document.getElementById("cities_text2").innerHTML = setcities_text;
 	document.getElementById("cities_text3").innerHTML = setcities_text;
 	document.getElementById("spy_text").innerHTML = setspy_text;
-	document.getElementById("storagelimit").innerHTML = setstoragelimit;
+	document.getElementById("storagelimit_text").innerHTML = setstoragelimit_text;
 };
 
 function leaderboard_page_save() {
