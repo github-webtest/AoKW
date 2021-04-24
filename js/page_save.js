@@ -3446,9 +3446,9 @@ function map_page_save() {
 	localStorage.getItem("rtest1");
 	localStorage.getItem("king_name");
 	
-	document.getElementById("map_div_text" + rtest1).style.display = "block";
-	document.getElementById("map_div_name_text" + rtest1).innerHtml = king_name;
-	document.getElementById("map_div_img" + rtest1).style.backgroundImage = "url('images/castle_icon.png')";
+	document.getElementById("map_div_text" + "_x1_y1").style.display = "block";
+	document.getElementById("map_div_name_text" + "_x1_y1").innerHtml = king_name;
+	document.getElementById("map_div_img" + "_x1_y1").style.backgroundImage = "url('images/castle_icon.png')";
 };
 
 function map_places_1_save() {
