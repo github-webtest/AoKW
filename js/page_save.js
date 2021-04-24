@@ -2409,6 +2409,21 @@ function login() {
     var seteconomy_textEN = "Economy";
     localStorage.setItem("seteconomy_text", seteconomy_textEN);
 
+    var sethour_textEN = "Hour";
+    localStorage.setItem("sethour_text", sethour_textEN);
+
+    var setfood_textEN = "Food";
+    localStorage.setItem("setfood_text", setfood_textEN);
+
+    var setwood_textEN = "Wood";
+    localStorage.setItem("setwood_text", setwood_textEN);
+
+    var setgold_textEN = "Gold";
+    localStorage.setItem("setgold_text", setgold_textEN);
+
+    var setdiamond_textEN = "Diamond";
+    localStorage.setItem("setdiamond_text", setdiamond_textEN);
+
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 	
