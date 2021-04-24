@@ -3211,7 +3211,7 @@ function kingdominfo_page_save() {
 	localStorage.getItem("setcities_text");
 	localStorage.getItem("setspy_text");
 	localStorage.getItem("setarmies_text");
-	localStorage.getItem("setstoragelimit");
+	localStorage.getItem("setstoragelimit_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
