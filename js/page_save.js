@@ -106,6 +106,8 @@ var setspy_text = localStorage.getItem("setspy_text");
 var setstoragelimit_text = localStorage.getItem("setstoragelimit_text");
 var setarcher_text = localStorage.getItem("setarcher_text");
 var setplaces_text = localStorage.getItem("setplaces_text");
+var setsearch_text = localStorage.getItem("setsearch_text");
+var setsearch_input_text = localStorage.getItem("setsearch_input_text");
 
 /* kp_settings */
 
@@ -351,6 +353,12 @@ function settings_languageEN(){
 
     var setplaces_textEN = "Places";
     localStorage.setItem("setplaces_text", setplaces_textEN);
+
+    var setsearch_textEN = "Search";
+    localStorage.setItem("setsearch_text", setsearch_textEN);
+
+    var setsearch_input_textEN = "Search for Players, Colonies and Cities";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textEN);
 	
 	window.location.reload();
 	
@@ -585,6 +593,12 @@ function settings_languageDE(){
 
     var setplaces_textDE = "Setzt";
     localStorage.setItem("setplaces_text", setplaces_textDE);
+
+    var setsearch_textDE = "Suche";
+    localStorage.setItem("setsearch_text", setsearch_textDE);
+
+    var setsearch_input_textDE = "Suche nach Spielern, Kolonien und Städten";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textDE);
 	
 	window.location.reload();
 	
@@ -819,6 +833,12 @@ function settings_languageFR(){
 
     var setplaces_textFR = "Des endroits";
     localStorage.setItem("setplaces_text", setplaces_textFR);
+
+    var setsearch_textFR = "Rechercher";
+    localStorage.setItem("setsearch_text", setsearch_textFR);
+
+    var setsearch_input_textFR = "Rechercher des joueurs, des colonies et des villes";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textFR);
 	
 	window.location.reload();
 	
@@ -1053,6 +1073,12 @@ function settings_languageRU(){
 
     var setplaces_textRU = "Места";
     localStorage.setItem("setplaces_text", setplaces_textRU);
+
+    var setsearch_textRU = "Поиск";
+    localStorage.setItem("setsearch_text", setsearch_textRU);
+
+    var setsearch_input_textRU = "Поиск игроков, колоний и городов";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textRU);
 	
 	window.location.reload();
 	
@@ -1287,6 +1313,12 @@ function settings_languageTR(){
 
     var setplaces_textTR = "Yerler";
     localStorage.setItem("setplaces_text", setplaces_textTR);
+
+    var setsearch_textTR = "Arama";
+    localStorage.setItem("setsearch_text", setsearch_textTR);
+
+    var setsearch_input_textTR = "Oyuncuları, Kolonileri ve Şehirleri Ara";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textTR);
 	
 	window.location.reload();
 	
@@ -1521,6 +1553,12 @@ function settings_languagePT(){
 
     var setplaces_textPT = "Locais";
     localStorage.setItem("setplaces_text", setplaces_textPT);
+
+    var setsearch_textPT = "Procurar";
+    localStorage.setItem("setsearch_text", setsearch_textPT);
+
+    var setsearch_input_textPT = "Procure jogadores, colônias e cidades";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textPT);
 	
 	window.location.reload();
 	
@@ -1758,6 +1796,12 @@ function settings_languageES(){
 
     var setplaces_textES = "Lugares";
     localStorage.setItem("setplaces_text", setplaces_textES);
+
+    var setsearch_textES = "Buscar";
+    localStorage.setItem("setsearch_text", setsearch_textES);
+
+    var setsearch_input_textES = "Búsqueda de jugadores, colonias y ciudades";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textES);
 	
 	window.location.reload();
 	
@@ -1992,6 +2036,12 @@ function settings_languageZH(){
 
     var setplaces_textZH = "地方";
     localStorage.setItem("setplaces_text", setplaces_textZH);
+
+    var setsearch_textZH = "搜索";
+    localStorage.setItem("setsearch_text", setsearch_textZH);
+
+    var setsearch_input_textZH = "搜索玩家，殖民地和城市";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textZH);
 	
 	window.location.reload();
 	
@@ -2226,6 +2276,12 @@ function settings_languageJA(){
 
     var setplaces_textJA = "場所";
     localStorage.setItem("setplaces_text", setplaces_textJA);
+
+    var setsearch_textJA = "探す";
+    localStorage.setItem("setsearch_text", setsearch_textJA);
+
+    var setsearch_input_textJA = "プレイヤー、コロニー、都市を検索する";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textJA);
 	
 	window.location.reload();
 	
@@ -2460,6 +2516,12 @@ function settings_languageKO(){
 
     var setplaces_textKO = "장소";
     localStorage.setItem("setplaces_text", setplaces_textKO);
+
+    var setsearch_textKO = "검색";
+    localStorage.setItem("setsearch_text", setsearch_textKO);
+
+    var setsearch_input_textKO = "플레이어, 식민지 및 도시 검색";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textKO);
 	
 	window.location.reload();
 	
@@ -2695,6 +2757,12 @@ function login() {
 
     var setplaces_textEN = "Places";
     localStorage.setItem("setplaces_text", setplaces_textEN);
+
+    var setsearch_textEN = "Search";
+    localStorage.setItem("setsearch_text", setsearch_textEN);
+
+    var setsearch_input_textEN = "Search for Players, Colonies and Cities";
+    localStorage.setItem("setsearch_input_text", setsearch_input_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -3417,12 +3485,16 @@ function map_search_save() {
 	localStorage.getItem("setmenus_map_text");
 	localStorage.getItem("setmenus_allies_text");
 	localStorage.getItem("setmenus_leaderboard_text");
+	localStorage.getItem("setsearch_text");
+	localStorage.getItem("setsearch_input_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
 	document.getElementById("menus_map_text").innerHTML = setmenus_map_text;
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
+	document.getElementById("search_text").innerHTML = setsearch_text;
+	document.getElementById("search_input_text").placeholder = setsearch_input_text;
 };
 
 function market_page_save() {
