@@ -2967,7 +2967,8 @@ function barracks_army3_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
-	document.getElementById("spy_text").innerHTML = setspy_text;
+	document.getElementById("spy_text1").innerHTML = setspy_text;
+	document.getElementById("spy_text2").innerHTML = setspy_text;
 };
 
 function barracks_army4_save() {
