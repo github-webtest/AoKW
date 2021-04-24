@@ -2979,10 +2979,13 @@ function kingdominfo_page_save() {
 	document.getElementById("food_text2").innerHTML = setfood_text;
 	document.getElementById("food_text3").innerHTML = setfood_text;
 	document.getElementById("food_text4").innerHTML = setfood_text;
+	document.getElementById("food_text5").innerHTML = setfood_text;
 	document.getElementById("wood_text1").innerHTML = setwood_text;
 	document.getElementById("wood_text2").innerHTML = setwood_text;
+	document.getElementById("wood_text3").innerHTML = setwood_text;
 	document.getElementById("gold_text1").innerHTML = setgold_text;
 	document.getElementById("gold_text2").innerHTML = setgold_text;
+	document.getElementById("gold_text3").innerHTML = setgold_text;
 	document.getElementById("diamond_text1").innerHTML = setdiamond_text;
 	document.getElementById("diamond_text2").innerHTML = setdiamond_text;
 };
