@@ -2853,6 +2853,7 @@ function barracks_army3_save() {
 	localStorage.getItem("settype_text");
 	localStorage.getItem("setclass_text");
 	localStorage.getItem("setbronze_text");
+	localStorage.getItem("setspy_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2864,6 +2865,7 @@ function barracks_army3_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("spy_text").innerHTML = setspy_text;
 };
 
 function barracks_army4_save() {
@@ -2925,6 +2927,7 @@ function barracks_army6_save() {
 	localStorage.getItem("settype_text");
 	localStorage.getItem("setclass_text");
 	localStorage.getItem("setancient_text");
+	localStorage.getItem("setarcher_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2936,6 +2939,7 @@ function barracks_army6_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("ancient_text").innerHTML = setancient_text;
+	document.getElementById("archer_text").innerHTML = setarcher_text;
 };
 
 function barracks_page_save() {
@@ -2953,6 +2957,8 @@ function barracks_page_save() {
 	localStorage.getItem("settoageiron2");
 	localStorage.getItem("settoageancient1");
 	localStorage.getItem("settoageancient2");
+	localStorage.getItem("setspy_text");
+	localStorage.getItem("setarcher_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2983,6 +2989,9 @@ function barracks_page_save() {
 	document.getElementById("barracks_iron_gladiators2").style.display = settoageiron2;
 	document.getElementById("barracks_ancient_archer1").style.display = settoageancient1;
 	document.getElementById("barracks_ancient_archer2").style.display = settoageancient2;
+	document.getElementById("spy_text").innerHTML = setspy_text;
+	document.getElementById("archer_text1").innerHTML = setarcher_text;
+	document.getElementById("archer_text2").innerHTML = setarcher_text;
 };
 
 function bonus_page_save() {
