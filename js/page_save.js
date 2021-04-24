@@ -108,6 +108,7 @@ var setarcher_text = localStorage.getItem("setarcher_text");
 var setplaces_text = localStorage.getItem("setplaces_text");
 var setsearch_text = localStorage.getItem("setsearch_text");
 var setsearch_input_text = localStorage.getItem("setsearch_input_text");
+var rtest1 = localStorage.getItem("rtest1");
 
 /* kp_settings */
 
@@ -2766,6 +2767,11 @@ function login() {
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
+
+    var arrayXY = ["_x1_y1", "_x2_y1", "_x3_y1"];
+    var randomXY = arrayXY[Math.floor(Math.random()*arrayXY.length)];
+
+    localStorage.setItem("rtest1", "randomXY");
 	
 	window.location.href = "kingdom_page.html";
 };
@@ -3437,7 +3443,12 @@ function log2_page_save() {
 };
 
 function map_page_save() {
+	localStorage.getItem("rtest1");
+	localStorage.getItem("king_name");
 	
+	document.getElementById("map_div_img" + rtest1).style.backgroundImage = "url('images/castle_icon.png')";
+	document.getElementById("map_div_text" + rtest1).style.display = "block";
+	document.getElementById("map_div_name_text" + rtest1).innerHtml = king_name;
 };
 
 function map_places_1_save() {
