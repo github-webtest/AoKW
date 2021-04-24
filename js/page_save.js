@@ -92,6 +92,12 @@ var setkip_text2_display = localStorage.getItem("setkip_text2_display");
 var setkip_text3_display = localStorage.getItem("setkip_text3_display");
 var setkip_text4_display = localStorage.getItem("setkip_text4_display");
 var setkip_text5_display = localStorage.getItem("setkip_text5_display");
+var seteconomy_text = localStorage.getItem("seteconomy_text");
+var sethour_text = localStorage.getItem("sethour_text");
+var setfood_text = localStorage.getItem("setfood_text");
+var setwood_text = localStorage.getItem("setwood_text");
+var setgold_text = localStorage.getItem("setgold_text");
+var setdiamond_text = localStorage.getItem("setdiamond_text");
 
 /* kp_settings */
 
@@ -295,6 +301,24 @@ function settings_languageEN(){
 
     var setkip_text5EN = "15000 age points are required to move to the next age.";
     localStorage.setItem("setkip_text5", setkip_text5EN);
+
+    var seteconomy_textEN = "Economy";
+    localStorage.setItem("seteconomy_text", seteconomy_textEN);
+
+    var sethour_textEN = "Hour";
+    localStorage.setItem("sethour_text", sethour_textEN);
+
+    var setfood_textEN = "Food";
+    localStorage.setItem("setfood_text", setfood_textEN);
+
+    var setwood_textEN = "Wood";
+    localStorage.setItem("setwood_text", setwood_textEN);
+
+    var setgold_textEN = "Gold";
+    localStorage.setItem("setgold_text", setgold_textEN);
+
+    var setdiamond_textEN = "Diamond";
+    localStorage.setItem("setdiamond_text", setdiamond_textEN);
 	
 	window.location.reload();
 	
@@ -487,6 +511,24 @@ function settings_languageDE(){
 
     var setkip_text5DE = "15000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
     localStorage.setItem("setkip_text5", setkip_text5DE);
+
+    var seteconomy_textDE = "Wirtschaft";
+    localStorage.setItem("seteconomy_text", seteconomy_textDE);
+
+    var sethour_textDE = "Stunde";
+    localStorage.setItem("sethour_text", sethour_textDE);
+
+    var setfood_textDE = "Essen";
+    localStorage.setItem("setfood_text", setfood_textDE);
+
+    var setwood_textDE = "Holz";
+    localStorage.setItem("setwood_text", setwood_textDE);
+
+    var setgold_textDE = "Gold";
+    localStorage.setItem("setgold_text", setgold_textDE);
+
+    var setdiamond_textDE = "Diamant";
+    localStorage.setItem("setdiamond_text", setdiamond_textDE);
 	
 	window.location.reload();
 	
@@ -679,6 +721,24 @@ function settings_languageFR(){
 
     var setkip_text5FR = "15000 points d'âge sont nécessaires pour passer à l'âge suivant.";
     localStorage.setItem("setkip_text5", setkip_text5FR);
+
+    var seteconomy_textFR = "Économie";
+    localStorage.setItem("seteconomy_text", seteconomy_textFR);
+
+    var sethour_textFR = "Heure";
+    localStorage.setItem("sethour_text", sethour_textFR);
+
+    var setfood_textFR = "Aliments";
+    localStorage.setItem("setfood_text", setfood_textFR);
+
+    var setwood_textFR = "Bois";
+    localStorage.setItem("setwood_text", setwood_textFR);
+
+    var setgold_textFR = "Or";
+    localStorage.setItem("setgold_text", setgold_textFR);
+
+    var setdiamond_textFR = "Diamant";
+    localStorage.setItem("setdiamond_text", setdiamond_textFR);
 	
 	window.location.reload();
 	
@@ -871,6 +931,24 @@ function settings_languageRU(){
 
     var setkip_text5RU = "Для перехода в следующий возраст требуется 15000 возрастных баллов.";
     localStorage.setItem("setkip_text5", setkip_text5RU);
+
+    var seteconomy_textRU = "Экономика";
+    localStorage.setItem("seteconomy_text", seteconomy_textRU);
+
+    var sethour_textRU = "Час";
+    localStorage.setItem("sethour_text", sethour_textRU);
+
+    var setfood_textRU = "Еда";
+    localStorage.setItem("setfood_text", setfood_textRU);
+
+    var setwood_textRU = "Древесина";
+    localStorage.setItem("setwood_text", setwood_textRU);
+
+    var setgold_textRU = "Золото";
+    localStorage.setItem("setgold_text", setgold_textRU);
+
+    var setdiamond_textRU = "Алмазный";
+    localStorage.setItem("setdiamond_text", setdiamond_textRU);
 	
 	window.location.reload();
 	
@@ -1063,6 +1141,24 @@ function settings_languageTR(){
 
     var setkip_text5TR = "Bir sonraki çağa geçmek için 15000 çağ puanı gerekmektedir.";
     localStorage.setItem("setkip_text5", setkip_text5TR);
+
+    var seteconomy_textTR = "Ekonomi";
+    localStorage.setItem("seteconomy_text", seteconomy_textTR);
+
+    var sethour_textTR = "Saat";
+    localStorage.setItem("sethour_text", sethour_textTR);
+
+    var setfood_textTR = "Besin";
+    localStorage.setItem("setfood_text", setfood_textTR);
+
+    var setwood_textTR = "Odun";
+    localStorage.setItem("setwood_text", setwood_textTR);
+
+    var setgold_textTR = "Altın";
+    localStorage.setItem("setgold_text", setgold_textTR);
+
+    var setdiamond_textTR = "Elmas";
+    localStorage.setItem("setdiamond_text", setdiamond_textTR);
 	
 	window.location.reload();
 	
@@ -1255,6 +1351,24 @@ function settings_languagePT(){
 
     var setkip_text5PT = "São necessários 15000 pontos de idade para passar para a próxima idade.";
     localStorage.setItem("setkip_text5", setkip_text5PT);
+
+    var seteconomy_textPT = "Economia";
+    localStorage.setItem("seteconomy_text", seteconomy_textPT);
+
+    var sethour_textPT = "Hora";
+    localStorage.setItem("sethour_text", sethour_textPT);
+
+    var setfood_textPT = "Comida";
+    localStorage.setItem("setfood_text", setfood_textPT);
+
+    var setwood_textPT = "Madeira";
+    localStorage.setItem("setwood_text", setwood_textPT);
+
+    var setgold_textPT = "Ouro";
+    localStorage.setItem("setgold_text", setgold_textPT);
+
+    var setdiamond_textPT = "Diamante";
+    localStorage.setItem("setdiamond_text", setdiamond_textPT);
 	
 	window.location.reload();
 	
@@ -1450,6 +1564,24 @@ function settings_languageES(){
 
     var setkip_text5ES = "Se requieren 15000 puntos de edad para pasar a la siguiente edad.";
     localStorage.setItem("setkip_text5", setkip_text5ES);
+
+    var seteconomy_textES = "Economía";
+    localStorage.setItem("seteconomy_text", seteconomy_textES);
+
+    var sethour_textES = "Hora";
+    localStorage.setItem("sethour_text", sethour_textES);
+
+    var setfood_textES = "Comida";
+    localStorage.setItem("setfood_text", setfood_textES);
+
+    var setwood_textES = "Madera";
+    localStorage.setItem("setwood_text", setwood_textES);
+
+    var setgold_textES = "Oro";
+    localStorage.setItem("setgold_text", setgold_textES);
+
+    var setdiamond_textES = "Diamante";
+    localStorage.setItem("setdiamond_text", setdiamond_textES);
 	
 	window.location.reload();
 	
@@ -1642,6 +1774,24 @@ function settings_languageZH(){
 
     var setkip_text5ZH = "需要15000个年龄点才能移至下一个年龄。";
     localStorage.setItem("setkip_text5", setkip_text5ZH);
+
+    var seteconomy_textZH = "经济";
+    localStorage.setItem("seteconomy_text", seteconomy_textZH);
+
+    var sethour_textZH = "小时";
+    localStorage.setItem("sethour_text", sethour_textZH);
+
+    var setfood_textZH = "食物";
+    localStorage.setItem("setfood_text", setfood_textZH);
+
+    var setwood_textZH = "木头";
+    localStorage.setItem("setwood_text", setwood_textZH);
+
+    var setgold_textZH = "金子";
+    localStorage.setItem("setgold_text", setgold_textZH);
+
+    var setdiamond_textZH = "钻石";
+    localStorage.setItem("setdiamond_text", setdiamond_textZH);
 	
 	window.location.reload();
 	
@@ -1834,6 +1984,24 @@ function settings_languageJA(){
 
     var setkip_text5JA = "次の年齢に移行するには、15000年齢ポイントが必要です。";
     localStorage.setItem("setkip_text5", setkip_text5JA);
+
+    var seteconomy_textJA = "経済";
+    localStorage.setItem("seteconomy_text", seteconomy_textJA);
+
+    var sethour_textJA = "時間";
+    localStorage.setItem("sethour_text", sethour_textJA);
+
+    var setfood_textJA = "食物";
+    localStorage.setItem("setfood_text", setfood_textJA);
+
+    var setwood_textJA = "木材";
+    localStorage.setItem("setwood_text", setwood_textJA);
+
+    var setgold_textJA = "ゴールド";
+    localStorage.setItem("setgold_text", setgold_textJA);
+
+    var setdiamond_textJA = "ダイヤモンド";
+    localStorage.setItem("setdiamond_text", setdiamond_textJA);
 	
 	window.location.reload();
 	
@@ -2026,6 +2194,24 @@ function settings_languageKO(){
 
     var setkip_text5KO = "다음 연령으로 이동하려면 15000 개의 연령 포인트가 필요합니다.";
     localStorage.setItem("setkip_text5", setkip_text5KO);
+
+    var seteconomy_textKO = "경제";
+    localStorage.setItem("seteconomy_text", seteconomy_textKO);
+
+    var sethour_textKO = "시";
+    localStorage.setItem("sethour_text", sethour_textKO);
+
+    var setfood_textKO = "음식";
+    localStorage.setItem("setfood_text", setfood_textKO);
+
+    var setwood_textKO = "목재";
+    localStorage.setItem("setwood_text", setwood_textKO);
+
+    var setgold_textKO = "금";
+    localStorage.setItem("setgold_text", setgold_textKO);
+
+    var setdiamond_textKO = "다이아몬드";
+    localStorage.setItem("setdiamond_text", setdiamond_textKO);
 	
 	window.location.reload();
 	
@@ -2219,6 +2405,9 @@ function login() {
 
     var setkip_text5EN = "15000 age points are required to move to the next age.";
     localStorage.setItem("setkip_text5", setkip_text5EN);
+
+    var seteconomy_textEN = "Economy";
+    localStorage.setItem("seteconomy_text", seteconomy_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -2713,6 +2902,12 @@ function kingdominfo_page_save() {
 	localStorage.getItem("setkip_text3_display");
 	localStorage.getItem("setkip_text4_display");
 	localStorage.getItem("setkip_text5_display");
+	localStorage.getItem("seteconomy_text");
+	localStorage.getItem("sethour_text");
+	localStorage.getItem("setfood_text");
+	localStorage.getItem("setwood_text");
+	localStorage.getItem("setgold_text");
+	localStorage.getItem("setdiamond_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2755,6 +2950,24 @@ function kingdominfo_page_save() {
 	document.getElementById("kip_text3").style.display = setkip_text3_display;
 	document.getElementById("kip_text4").style.display = setkip_text4_display;
 	document.getElementById("kip_text5").style.display = setkip_text5_display;
+	document.getElementById("allies_text").innerHTML = setmenus_allies_text;
+	document.getElementById("economy_text").innerHTML = seteconomy_text;
+	document.getElementById("hour_text1").innerHTML = sethour_text;
+	document.getElementById("hour_text2").innerHTML = sethour_text;
+	document.getElementById("hour_text3").innerHTML = sethour_text;
+	document.getElementById("hour_text4").innerHTML = sethour_text;
+	document.getElementById("hour_text5").innerHTML = sethour_text;
+	document.getElementById("hour_text6").innerHTML = sethour_text;
+	document.getElementById("food_text1").innerHTML = setfood_text;
+	document.getElementById("food_text2").innerHTML = setfood_text;
+	document.getElementById("food_text3").innerHTML = setfood_text;
+	document.getElementById("food_text4").innerHTML = setfood_text;
+	document.getElementById("wood_text1").innerHTML = setwood_text;
+	document.getElementById("wood_text2").innerHTML = setwood_text;
+	document.getElementById("gold_text1").innerHTML = setgold_text;
+	document.getElementById("gold_text2").innerHTML = setgold_text;
+	document.getElementById("diamond_text1").innerHTML = setdiamond_text;
+	document.getElementById("diamond_text2").innerHTML = setdiamond_text;
 };
 
 function leaderboard_page_save() {
