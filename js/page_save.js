@@ -2768,7 +2768,7 @@ function login() {
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
-    var arrayXY = ["_x1_y1", "_x2_y1", "_x3_y1"];
+    var arrayXY = ["x1_y1", "x2_y1", "x3_y1"];
     var randomXY = arrayXY[Math.floor(Math.random()*arrayXY.length)];
 
     localStorage.setItem("rtest1", "randomXY");
@@ -3446,9 +3446,9 @@ function map_page_save() {
 	localStorage.getItem("rtest1");
 	localStorage.getItem("king_name");
 	
-	document.getElementById("map_div_text" + "_x1_y1").style.display = "block";
-	document.getElementById("map_div_name_text" + "_x1_y1").innerHtml = king_name;
-	document.getElementById("map_div_img" + "_x1_y1").style.backgroundImage = "url('images/castle_icon.png')";
+	document.getElementById("map_div_text_" + rtest1).style.display = "block";
+	document.getElementById("map_div_name_text_" + rtest1).innerHtml = king_name;
+	document.getElementById("map_div_img_" + rtest1).style.backgroundImage = "url('images/castle_icon.png')";
 };
 
 function map_places_1_save() {
