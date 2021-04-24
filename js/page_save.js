@@ -103,6 +103,8 @@ var setkingdomcenter_text = localStorage.getItem("setkingdomcenter_text");
 var setcolonies_text = localStorage.getItem("setcolonies_text");
 var setcities_text = localStorage.getItem("setcities_text");
 var setspy_text = localStorage.getItem("setspy_text");
+var setstoragelimit = localStorage.getItem("setstoragelimit");
+var setarcher_text = localStorage.getItem("setarcher_text");
 
 /* kp_settings */
 
@@ -339,6 +341,12 @@ function settings_languageEN(){
 
     var setspy_textEN = "Spy";
     localStorage.setItem("setspy_text", setspy_textEN);
+
+    var setstoragelimit_textEN = "Storage Limit";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textEN);
+
+    var setarcher_textEN = "Archer";
+    localStorage.setItem("setarcher_text", setarcher_textEN);
 	
 	window.location.reload();
 	
@@ -564,6 +572,12 @@ function settings_languageDE(){
 
     var setspy_textDE = "Spion";
     localStorage.setItem("setspy_text", setspy_textDE);
+
+    var setstoragelimit_textDE = "Speicherlimit";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textDE);
+
+    var setarcher_textDE = "Bogenschütze";
+    localStorage.setItem("setarcher_text", setarcher_textDE);
 	
 	window.location.reload();
 	
@@ -789,6 +803,12 @@ function settings_languageFR(){
 
     var setspy_textFR = "Espionner";
     localStorage.setItem("setspy_text", setspy_textFR);
+
+    var setstoragelimit_textFR = "Limite de stockage";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textFR);
+
+    var setarcher_textFR = "Archer";
+    localStorage.setItem("setarcher_text", setarcher_textFR);
 	
 	window.location.reload();
 	
@@ -1014,6 +1034,12 @@ function settings_languageRU(){
 
     var setspy_textRU = "Шпион";
     localStorage.setItem("setspy_text", setspy_textRU);
+
+    var setstoragelimit_textRU = "Предел хранения";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textRU);
+
+    var setarcher_textRU = "Лучник";
+    localStorage.setItem("setarcher_text", setarcher_textRU);
 	
 	window.location.reload();
 	
@@ -1239,6 +1265,12 @@ function settings_languageTR(){
 
     var setspy_textTR = "Casus";
     localStorage.setItem("setspy_text", setspy_textTR);
+
+    var setstoragelimit_textTR = "Depolama Sınırı";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textTR);
+
+    var setarcher_textTR = "Okçu";
+    localStorage.setItem("setarcher_text", setarcher_textTR);
 	
 	window.location.reload();
 	
@@ -1464,6 +1496,12 @@ function settings_languagePT(){
 
     var setspy_textPT = "Espião";
     localStorage.setItem("setspy_text", setspy_textPT);
+
+    var setstoragelimit_textPT = "Limite de Armazenamento";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textPT);
+
+    var setarcher_textPT = "Arqueiro";
+    localStorage.setItem("setarcher_text", setarcher_textPT);
 	
 	window.location.reload();
 	
@@ -1692,6 +1730,12 @@ function settings_languageES(){
 
     var setspy_textES = "Espiar";
     localStorage.setItem("setspy_text", setspy_textES);
+
+    var setstoragelimit_textES = "Limite de Armazenamento";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textES);
+
+    var setarcher_textES = "Arquero";
+    localStorage.setItem("setarcher_text", setarcher_textES);
 	
 	window.location.reload();
 	
@@ -1917,6 +1961,12 @@ function settings_languageZH(){
 
     var setspy_textZH = "间谍";
     localStorage.setItem("setspy_text", setspy_textZH);
+
+    var setstoragelimit_textZH = "储存限制";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textZH);
+
+    var setarcher_textZH = "射手";
+    localStorage.setItem("setarcher_text", setarcher_textZH);
 	
 	window.location.reload();
 	
@@ -2142,6 +2192,12 @@ function settings_languageJA(){
 
     var setspy_textJA = "スパイ";
     localStorage.setItem("setspy_text", setspy_textJA);
+
+    var setstoragelimit_textJA = "ストレージ制限";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textJA);
+
+    var setarcher_textJA = "射手";
+    localStorage.setItem("setarcher_text", setarcher_textJA);
 	
 	window.location.reload();
 	
@@ -2367,6 +2423,12 @@ function settings_languageKO(){
 
     var setspy_textKO = "스파이";
     localStorage.setItem("setspy_text", setspy_textKO);
+
+    var setstoragelimit_textKO = "저장 한도";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textKO);
+
+    var setarcher_textKO = "궁수";
+    localStorage.setItem("setarcher_text", setarcher_textKO);
 	
 	window.location.reload();
 	
@@ -2593,6 +2655,12 @@ function login() {
 
     var setspy_textEN = "Spy";
     localStorage.setItem("setspy_text", setspy_textEN);
+
+    var setstoragelimit_textEN = "Storage Limit";
+    localStorage.setItem("setstoragelimit_text", setstoragelimit_textEN);
+
+    var setarcher_textEN = "Archer";
+    localStorage.setItem("setarcher_text", setarcher_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -3100,6 +3168,7 @@ function kingdominfo_page_save() {
 	localStorage.getItem("setcities_text");
 	localStorage.getItem("setspy_text");
 	localStorage.getItem("setarmies_text");
+	localStorage.getItem("setstoragelimit");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3176,6 +3245,7 @@ function kingdominfo_page_save() {
 	document.getElementById("cities_text2").innerHTML = setcities_text;
 	document.getElementById("cities_text3").innerHTML = setcities_text;
 	document.getElementById("spy_text").innerHTML = setspy_text;
+	document.getElementById("storagelimit").innerHTML = setstoragelimit;
 };
 
 function leaderboard_page_save() {
