@@ -105,6 +105,7 @@ var setcities_text = localStorage.getItem("setcities_text");
 var setspy_text = localStorage.getItem("setspy_text");
 var setstoragelimit = localStorage.getItem("setstoragelimit");
 var setarcher_text = localStorage.getItem("setarcher_text");
+var setplaces_text = localStorage.getItem("setplaces_text");
 
 /* kp_settings */
 
@@ -347,6 +348,9 @@ function settings_languageEN(){
 
     var setarcher_textEN = "Archer";
     localStorage.setItem("setarcher_text", setarcher_textEN);
+
+    var setplaces_textEN = "Places";
+    localStorage.setItem("setplaces_text", setplaces_textEN);
 	
 	window.location.reload();
 	
@@ -578,6 +582,9 @@ function settings_languageDE(){
 
     var setarcher_textDE = "Bogenschütze";
     localStorage.setItem("setarcher_text", setarcher_textDE);
+
+    var setplaces_textDE = "Setzt";
+    localStorage.setItem("setplaces_text", setplaces_textDE);
 	
 	window.location.reload();
 	
@@ -809,6 +816,9 @@ function settings_languageFR(){
 
     var setarcher_textFR = "Archer";
     localStorage.setItem("setarcher_text", setarcher_textFR);
+
+    var setplaces_textFR = "Des endroits";
+    localStorage.setItem("setplaces_text", setplaces_textFR);
 	
 	window.location.reload();
 	
@@ -1040,6 +1050,9 @@ function settings_languageRU(){
 
     var setarcher_textRU = "Лучник";
     localStorage.setItem("setarcher_text", setarcher_textRU);
+
+    var setplaces_textRU = "Места";
+    localStorage.setItem("setplaces_text", setplaces_textRU);
 	
 	window.location.reload();
 	
@@ -1271,6 +1284,9 @@ function settings_languageTR(){
 
     var setarcher_textTR = "Okçu";
     localStorage.setItem("setarcher_text", setarcher_textTR);
+
+    var setplaces_textTR = "Yerler";
+    localStorage.setItem("setplaces_text", setplaces_textTR);
 	
 	window.location.reload();
 	
@@ -1502,6 +1518,9 @@ function settings_languagePT(){
 
     var setarcher_textPT = "Arqueiro";
     localStorage.setItem("setarcher_text", setarcher_textPT);
+
+    var setplaces_textPT = "Locais";
+    localStorage.setItem("setplaces_text", setplaces_textPT);
 	
 	window.location.reload();
 	
@@ -1736,6 +1755,9 @@ function settings_languageES(){
 
     var setarcher_textES = "Arquero";
     localStorage.setItem("setarcher_text", setarcher_textES);
+
+    var setplaces_textES = "Lugares";
+    localStorage.setItem("setplaces_text", setplaces_textES);
 	
 	window.location.reload();
 	
@@ -1967,6 +1989,9 @@ function settings_languageZH(){
 
     var setarcher_textZH = "射手";
     localStorage.setItem("setarcher_text", setarcher_textZH);
+
+    var setplaces_textZH = "地方";
+    localStorage.setItem("setplaces_text", setplaces_textZH);
 	
 	window.location.reload();
 	
@@ -2198,6 +2223,9 @@ function settings_languageJA(){
 
     var setarcher_textJA = "射手";
     localStorage.setItem("setarcher_text", setarcher_textJA);
+
+    var setplaces_textJA = "場所";
+    localStorage.setItem("setplaces_text", setplaces_textJA);
 	
 	window.location.reload();
 	
@@ -2429,6 +2457,9 @@ function settings_languageKO(){
 
     var setarcher_textKO = "궁수";
     localStorage.setItem("setarcher_text", setarcher_textKO);
+
+    var setplaces_textKO = "장소";
+    localStorage.setItem("setplaces_text", setplaces_textKO);
 	
 	window.location.reload();
 	
@@ -2661,6 +2692,9 @@ function login() {
 
     var setarcher_textEN = "Archer";
     localStorage.setItem("setarcher_text", setarcher_textEN);
+
+    var setplaces_textEN = "Places";
+    localStorage.setItem("setplaces_text", setplaces_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -3343,12 +3377,18 @@ function map_places_1_save() {
 	localStorage.getItem("setmenus_map_text");
 	localStorage.getItem("setmenus_allies_text");
 	localStorage.getItem("setmenus_leaderboard_text");
+	localStorage.getItem("setplaces_text");
+	localStorage.getItem("setcolonies_text");
+	localStorage.getItem("setcities_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
 	document.getElementById("menus_map_text").innerHTML = setmenus_map_text;
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
+	document.getElementById("colonies_text").innerHTML = setcolonies_text;
+	document.getElementById("cities_text").innerHTML = setcities_text;
+	document.getElementById("places_text").innerHTML = setplaces_text;
 };
 
 function map_places_2_save() {
@@ -3357,12 +3397,18 @@ function map_places_2_save() {
 	localStorage.getItem("setmenus_map_text");
 	localStorage.getItem("setmenus_allies_text");
 	localStorage.getItem("setmenus_leaderboard_text");
+	localStorage.getItem("setplaces_text");
+	localStorage.getItem("setcolonies_text");
+	localStorage.getItem("setcities_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
 	document.getElementById("menus_map_text").innerHTML = setmenus_map_text;
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
+	document.getElementById("colonies_text").innerHTML = setcolonies_text;
+	document.getElementById("cities_text").innerHTML = setcities_text;
+	document.getElementById("places_text").innerHTML = setplaces_text;
 };
 
 function map_search_save() {
