@@ -99,6 +99,10 @@ var setwood_text = localStorage.getItem("setwood_text");
 var setgold_text = localStorage.getItem("setgold_text");
 var setdiamond_text = localStorage.getItem("setdiamond_text");
 var setpopulation_text = localStorage.getItem("setpopulation_text");
+var setkingdomcenter_text = localStorage.getItem("setkingdomcenter_text");
+var setcolonies_text = localStorage.getItem("setcolonies_text");
+var setcities_text = localStorage.getItem("setcities_text");
+var setspy_text = localStorage.getItem("setspy_text");
 
 /* kp_settings */
 
@@ -323,6 +327,18 @@ function settings_languageEN(){
 
     var setpopulation_textEN = "Population";
     localStorage.setItem("setpopulation_text", setpopulation_textEN);
+
+    var setkingdomcenter_textEN = "Kingdom Center";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textEN);
+
+    var setcolonies_textEN = "Colonies";
+    localStorage.setItem("setcolonies_text", setcolonies_textEN);
+
+    var setcities_textEN = "Cities";
+    localStorage.setItem("setcities_text", setcities_textEN);
+
+    var setspy_textEN = "Spy";
+    localStorage.setItem("setspy_text", setspy_textEN);
 	
 	window.location.reload();
 	
@@ -536,6 +552,18 @@ function settings_languageDE(){
 
     var setpopulation_textDE = "Population";
     localStorage.setItem("setpopulation_text", setpopulation_textDE);
+
+    var setkingdomcenter_textDE = "Königreichszentrum";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textDE);
+
+    var setcolonies_textDE = "Kolonien";
+    localStorage.setItem("setcolonies_text", setcolonies_textDE);
+
+    var setcities_textDE = "Städte";
+    localStorage.setItem("setcities_text", setcities_textDE);
+
+    var setspy_textDE = "Spion";
+    localStorage.setItem("setspy_text", setspy_textDE);
 	
 	window.location.reload();
 	
@@ -749,6 +777,18 @@ function settings_languageFR(){
 
     var setpopulation_textFR = "Population";
     localStorage.setItem("setpopulation_text", setpopulation_textFR);
+
+    var setkingdomcenter_textFR = "Centre du Royaume";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textFR);
+
+    var setcolonies_textFR = "Colonies";
+    localStorage.setItem("setcolonies_text", setcolonies_textFR);
+
+    var setcities_textFR = "Villes";
+    localStorage.setItem("setcities_text", setcities_textFR);
+
+    var setspy_textFR = "Espionner";
+    localStorage.setItem("setspy_text", setspy_textFR);
 	
 	window.location.reload();
 	
@@ -962,6 +1002,18 @@ function settings_languageRU(){
 
     var setpopulation_textRU = "Население";
     localStorage.setItem("setpopulation_text", setpopulation_textRU);
+
+    var setkingdomcenter_textRU = "Центр Царства";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textRU);
+
+    var setcolonies_textRU = "Колонии";
+    localStorage.setItem("setcolonies_text", setcolonies_textRU);
+
+    var setcities_textRU = "Города";
+    localStorage.setItem("setcities_text", setcities_textRU);
+
+    var setspy_textRU = "Шпион";
+    localStorage.setItem("setspy_text", setspy_textRU);
 	
 	window.location.reload();
 	
@@ -1175,6 +1227,18 @@ function settings_languageTR(){
 
     var setpopulation_textTR = "Nüfus";
     localStorage.setItem("setpopulation_text", setpopulation_textTR);
+
+    var setkingdomcenter_textTR = "Krallık Merkezi";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textTR);
+
+    var setcolonies_textTR = "Koloniler";
+    localStorage.setItem("setcolonies_text", setcolonies_textTR);
+
+    var setcities_textTR = "Şehirler";
+    localStorage.setItem("setcities_text", setcities_textTR);
+
+    var setspy_textTR = "Casus";
+    localStorage.setItem("setspy_text", setspy_textTR);
 	
 	window.location.reload();
 	
@@ -1388,6 +1452,18 @@ function settings_languagePT(){
 
     var setpopulation_textPT = "População";
     localStorage.setItem("setpopulation_text", setpopulation_textPT);
+
+    var setkingdomcenter_textPT = "Kingdom Centre";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textPT);
+
+    var setcolonies_textPT = "Colônias";
+    localStorage.setItem("setcolonies_text", setcolonies_textPT);
+
+    var setcities_textPT = "Cidades";
+    localStorage.setItem("setcities_text", setcities_textPT);
+
+    var setspy_textPT = "Espião";
+    localStorage.setItem("setspy_text", setspy_textPT);
 	
 	window.location.reload();
 	
@@ -1604,6 +1680,18 @@ function settings_languageES(){
 
     var setpopulation_textES = "Población";
     localStorage.setItem("setpopulation_text", setpopulation_textES);
+
+    var setkingdomcenter_textES = "Kingdom Centre";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textES);
+
+    var setcolonies_textES = "Colonias";
+    localStorage.setItem("setcolonies_text", setcolonies_textES);
+
+    var setcities_textES = "Ciudades";
+    localStorage.setItem("setcities_text", setcities_textES);
+
+    var setspy_textES = "Espiar";
+    localStorage.setItem("setspy_text", setspy_textES);
 	
 	window.location.reload();
 	
@@ -1817,6 +1905,18 @@ function settings_languageZH(){
 
     var setpopulation_textZH = "人口";
     localStorage.setItem("setpopulation_text", setpopulation_textZH);
+
+    var setkingdomcenter_textZH = "王国中心";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textZH);
+
+    var setcolonies_textZH = "群落";
+    localStorage.setItem("setcolonies_text", setcolonies_textZH);
+
+    var setcities_textZH = "城市";
+    localStorage.setItem("setcities_text", setcities_textZH);
+
+    var setspy_textZH = "间谍";
+    localStorage.setItem("setspy_text", setspy_textZH);
 	
 	window.location.reload();
 	
@@ -2030,6 +2130,18 @@ function settings_languageJA(){
 
     var setpopulation_textJA = "人口";
     localStorage.setItem("setpopulation_text", setpopulation_textJA);
+
+    var setkingdomcenter_textJA = "キングダムセンター";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textJA);
+
+    var setcolonies_textJA = "コロニー";
+    localStorage.setItem("setcolonies_text", setcolonies_textJA);
+
+    var setcities_textJA = "都市";
+    localStorage.setItem("setcities_text", setcities_textJA);
+
+    var setspy_textJA = "スパイ";
+    localStorage.setItem("setspy_text", setspy_textJA);
 	
 	window.location.reload();
 	
@@ -2243,6 +2355,18 @@ function settings_languageKO(){
 
     var setpopulation_textKO = "인구";
     localStorage.setItem("setpopulation_text", setpopulation_textKO);
+
+    var setkingdomcenter_textKO = "킹덤 센터";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textKO);
+
+    var setcolonies_textKO = "식민지";
+    localStorage.setItem("setcolonies_text", setcolonies_textKO);
+
+    var setcities_textKO = "도시";
+    localStorage.setItem("setcities_text", setcities_textKO);
+
+    var setspy_textKO = "스파이";
+    localStorage.setItem("setspy_text", setspy_textKO);
 	
 	window.location.reload();
 	
@@ -2457,6 +2581,18 @@ function login() {
 
     var setpopulation_textEN = "Population";
     localStorage.setItem("setpopulation_text", setpopulation_textEN);
+
+    var setkingdomcenter_textEN = "Kingdom Center";
+    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textEN);
+
+    var setcolonies_textEN = "Colonies";
+    localStorage.setItem("setcolonies_text", setcolonies_textEN);
+
+    var setcities_textEN = "Cities";
+    localStorage.setItem("setcities_text", setcities_textEN);
+
+    var setspy_textEN = "Spy";
+    localStorage.setItem("setspy_text", setspy_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -2959,6 +3095,11 @@ function kingdominfo_page_save() {
 	localStorage.getItem("setdiamond_text");
 	localStorage.getItem("setsupportunits_text");
 	localStorage.getItem("setpopulation_text");
+	localStorage.getItem("setkingdomcenter_text");
+	localStorage.getItem("setcolonies_text");
+	localStorage.getItem("setcities_text");
+	localStorage.getItem("setspy_text");
+	localStorage.getItem("setarmies_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3024,6 +3165,17 @@ function kingdominfo_page_save() {
 	document.getElementById("diamond_text1").innerHTML = setdiamond_text;
 	document.getElementById("diamond_text2").innerHTML = setdiamond_text;
 	document.getElementById("population_text").innerHTML = setpopulation_text;
+	document.getElementById("armies_text").innerHTML = setarmies_text;
+	document.getElementById("kingdomcenter_text1").innerHTML = setkingdomcenter_text;
+	document.getElementById("kingdomcenter_text2").innerHTML = setkingdomcenter_text;
+	document.getElementById("kingdomcenter_text3").innerHTML = setkingdomcenter_text;
+	document.getElementById("colonies_text1").innerHTML = setcolonies_text;
+	document.getElementById("colonies_text2").innerHTML = setcolonies_text;
+	document.getElementById("colonies_text3").innerHTML = setcolonies_text;
+	document.getElementById("cities_text1").innerHTML = setcities_text;
+	document.getElementById("cities_text2").innerHTML = setcities_text;
+	document.getElementById("cities_text3").innerHTML = setcities_text;
+	document.getElementById("spy_text").innerHTML = setspy_text;
 };
 
 function leaderboard_page_save() {
