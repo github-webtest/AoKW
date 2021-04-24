@@ -2929,6 +2929,7 @@ function kingdominfo_page_save() {
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
 	document.getElementById("menus_map_text").innerHTML = setmenus_map_text;
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
+	document.getElementById("menus_allies_text2").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
 	document.getElementById("supportunits_text").innerHTML = setsupportunits_text;
 	document.getElementById("age_text").innerHTML = setage_text;
