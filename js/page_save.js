@@ -2751,10 +2751,10 @@ function kingdominfo_page_save() {
 	document.getElementById("kip_text3").innerHTML = setkip_text3;
 	document.getElementById("kip_text4").innerHTML = setkip_text4;
 	document.getElementById("kip_text5").innerHTML = setkip_text5;
-	document.getElementById("kip_text2_display").style.display = setkip_text2_display;
-	document.getElementById("kip_text3_display").style.display = setkip_text3_display;
-	document.getElementById("kip_text4_display").style.display = setkip_text4_display;
-	document.getElementById("kip_text5_display").style.display = setkip_text5_display;
+	document.getElementById("kip_text2").style.display = setkip_text2_display;
+	document.getElementById("kip_text3").style.display = setkip_text3_display;
+	document.getElementById("kip_text4").style.display = setkip_text4_display;
+	document.getElementById("kip_text5").style.display = setkip_text5_display;
 };
 
 function leaderboard_page_save() {
