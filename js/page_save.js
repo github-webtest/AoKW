@@ -2927,6 +2927,7 @@ function kingdominfo_page_save() {
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
 	document.getElementById("menus_map_text").innerHTML = setmenus_map_text;
+	document.getElementById("allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
 	document.getElementById("age_text").innerHTML = setage_text;
@@ -2965,7 +2966,6 @@ function kingdominfo_page_save() {
 	document.getElementById("kip_text3").style.display = setkip_text3_display;
 	document.getElementById("kip_text4").style.display = setkip_text4_display;
 	document.getElementById("kip_text5").style.display = setkip_text5_display;
-	document.getElementById("allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("economy_text").innerHTML = seteconomy_text;
 	document.getElementById("hour_text1").innerHTML = sethour_text;
 	document.getElementById("hour_text2").innerHTML = sethour_text;
