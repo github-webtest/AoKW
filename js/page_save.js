@@ -3,125 +3,125 @@
 ***********Age of Kingdom Wars***********
 ****************************************/
 
-var king_name = localStorage.getItem("king_name");
-var kip_display_none_kingname = localStorage.getItem("kip_display_none_kingname");
-var kip_display_block_kingname = localStorage.getItem("kip_display_block_kingname");
-var setflags = localStorage.getItem("setflags");
-var setflag_language = localStorage.getItem("setflag_language");
-var setflag_head_language = localStorage.getItem("setflag_head_language");
-var setsettings_language = localStorage.getItem("setsettings_language");
-var setworldtext_language = localStorage.getItem("setworldtext_language");
-var setkp_setting_king_name = localStorage.getItem("setkp_setting_king_name");
-var setkp_process_text = localStorage.getItem("setkp_process_text");
-var setkp_messages_text = localStorage.getItem("setkp_messages_text");
-var setkp_buydiamonds_text = localStorage.getItem("setkp_buydiamonds_text");
-var setsetting_a1_bottom_text = localStorage.getItem("setsetting_a1_bottom_text");
-var setking_name_input_button = localStorage.getItem("setking_name_input_button");
-var setquests_text = localStorage.getItem("setquests_text");
-var setmarket_text = localStorage.getItem("setmarket_text");
-var setmarket_text2 = localStorage.getItem("setmarket_text2");
-var setbuildingcapacity_text = localStorage.getItem("setbuildingcapacity_text");
-var setannouncement_text = localStorage.getItem("setannouncement_text");
-var setannouncement_text2 = localStorage.getItem("setannouncement_text2");
-var setnews_text = localStorage.getItem("setnews_text");
-var setmenus_military_text = localStorage.getItem("setmenus_military_text");
-var setmenus_logs_text = localStorage.getItem("setmenus_logs_text");
-var setmenus_map_text = localStorage.getItem("setmenus_map_text");
-var setmenus_allies_text = localStorage.getItem("setmenus_allies_text");
-var setmenus_leaderboard_text = localStorage.getItem("setmenus_leaderboard_text");
-var setbonus_text1 = localStorage.getItem("setbonus_text1");
-var setbonus_text2 = localStorage.getItem("setbonus_text2");
-var setnotifications_text = localStorage.getItem("setnotifications_text");
-var settrade_text = localStorage.getItem("settrade_text");
-var setkings_text = localStorage.getItem("setkings_text");
-var setembassies_text = localStorage.getItem("setembassies_text");
-var setlbottom_text = localStorage.getItem("setlbottom_text");
-var setarmies_text = localStorage.getItem("setarmies_text");
-var setsupportunits_text = localStorage.getItem("setsupportunits_text");
-var settradewagon_text = localStorage.getItem("settradewagon_text");
-var setproduce_text = localStorage.getItem("setproduce_text");
-var setupgrade_text = localStorage.getItem("setupgrade_text");
-var setinfo_text = localStorage.getItem("setinfo_text");
-var setage_text = localStorage.getItem("setage_text");
-var setfarmer_text = localStorage.getItem("setfarmer_text");
-var setwoodcutter_text = localStorage.getItem("setwoodcutter_text");
-var setgoldminer_text = localStorage.getItem("setgoldminer_text");
-var settype_text = localStorage.getItem("settype_text");
-var setclass_text = localStorage.getItem("setclass_text");
-var setpeasant_text = localStorage.getItem("setpeasant_text");
-var setvillage_text = localStorage.getItem("setvillage_text");
-var setvillage_text2 = localStorage.getItem("setvillage_text2");
-var setbronze_text = localStorage.getItem("setbronze_text");
-var setiron_text = localStorage.getItem("setiron_text");
-var setancient_text = localStorage.getItem("setancient_text");
-var setclassical_text = localStorage.getItem("setclassical_text");
-var sethellenistic_text = localStorage.getItem("sethellenistic_text");
-var setbronzeage_text = localStorage.getItem("setbronzeage_text");
-var setironage_text = localStorage.getItem("setironage_text");
-var setancientage_text = localStorage.getItem("setancientage_text");
-var setclassicalage_text = localStorage.getItem("setclassicalage_text");
-var sethellenisticage_text = localStorage.getItem("sethellenisticage_text");
-var setkipdisplay1 = localStorage.getItem("setkipdisplay1");
-var setkipdisplay2 = localStorage.getItem("setkipdisplay2");
-var setkipdisplay3 = localStorage.getItem("setkipdisplay3");
-var setkipdisplay4 = localStorage.getItem("setkipdisplay4");
-var setkipdisplay5 = localStorage.getItem("setkipdisplay5");
-var setkipnabdisplay1 = localStorage.getItem("setkipnabdisplay1");
-var setkipnabdisplay2 = localStorage.getItem("setkipnabdisplay2");
-var setkipnabdisplay3 = localStorage.getItem("setkipnabdisplay3");
-var setkipnabdisplay4 = localStorage.getItem("setkipnabdisplay4");
-var setnextage_text = localStorage.getItem("setnextage_text");
-var setage_img = localStorage.getItem("setage_img");
-var setlogindisplay1 = localStorage.getItem("setlogindisplay1");
-var setlogindisplay2 = localStorage.getItem("setlogindisplay2");
-var settoageiron1 = localStorage.getItem("settoageiron1");
-var settoageiron2 = localStorage.getItem("settoageiron2");
-var settoageancient1 = localStorage.getItem("settoageancient1");
-var settoageancient2 = localStorage.getItem("settoageancient2");
-var settoageclassical1 = localStorage.getItem("settoageclassical1");
-var settoageclassical2 = localStorage.getItem("settoageclassical2");
-var settoagehellenistic1 = localStorage.getItem("settoagehellenistic1");
-var settoagehellenistic2 = localStorage.getItem("settoagehellenistic2");
-var setage_points = localStorage.getItem("setage_points");
-var setkip_text1 = localStorage.getItem("setkip_text1");
-var setkip_text2 = localStorage.getItem("setkip_text2");
-var setkip_text3 = localStorage.getItem("setkip_text3");
-var setkip_text4 = localStorage.getItem("setkip_text4");
-var setkip_text5 = localStorage.getItem("setkip_text5");
-var setkip_text2_display = localStorage.getItem("setkip_text2_display");
-var setkip_text3_display = localStorage.getItem("setkip_text3_display");
-var setkip_text4_display = localStorage.getItem("setkip_text4_display");
-var setkip_text5_display = localStorage.getItem("setkip_text5_display");
-var seteconomy_text = localStorage.getItem("seteconomy_text");
-var sethour_text = localStorage.getItem("sethour_text");
-var setfood_text = localStorage.getItem("setfood_text");
-var setwood_text = localStorage.getItem("setwood_text");
-var setgold_text = localStorage.getItem("setgold_text");
-var setdiamond_text = localStorage.getItem("setdiamond_text");
-var setpopulation_text = localStorage.getItem("setpopulation_text");
-var setkingdomcenter_text = localStorage.getItem("setkingdomcenter_text");
-var setcolonies_text = localStorage.getItem("setcolonies_text");
-var setcities_text = localStorage.getItem("setcities_text");
-var setspy_text = localStorage.getItem("setspy_text");
-var setstoragelimit_text = localStorage.getItem("setstoragelimit_text");
-var setarcher_text = localStorage.getItem("setarcher_text");
-var setplaces_text = localStorage.getItem("setplaces_text");
-var setsearch_text = localStorage.getItem("setsearch_text");
-var setsearch_input_text = localStorage.getItem("setsearch_input_text");
-var setrandom_mapX = localStorage.getItem("setrandom_mapX");
-var setrandom_mapY = localStorage.getItem("setrandom_mapY");
+var king_name = sessionStorage.getItem("king_name");
+var kip_display_none_kingname = sessionStorage.getItem("kip_display_none_kingname");
+var kip_display_block_kingname = sessionStorage.getItem("kip_display_block_kingname");
+var setflags = sessionStorage.getItem("setflags");
+var setflag_language = sessionStorage.getItem("setflag_language");
+var setflag_head_language = sessionStorage.getItem("setflag_head_language");
+var setsettings_language = sessionStorage.getItem("setsettings_language");
+var setworldtext_language = sessionStorage.getItem("setworldtext_language");
+var setkp_setting_king_name = sessionStorage.getItem("setkp_setting_king_name");
+var setkp_process_text = sessionStorage.getItem("setkp_process_text");
+var setkp_messages_text = sessionStorage.getItem("setkp_messages_text");
+var setkp_buydiamonds_text = sessionStorage.getItem("setkp_buydiamonds_text");
+var setsetting_a1_bottom_text = sessionStorage.getItem("setsetting_a1_bottom_text");
+var setking_name_input_button = sessionStorage.getItem("setking_name_input_button");
+var setquests_text = sessionStorage.getItem("setquests_text");
+var setmarket_text = sessionStorage.getItem("setmarket_text");
+var setmarket_text2 = sessionStorage.getItem("setmarket_text2");
+var setbuildingcapacity_text = sessionStorage.getItem("setbuildingcapacity_text");
+var setannouncement_text = sessionStorage.getItem("setannouncement_text");
+var setannouncement_text2 = sessionStorage.getItem("setannouncement_text2");
+var setnews_text = sessionStorage.getItem("setnews_text");
+var setmenus_military_text = sessionStorage.getItem("setmenus_military_text");
+var setmenus_logs_text = sessionStorage.getItem("setmenus_logs_text");
+var setmenus_map_text = sessionStorage.getItem("setmenus_map_text");
+var setmenus_allies_text = sessionStorage.getItem("setmenus_allies_text");
+var setmenus_leaderboard_text = sessionStorage.getItem("setmenus_leaderboard_text");
+var setbonus_text1 = sessionStorage.getItem("setbonus_text1");
+var setbonus_text2 = sessionStorage.getItem("setbonus_text2");
+var setnotifications_text = sessionStorage.getItem("setnotifications_text");
+var settrade_text = sessionStorage.getItem("settrade_text");
+var setkings_text = sessionStorage.getItem("setkings_text");
+var setembassies_text = sessionStorage.getItem("setembassies_text");
+var setlbottom_text = sessionStorage.getItem("setlbottom_text");
+var setarmies_text = sessionStorage.getItem("setarmies_text");
+var setsupportunits_text = sessionStorage.getItem("setsupportunits_text");
+var settradewagon_text = sessionStorage.getItem("settradewagon_text");
+var setproduce_text = sessionStorage.getItem("setproduce_text");
+var setupgrade_text = sessionStorage.getItem("setupgrade_text");
+var setinfo_text = sessionStorage.getItem("setinfo_text");
+var setage_text = sessionStorage.getItem("setage_text");
+var setfarmer_text = sessionStorage.getItem("setfarmer_text");
+var setwoodcutter_text = sessionStorage.getItem("setwoodcutter_text");
+var setgoldminer_text = sessionStorage.getItem("setgoldminer_text");
+var settype_text = sessionStorage.getItem("settype_text");
+var setclass_text = sessionStorage.getItem("setclass_text");
+var setpeasant_text = sessionStorage.getItem("setpeasant_text");
+var setvillage_text = sessionStorage.getItem("setvillage_text");
+var setvillage_text2 = sessionStorage.getItem("setvillage_text2");
+var setbronze_text = sessionStorage.getItem("setbronze_text");
+var setiron_text = sessionStorage.getItem("setiron_text");
+var setancient_text = sessionStorage.getItem("setancient_text");
+var setclassical_text = sessionStorage.getItem("setclassical_text");
+var sethellenistic_text = sessionStorage.getItem("sethellenistic_text");
+var setbronzeage_text = sessionStorage.getItem("setbronzeage_text");
+var setironage_text = sessionStorage.getItem("setironage_text");
+var setancientage_text = sessionStorage.getItem("setancientage_text");
+var setclassicalage_text = sessionStorage.getItem("setclassicalage_text");
+var sethellenisticage_text = sessionStorage.getItem("sethellenisticage_text");
+var setkipdisplay1 = sessionStorage.getItem("setkipdisplay1");
+var setkipdisplay2 = sessionStorage.getItem("setkipdisplay2");
+var setkipdisplay3 = sessionStorage.getItem("setkipdisplay3");
+var setkipdisplay4 = sessionStorage.getItem("setkipdisplay4");
+var setkipdisplay5 = sessionStorage.getItem("setkipdisplay5");
+var setkipnabdisplay1 = sessionStorage.getItem("setkipnabdisplay1");
+var setkipnabdisplay2 = sessionStorage.getItem("setkipnabdisplay2");
+var setkipnabdisplay3 = sessionStorage.getItem("setkipnabdisplay3");
+var setkipnabdisplay4 = sessionStorage.getItem("setkipnabdisplay4");
+var setnextage_text = sessionStorage.getItem("setnextage_text");
+var setage_img = sessionStorage.getItem("setage_img");
+var setlogindisplay1 = sessionStorage.getItem("setlogindisplay1");
+var setlogindisplay2 = sessionStorage.getItem("setlogindisplay2");
+var settoageiron1 = sessionStorage.getItem("settoageiron1");
+var settoageiron2 = sessionStorage.getItem("settoageiron2");
+var settoageancient1 = sessionStorage.getItem("settoageancient1");
+var settoageancient2 = sessionStorage.getItem("settoageancient2");
+var settoageclassical1 = sessionStorage.getItem("settoageclassical1");
+var settoageclassical2 = sessionStorage.getItem("settoageclassical2");
+var settoagehellenistic1 = sessionStorage.getItem("settoagehellenistic1");
+var settoagehellenistic2 = sessionStorage.getItem("settoagehellenistic2");
+var setage_points = sessionStorage.getItem("setage_points");
+var setkip_text1 = sessionStorage.getItem("setkip_text1");
+var setkip_text2 = sessionStorage.getItem("setkip_text2");
+var setkip_text3 = sessionStorage.getItem("setkip_text3");
+var setkip_text4 = sessionStorage.getItem("setkip_text4");
+var setkip_text5 = sessionStorage.getItem("setkip_text5");
+var setkip_text2_display = sessionStorage.getItem("setkip_text2_display");
+var setkip_text3_display = sessionStorage.getItem("setkip_text3_display");
+var setkip_text4_display = sessionStorage.getItem("setkip_text4_display");
+var setkip_text5_display = sessionStorage.getItem("setkip_text5_display");
+var seteconomy_text = sessionStorage.getItem("seteconomy_text");
+var sethour_text = sessionStorage.getItem("sethour_text");
+var setfood_text = sessionStorage.getItem("setfood_text");
+var setwood_text = sessionStorage.getItem("setwood_text");
+var setgold_text = sessionStorage.getItem("setgold_text");
+var setdiamond_text = sessionStorage.getItem("setdiamond_text");
+var setpopulation_text = sessionStorage.getItem("setpopulation_text");
+var setkingdomcenter_text = sessionStorage.getItem("setkingdomcenter_text");
+var setcolonies_text = sessionStorage.getItem("setcolonies_text");
+var setcities_text = sessionStorage.getItem("setcities_text");
+var setspy_text = sessionStorage.getItem("setspy_text");
+var setstoragelimit_text = sessionStorage.getItem("setstoragelimit_text");
+var setarcher_text = sessionStorage.getItem("setarcher_text");
+var setplaces_text = sessionStorage.getItem("setplaces_text");
+var setsearch_text = sessionStorage.getItem("setsearch_text");
+var setsearch_input_text = sessionStorage.getItem("setsearch_input_text");
+var setrandom_mapX = sessionStorage.getItem("setrandom_mapX");
+var setrandom_mapY = sessionStorage.getItem("setrandom_mapY");
 
 /* kp_settings */
 
 function king_name_save() {
-	localStorage.getItem("setkp_setting_king_name");
+	sessionStorage.getItem("setkp_setting_king_name");
 	
 	var king_nameItem = document.getElementById("king_name_input").value;
-	localStorage.setItem("king_name", king_nameItem);
+	sessionStorage.setItem("king_name", king_nameItem);
 	var kip_display_none_kingnameItem = "none";
-	localStorage.setItem("kip_display_none_kingname", kip_display_none_kingnameItem);
+	sessionStorage.setItem("kip_display_none_kingname", kip_display_none_kingnameItem);
 	var kip_display_block_kingnameItem = "block";
-	localStorage.setItem("kip_display_block_kingname", kip_display_block_kingnameItem);
+	sessionStorage.setItem("kip_display_block_kingname", kip_display_block_kingnameItem);
 	window.location.reload();
 	
 	Android.showToast(setkp_setting_king_name + ": " + king_nameItem);
@@ -129,238 +129,238 @@ function king_name_save() {
 
 function settings_languageEN(){
     var setflagEN = "url('images/united_states_flag_icon.png')";
-	localStorage.setItem("setflags", setflagEN);
+	sessionStorage.setItem("setflags", setflagEN);
 	
 	var setflag_languageEN = "English";
-	localStorage.setItem("setflag_language", setflag_languageEN);
+	sessionStorage.setItem("setflag_language", setflag_languageEN);
 	
 	var setflag_head_languageEN = "Language";
-	localStorage.setItem("setflag_head_language", setflag_head_languageEN);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageEN);
 	
 	var setsettings_languageEN = "Settings";
-	localStorage.setItem("setsettings_language", setsettings_languageEN);
+	sessionStorage.setItem("setsettings_language", setsettings_languageEN);
 	
 	var setworldtext_languageEN = "World ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageEN);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageEN);
 	
 	var setkp_setting_king_nameEN = "King name";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameEN);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameEN);
 	
 	var setkp_process_textEN = "Process";
-	localStorage.setItem("setkp_process_text", setkp_process_textEN);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textEN);
 	
 	var setkp_messages_textEN = "Messages";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textEN);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textEN);
 	
 	var setkp_buydiamonds_textEN = "Buy Diamonds";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textEN);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textEN);
 	
 	var setsetting_a1_bottom_textEN = "King names must contain a maximum of 12 characters.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textEN);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textEN);
 	
 	var setking_name_input_buttonEN = "Save";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonEN);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonEN);
 	
 	var setquests_textEN = "Quests";
-	localStorage.setItem("setquests_text", setquests_textEN);
+	sessionStorage.setItem("setquests_text", setquests_textEN);
 	
 	var setmarket_textEN = "Market";
-	localStorage.setItem("setmarket_text", setmarket_textEN);
+	sessionStorage.setItem("setmarket_text", setmarket_textEN);
 	
 	var setmarket_text2EN = "Craft trade wagons and trade with other kingdoms!";
-	localStorage.setItem("setmarket_text2", setmarket_text2EN);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2EN);
 	
 	var setbuildingcapacity_textEN = "Building capacity:";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textEN);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textEN);
 	
 	var setannouncement_textEN = "Announcement:";
-	localStorage.setItem("setannouncement_text", setannouncement_textEN);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textEN);
 	
 	var setannouncement_text2EN = "Announcement";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2EN);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2EN);
 	
 	var setnews_textEN = "News";
-	localStorage.setItem("setnews_text", setnews_textEN);
+	sessionStorage.setItem("setnews_text", setnews_textEN);
 	
 	var setmenus_military_textEN = "Military";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textEN);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textEN);
 	
 	var setmenus_logs_textEN = "Logs";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textEN);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textEN);
 	
 	var setmenus_map_textEN = "Map";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textEN);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textEN);
 	
 	var setmenus_allies_textEN = "Allies";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textEN);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textEN);
 	
 	var setmenus_leaderboard_textEN = "Ranking";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textEN);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textEN);
 	
 	var setbonus_text1EN = "Choose one of the treasure chests";
-	localStorage.setItem("setbonus_text1", setbonus_text1EN);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1EN);
 	
 	var setbonus_text2EN = "Your reward";
-	localStorage.setItem("setbonus_text2", setbonus_text2EN);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2EN);
 
     var setnotifications_textEN = "Notifications";
-    localStorage.setItem("setnotifications_text", setnotifications_textEN);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textEN);
 
     var settrade_textEN = "Trade";
-    localStorage.setItem("settrade_text", settrade_textEN);
+    sessionStorage.setItem("settrade_text", settrade_textEN);
 
     var setkings_textEN = "Kings";
-    localStorage.setItem("setkings_text", setkings_textEN);
+    sessionStorage.setItem("setkings_text", setkings_textEN);
     
     var setembassies_textEN = "Embassies";
-    localStorage.setItem("setembassies_text", setembassies_textEN);
+    sessionStorage.setItem("setembassies_text", setembassies_textEN);
     
     var setlbottom_textEN = "You are not a member of an alliance!";
-    localStorage.setItem("setlbottom_text", setlbottom_textEN);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textEN);
 
     var setarmies_textEN = "Armies";
-    localStorage.setItem("setarmies_text", setarmies_textEN);
+    sessionStorage.setItem("setarmies_text", setarmies_textEN);
 
     var setsupportunits_textEN = "Support Units";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textEN);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textEN);
 
     var settradewagon_textEN = "Trade Wagon ";
-    localStorage.setItem("settradewagon_text", settradewagon_textEN);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textEN);
 
     var setproduce_textEN = "Produce";
-    localStorage.setItem("setproduce_text", setproduce_textEN);
+    sessionStorage.setItem("setproduce_text", setproduce_textEN);
 
     var setupgrade_textEN = "Upgrade";
-    localStorage.setItem("setupgrade_text", setupgrade_textEN);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textEN);
 
     var setinfo_textEN = "Info";
-    localStorage.setItem("setinfo_text", setinfo_textEN);
+    sessionStorage.setItem("setinfo_text", setinfo_textEN);
 
     var setage_textEN = "Age";
-    localStorage.setItem("setage_text", setage_textEN);
+    sessionStorage.setItem("setage_text", setage_textEN);
 
     var setfarmer_textEN = "Farmer";
-    localStorage.setItem("setfarmer_text", setfarmer_textEN);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textEN);
 
     var setwoodcutter_textEN = "Woodcutter";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textEN);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textEN);
 
     var setgoldminer_textEN = "Gold Miner";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textEN);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textEN);
 
     var settype_textEN = "Type";
-    localStorage.setItem("settype_text", settype_textEN);
+    sessionStorage.setItem("settype_text", settype_textEN);
 
     var setclass_textEN = "Class";
-    localStorage.setItem("setclass_text", setclass_textEN);
+    sessionStorage.setItem("setclass_text", setclass_textEN);
 
     var setvillage_textEN = "Village";
-    localStorage.setItem("setvillage_text", setvillage_textEN);
+    sessionStorage.setItem("setvillage_text", setvillage_textEN);
 
     var setvillage_text2EN = "Produce resources and improve the economy of the kingdom thanks to the peasants!";
-    localStorage.setItem("setvillage_text2", setvillage_text2EN);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2EN);
 
     var setpeasant_textEN = "Peasant";
-    localStorage.setItem("setpeasant_text", setpeasant_textEN);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textEN);
 
     var setbronze_textEN = "Bronze";
-    localStorage.setItem("setbronze_text", setbronze_textEN);
+    sessionStorage.setItem("setbronze_text", setbronze_textEN);
 
     var setiron_textEN = "Iron";
-    localStorage.setItem("setiron_text", setiron_textEN);
+    sessionStorage.setItem("setiron_text", setiron_textEN);
 
     var setancient_textEN = "Ancient";
-    localStorage.setItem("setancient_text", setancient_textEN);
+    sessionStorage.setItem("setancient_text", setancient_textEN);
 
     var setclassical_textEN = "Classical";
-    localStorage.setItem("setclassical_text", setclassical_textEN);
+    sessionStorage.setItem("setclassical_text", setclassical_textEN);
 
     var sethellenistic_textEN = "Hellenistic";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textEN);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textEN);
 
     var setbronzeage_textEN = "Bronze Age";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textEN);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textEN);
 
     var setironage_textEN = "Iron Age";
-    localStorage.setItem("setironage_text", setironage_textEN);
+    sessionStorage.setItem("setironage_text", setironage_textEN);
 
     var setancientage_textEN = "Ancient Age";
-    localStorage.setItem("setancientage_text", setancientage_textEN);
+    sessionStorage.setItem("setancientage_text", setancientage_textEN);
 
     var setclassicalage_textEN = "Classical Age";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textEN);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textEN);
 
     var sethellenisticage_textEN = "Hellenistic Age";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textEN);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textEN);
 
     var setnextage_textEN = "Next Age";
-    localStorage.setItem("setnextage_text", setnextage_textEN);
+    sessionStorage.setItem("setnextage_text", setnextage_textEN);
 
     var setage_pointsEN = "Age Points";
-    localStorage.setItem("setage_points", setage_pointsEN);
+    sessionStorage.setItem("setage_points", setage_pointsEN);
 
     var setkip_text1EN = "Kingdom Info";
-    localStorage.setItem("setkip_text1", setkip_text1EN);
+    sessionStorage.setItem("setkip_text1", setkip_text1EN);
 
     var setkip_text2EN = "1000 age points are required to move to the next age.";
-    localStorage.setItem("setkip_text2", setkip_text2EN);
+    sessionStorage.setItem("setkip_text2", setkip_text2EN);
 
     var setkip_text3EN = "3000 age points are required to move to the next age.";
-    localStorage.setItem("setkip_text3", setkip_text3EN);
+    sessionStorage.setItem("setkip_text3", setkip_text3EN);
 
     var setkip_text4EN = "7000 age points are required to move to the next age.";
-    localStorage.setItem("setkip_text4", setkip_text4EN);
+    sessionStorage.setItem("setkip_text4", setkip_text4EN);
 
     var setkip_text5EN = "15000 age points are required to move to the next age.";
-    localStorage.setItem("setkip_text5", setkip_text5EN);
+    sessionStorage.setItem("setkip_text5", setkip_text5EN);
 
     var seteconomy_textEN = "Economy";
-    localStorage.setItem("seteconomy_text", seteconomy_textEN);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textEN);
 
     var sethour_textEN = "Hour";
-    localStorage.setItem("sethour_text", sethour_textEN);
+    sessionStorage.setItem("sethour_text", sethour_textEN);
 
     var setfood_textEN = "Food";
-    localStorage.setItem("setfood_text", setfood_textEN);
+    sessionStorage.setItem("setfood_text", setfood_textEN);
 
     var setwood_textEN = "Wood";
-    localStorage.setItem("setwood_text", setwood_textEN);
+    sessionStorage.setItem("setwood_text", setwood_textEN);
 
     var setgold_textEN = "Gold";
-    localStorage.setItem("setgold_text", setgold_textEN);
+    sessionStorage.setItem("setgold_text", setgold_textEN);
 
     var setdiamond_textEN = "Diamond";
-    localStorage.setItem("setdiamond_text", setdiamond_textEN);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textEN);
 
     var setpopulation_textEN = "Population";
-    localStorage.setItem("setpopulation_text", setpopulation_textEN);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textEN);
 
     var setkingdomcenter_textEN = "Kingdom Center";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textEN);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textEN);
 
     var setcolonies_textEN = "Colonies";
-    localStorage.setItem("setcolonies_text", setcolonies_textEN);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textEN);
 
     var setcities_textEN = "Cities";
-    localStorage.setItem("setcities_text", setcities_textEN);
+    sessionStorage.setItem("setcities_text", setcities_textEN);
 
     var setspy_textEN = "Spy";
-    localStorage.setItem("setspy_text", setspy_textEN);
+    sessionStorage.setItem("setspy_text", setspy_textEN);
 
     var setstoragelimit_textEN = "Storage Limit";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textEN);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textEN);
 
     var setarcher_textEN = "Archer";
-    localStorage.setItem("setarcher_text", setarcher_textEN);
+    sessionStorage.setItem("setarcher_text", setarcher_textEN);
 
     var setplaces_textEN = "Places";
-    localStorage.setItem("setplaces_text", setplaces_textEN);
+    sessionStorage.setItem("setplaces_text", setplaces_textEN);
 
     var setsearch_textEN = "Search";
-    localStorage.setItem("setsearch_text", setsearch_textEN);
+    sessionStorage.setItem("setsearch_text", setsearch_textEN);
 
     var setsearch_input_textEN = "Search for Players, Colonies and Cities";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textEN);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textEN);
 	
 	window.location.reload();
 	
@@ -369,238 +369,238 @@ function settings_languageEN(){
 
 function settings_languageDE(){
 	var setflagDE = "url('images/germany_flag_icon.png')";
-	localStorage.setItem("setflags", setflagDE);
+	sessionStorage.setItem("setflags", setflagDE);
 	
 	var setflag_languageDE = "Deutsche";
-	localStorage.setItem("setflag_language", setflag_languageDE);
+	sessionStorage.setItem("setflag_language", setflag_languageDE);
 	
 	var setflag_head_languageDE = "Sprache";
-    localStorage.setItem("setflag_head_language", setflag_head_languageDE);
+    sessionStorage.setItem("setflag_head_language", setflag_head_languageDE);
 	
 	var setsettings_languageDE = "Einstellungen";
-	localStorage.setItem("setsettings_language", setsettings_languageDE);
+	sessionStorage.setItem("setsettings_language", setsettings_languageDE);
 	
 	var setworldtext_languageDE = "Welt ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageDE);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageDE);
 	
 	var setkp_setting_king_nameDE = "Königsname";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameDE);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameDE);
 	
 	var setkp_process_textDE = "Prozess";
-	localStorage.setItem("setkp_process_text", setkp_process_textDE);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textDE);
 	
 	var setkp_messages_textDE = "Mitteilungen";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textDE);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textDE);
 	
 	var setkp_buydiamonds_textDE = "Diamanten Kaufen";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textDE);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textDE);
 	
 	var setsetting_a1_bottom_textDE = "Königsnamen dürfen maximal 12 Zeichen enthalten.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textDE);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textDE);
 	
 	var setking_name_input_buttonDE = "Sparen";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonDE);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonDE);
 	
 	var setquests_textDE = "Quests";
-	localStorage.setItem("setquests_text", setquests_textDE);
+	sessionStorage.setItem("setquests_text", setquests_textDE);
 	
 	var setmarket_textDE = "Markt";
-	localStorage.setItem("setmarket_text", setmarket_textDE);
+	sessionStorage.setItem("setmarket_text", setmarket_textDE);
 	
 	var setmarket_text2DE = "Basteln Sie Handelswagen und handeln Sie mit anderen Königreichen!";
-	localStorage.setItem("setmarket_text2", setmarket_text2DE);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2DE);
 	
 	var setbuildingcapacity_textDE = "Gebäudekapazität:";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textDE);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textDE);
 	
 	var setannouncement_textDE = "Ankündigung:";
-	localStorage.setItem("setannouncement_text", setannouncement_textDE);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textDE);
 	
 	var setannouncement_text2DE = "Ankündigung";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2DE);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2DE);
 	
 	var setnews_textDE = "Nachrichten";
-	localStorage.setItem("setnews_text", setnews_textDE);
+	sessionStorage.setItem("setnews_text", setnews_textDE);
 	
 	var setmenus_military_textDE = "Militär";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textDE);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textDE);
 	
 	var setmenus_logs_textDE = "Protokolle";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textDE);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textDE);
 	
 	var setmenus_map_textDE = "Karte";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textDE);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textDE);
 	
 	var setmenus_allies_textDE = "Alliierte";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textDE);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textDE);
 	
 	var setmenus_leaderboard_textDE = "Rangfolge";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textDE);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textDE);
 	
 	var setbonus_text1DE = "Wähle eine der Schatzkisten";
-	localStorage.setItem("setbonus_text1", setbonus_text1DE);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1DE);
 	
 	var setbonus_text2DE = "Deine Belohnung";
-	localStorage.setItem("setbonus_text2", setbonus_text2DE);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2DE);
 
     var setnotifications_textDE = "Benachrichtigungen";
-    localStorage.setItem("setnotifications_text", setnotifications_textDE);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textDE);
 
     var settrade_textDE = "Handel";
-    localStorage.setItem("settrade_text", settrade_textDE);
+    sessionStorage.setItem("settrade_text", settrade_textDE);
 
     var setkings_textDE = "Könige";
-    localStorage.setItem("setkings_text", setkings_textDE);
+    sessionStorage.setItem("setkings_text", setkings_textDE);
     
     var setembassies_textDE = "Botschaften";
-    localStorage.setItem("setembassies_text", setembassies_textDE);
+    sessionStorage.setItem("setembassies_text", setembassies_textDE);
     
     var setlbottom_textDE = "Sie sind kein Mitglied einer Allianz!";
-    localStorage.setItem("setlbottom_text", setlbottom_textDE);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textDE);
 
     var setarmies_textDE = "Armeen";
-    localStorage.setItem("setarmies_text", setarmies_textDE);
+    sessionStorage.setItem("setarmies_text", setarmies_textDE);
 
     var setsupportunits_textDE = "Support-Einheiten";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textDE);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textDE);
 
     var settradewagon_textDE = "Handelswagen ";
-    localStorage.setItem("settradewagon_text", settradewagon_textDE);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textDE);
 
     var setproduce_textDE = "Produzieren";
-    localStorage.setItem("setproduce_text", setproduce_textDE);
+    sessionStorage.setItem("setproduce_text", setproduce_textDE);
 
     var setupgrade_textDE = "Nachrüsten";
-    localStorage.setItem("setupgrade_text", setupgrade_textDE);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textDE);
 
     var setinfo_textDE = "Die Info";
-    localStorage.setItem("setinfo_text", setinfo_textDE);
+    sessionStorage.setItem("setinfo_text", setinfo_textDE);
 
     var setage_textDE = "Alter";
-    localStorage.setItem("setage_text", setage_textDE);
+    sessionStorage.setItem("setage_text", setage_textDE);
 
     var setfarmer_textDE = "Farmer";
-    localStorage.setItem("setfarmer_text", setfarmer_textDE);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textDE);
 
     var setwoodcutter_textDE = "Holzfäller";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textDE);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textDE);
 
     var setgoldminer_textDE = "Goldgräber";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textDE);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textDE);
 
     var settype_textDE = "Typ";
-    localStorage.setItem("settype_text", settype_textDE);
+    sessionStorage.setItem("settype_text", settype_textDE);
 
     var setclass_textDE = "Klasse";
-    localStorage.setItem("setclass_text", setclass_textDE);
+    sessionStorage.setItem("setclass_text", setclass_textDE);
 
     var setvillage_textDE = "Dorf";
-    localStorage.setItem("setvillage_text", setvillage_textDE);
+    sessionStorage.setItem("setvillage_text", setvillage_textDE);
 
     var setvillage_text2DE = "Produziere Ressourcen und verbessere die Wirtschaft des Königreichs dank der Bauern!";
-    localStorage.setItem("setvillage_text2", setvillage_text2DE);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2DE);
 
     var setpeasant_textDE = "Bauer";
-    localStorage.setItem("setpeasant_text", setpeasant_textDE);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textDE);
 
     var setbronze_textDE = "Bronze";
-    localStorage.setItem("setbronze_text", setbronze_textDE);
+    sessionStorage.setItem("setbronze_text", setbronze_textDE);
 
     var setiron_textDE = "Eisen";
-    localStorage.setItem("setiron_text", setiron_textDE);
+    sessionStorage.setItem("setiron_text", setiron_textDE);
 
     var setancient_textDE = "Uralt";
-    localStorage.setItem("setancient_text", setancient_textDE);
+    sessionStorage.setItem("setancient_text", setancient_textDE);
 
     var setclassical_textDE = "Klassik";
-    localStorage.setItem("setclassical_text", setclassical_textDE);
+    sessionStorage.setItem("setclassical_text", setclassical_textDE);
 
     var sethellenistic_textDE = "Hellenistisch";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textDE);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textDE);
 
     var setbronzeage_textDE = "Bronzezeit";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textDE);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textDE);
 
     var setironage_textDE = "Eisenzeit";
-    localStorage.setItem("setironage_text", setironage_textDE);
+    sessionStorage.setItem("setironage_text", setironage_textDE);
 
     var setancientage_textDE = "Altertum";
-    localStorage.setItem("setancientage_text", setancientage_textDE);
+    sessionStorage.setItem("setancientage_text", setancientage_textDE);
 
     var setclassicalage_textDE = "Klassisches Alter";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textDE);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textDE);
 
     var sethellenisticage_textDE = "Hellenistisches Zeitalter";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textDE);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textDE);
 
     var setnextage_textDE = "Nächstes Alter";
-    localStorage.setItem("setnextage_text", setnextage_textDE);
+    sessionStorage.setItem("setnextage_text", setnextage_textDE);
 
     var setage_pointsDE = "Alterspunkte";
-    localStorage.setItem("setage_points", setage_pointsDE);
+    sessionStorage.setItem("setage_points", setage_pointsDE);
 
     var setkip_text1EN = "Königreich Info";
-    localStorage.setItem("setkip_text1", setkip_text1EN);
+    sessionStorage.setItem("setkip_text1", setkip_text1EN);
 
     var setkip_text2DE = "1000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
-    localStorage.setItem("setkip_text2", setkip_text2DE);
+    sessionStorage.setItem("setkip_text2", setkip_text2DE);
 
     var setkip_text3DE = "3000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
-    localStorage.setItem("setkip_text3", setkip_text3DE);
+    sessionStorage.setItem("setkip_text3", setkip_text3DE);
 
     var setkip_text4DE = "7000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
-    localStorage.setItem("setkip_text4", setkip_text4DE);
+    sessionStorage.setItem("setkip_text4", setkip_text4DE);
 
     var setkip_text5DE = "15000 Alterspunkte sind erforderlich um zum nächsten Alter zu gelangen.";
-    localStorage.setItem("setkip_text5", setkip_text5DE);
+    sessionStorage.setItem("setkip_text5", setkip_text5DE);
 
     var seteconomy_textDE = "Wirtschaft";
-    localStorage.setItem("seteconomy_text", seteconomy_textDE);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textDE);
 
     var sethour_textDE = "Stunde";
-    localStorage.setItem("sethour_text", sethour_textDE);
+    sessionStorage.setItem("sethour_text", sethour_textDE);
 
     var setfood_textDE = "Essen";
-    localStorage.setItem("setfood_text", setfood_textDE);
+    sessionStorage.setItem("setfood_text", setfood_textDE);
 
     var setwood_textDE = "Holz";
-    localStorage.setItem("setwood_text", setwood_textDE);
+    sessionStorage.setItem("setwood_text", setwood_textDE);
 
     var setgold_textDE = "Gold";
-    localStorage.setItem("setgold_text", setgold_textDE);
+    sessionStorage.setItem("setgold_text", setgold_textDE);
 
     var setdiamond_textDE = "Diamant";
-    localStorage.setItem("setdiamond_text", setdiamond_textDE);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textDE);
 
     var setpopulation_textDE = "Population";
-    localStorage.setItem("setpopulation_text", setpopulation_textDE);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textDE);
 
     var setkingdomcenter_textDE = "Königreichszentrum";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textDE);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textDE);
 
     var setcolonies_textDE = "Kolonien";
-    localStorage.setItem("setcolonies_text", setcolonies_textDE);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textDE);
 
     var setcities_textDE = "Städte";
-    localStorage.setItem("setcities_text", setcities_textDE);
+    sessionStorage.setItem("setcities_text", setcities_textDE);
 
     var setspy_textDE = "Spion";
-    localStorage.setItem("setspy_text", setspy_textDE);
+    sessionStorage.setItem("setspy_text", setspy_textDE);
 
     var setstoragelimit_textDE = "Speicherlimit";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textDE);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textDE);
 
     var setarcher_textDE = "Bogenschütze";
-    localStorage.setItem("setarcher_text", setarcher_textDE);
+    sessionStorage.setItem("setarcher_text", setarcher_textDE);
 
     var setplaces_textDE = "Setzt";
-    localStorage.setItem("setplaces_text", setplaces_textDE);
+    sessionStorage.setItem("setplaces_text", setplaces_textDE);
 
     var setsearch_textDE = "Suche";
-    localStorage.setItem("setsearch_text", setsearch_textDE);
+    sessionStorage.setItem("setsearch_text", setsearch_textDE);
 
     var setsearch_input_textDE = "Suche nach Spielern, Kolonien und Städten";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textDE);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textDE);
 	
 	window.location.reload();
 	
@@ -609,238 +609,238 @@ function settings_languageDE(){
 
 function settings_languageFR(){
 	var setflagFR = "url('images/france_flag_icon.png')";
-	localStorage.setItem("setflags", setflagFR);
+	sessionStorage.setItem("setflags", setflagFR);
 	
 	var setflag_languageFR = "Français";
-	localStorage.setItem("setflag_language", setflag_languageFR);
+	sessionStorage.setItem("setflag_language", setflag_languageFR);
 	
 	var setflag_head_languageFR = "Langue";
-	localStorage.setItem("setflag_head_language", setflag_head_languageFR);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageFR);
 	
 	var setsettings_languageFR = "Paramètres";
-	localStorage.setItem("setsettings_language", setsettings_languageFR);
+	sessionStorage.setItem("setsettings_language", setsettings_languageFR);
 	
 	var setworldtext_languageFR = "Monde ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageFR);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageFR);
 	
 	var setkp_setting_king_nameFR = "Nom du roi";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameFR);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameFR);
 	
 	var setkp_process_textFR = "Traiter";
-	localStorage.setItem("setkp_process_text", setkp_process_textFR);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textFR);
 	
 	var setkp_messages_textFR = "Messages";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textFR);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textFR);
 	
 	var setkp_buydiamonds_textFR = "Acheter Diamants";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textFR);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textFR);
 	
 	var setsetting_a1_bottom_textFR = "Les noms de roi doivent contenir un maximum de 12 caractères.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textFR);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textFR);
 	
 	var setking_name_input_buttonFR = "Sauvegarder";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonFR);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonFR);
 	
 	var setquests_textFR = "Quêtes";
-	localStorage.setItem("setquests_text", setquests_textFR);
+	sessionStorage.setItem("setquests_text", setquests_textFR);
 	
 	var setmarket_textFR = "Marché";
-	localStorage.setItem("setmarket_text", setmarket_textFR);
+	sessionStorage.setItem("setmarket_text", setmarket_textFR);
 	
 	var setmarket_text2FR = "Fabriquez des chariots et échangez avec d'autres royaumes!";
-	localStorage.setItem("setmarket_text2", setmarket_text2FR);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2FR);
 	
 	var setbuildingcapacity_textFR = "Capacité de construction:";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textFR);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textFR);
 	
 	var setannouncement_textFR = "Annonce:";
-	localStorage.setItem("setannouncement_text", setannouncement_textFR);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textFR);
 	
 	var setannouncement_text2FR = "Annonce";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2FR);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2FR);
 	
 	var setnews_textFR = "Nouvelles";
-	localStorage.setItem("setnews_text", setnews_textFR);
+	sessionStorage.setItem("setnews_text", setnews_textFR);
 	
 	var setmenus_military_textFR = "Militaire";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textFR);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textFR);
 	
 	var setmenus_logs_textFR = "Journaux";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textFR);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textFR);
 	
 	var setmenus_map_textFR = "Carte";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textFR);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textFR);
 	
 	var setmenus_allies_textFR = "Alliés";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textFR);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textFR);
 	
 	var setmenus_leaderboard_textFR = "Classement";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textFR);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textFR);
 	
 	var setbonus_text1FR = "Choisissez l'un des coffres au trésor";
-	localStorage.setItem("setbonus_text1", setbonus_text1FR);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1FR);
 	
 	var setbonus_text2FR = "Ta récompense";
-	localStorage.setItem("setbonus_text2", setbonus_text2FR);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2FR);
 
     var setnotifications_textFR = "Notifications";
-    localStorage.setItem("setnotifications_text", setnotifications_textFR);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textFR);
 
     var settrade_textFR = "Échanger";
-    localStorage.setItem("settrade_text", settrade_textFR);
+    sessionStorage.setItem("settrade_text", settrade_textFR);
 
     var setkings_textFR = "Rois";
-    localStorage.setItem("setkings_text", setkings_textFR);
+    sessionStorage.setItem("setkings_text", setkings_textFR);
     
     var setembassies_textFR = "Ambassades";
-    localStorage.setItem("setembassies_text", setembassies_textFR);
+    sessionStorage.setItem("setembassies_text", setembassies_textFR);
     
     var setlbottom_textFR = "Vous n'êtes pas membre d'une alliance!";
-    localStorage.setItem("setlbottom_text", setlbottom_textFR);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textFR);
 
     var setarmies_textFR = "Armées";
-    localStorage.setItem("setarmies_text", setarmies_textFR);
+    sessionStorage.setItem("setarmies_text", setarmies_textFR);
 
     var setsupportunits_textFR = "Unités de soutien";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textFR);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textFR);
 
     var settradewagon_textFR = "Wagon de commerce ";
-    localStorage.setItem("settradewagon_text", settradewagon_textFR);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textFR);
 
     var setproduce_textFR = "Produire";
-    localStorage.setItem("setproduce_text", setproduce_textFR);
+    sessionStorage.setItem("setproduce_text", setproduce_textFR);
 
     var setupgrade_textFR = "Améliorer";
-    localStorage.setItem("setupgrade_text", setupgrade_textFR);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textFR);
 
     var setinfo_textFR = "Info";
-    localStorage.setItem("setinfo_text", setinfo_textFR);
+    sessionStorage.setItem("setinfo_text", setinfo_textFR);
 
     var setage_textFR = "Âge";
-    localStorage.setItem("setage_text", setage_textFR);
+    sessionStorage.setItem("setage_text", setage_textFR);
 
     var setfarmer_textFR = "Agriculteur";
-    localStorage.setItem("setfarmer_text", setfarmer_textFR);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textFR);
 
     var setwoodcutter_textFR = "Bûcheron";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textFR);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textFR);
 
     var setgoldminer_textFR = "Chercheur d'or";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textFR);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textFR);
 
     var settype_textFR = "Taper";
-    localStorage.setItem("settype_text", settype_textFR);
+    sessionStorage.setItem("settype_text", settype_textFR);
 
     var setclass_textFR = "Classer";
-    localStorage.setItem("setclass_text", setclass_textFR);
+    sessionStorage.setItem("setclass_text", setclass_textFR);
 
     var setvillage_textFR = "Village";
-    localStorage.setItem("setvillage_text", setvillage_textFR);
+    sessionStorage.setItem("setvillage_text", setvillage_textFR);
 
     var setvillage_text2FR = "Produisez des ressources et améliorez l'économie du royaume grâce aux paysans!";
-    localStorage.setItem("setvillage_text2", setvillage_text2FR);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2FR);
 
     var setpeasant_textFR = "Paysan";
-    localStorage.setItem("setpeasant_text", setpeasant_textFR);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textFR);
 
     var setbronze_textFR = "Bronze";
-    localStorage.setItem("setbronze_text", setbronze_textFR);
+    sessionStorage.setItem("setbronze_text", setbronze_textFR);
 
     var setiron_textFR = "Le fer";
-    localStorage.setItem("setiron_text", setiron_textFR);
+    sessionStorage.setItem("setiron_text", setiron_textFR);
 
     var setancient_textFR = "Ancien";
-    localStorage.setItem("setancient_text", setancient_textFR);
+    sessionStorage.setItem("setancient_text", setancient_textFR);
 
     var setclassical_textFR = "Classique";
-    localStorage.setItem("setclassical_text", setclassical_textFR);
+    sessionStorage.setItem("setclassical_text", setclassical_textFR);
 
     var sethellenistic_textFR = "Hellénistique";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textFR);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textFR);
 
     var setbronzeage_textFR = "Âge de bronze";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textFR);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textFR);
 
     var setironage_textFR = "Âge de fer";
-    localStorage.setItem("setironage_text", setironage_textFR);
+    sessionStorage.setItem("setironage_text", setironage_textFR);
 
     var setancientage_textFR = "Âge antique";
-    localStorage.setItem("setancientage_text", setancientage_textFR);
+    sessionStorage.setItem("setancientage_text", setancientage_textFR);
 
     var setclassicalage_textFR = "Âge classique";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textFR);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textFR);
 
     var sethellenisticage_textFR = "Âge hellénistique";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textFR);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textFR);
 
     var setnextage_textFR = "Âge suivant";
-    localStorage.setItem("setnextage_text", setnextage_textFR);
+    sessionStorage.setItem("setnextage_text", setnextage_textFR);
 
     var setage_pointsFR = "Points d'âge";
-    localStorage.setItem("setage_points", setage_pointsFR);
+    sessionStorage.setItem("setage_points", setage_pointsFR);
 
     var setkip_text1FR = "Infos sur le royaume";
-    localStorage.setItem("setkip_text1", setkip_text1FR);
+    sessionStorage.setItem("setkip_text1", setkip_text1FR);
 
     var setkip_text2FR = "1000 points d'âge sont nécessaires pour passer à l'âge suivant.";
-    localStorage.setItem("setkip_text2", setkip_text2FR);
+    sessionStorage.setItem("setkip_text2", setkip_text2FR);
 
     var setkip_text3FR = "3000 points d'âge sont nécessaires pour passer à l'âge suivant.";
-    localStorage.setItem("setkip_text3", setkip_text3FR);
+    sessionStorage.setItem("setkip_text3", setkip_text3FR);
 
     var setkip_text4FR = "7000 points d'âge sont nécessaires pour passer à l'âge suivant.";
-    localStorage.setItem("setkip_text4", setkip_text4FR);
+    sessionStorage.setItem("setkip_text4", setkip_text4FR);
 
     var setkip_text5FR = "15000 points d'âge sont nécessaires pour passer à l'âge suivant.";
-    localStorage.setItem("setkip_text5", setkip_text5FR);
+    sessionStorage.setItem("setkip_text5", setkip_text5FR);
 
     var seteconomy_textFR = "Économie";
-    localStorage.setItem("seteconomy_text", seteconomy_textFR);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textFR);
 
     var sethour_textFR = "Heure";
-    localStorage.setItem("sethour_text", sethour_textFR);
+    sessionStorage.setItem("sethour_text", sethour_textFR);
 
     var setfood_textFR = "Aliments";
-    localStorage.setItem("setfood_text", setfood_textFR);
+    sessionStorage.setItem("setfood_text", setfood_textFR);
 
     var setwood_textFR = "Bois";
-    localStorage.setItem("setwood_text", setwood_textFR);
+    sessionStorage.setItem("setwood_text", setwood_textFR);
 
     var setgold_textFR = "Or";
-    localStorage.setItem("setgold_text", setgold_textFR);
+    sessionStorage.setItem("setgold_text", setgold_textFR);
 
     var setdiamond_textFR = "Diamant";
-    localStorage.setItem("setdiamond_text", setdiamond_textFR);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textFR);
 
     var setpopulation_textFR = "Population";
-    localStorage.setItem("setpopulation_text", setpopulation_textFR);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textFR);
 
     var setkingdomcenter_textFR = "Centre du Royaume";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textFR);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textFR);
 
     var setcolonies_textFR = "Colonies";
-    localStorage.setItem("setcolonies_text", setcolonies_textFR);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textFR);
 
     var setcities_textFR = "Villes";
-    localStorage.setItem("setcities_text", setcities_textFR);
+    sessionStorage.setItem("setcities_text", setcities_textFR);
 
     var setspy_textFR = "Espionner";
-    localStorage.setItem("setspy_text", setspy_textFR);
+    sessionStorage.setItem("setspy_text", setspy_textFR);
 
     var setstoragelimit_textFR = "Limite de stockage";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textFR);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textFR);
 
     var setarcher_textFR = "Archer";
-    localStorage.setItem("setarcher_text", setarcher_textFR);
+    sessionStorage.setItem("setarcher_text", setarcher_textFR);
 
     var setplaces_textFR = "Des endroits";
-    localStorage.setItem("setplaces_text", setplaces_textFR);
+    sessionStorage.setItem("setplaces_text", setplaces_textFR);
 
     var setsearch_textFR = "Rechercher";
-    localStorage.setItem("setsearch_text", setsearch_textFR);
+    sessionStorage.setItem("setsearch_text", setsearch_textFR);
 
     var setsearch_input_textFR = "Rechercher des joueurs, des colonies et des villes";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textFR);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textFR);
 	
 	window.location.reload();
 	
@@ -849,238 +849,238 @@ function settings_languageFR(){
 
 function settings_languageRU(){
 	var setflagRU = "url('images/russia_flag_icon.png')";
-	localStorage.setItem("setflags", setflagRU);
+	sessionStorage.setItem("setflags", setflagRU);
 	
 	var setflag_languageRU = "Pусский";
-	localStorage.setItem("setflag_language", setflag_languageRU);
+	sessionStorage.setItem("setflag_language", setflag_languageRU);
 	
 	var setflag_head_languageRU = "язык";
-	localStorage.setItem("setflag_head_language", setflag_head_languageRU);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageRU);
 	
 	var setsettings_languageRU = "Настройки";
-	localStorage.setItem("setsettings_language", setsettings_languageRU);
+	sessionStorage.setItem("setsettings_language", setsettings_languageRU);
 	
 	var setworldtext_languageRU = "Мир ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageRU);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageRU);
 	
 	var setkp_setting_king_nameRU = "Имя короля";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameRU);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameRU);
 	
 	var setkp_process_textRU = "Процесс";
-	localStorage.setItem("setkp_process_text", setkp_process_textRU);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textRU);
 	
 	var setkp_messages_textRU = "Сообщения";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textRU);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textRU);
 	
 	var setkp_buydiamonds_textRU = "бриллианты";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textRU);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textRU);
 	
 	var setsetting_a1_bottom_textRU = "Имена королей должны содержать не более 12 символов.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textRU);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textRU);
 	
 	var setking_name_input_buttonRU = "Сохранить";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonRU);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonRU);
 	
 	var setquests_textRU = "Квесты";
-	localStorage.setItem("setquests_text", setquests_textRU);
+	sessionStorage.setItem("setquests_text", setquests_textRU);
 	
 	var setmarket_textRU = "Рынок";
-	localStorage.setItem("setmarket_text", setmarket_textRU);
+	sessionStorage.setItem("setmarket_text", setmarket_textRU);
 	
 	var setmarket_text2RU = "Создавайте торговые повозки и торгуйте с другими королевствами!";
-	localStorage.setItem("setmarket_text2", setmarket_text2RU);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2RU);
 	
 	var setbuildingcapacity_textRU = "Вместимость здания:";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textRU);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textRU);
 	
 	var setannouncement_textRU = "Объявление:";
-	localStorage.setItem("setannouncement_text", setannouncement_textRU);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textRU);
 	
 	var setannouncement_text2RU = "Объявление";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2RU);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2RU);
 	
 	var setnews_textRU = "Новости";
-	localStorage.setItem("setnews_text", setnews_textRU);
+	sessionStorage.setItem("setnews_text", setnews_textRU);
 	
 	var setmenus_military_textRU = "Военный";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textRU);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textRU);
 	
 	var setmenus_logs_textRU = "Журналы";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textRU);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textRU);
 	
 	var setmenus_map_textRU = "карта";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textRU);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textRU);
 	
 	var setmenus_allies_textRU = "Союзники";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textRU);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textRU);
 	
 	var setmenus_leaderboard_textRU = "Рейтинг";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textRU);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textRU);
 	
 	var setbonus_text1RU = "Выберите один из сундуков с сокровищами";
-	localStorage.setItem("setbonus_text1", setbonus_text1RU);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1RU);
 	
 	var setbonus_text2RU = "Ваша награда";
-	localStorage.setItem("setbonus_text2", setbonus_text2RU);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2RU);
 	
 	var setnotifications_textRU = "Уведомления";
-    localStorage.setItem("setnotifications_text", setnotifications_textRU);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textRU);
 
     var settrade_textRU = "Торговля";
-    localStorage.setItem("settrade_text", settrade_textRU);
+    sessionStorage.setItem("settrade_text", settrade_textRU);
 
     var setkings_textRU = "Короли";
-    localStorage.setItem("setkings_text", setkings_textRU);
+    sessionStorage.setItem("setkings_text", setkings_textRU);
     
     var setembassies_textRU = "Посольства";
-    localStorage.setItem("setembassies_text", setembassies_textRU);
+    sessionStorage.setItem("setembassies_text", setembassies_textRU);
     
     var setlbottom_textRU = "Вы не состоите в альянсе!";
-    localStorage.setItem("setlbottom_text", setlbottom_textRU);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textRU);
 
     var setarmies_textRU = "Армии";
-    localStorage.setItem("setarmies_text", setarmies_textRU);
+    sessionStorage.setItem("setarmies_text", setarmies_textRU);
 
     var setsupportunits_textRU = "войска поддержки";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textRU);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textRU);
 
     var settradewagon_textRU = "Торговый вагон ";
-    localStorage.setItem("settradewagon_text", settradewagon_textRU);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textRU);
 
     var setproduce_textRU = "Производить";
-    localStorage.setItem("setproduce_text", setproduce_textRU);
+    sessionStorage.setItem("setproduce_text", setproduce_textRU);
 
     var setupgrade_textRU = "Обновление";
-    localStorage.setItem("setupgrade_text", setupgrade_textRU);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textRU);
 
     var setinfo_textRU = "Информация";
-    localStorage.setItem("setinfo_text", setinfo_textRU);
+    sessionStorage.setItem("setinfo_text", setinfo_textRU);
 
     var setage_textRU = "Возраст";
-    localStorage.setItem("setage_text", setage_textRU);
+    sessionStorage.setItem("setage_text", setage_textRU);
 
     var setfarmer_textRU = "Фермер";
-    localStorage.setItem("setfarmer_text", setfarmer_textRU);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textRU);
 
     var setwoodcutter_textRU = "Дровосек";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textRU);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textRU);
 
     var setgoldminer_textRU = "Золотоискатель";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textRU);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textRU);
 
     var settype_textRU = "Тип";
-    localStorage.setItem("settype_text", settype_textRU);
+    sessionStorage.setItem("settype_text", settype_textRU);
 
     var setclass_textRU = "Класс";
-    localStorage.setItem("setclass_text", setclass_textRU);
+    sessionStorage.setItem("setclass_text", setclass_textRU);
 
     var setvillage_textRU = "Деревня";
-    localStorage.setItem("setvillage_text", setvillage_textRU);
+    sessionStorage.setItem("setvillage_text", setvillage_textRU);
 
     var setvillage_text2RU = "Добывайте ресурсы и улучшайте экономику королевства благодаря крестьянам!";
-    localStorage.setItem("setvillage_text2", setvillage_text2RU);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2RU);
 
     var setpeasant_textRU = "Крестьянин";
-    localStorage.setItem("setpeasant_text", setpeasant_textRU);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textRU);
 
     var setbronze_textRU = "Бронза";
-    localStorage.setItem("setbronze_text", setbronze_textRU);
+    sessionStorage.setItem("setbronze_text", setbronze_textRU);
 
     var setiron_textRU = "Утюг";
-    localStorage.setItem("setiron_text", setiron_textRU);
+    sessionStorage.setItem("setiron_text", setiron_textRU);
 
     var setancient_textRU = "Древний";
-    localStorage.setItem("setancient_text", setancient_textRU);
+    sessionStorage.setItem("setancient_text", setancient_textRU);
 
     var setclassical_textRU = "Классический";
-    localStorage.setItem("setclassical_text", setclassical_textRU);
+    sessionStorage.setItem("setclassical_text", setclassical_textRU);
 
     var sethellenistic_textRU = "Эллинистический";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textRU);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textRU);
 
     var setbronzeage_textRU = "Бронзовый век";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textRU);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textRU);
 
     var setironage_textRU = "Железный век";
-    localStorage.setItem("setironage_text", setironage_textRU);
+    sessionStorage.setItem("setironage_text", setironage_textRU);
 
     var setancientage_textRU = "Древний век";
-    localStorage.setItem("setancientage_text", setancientage_textRU);
+    sessionStorage.setItem("setancientage_text", setancientage_textRU);
 
     var setclassicalage_textRU = "Классическая эпоха";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textRU);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textRU);
 
     var sethellenisticage_textRU = "Эллинистический век";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textRU);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textRU);
 
     var setnextage_textRU = "Следующая эпоха";
-    localStorage.setItem("setnextage_text", setnextage_textRU);
+    sessionStorage.setItem("setnextage_text", setnextage_textRU);
 
     var setage_pointsRU = "Возрастные баллы";
-    localStorage.setItem("setage_points", setage_pointsRU);
+    sessionStorage.setItem("setage_points", setage_pointsRU);
 
     var setkip_text1RU = "Информация о королевстве";
-    localStorage.setItem("setkip_text1", setkip_text1RU);
+    sessionStorage.setItem("setkip_text1", setkip_text1RU);
 
     var setkip_text2RU = "Для перехода в следующий возраст требуется 1000 возрастных баллов.";
-    localStorage.setItem("setkip_text2", setkip_text2RU);
+    sessionStorage.setItem("setkip_text2", setkip_text2RU);
 
     var setkip_text3RU = "Для перехода в следующий возраст требуется 3000 возрастных баллов.";
-    localStorage.setItem("setkip_text3", setkip_text3RU);
+    sessionStorage.setItem("setkip_text3", setkip_text3RU);
 
     var setkip_text4RU = "Для перехода в следующий возраст требуется 7000 возрастных баллов.";
-    localStorage.setItem("setkip_text4", setkip_text4RU);
+    sessionStorage.setItem("setkip_text4", setkip_text4RU);
 
     var setkip_text5RU = "Для перехода в следующий возраст требуется 15000 возрастных баллов.";
-    localStorage.setItem("setkip_text5", setkip_text5RU);
+    sessionStorage.setItem("setkip_text5", setkip_text5RU);
 
     var seteconomy_textRU = "Экономика";
-    localStorage.setItem("seteconomy_text", seteconomy_textRU);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textRU);
 
     var sethour_textRU = "Час";
-    localStorage.setItem("sethour_text", sethour_textRU);
+    sessionStorage.setItem("sethour_text", sethour_textRU);
 
     var setfood_textRU = "Еда";
-    localStorage.setItem("setfood_text", setfood_textRU);
+    sessionStorage.setItem("setfood_text", setfood_textRU);
 
     var setwood_textRU = "Древесина";
-    localStorage.setItem("setwood_text", setwood_textRU);
+    sessionStorage.setItem("setwood_text", setwood_textRU);
 
     var setgold_textRU = "Золото";
-    localStorage.setItem("setgold_text", setgold_textRU);
+    sessionStorage.setItem("setgold_text", setgold_textRU);
 
     var setdiamond_textRU = "Алмазный";
-    localStorage.setItem("setdiamond_text", setdiamond_textRU);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textRU);
 
     var setpopulation_textRU = "Население";
-    localStorage.setItem("setpopulation_text", setpopulation_textRU);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textRU);
 
     var setkingdomcenter_textRU = "Центр Царства";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textRU);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textRU);
 
     var setcolonies_textRU = "Колонии";
-    localStorage.setItem("setcolonies_text", setcolonies_textRU);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textRU);
 
     var setcities_textRU = "Города";
-    localStorage.setItem("setcities_text", setcities_textRU);
+    sessionStorage.setItem("setcities_text", setcities_textRU);
 
     var setspy_textRU = "Шпион";
-    localStorage.setItem("setspy_text", setspy_textRU);
+    sessionStorage.setItem("setspy_text", setspy_textRU);
 
     var setstoragelimit_textRU = "Предел хранения";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textRU);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textRU);
 
     var setarcher_textRU = "Лучник";
-    localStorage.setItem("setarcher_text", setarcher_textRU);
+    sessionStorage.setItem("setarcher_text", setarcher_textRU);
 
     var setplaces_textRU = "Места";
-    localStorage.setItem("setplaces_text", setplaces_textRU);
+    sessionStorage.setItem("setplaces_text", setplaces_textRU);
 
     var setsearch_textRU = "Поиск";
-    localStorage.setItem("setsearch_text", setsearch_textRU);
+    sessionStorage.setItem("setsearch_text", setsearch_textRU);
 
     var setsearch_input_textRU = "Поиск игроков, колоний и городов";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textRU);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textRU);
 	
 	window.location.reload();
 	
@@ -1089,238 +1089,238 @@ function settings_languageRU(){
 
 function settings_languageTR(){
 	var setflagTR = "url('images/turkey_flag_icon.png')";
-	localStorage.setItem("setflags", setflagTR);
+	sessionStorage.setItem("setflags", setflagTR);
 	
 	var setflag_languageTR = "Türkçe";
-	localStorage.setItem("setflag_language", setflag_languageTR);
+	sessionStorage.setItem("setflag_language", setflag_languageTR);
 	
 	var setflag_head_languageTR = "Dil";
-	localStorage.setItem("setflag_head_language", setflag_head_languageTR);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageTR);
 	
 	var setsettings_languageTR = "Ayarlar";
-	localStorage.setItem("setsettings_language", setsettings_languageTR);
+	sessionStorage.setItem("setsettings_language", setsettings_languageTR);
 	
 	var setworldtext_languageTR = "Dünya ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageTR);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageTR);
 	
 	var setkp_setting_king_nameTR = "Kral adı";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameTR);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameTR);
 	
 	var setkp_process_textTR = "İşlemler";
-	localStorage.setItem("setkp_process_text", setkp_process_textTR);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textTR);
 	
 	var setkp_messages_textTR = "Mesajlar";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textTR);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textTR);
 	
 	var setkp_buydiamonds_textTR = "Elmas Satın al";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textTR);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textTR);
 	
 	var setsetting_a1_bottom_textTR = "Kral isimleri en fazla 12 karakter içermelidir.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textTR);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textTR);
 	
 	var setking_name_input_buttonTR = "Kaydet";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonTR);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonTR);
 	
 	var setquests_textTR = "Görevler";
-	localStorage.setItem("setquests_text", setquests_textTR);
+	sessionStorage.setItem("setquests_text", setquests_textTR);
 	
 	var setmarket_textTR = "Market";
-	localStorage.setItem("setmarket_text", setmarket_textTR);
+	sessionStorage.setItem("setmarket_text", setmarket_textTR);
 	
 	var setmarket_text2TR = "Ticaret vagonları üretin ve diğer krallıklarla ticaret yapın!";
-	localStorage.setItem("setmarket_text2", setmarket_text2TR);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2TR);
 	
 	var setbuildingcapacity_textTR = "Bina kapasitesi:";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textTR);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textTR);
 	
 	var setannouncement_textTR = "Duyuru:";
-	localStorage.setItem("setannouncement_text", setannouncement_textTR);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textTR);
 	
 	var setannouncement_text2TR = "Duyuru";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2TR);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2TR);
 	
 	var setnews_textTR = "Haberler";
-	localStorage.setItem("setnews_text", setnews_textTR);
+	sessionStorage.setItem("setnews_text", setnews_textTR);
 	
 	var setmenus_military_textTR = "Askeri";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textTR);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textTR);
 	
 	var setmenus_logs_textTR = "Kayıtlar";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textTR);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textTR);
 	
 	var setmenus_map_textTR = "Harita";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textTR);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textTR);
 	
 	var setmenus_allies_textTR = "İttifaklar";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textTR);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textTR);
 	
 	var setmenus_leaderboard_textTR = "Sıralama";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textTR);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textTR);
 	
 	var setbonus_text1TR = "Hazine sandıklarından birini seçin";
-	localStorage.setItem("setbonus_text1", setbonus_text1TR);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1TR);
 	
 	var setbonus_text2TR = "Senin ödülün";
-	localStorage.setItem("setbonus_text2", setbonus_text2TR);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2TR);
 	
 	var setnotifications_textTR = "Bildirimler";
-    localStorage.setItem("setnotifications_text", setnotifications_textTR);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textTR);
 
     var settrade_textTR = "Ticaret";
-    localStorage.setItem("settrade_text", settrade_textTR);
+    sessionStorage.setItem("settrade_text", settrade_textTR);
 
     var setkings_textTR = "Krallar";
-    localStorage.setItem("setkings_text", setkings_textTR);
+    sessionStorage.setItem("setkings_text", setkings_textTR);
     
     var setembassies_textTR = "Elçilikler";
-    localStorage.setItem("setembassies_text", setembassies_textTR);
+    sessionStorage.setItem("setembassies_text", setembassies_textTR);
     
     var setlbottom_textTR = "Bir ittifaka üye değilsiniz!";
-    localStorage.setItem("setlbottom_text", setlbottom_textTR);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textTR);
 
     var setarmies_textTR = "Ordular";
-    localStorage.setItem("setarmies_text", setarmies_textTR);
+    sessionStorage.setItem("setarmies_text", setarmies_textTR);
 
     var setsupportunits_textTR = "Destek Üniteleri";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textTR);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textTR);
 
     var settradewagon_textTR = "Ticaret Vagonu ";
-    localStorage.setItem("settradewagon_text", settradewagon_textTR);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textTR);
 
     var setproduce_textTR = "Üret";
-    localStorage.setItem("setproduce_text", setproduce_textTR);
+    sessionStorage.setItem("setproduce_text", setproduce_textTR);
 
     var setupgrade_textTR = "Yükselt";
-    localStorage.setItem("setupgrade_text", setupgrade_textTR);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textTR);
 
     var setinfo_textTR = "Bilgi";
-    localStorage.setItem("setinfo_text", setinfo_textTR);
+    sessionStorage.setItem("setinfo_text", setinfo_textTR);
 
     var setage_textTR = "Çağ";
-    localStorage.setItem("setage_text", setage_textTR);
+    sessionStorage.setItem("setage_text", setage_textTR);
 
     var setfarmer_textTR = "Çiftçi";
-    localStorage.setItem("setfarmer_text", setfarmer_textTR);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textTR);
 
     var setwoodcutter_textTR = "Oduncu";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textTR);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textTR);
 
     var setgoldminer_textTR = "Altın Madencisi";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textTR);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textTR);
 
     var settype_textTR = "Tür";
-    localStorage.setItem("settype_text", settype_textTR);
+    sessionStorage.setItem("settype_text", settype_textTR);
 
     var setclass_textTR = "Sınıf";
-    localStorage.setItem("setclass_text", setclass_textTR);
+    sessionStorage.setItem("setclass_text", setclass_textTR);
 
     var setvillage_textTR = "Köy";
-    localStorage.setItem("setvillage_text", setvillage_textTR);
+    sessionStorage.setItem("setvillage_text", setvillage_textTR);
 
     var setvillage_text2TR = "Köylüler sayesinde kaynak üretin ve krallığın ekonomisini iyileştirin!";
-    localStorage.setItem("setvillage_text2", setvillage_text2TR);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2TR);
 
     var setpeasant_textTR = "Köylü";
-    localStorage.setItem("setpeasant_text", setpeasant_textTR);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textTR);
 
     var setbronze_textTR = "Tunç";
-    localStorage.setItem("setbronze_text", setbronze_textTR);
+    sessionStorage.setItem("setbronze_text", setbronze_textTR);
 
     var setiron_textTR = "Demir";
-    localStorage.setItem("setiron_text", setiron_textTR);
+    sessionStorage.setItem("setiron_text", setiron_textTR);
 
     var setancient_textTR = "Antik";
-    localStorage.setItem("setancient_text", setancient_textTR);
+    sessionStorage.setItem("setancient_text", setancient_textTR);
 
     var setclassical_textTR = "Klasik";
-    localStorage.setItem("setclassical_text", setclassical_textTR);
+    sessionStorage.setItem("setclassical_text", setclassical_textTR);
 
     var sethellenistic_textTR = "Helenistik";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textTR);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textTR);
 
     var setbronzeage_textTR = "Tunç Çağı";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textTR);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textTR);
 
     var setironage_textTR = "Demir Çağı";
-    localStorage.setItem("setironage_text", setironage_textTR);
+    sessionStorage.setItem("setironage_text", setironage_textTR);
 
     var setancientage_textTR = "Antik Çağı";
-    localStorage.setItem("setancientage_text", setancientage_textTR);
+    sessionStorage.setItem("setancientage_text", setancientage_textTR);
 
     var setclassicalage_textTR = "Klasik Çağı";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textTR);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textTR);
 
     var sethellenisticage_textTR = "Helenistik Çağı";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textTR);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textTR);
 
     var setnextage_textTR = "Çağı Geç";
-    localStorage.setItem("setnextage_text", setnextage_textTR);
+    sessionStorage.setItem("setnextage_text", setnextage_textTR);
 
     var setage_pointsTR = "Çağ Puanı";
-    localStorage.setItem("setage_points", setage_pointsTR);
+    sessionStorage.setItem("setage_points", setage_pointsTR);
 
     var setkip_text1TR = "Krallık Bilgileri";
-    localStorage.setItem("setkip_text1", setkip_text1TR);
+    sessionStorage.setItem("setkip_text1", setkip_text1TR);
 
     var setkip_text2TR = "Bir sonraki çağa geçmek için 1000 çağ puanı gerekmektedir.";
-    localStorage.setItem("setkip_text2", setkip_text2TR);
+    sessionStorage.setItem("setkip_text2", setkip_text2TR);
 
     var setkip_text3TR = "Bir sonraki çağa geçmek için 3000 çağ puanı gerekmektedir.";
-    localStorage.setItem("setkip_text3", setkip_text3TR);
+    sessionStorage.setItem("setkip_text3", setkip_text3TR);
 
     var setkip_text4TR = "Bir sonraki çağa geçmek için 7000 çağ puanı gerekmektedir.";
-    localStorage.setItem("setkip_text4", setkip_text4TR);
+    sessionStorage.setItem("setkip_text4", setkip_text4TR);
 
     var setkip_text5TR = "Bir sonraki çağa geçmek için 15000 çağ puanı gerekmektedir.";
-    localStorage.setItem("setkip_text5", setkip_text5TR);
+    sessionStorage.setItem("setkip_text5", setkip_text5TR);
 
     var seteconomy_textTR = "Ekonomi";
-    localStorage.setItem("seteconomy_text", seteconomy_textTR);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textTR);
 
     var sethour_textTR = "Saat";
-    localStorage.setItem("sethour_text", sethour_textTR);
+    sessionStorage.setItem("sethour_text", sethour_textTR);
 
     var setfood_textTR = "Besin";
-    localStorage.setItem("setfood_text", setfood_textTR);
+    sessionStorage.setItem("setfood_text", setfood_textTR);
 
     var setwood_textTR = "Odun";
-    localStorage.setItem("setwood_text", setwood_textTR);
+    sessionStorage.setItem("setwood_text", setwood_textTR);
 
     var setgold_textTR = "Altın";
-    localStorage.setItem("setgold_text", setgold_textTR);
+    sessionStorage.setItem("setgold_text", setgold_textTR);
 
     var setdiamond_textTR = "Elmas";
-    localStorage.setItem("setdiamond_text", setdiamond_textTR);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textTR);
 
     var setpopulation_textTR = "Nüfus";
-    localStorage.setItem("setpopulation_text", setpopulation_textTR);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textTR);
 
     var setkingdomcenter_textTR = "Krallık Merkezi";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textTR);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textTR);
 
     var setcolonies_textTR = "Koloniler";
-    localStorage.setItem("setcolonies_text", setcolonies_textTR);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textTR);
 
     var setcities_textTR = "Şehirler";
-    localStorage.setItem("setcities_text", setcities_textTR);
+    sessionStorage.setItem("setcities_text", setcities_textTR);
 
     var setspy_textTR = "Casus";
-    localStorage.setItem("setspy_text", setspy_textTR);
+    sessionStorage.setItem("setspy_text", setspy_textTR);
 
     var setstoragelimit_textTR = "Depolama Sınırı";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textTR);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textTR);
 
     var setarcher_textTR = "Okçu";
-    localStorage.setItem("setarcher_text", setarcher_textTR);
+    sessionStorage.setItem("setarcher_text", setarcher_textTR);
 
     var setplaces_textTR = "Yerler";
-    localStorage.setItem("setplaces_text", setplaces_textTR);
+    sessionStorage.setItem("setplaces_text", setplaces_textTR);
 
     var setsearch_textTR = "Arama";
-    localStorage.setItem("setsearch_text", setsearch_textTR);
+    sessionStorage.setItem("setsearch_text", setsearch_textTR);
 
     var setsearch_input_textTR = "Oyuncuları, Kolonileri ve Şehirleri Ara";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textTR);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textTR);
 	
 	window.location.reload();
 	
@@ -1329,238 +1329,238 @@ function settings_languageTR(){
 
 function settings_languagePT(){
 	var setflagPT = "url('images/portugal_flag_icon.png')";
-	localStorage.setItem("setflags", setflagPT);
+	sessionStorage.setItem("setflags", setflagPT);
 	
 	var setflag_languagePT = "Português";
-	localStorage.setItem("setflag_language", setflag_languagePT);
+	sessionStorage.setItem("setflag_language", setflag_languagePT);
 	
 	var setflag_head_languagePT = "língua";
-	localStorage.setItem("setflag_head_language", setflag_head_languagePT);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languagePT);
 	
 	var setsettings_languagePT = "Definições";
-	localStorage.setItem("setsettings_language", setsettings_languagePT);
+	sessionStorage.setItem("setsettings_language", setsettings_languagePT);
 	
 	var setworldtext_languagePT = "Mundo ";
-	localStorage.setItem("setworldtext_language", setworldtext_languagePT);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languagePT);
 	
 	var setkp_setting_king_namePT = "Nome do rei";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_namePT);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_namePT);
 	
 	var setkp_process_textPT = "Processar";
-	localStorage.setItem("setkp_process_text", setkp_process_textPT);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textPT);
 	
 	var setkp_messages_textPT = "Mensagens";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textPT);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textPT);
 	
 	var setkp_buydiamonds_textPT = "Diamantes";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textPT);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textPT);
 	
 	var setsetting_a1_bottom_textPT = "Os nomes dos reis devem conter no máximo 12 caracteres.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textPT);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textPT);
 	
 	var setking_name_input_buttonPT = "Salvar";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonPT);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonPT);
 	
 	var setquests_textPT = "Missões";
-	localStorage.setItem("setquests_text", setquests_textPT);
+	sessionStorage.setItem("setquests_text", setquests_textPT);
 	
 	var setmarket_textPT = "Mercado";
-	localStorage.setItem("setmarket_text", setmarket_textPT);
+	sessionStorage.setItem("setmarket_text", setmarket_textPT);
 	
 	var setmarket_text2PT = "Crie carroças de comércio e negocie com outros reinos!";
-	localStorage.setItem("setmarket_text2", setmarket_text2PT);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2PT);
 	
 	var setbuildingcapacity_textPT = "Capacidade de construção:";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textPT);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textPT);
 	
 	var setannouncement_textPT = "Anúncio:";
-	localStorage.setItem("setannouncement_text", setannouncement_textPT);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textPT);
 	
 	var setannouncement_text2PT = "Anúncio";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2PT);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2PT);
 	
 	var setnews_textPT = "Notícias";
-	localStorage.setItem("setnews_text", setnews_textPT);
+	sessionStorage.setItem("setnews_text", setnews_textPT);
 	
 	var setmenus_military_textPT = "Militares";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textPT);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textPT);
 	
 	var setmenus_logs_textPT = "Histórico";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textPT);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textPT);
 	
 	var setmenus_map_textPT = "Mapa";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textPT);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textPT);
 	
 	var setmenus_allies_textPT = "Aliados";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textPT);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textPT);
 	
 	var setmenus_leaderboard_textPT = "Ranking";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textPT);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textPT);
 	
 	var setbonus_text1PT = "Escolha um dos baús de tesouro";
-	localStorage.setItem("setbonus_text1", setbonus_text1PT);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1PT);
 	
 	var setbonus_text2PT = "Sua recompensa";
-	localStorage.setItem("setbonus_text2", setbonus_text2PT);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2PT);
 	
 	var setnotifications_textPT = "Notificações";
-    localStorage.setItem("setnotifications_text", setnotifications_textPT);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textPT);
 
     var settrade_textPT = "Troca";
-    localStorage.setItem("settrade_text", settrade_textPT);
+    sessionStorage.setItem("settrade_text", settrade_textPT);
 
     var setkings_textPT = "Reis";
-    localStorage.setItem("setkings_text", setkings_textPT);
+    sessionStorage.setItem("setkings_text", setkings_textPT);
     
     var setembassies_textPT = "Embaixadas";
-    localStorage.setItem("setembassies_text", setembassies_textPT);
+    sessionStorage.setItem("setembassies_text", setembassies_textPT);
     
     var setlbottom_textPT = "Você não é membro de uma aliança!";
-    localStorage.setItem("setlbottom_text", setlbottom_textPT);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textPT);
 
     var setarmies_textPT = "Exércitos";
-    localStorage.setItem("setarmies_text", setarmies_textPT);
+    sessionStorage.setItem("setarmies_text", setarmies_textPT);
 
     var setsupportunits_textPT = "Unidades de Apoio";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textPT);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textPT);
 
     var settradewagon_textPT = "Vagão de comércio ";
-    localStorage.setItem("settradewagon_text", settradewagon_textPT);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textPT);
 
     var setproduce_textPT = "Produzir";
-    localStorage.setItem("setproduce_text", setproduce_textPT);
+    sessionStorage.setItem("setproduce_text", setproduce_textPT);
 
     var setupgrade_textPT = "Melhoria";
-    localStorage.setItem("setupgrade_text", setupgrade_textPT);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textPT);
 
     var setinfo_textPT = "Informações";
-    localStorage.setItem("setinfo_text", setinfo_textPT);
+    sessionStorage.setItem("setinfo_text", setinfo_textPT);
 
     var setage_textPT = "Era";
-    localStorage.setItem("setage_text", setage_textPT);
+    sessionStorage.setItem("setage_text", setage_textPT);
 
     var setfarmer_textPT = "Agricultor";
-    localStorage.setItem("setfarmer_text", setfarmer_textPT);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textPT);
 
     var setwoodcutter_textPT = "Lenhador";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textPT);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textPT);
 
     var setgoldminer_textPT = "Garimpeiro";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textPT);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textPT);
 
     var settype_textPT = "Tipo";
-    localStorage.setItem("settype_text", settype_textPT);
+    sessionStorage.setItem("settype_text", settype_textPT);
 
     var setclass_textPT = "Classe";
-    localStorage.setItem("setclass_text", setclass_textPT);
+    sessionStorage.setItem("setclass_text", setclass_textPT);
 
     var setvillage_textPT = "Vila";
-    localStorage.setItem("setvillage_text", setvillage_textPT);
+    sessionStorage.setItem("setvillage_text", setvillage_textPT);
 
     var setvillage_text2PT = "Produza recursos e melhore a economia do reino graças aos camponeses!";
-    localStorage.setItem("setvillage_text2", setvillage_text2PT);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2PT);
 
     var setpeasant_textPT = "Camponês";
-    localStorage.setItem("setpeasant_text", setpeasant_textPT);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textPT);
 
     var setbronze_textPT = "Bronze";
-    localStorage.setItem("setbronze_text", setbronze_textPT);
+    sessionStorage.setItem("setbronze_text", setbronze_textPT);
 
     var setiron_textPT = "Ferro";
-    localStorage.setItem("setiron_text", setiron_textPT);
+    sessionStorage.setItem("setiron_text", setiron_textPT);
 
     var setancient_textPT = "Antigo";
-    localStorage.setItem("setancient_text", setancient_textPT);
+    sessionStorage.setItem("setancient_text", setancient_textPT);
 
     var setclassical_textPT = "Clássico";
-    localStorage.setItem("setclassical_text", setclassical_textPT);
+    sessionStorage.setItem("setclassical_text", setclassical_textPT);
 
     var sethellenistic_textPT = "Helenístico";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textPT);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textPT);
 
     var setbronzeage_textPT = "Idade do bronze";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textPT);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textPT);
 
     var setironage_textPT = "Era do aço";
-    localStorage.setItem("setironage_text", setironage_textPT);
+    sessionStorage.setItem("setironage_text", setironage_textPT);
 
     var setancientage_textPT = "Idade Antiga";
-    localStorage.setItem("setancientage_text", setancientage_textPT);
+    sessionStorage.setItem("setancientage_text", setancientage_textPT);
 
     var setclassicalage_textPT = "Idade Clássica";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textPT);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textPT);
 
     var sethellenisticage_textPT = "Era helenística";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textPT);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textPT);
 
     var setnextage_textPT = "Próxima Era";
-    localStorage.setItem("setnextage_text", setnextage_textPT);
+    sessionStorage.setItem("setnextage_text", setnextage_textPT);
 
     var setage_pointsPT = "Pontos de Idade";
-    localStorage.setItem("setage_points", setage_pointsPT);
+    sessionStorage.setItem("setage_points", setage_pointsPT);
 
     var setkip_text1PT = "Informação do Reino";
-    localStorage.setItem("setkip_text1", setkip_text1PT);
+    sessionStorage.setItem("setkip_text1", setkip_text1PT);
 
     var setkip_text2PT = "São necessários 1000 pontos de idade para passar para a próxima idade.";
-    localStorage.setItem("setkip_text2", setkip_text2PT);
+    sessionStorage.setItem("setkip_text2", setkip_text2PT);
 
     var setkip_text3PT = "São necessários 3000 pontos de idade para passar para a próxima idade.";
-    localStorage.setItem("setkip_text3", setkip_text3PT);
+    sessionStorage.setItem("setkip_text3", setkip_text3PT);
 
     var setkip_text4PT = "São necessários 7000 pontos de idade para passar para a próxima idade.";
-    localStorage.setItem("setkip_text4", setkip_text4PT);
+    sessionStorage.setItem("setkip_text4", setkip_text4PT);
 
     var setkip_text5PT = "São necessários 15000 pontos de idade para passar para a próxima idade.";
-    localStorage.setItem("setkip_text5", setkip_text5PT);
+    sessionStorage.setItem("setkip_text5", setkip_text5PT);
 
     var seteconomy_textPT = "Economia";
-    localStorage.setItem("seteconomy_text", seteconomy_textPT);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textPT);
 
     var sethour_textPT = "Hora";
-    localStorage.setItem("sethour_text", sethour_textPT);
+    sessionStorage.setItem("sethour_text", sethour_textPT);
 
     var setfood_textPT = "Comida";
-    localStorage.setItem("setfood_text", setfood_textPT);
+    sessionStorage.setItem("setfood_text", setfood_textPT);
 
     var setwood_textPT = "Madeira";
-    localStorage.setItem("setwood_text", setwood_textPT);
+    sessionStorage.setItem("setwood_text", setwood_textPT);
 
     var setgold_textPT = "Ouro";
-    localStorage.setItem("setgold_text", setgold_textPT);
+    sessionStorage.setItem("setgold_text", setgold_textPT);
 
     var setdiamond_textPT = "Diamante";
-    localStorage.setItem("setdiamond_text", setdiamond_textPT);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textPT);
 
     var setpopulation_textPT = "População";
-    localStorage.setItem("setpopulation_text", setpopulation_textPT);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textPT);
 
     var setkingdomcenter_textPT = "Kingdom Centre";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textPT);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textPT);
 
     var setcolonies_textPT = "Colônias";
-    localStorage.setItem("setcolonies_text", setcolonies_textPT);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textPT);
 
     var setcities_textPT = "Cidades";
-    localStorage.setItem("setcities_text", setcities_textPT);
+    sessionStorage.setItem("setcities_text", setcities_textPT);
 
     var setspy_textPT = "Espião";
-    localStorage.setItem("setspy_text", setspy_textPT);
+    sessionStorage.setItem("setspy_text", setspy_textPT);
 
     var setstoragelimit_textPT = "Limite de Armazenamento";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textPT);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textPT);
 
     var setarcher_textPT = "Arqueiro";
-    localStorage.setItem("setarcher_text", setarcher_textPT);
+    sessionStorage.setItem("setarcher_text", setarcher_textPT);
 
     var setplaces_textPT = "Locais";
-    localStorage.setItem("setplaces_text", setplaces_textPT);
+    sessionStorage.setItem("setplaces_text", setplaces_textPT);
 
     var setsearch_textPT = "Procurar";
-    localStorage.setItem("setsearch_text", setsearch_textPT);
+    sessionStorage.setItem("setsearch_text", setsearch_textPT);
 
     var setsearch_input_textPT = "Procure jogadores, colônias e cidades";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textPT);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textPT);
 	
 	window.location.reload();
 	
@@ -1569,241 +1569,241 @@ function settings_languagePT(){
 
 function settings_languageES(){
 	var setflagES = "url('images/spain_flag_icon.png')";
-	localStorage.setItem("setflags", setflagES);
+	sessionStorage.setItem("setflags", setflagES);
 	
 	var setflag_languageES = "Español";
-	localStorage.setItem("setflag_language", setflag_languageES);
+	sessionStorage.setItem("setflag_language", setflag_languageES);
 	
 	var setflag_head_languageES = "idioma";
-	localStorage.setItem("setflag_head_language", setflag_head_languageES);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageES);
 	
 	var setsettings_languageES = "Ajustes";
-	localStorage.setItem("setsettings_language", setsettings_languageES);
+	sessionStorage.setItem("setsettings_language", setsettings_languageES);
 	
 	var setworldtext_languageES = "Mundo ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageES);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageES);
 	
 	var setkp_setting_king_nameES = "Nombre del rey";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameES);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameES);
 	
 	var setkp_process_textES = "Proceso";
-	localStorage.setItem("setkp_process_text", setkp_process_textES);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textES);
 	
 	var setkp_messages_textES = "Mensajes";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textES);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textES);
 	
 	var setkp_buydiamonds_textES = "Diamantes";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textES);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textES);
 	
 	var setsetting_a1_bottom_textES = "Los nombres de los reyes deben contener un máximo de 12 caracteres.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textES);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textES);
 	
 	var setking_name_input_buttonES = "Ahorrar";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonES);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonES);
 	
 	var setquests_textES = "Misiones";
-	localStorage.setItem("setquests_text", setquests_textES);
+	sessionStorage.setItem("setquests_text", setquests_textES);
 	
 	var setmarket_textES = "Merkato";
-	localStorage.setItem("setmarket_text", setmarket_textES);
+	sessionStorage.setItem("setmarket_text", setmarket_textES);
 	
 	var setmarket_text2ES = "Metiaj komercaj vagonoj kaj komerco kun aliaj regnoj!";
-	localStorage.setItem("setmarket_text2", setmarket_text2ES);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2ES);
 	
 	var setbuildingcapacity_textES = "Konstrua kapacito:";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textES);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textES);
 	
 	var setannouncement_textES = "Anuncio:";
-	localStorage.setItem("setannouncement_text", setannouncement_textES);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textES);
 	
 	var setannouncement_text2ES = "Anuncio";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2ES);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2ES);
 	
 	var setnews_textES = "Noticias";
-	localStorage.setItem("setnews_text", setnews_textES);
+	sessionStorage.setItem("setnews_text", setnews_textES);
 	
 	var setmenus_military_textES = "Militares";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textES);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textES);
 	
 	var setmenus_logs_textES = "Registros";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textES);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textES);
 	
 	var setmenus_map_textES = "Mapa";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textES);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textES);
 	
 	var setmenus_allies_textES = "Aliados";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textES);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textES);
 	
 	var setmenus_leaderboard_textES = "Entre os melhores";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textES);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textES);
 	
 	var setmenus_leaderboard_textES = "Clasificación";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textES);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textES);
 	
 	var setbonus_text1ES = "Elektu unu el la trezoraj kestoj";
-	localStorage.setItem("setbonus_text1", setbonus_text1ES);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1ES);
 	
 	var setbonus_text2ES = "Via rekompenco";
-	localStorage.setItem("setbonus_text2", setbonus_text2ES);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2ES);
 	
 	var setnotifications_textES = "Notificaciones";
-    localStorage.setItem("setnotifications_text", setnotifications_textES);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textES);
 
     var settrade_textES = "Comercio";
-    localStorage.setItem("settrade_text", settrade_textES);
+    sessionStorage.setItem("settrade_text", settrade_textES);
 
     var setkings_textES = "Reyes";
-    localStorage.setItem("setkings_text", setkings_textES);
+    sessionStorage.setItem("setkings_text", setkings_textES);
     
     var setembassies_textES = "Embajadas";
-    localStorage.setItem("setembassies_text", setembassies_textES);
+    sessionStorage.setItem("setembassies_text", setembassies_textES);
     
     var setlbottom_textES = "¡No eres miembro de una alianza!";
-    localStorage.setItem("setlbottom_text", setlbottom_textES);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textES);
 
     var setarmies_textES = "Armeoj";
-    localStorage.setItem("setarmies_text", setarmies_textES);
+    sessionStorage.setItem("setarmies_text", setarmies_textES);
 
     var setsupportunits_textES = "Subtenaj Unuoj";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textES);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textES);
 
     var settradewagon_textES = "Komerca Ĉaro ";
-    localStorage.setItem("settradewagon_text", settradewagon_textES);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textES);
 
     var setproduce_textES = "Produkti";
-    localStorage.setItem("setproduce_text", setproduce_textES);
+    sessionStorage.setItem("setproduce_text", setproduce_textES);
 
     var setupgrade_textES = "Altgradigon";
-    localStorage.setItem("setupgrade_text", setupgrade_textES);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textES);
 
     var setinfo_textES = "Informoj";
-    localStorage.setItem("setinfo_text", setinfo_textES);
+    sessionStorage.setItem("setinfo_text", setinfo_textES);
 
     var setage_textES = "Aĝo";
-    localStorage.setItem("setage_text", setage_textES);
+    sessionStorage.setItem("setage_text", setage_textES);
 
     var setfarmer_textES = "Granjero";
-    localStorage.setItem("setfarmer_text", setfarmer_textES);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textES);
 
     var setwoodcutter_textES = "Lenhador";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textES);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textES);
 
     var setgoldminer_textES = "Minero de oro";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textES);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textES);
 
     var settype_textES = "Tipo";
-    localStorage.setItem("settype_text", settype_textES);
+    sessionStorage.setItem("settype_text", settype_textES);
 
     var setclass_textES = "Clase";
-    localStorage.setItem("setclass_text", setclass_textES);
+    sessionStorage.setItem("setclass_text", setclass_textES);
 
     var setvillage_textES = "Pueblo";
-    localStorage.setItem("setvillage_text", setvillage_textES);
+    sessionStorage.setItem("setvillage_text", setvillage_textES);
 
     var setvillage_text2ES = "¡Produce recursos y mejora la economía del reino gracias a los campesinos!";
-    localStorage.setItem("setvillage_text2", setvillage_text2ES);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2ES);
 
     var setpeasant_textES = "Campesino";
-    localStorage.setItem("setpeasant_text", setpeasant_textES);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textES);
 
     var setbronze_textES = "Bronce";
-    localStorage.setItem("setbronze_text", setbronze_textES);
+    sessionStorage.setItem("setbronze_text", setbronze_textES);
 
     var setiron_textES = "Hierro";
-    localStorage.setItem("setiron_text", setiron_textES);
+    sessionStorage.setItem("setiron_text", setiron_textES);
 
     var setancient_textES = "Antiguo";
-    localStorage.setItem("setancient_text", setancient_textES);
+    sessionStorage.setItem("setancient_text", setancient_textES);
 
     var setclassical_textES = "Clásico";
-    localStorage.setItem("setclassical_text", setclassical_textES);
+    sessionStorage.setItem("setclassical_text", setclassical_textES);
 
     var sethellenistic_textES = "Helenístico";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textES);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textES);
 
     var setbronzeage_textES = "Edad de Bronce";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textES);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textES);
 
     var setironage_textES = "Edad de Hierro";
-    localStorage.setItem("setironage_text", setironage_textES);
+    sessionStorage.setItem("setironage_text", setironage_textES);
 
     var setancientage_textES = "Edad antigua";
-    localStorage.setItem("setancientage_text", setancientage_textES);
+    sessionStorage.setItem("setancientage_text", setancientage_textES);
 
     var setclassicalage_textES = "Edad clásica";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textES);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textES);
 
     var sethellenisticage_textES = "Edad helenística";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textES);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textES);
 
     var setnextage_textES = "Próxima edad";
-    localStorage.setItem("setnextage_text", setnextage_textES);
+    sessionStorage.setItem("setnextage_text", setnextage_textES);
 
     var setage_pointsES = "Puntos de edad";
-    localStorage.setItem("setage_points", setage_pointsES);
+    sessionStorage.setItem("setage_points", setage_pointsES);
 
     var setkip_text1ES = "Información del Reino";
-    localStorage.setItem("setkip_text1", setkip_text1ES);
+    sessionStorage.setItem("setkip_text1", setkip_text1ES);
 
     var setkip_text2ES = "Se requieren 1000 puntos de edad para pasar a la siguiente edad.";
-    localStorage.setItem("setkip_text2", setkip_text2ES);
+    sessionStorage.setItem("setkip_text2", setkip_text2ES);
 
     var setkip_text3ES = "Se requieren 3000 puntos de edad para pasar a la siguiente edad.";
-    localStorage.setItem("setkip_text3", setkip_text3ES);
+    sessionStorage.setItem("setkip_text3", setkip_text3ES);
 
     var setkip_text4ES = "Se requieren 7000 puntos de edad para pasar a la siguiente edad.";
-    localStorage.setItem("setkip_text4", setkip_text4ES);
+    sessionStorage.setItem("setkip_text4", setkip_text4ES);
 
     var setkip_text5ES = "Se requieren 15000 puntos de edad para pasar a la siguiente edad.";
-    localStorage.setItem("setkip_text5", setkip_text5ES);
+    sessionStorage.setItem("setkip_text5", setkip_text5ES);
 
     var seteconomy_textES = "Economía";
-    localStorage.setItem("seteconomy_text", seteconomy_textES);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textES);
 
     var sethour_textES = "Hora";
-    localStorage.setItem("sethour_text", sethour_textES);
+    sessionStorage.setItem("sethour_text", sethour_textES);
 
     var setfood_textES = "Comida";
-    localStorage.setItem("setfood_text", setfood_textES);
+    sessionStorage.setItem("setfood_text", setfood_textES);
 
     var setwood_textES = "Madera";
-    localStorage.setItem("setwood_text", setwood_textES);
+    sessionStorage.setItem("setwood_text", setwood_textES);
 
     var setgold_textES = "Oro";
-    localStorage.setItem("setgold_text", setgold_textES);
+    sessionStorage.setItem("setgold_text", setgold_textES);
 
     var setdiamond_textES = "Diamante";
-    localStorage.setItem("setdiamond_text", setdiamond_textES);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textES);
 
     var setpopulation_textES = "Población";
-    localStorage.setItem("setpopulation_text", setpopulation_textES);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textES);
 
     var setkingdomcenter_textES = "Kingdom Centre";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textES);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textES);
 
     var setcolonies_textES = "Colonias";
-    localStorage.setItem("setcolonies_text", setcolonies_textES);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textES);
 
     var setcities_textES = "Ciudades";
-    localStorage.setItem("setcities_text", setcities_textES);
+    sessionStorage.setItem("setcities_text", setcities_textES);
 
     var setspy_textES = "Espiar";
-    localStorage.setItem("setspy_text", setspy_textES);
+    sessionStorage.setItem("setspy_text", setspy_textES);
 
     var setstoragelimit_textES = "Limite de Armazenamento";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textES);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textES);
 
     var setarcher_textES = "Arquero";
-    localStorage.setItem("setarcher_text", setarcher_textES);
+    sessionStorage.setItem("setarcher_text", setarcher_textES);
 
     var setplaces_textES = "Lugares";
-    localStorage.setItem("setplaces_text", setplaces_textES);
+    sessionStorage.setItem("setplaces_text", setplaces_textES);
 
     var setsearch_textES = "Buscar";
-    localStorage.setItem("setsearch_text", setsearch_textES);
+    sessionStorage.setItem("setsearch_text", setsearch_textES);
 
     var setsearch_input_textES = "Búsqueda de jugadores, colonias y ciudades";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textES);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textES);
 	
 	window.location.reload();
 	
@@ -1812,238 +1812,238 @@ function settings_languageES(){
 
 function settings_languageZH(){
 	var setflagZH = "url('images/china_flag_icon.png')";
-	localStorage.setItem("setflags", setflagZH);
+	sessionStorage.setItem("setflags", setflagZH);
 	
 	var setflag_languageZH = "中文";
-	localStorage.setItem("setflag_language", setflag_languageZH);
+	sessionStorage.setItem("setflag_language", setflag_languageZH);
 	
 	var setflag_head_languageZH = "语";
-	localStorage.setItem("setflag_head_language", setflag_head_languageZH);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageZH);
 	
 	var setsettings_languageZH = "设定";
-	localStorage.setItem("setsettings_language", setsettings_languageZH);
+	sessionStorage.setItem("setsettings_language", setsettings_languageZH);
 	
 	var setworldtext_languageZH = "世界 ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageZH);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageZH);
 	
 	var setkp_setting_king_nameZH = "国王名字";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameZH);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameZH);
 	
 	var setkp_process_textZH = "过程";
-	localStorage.setItem("setkp_process_text", setkp_process_textZH);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textZH);
 	
 	var setkp_messages_textZH = "留言内容";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textZH);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textZH);
 	
 	var setkp_buydiamonds_textZH = "购买钻石";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textZH);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textZH);
 	
 	var setsetting_a1_bottom_textZH = "国王姓名最多可以包含12个字符。";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textZH);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textZH);
 	
 	var setking_name_input_buttonZH = "保存";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonZH);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonZH);
 	
 	var setquests_textZH = "任务";
-	localStorage.setItem("setquests_text", setquests_textZH);
+	sessionStorage.setItem("setquests_text", setquests_textZH);
 	
 	var setmarket_textZH = "市场";
-	localStorage.setItem("setmarket_text", setmarket_textZH);
+	sessionStorage.setItem("setmarket_text", setmarket_textZH);
 	
 	var setmarket_text2ZH = "制作手推车和与其他王国进行贸易！";
-	localStorage.setItem("setmarket_text2", setmarket_text2ZH);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2ZH);
 	
 	var setbuildingcapacity_textZH = "建筑能力：";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textZH);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textZH);
 	
 	var setannouncement_textZH = "公告:";
-	localStorage.setItem("setannouncement_text", setannouncement_textZH);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textZH);
 	
 	var setannouncement_text2ZH = "公告";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2ZH);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2ZH);
 	
 	var setnews_textZH = "消息";
-	localStorage.setItem("setnews_text", setnews_textZH);
+	sessionStorage.setItem("setnews_text", setnews_textZH);
 	
 	var setmenus_military_textZH = "军队";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textZH);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textZH);
 	
 	var setmenus_logs_textZH = "日志";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textZH);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textZH);
 	
 	var setmenus_map_textZH = "地图";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textZH);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textZH);
 	
 	var setmenus_allies_textZH = "盟国";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textZH);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textZH);
 	
 	var setmenus_leaderboard_textZH = "排行";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textZH);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textZH);
 	
 	var setbonus_text1ZH = "选择一个宝箱";
-	localStorage.setItem("setbonus_text1", setbonus_text1ZH);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1ZH);
 	
 	var setbonus_text2ZH = "您的奖赏";
-	localStorage.setItem("setbonus_text2", setbonus_text2ZH);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2ZH);
 
     var setnotifications_textZH = "通知事项";
-    localStorage.setItem("setnotifications_text", setnotifications_textZH);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textZH);
 
     var settrade_textZH = "贸易";
-    localStorage.setItem("settrade_text", settrade_textZH);
+    sessionStorage.setItem("settrade_text", settrade_textZH);
 
     var setkings_textZH = "国王";
-    localStorage.setItem("setkings_text", setkings_textZH);
+    sessionStorage.setItem("setkings_text", setkings_textZH);
     
     var setembassies_textZH = "使馆";
-    localStorage.setItem("setembassies_text", setembassies_textZH);
+    sessionStorage.setItem("setembassies_text", setembassies_textZH);
     
     var setlbottom_textZH = "您不是联盟成员！";
-    localStorage.setItem("setlbottom_text", setlbottom_textZH);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textZH);
 
     var setarmies_textZH = "陆军";
-    localStorage.setItem("setarmies_text", setarmies_textZH);
+    sessionStorage.setItem("setarmies_text", setarmies_textZH);
 
     var setsupportunits_textZH = "支持单位";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textZH);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textZH);
 
     var settradewagon_textZH = "货车 ";
-    localStorage.setItem("settradewagon_text", settradewagon_textZH);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textZH);
 
     var setproduce_textZH = "生产";
-    localStorage.setItem("setproduce_text", setproduce_textZH);
+    sessionStorage.setItem("setproduce_text", setproduce_textZH);
 
     var setupgrade_textZH = "升级";
-    localStorage.setItem("setupgrade_text", setupgrade_textZH);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textZH);
 
     var setinfo_textZH = "信息";
-    localStorage.setItem("setinfo_text", setinfo_textZH);
+    sessionStorage.setItem("setinfo_text", setinfo_textZH);
 
     var setage_textZH = "年龄";
-    localStorage.setItem("setage_text", setage_textZH);
+    sessionStorage.setItem("setage_text", setage_textZH);
 
     var setfarmer_textZH = "农民";
-    localStorage.setItem("setfarmer_text", setfarmer_textZH);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textZH);
 
     var setwoodcutter_textZH = "樵夫";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textZH);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textZH);
 
     var setgoldminer_textZH = "黄金矿工";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textZH);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textZH);
 
     var settype_textZH = "类型";
-    localStorage.setItem("settype_text", settype_textZH);
+    sessionStorage.setItem("settype_text", settype_textZH);
 
     var setclass_textZH = "班级";
-    localStorage.setItem("setclass_text", setclass_textZH);
+    sessionStorage.setItem("setclass_text", setclass_textZH);
 
     var setvillage_textZH = "村庄";
-    localStorage.setItem("setvillage_text", setvillage_textZH);
+    sessionStorage.setItem("setvillage_text", setvillage_textZH);
 
     var setvillage_text2ZH = "多亏农民，才能生产资源并改善王国的经济！";
-    localStorage.setItem("setvillage_text2", setvillage_text2ZH);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2ZH);
 
     var setpeasant_textZH = "农民";
-    localStorage.setItem("setpeasant_text", setpeasant_textZH);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textZH);
 
     var setbronze_textZH = "青铜";
-    localStorage.setItem("setbronze_text", setbronze_textZH);
+    sessionStorage.setItem("setbronze_text", setbronze_textZH);
 
     var setiron_textZH = "铁";
-    localStorage.setItem("setiron_text", setiron_textZH);
+    sessionStorage.setItem("setiron_text", setiron_textZH);
 
     var setancient_textZH = "古老的";
-    localStorage.setItem("setancient_text", setancient_textZH);
+    sessionStorage.setItem("setancient_text", setancient_textZH);
 
     var setclassical_textZH = "古典";
-    localStorage.setItem("setclassical_text", setclassical_textZH);
+    sessionStorage.setItem("setclassical_text", setclassical_textZH);
 
     var sethellenistic_textZH = "希腊化";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textZH);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textZH);
 
     var setbronzeage_textZH = "青铜时代";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textZH);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textZH);
 
     var setironage_textZH = "铁器时代";
-    localStorage.setItem("setironage_text", setironage_textZH);
+    sessionStorage.setItem("setironage_text", setironage_textZH);
 
     var setancientage_textZH = "远古时代";
-    localStorage.setItem("setancientage_text", setancientage_textZH);
+    sessionStorage.setItem("setancientage_text", setancientage_textZH);
 
     var setclassicalage_textZH = "古典时代";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textZH);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textZH);
 
     var sethellenisticage_textZH = "希腊时代";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textZH);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textZH);
 
     var setnextage_textZH = "下一个时代";
-    localStorage.setItem("setnextage_text", setnextage_textZH);
+    sessionStorage.setItem("setnextage_text", setnextage_textZH);
 
     var setage_pointsZH = "年龄点";
-    localStorage.setItem("setage_points", setage_pointsZH);
+    sessionStorage.setItem("setage_points", setage_pointsZH);
 
     var setkip_text1ZH = "王国信息";
-    localStorage.setItem("setkip_text1", setkip_text1ZH);
+    sessionStorage.setItem("setkip_text1", setkip_text1ZH);
 
     var setkip_text2ZH = "需要1000个年龄点才能移至下一个年龄。";
-    localStorage.setItem("setkip_text2", setkip_text2ZH);
+    sessionStorage.setItem("setkip_text2", setkip_text2ZH);
 
     var setkip_text3ZH = "需要3000个年龄点才能移至下一个年龄。";
-    localStorage.setItem("setkip_text3", setkip_text3ZH);
+    sessionStorage.setItem("setkip_text3", setkip_text3ZH);
 
     var setkip_text4ZH = "需要7000个年龄点才能移至下一个年龄。";
-    localStorage.setItem("setkip_text4", setkip_text4ZH);
+    sessionStorage.setItem("setkip_text4", setkip_text4ZH);
 
     var setkip_text5ZH = "需要15000个年龄点才能移至下一个年龄。";
-    localStorage.setItem("setkip_text5", setkip_text5ZH);
+    sessionStorage.setItem("setkip_text5", setkip_text5ZH);
 
     var seteconomy_textZH = "经济";
-    localStorage.setItem("seteconomy_text", seteconomy_textZH);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textZH);
 
     var sethour_textZH = "小时";
-    localStorage.setItem("sethour_text", sethour_textZH);
+    sessionStorage.setItem("sethour_text", sethour_textZH);
 
     var setfood_textZH = "食物";
-    localStorage.setItem("setfood_text", setfood_textZH);
+    sessionStorage.setItem("setfood_text", setfood_textZH);
 
     var setwood_textZH = "木头";
-    localStorage.setItem("setwood_text", setwood_textZH);
+    sessionStorage.setItem("setwood_text", setwood_textZH);
 
     var setgold_textZH = "金子";
-    localStorage.setItem("setgold_text", setgold_textZH);
+    sessionStorage.setItem("setgold_text", setgold_textZH);
 
     var setdiamond_textZH = "钻石";
-    localStorage.setItem("setdiamond_text", setdiamond_textZH);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textZH);
 
     var setpopulation_textZH = "人口";
-    localStorage.setItem("setpopulation_text", setpopulation_textZH);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textZH);
 
     var setkingdomcenter_textZH = "王国中心";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textZH);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textZH);
 
     var setcolonies_textZH = "群落";
-    localStorage.setItem("setcolonies_text", setcolonies_textZH);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textZH);
 
     var setcities_textZH = "城市";
-    localStorage.setItem("setcities_text", setcities_textZH);
+    sessionStorage.setItem("setcities_text", setcities_textZH);
 
     var setspy_textZH = "间谍";
-    localStorage.setItem("setspy_text", setspy_textZH);
+    sessionStorage.setItem("setspy_text", setspy_textZH);
 
     var setstoragelimit_textZH = "储存限制";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textZH);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textZH);
 
     var setarcher_textZH = "射手";
-    localStorage.setItem("setarcher_text", setarcher_textZH);
+    sessionStorage.setItem("setarcher_text", setarcher_textZH);
 
     var setplaces_textZH = "地方";
-    localStorage.setItem("setplaces_text", setplaces_textZH);
+    sessionStorage.setItem("setplaces_text", setplaces_textZH);
 
     var setsearch_textZH = "搜索";
-    localStorage.setItem("setsearch_text", setsearch_textZH);
+    sessionStorage.setItem("setsearch_text", setsearch_textZH);
 
     var setsearch_input_textZH = "搜索玩家，殖民地和城市";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textZH);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textZH);
 	
 	window.location.reload();
 	
@@ -2052,238 +2052,238 @@ function settings_languageZH(){
 
 function settings_languageJA(){
 	var setflagJA = "url('images/japan_flag_icon.png')";
-	localStorage.setItem("setflags", setflagJA);
+	sessionStorage.setItem("setflags", setflagJA);
 	
 	var setflag_languageJA = "日本人";
-	localStorage.setItem("setflag_language", setflag_languageJA);
+	sessionStorage.setItem("setflag_language", setflag_languageJA);
 	
 	var setflag_head_languageJA = "言語";
-	localStorage.setItem("setflag_head_language", setflag_head_languageJA);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageJA);
 	
 	var setsettings_languageJA = "設定";
-	localStorage.setItem("setsettings_language", setsettings_languageJA);
+	sessionStorage.setItem("setsettings_language", setsettings_languageJA);
 	
 	var setworldtext_languageJA = "世界 ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageJA);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageJA);
 	
 	var setkp_setting_king_nameJA = "キングネーム";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameJA);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameJA);
 	
 	var setkp_process_textJA = "処理する";
-	localStorage.setItem("setkp_process_text", setkp_process_textJA);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textJA);
 	
 	var setkp_messages_textJA = "メッセージ";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textJA);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textJA);
 	
 	var setkp_buydiamonds_textJA = "ダイヤモンド";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textJA);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textJA);
 	
 	var setsetting_a1_bottom_textJA = "キング名には最大12文字を含める必要があります。";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textJA);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textJA);
 	
 	var setking_name_input_buttonJA = "保存する";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonJA);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonJA);
 	
 	var setquests_textJA = "クエスト";
-	localStorage.setItem("setquests_text", setquests_textJA);
+	sessionStorage.setItem("setquests_text", setquests_textJA);
 	
 	var setmarket_textJA = "市場";
-	localStorage.setItem("setmarket_text", setmarket_textJA);
+	sessionStorage.setItem("setmarket_text", setmarket_textJA);
 	
 	var setmarket_text2JA = "トレードワゴンを作り、他の王国とトレードしましょう！";
-	localStorage.setItem("setmarket_text2", setmarket_text2JA);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2JA);
 	
 	var setbuildingcapacity_textJA = "建物の容量：";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textJA);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textJA);
 	
 	var setannouncement_textJA = "発表:";
-	localStorage.setItem("setannouncement_text", setannouncement_textJA);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textJA);
 	
 	var setannouncement_text2JA = "発表";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2JA);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2JA);
 	
 	var setnews_textJA = "ニュース";
-	localStorage.setItem("setnews_text", setnews_textJA);
+	sessionStorage.setItem("setnews_text", setnews_textJA);
 	
 	var setmenus_military_textJA = "ミリタリー";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textJA);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textJA);
 	
 	var setmenus_logs_textJA = "ログ";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textJA);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textJA);
 	
 	var setmenus_map_textJA = "地図";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textJA);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textJA);
 	
 	var setmenus_allies_textJA = "味方";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textJA);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textJA);
 	
 	var setmenus_leaderboard_textJA = "ランキング";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textJA);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textJA);
 	
 	var setbonus_text1JA = "宝箱の1つを選択してください";
-	localStorage.setItem("setbonus_text1", setbonus_text1JA);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1JA);
 	
 	var setbonus_text2JA = "あなたの報酬";
-	localStorage.setItem("setbonus_text2", setbonus_text2JA);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2JA);
 
     var setnotifications_textJA = "通知";
-    localStorage.setItem("setnotifications_text", setnotifications_textJA);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textJA);
 
     var settrade_textJA = "トレード";
-    localStorage.setItem("settrade_text", settrade_textJA);
+    sessionStorage.setItem("settrade_text", settrade_textJA);
 
     var setkings_textJA = "キングス";
-    localStorage.setItem("setkings_text", setkings_textJA);
+    sessionStorage.setItem("setkings_text", setkings_textJA);
     
     var setembassies_textJA = "大使館";
-    localStorage.setItem("setembassies_text", setembassies_textJA);
+    sessionStorage.setItem("setembassies_text", setembassies_textJA);
     
     var setlbottom_textJA = "あなたは同盟のメンバーではありません！";
-    localStorage.setItem("setlbottom_text", setlbottom_textJA);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textJA);
 
     var setarmies_textJA = "軍隊";
-    localStorage.setItem("setarmies_text", setarmies_textJA);
+    sessionStorage.setItem("setarmies_text", setarmies_textJA);
 
     var setsupportunits_textJA = "サポートユニット";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textJA);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textJA);
 
     var settradewagon_textJA = "トレードワゴン ";
-    localStorage.setItem("settradewagon_text", settradewagon_textJA);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textJA);
 
     var setproduce_textJA = "作物";
-    localStorage.setItem("setproduce_text", setproduce_textJA);
+    sessionStorage.setItem("setproduce_text", setproduce_textJA);
 
     var setupgrade_textJA = "上り坂";
-    localStorage.setItem("setupgrade_text", setupgrade_textJA);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textJA);
 
     var setinfo_textJA = "情報";
-    localStorage.setItem("setinfo_text", setinfo_textJA);
+    sessionStorage.setItem("setinfo_text", setinfo_textJA);
 
     var setage_textJA = "年齢";
-    localStorage.setItem("setage_text", setage_textJA);
+    sessionStorage.setItem("setage_text", setage_textJA);
 
     var setfarmer_textJA = "農家";
-    localStorage.setItem("setfarmer_text", setfarmer_textJA);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textJA);
 
     var setwoodcutter_textJA = "木こり";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textJA);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textJA);
 
     var setgoldminer_textJA = "金鉱夫";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textJA);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textJA);
 
     var settype_textJA = "タイプ";
-    localStorage.setItem("settype_text", settype_textJA);
+    sessionStorage.setItem("settype_text", settype_textJA);
 
     var setclass_textJA = "クラス";
-    localStorage.setItem("setclass_text", setclass_textJA);
+    sessionStorage.setItem("setclass_text", setclass_textJA);
 
     var setvillage_textJA = "村";
-    localStorage.setItem("setvillage_text", setvillage_textJA);
+    sessionStorage.setItem("setvillage_text", setvillage_textJA);
 
     var setvillage_text2JA = "農民のおかげで資源を生産し、王国の経済を改善してください！";
-    localStorage.setItem("setvillage_text2", setvillage_text2JA);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2JA);
 
     var setpeasant_textJA = "農民";
-    localStorage.setItem("setpeasant_text", setpeasant_textJA);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textJA);
 
     var setbronze_textJA = "ブロンズ";
-    localStorage.setItem("setbronze_text", setbronze_textJA);
+    sessionStorage.setItem("setbronze_text", setbronze_textJA);
 
     var setiron_textJA = "鉄";
-    localStorage.setItem("setiron_text", setiron_textJA);
+    sessionStorage.setItem("setiron_text", setiron_textJA);
 
     var setancient_textJA = "古代";
-    localStorage.setItem("setancient_text", setancient_textJA);
+    sessionStorage.setItem("setancient_text", setancient_textJA);
 
     var setclassical_textJA = "クラシック";
-    localStorage.setItem("setclassical_text", setclassical_textJA);
+    sessionStorage.setItem("setclassical_text", setclassical_textJA);
 
     var sethellenistic_textJA = "ヘレニズム";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textJA);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textJA);
 
     var setbronzeage_textJA = "青銅器時代";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textJA);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textJA);
 
     var setironage_textJA = "鉄器時代";
-    localStorage.setItem("setironage_text", setironage_textJA);
+    sessionStorage.setItem("setironage_text", setironage_textJA);
 
     var setancientage_textJA = "エンシェントエイジ";
-    localStorage.setItem("setancientage_text", setancientage_textJA);
+    sessionStorage.setItem("setancientage_text", setancientage_textJA);
 
     var setclassicalage_textJA = "古典時代";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textJA);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textJA);
 
     var sethellenisticage_textJA = "ヘレニズム時代";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textJA);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textJA);
 
     var setnextage_textJA = "ネクストエイジ";
-    localStorage.setItem("setnextage_text", setnextage_textJA);
+    sessionStorage.setItem("setnextage_text", setnextage_textJA);
 
     var setage_pointsJA = "年齢ポイント";
-    localStorage.setItem("setage_points", setage_pointsJA);
+    sessionStorage.setItem("setage_points", setage_pointsJA);
 
     var setkip_text1JA = "王国情報";
-    localStorage.setItem("setkip_text1", setkip_text1JA);
+    sessionStorage.setItem("setkip_text1", setkip_text1JA);
 
     var setkip_text2JA = "次の年齢に移行するには、1000年齢ポイントが必要です。";
-    localStorage.setItem("setkip_text2", setkip_text2JA);
+    sessionStorage.setItem("setkip_text2", setkip_text2JA);
 
     var setkip_text3JA = "次の年齢に移行するには、3000年齢ポイントが必要です。";
-    localStorage.setItem("setkip_text3", setkip_text3JA);
+    sessionStorage.setItem("setkip_text3", setkip_text3JA);
 
     var setkip_text4JA = "次の年齢に移行するには、7000年齢ポイントが必要です。";
-    localStorage.setItem("setkip_text4", setkip_text4JA);
+    sessionStorage.setItem("setkip_text4", setkip_text4JA);
 
     var setkip_text5JA = "次の年齢に移行するには、15000年齢ポイントが必要です。";
-    localStorage.setItem("setkip_text5", setkip_text5JA);
+    sessionStorage.setItem("setkip_text5", setkip_text5JA);
 
     var seteconomy_textJA = "経済";
-    localStorage.setItem("seteconomy_text", seteconomy_textJA);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textJA);
 
     var sethour_textJA = "時間";
-    localStorage.setItem("sethour_text", sethour_textJA);
+    sessionStorage.setItem("sethour_text", sethour_textJA);
 
     var setfood_textJA = "食物";
-    localStorage.setItem("setfood_text", setfood_textJA);
+    sessionStorage.setItem("setfood_text", setfood_textJA);
 
     var setwood_textJA = "木材";
-    localStorage.setItem("setwood_text", setwood_textJA);
+    sessionStorage.setItem("setwood_text", setwood_textJA);
 
     var setgold_textJA = "ゴールド";
-    localStorage.setItem("setgold_text", setgold_textJA);
+    sessionStorage.setItem("setgold_text", setgold_textJA);
 
     var setdiamond_textJA = "ダイヤモンド";
-    localStorage.setItem("setdiamond_text", setdiamond_textJA);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textJA);
 
     var setpopulation_textJA = "人口";
-    localStorage.setItem("setpopulation_text", setpopulation_textJA);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textJA);
 
     var setkingdomcenter_textJA = "キングダムセンター";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textJA);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textJA);
 
     var setcolonies_textJA = "コロニー";
-    localStorage.setItem("setcolonies_text", setcolonies_textJA);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textJA);
 
     var setcities_textJA = "都市";
-    localStorage.setItem("setcities_text", setcities_textJA);
+    sessionStorage.setItem("setcities_text", setcities_textJA);
 
     var setspy_textJA = "スパイ";
-    localStorage.setItem("setspy_text", setspy_textJA);
+    sessionStorage.setItem("setspy_text", setspy_textJA);
 
     var setstoragelimit_textJA = "ストレージ制限";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textJA);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textJA);
 
     var setarcher_textJA = "射手";
-    localStorage.setItem("setarcher_text", setarcher_textJA);
+    sessionStorage.setItem("setarcher_text", setarcher_textJA);
 
     var setplaces_textJA = "場所";
-    localStorage.setItem("setplaces_text", setplaces_textJA);
+    sessionStorage.setItem("setplaces_text", setplaces_textJA);
 
     var setsearch_textJA = "探す";
-    localStorage.setItem("setsearch_text", setsearch_textJA);
+    sessionStorage.setItem("setsearch_text", setsearch_textJA);
 
     var setsearch_input_textJA = "プレイヤー、コロニー、都市を検索する";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textJA);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textJA);
 	
 	window.location.reload();
 	
@@ -2292,238 +2292,238 @@ function settings_languageJA(){
 
 function settings_languageKO(){
 	var setflagKO = "url('images/south_korea_flag_icon.png')";
-	localStorage.setItem("setflags", setflagKO);
+	sessionStorage.setItem("setflags", setflagKO);
 	
 	var setflag_languageKO = "한국어";
-	localStorage.setItem("setflag_language", setflag_languageKO);
+	sessionStorage.setItem("setflag_language", setflag_languageKO);
 	
 	var setflag_head_languageKO = "언어";
-	localStorage.setItem("setflag_head_language", setflag_head_languageKO);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageKO);
 	
 	var setsettings_languageKO = "설정";
-	localStorage.setItem("setsettings_language", setsettings_languageKO);
+	sessionStorage.setItem("setsettings_language", setsettings_languageKO);
 	
 	var setworldtext_languageKO = "세계 ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageKO);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageKO);
 	
 	var setkp_setting_king_nameKO = "왕 이름";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameKO);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameKO);
 	
 	var setkp_process_textKO = "방법";
-	localStorage.setItem("setkp_process_text", setkp_process_textKO);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textKO);
 	
 	var setkp_messages_textKO = "메시지";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textKO);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textKO);
 	
 	var setkp_buydiamonds_textKO = "다이아몬드 구매";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textKO);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textKO);
 	
 	var setsetting_a1_bottom_textKO = "왕 이름은 최대 12 자 여야합니다.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textKO);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textKO);
 	
 	var setking_name_input_buttonKO = "저장";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonKO);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonKO);
 	
 	var setquests_textKO = "퀘스트";
-	localStorage.setItem("setquests_text", setquests_textKO);
+	sessionStorage.setItem("setquests_text", setquests_textKO);
 	
 	var setmarket_textKO = "시장";
-	localStorage.setItem("setmarket_text", setmarket_textKO);
+	sessionStorage.setItem("setmarket_text", setmarket_textKO);
 	
 	var setmarket_text2KO = "무역 마차를 만들고 다른 왕국과 무역하세요!";
-	localStorage.setItem("setmarket_text2", setmarket_text2KO);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2KO);
 	
 	var setbuildingcapacity_textKO = "건물 용량 :";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textKO);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textKO);
 	
 	var setannouncement_textKO = "발표:";
-	localStorage.setItem("setannouncement_text", setannouncement_textKO);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textKO);
 	
 	var setannouncement_text2KO = "발표";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2KO);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2KO);
 	
 	var setnews_textKO = "뉴스";
-	localStorage.setItem("setnews_text", setnews_textKO);
+	sessionStorage.setItem("setnews_text", setnews_textKO);
 	
 	var setmenus_military_textKO = "군";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textKO);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textKO);
 	
 	var setmenus_logs_textKO = "로그";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textKO);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textKO);
 	
 	var setmenus_map_textKO = "지도";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textKO);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textKO);
 	
 	var setmenus_allies_textKO = "동맹국";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textKO);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textKO);
 	
 	var setmenus_leaderboard_textKO = "순위";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textKO);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textKO);
 	
 	var setbonus_text1KO = "보물 상자 중 하나를 선택하십시오";
-	localStorage.setItem("setbonus_text1", setbonus_text1KO);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1KO);
 	
 	var setbonus_text2KO = "당신의 보상";
-	localStorage.setItem("setbonus_text2", setbonus_text2KO);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2KO);
 
     var setnotifications_textKO = "알림";
-    localStorage.setItem("setnotifications_text", setnotifications_textKO);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textKO);
 
     var settrade_textKO = "무역";
-    localStorage.setItem("settrade_text", settrade_textKO);
+    sessionStorage.setItem("settrade_text", settrade_textKO);
 
     var setkings_textKO = "킹스";
-    localStorage.setItem("setkings_text", setkings_textKO);
+    sessionStorage.setItem("setkings_text", setkings_textKO);
     
     var setembassies_textKO = "대사관";
-    localStorage.setItem("setembassies_text", setembassies_textKO);
+    sessionStorage.setItem("setembassies_text", setembassies_textKO);
     
     var setlbottom_textKO = "당신은 동맹의 회원이 아닙니다!";
-    localStorage.setItem("setlbottom_text", setlbottom_textKO);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textKO);
 
     var setarmies_textKO = "군대";
-    localStorage.setItem("setarmies_text", setarmies_textKO);
+    sessionStorage.setItem("setarmies_text", setarmies_textKO);
 
     var setsupportunits_textKO = "지원 단위";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textKO);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textKO);
 
     var settradewagon_textKO = "무역 왜건 ";
-    localStorage.setItem("settradewagon_text", settradewagon_textKO);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textKO);
 
     var setproduce_textKO = "생기게 하다";
-    localStorage.setItem("setproduce_text", setproduce_textKO);
+    sessionStorage.setItem("setproduce_text", setproduce_textKO);
 
     var setupgrade_textKO = "업그레이드";
-    localStorage.setItem("setupgrade_text", setupgrade_textKO);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textKO);
 
     var setinfo_textKO = "정보";
-    localStorage.setItem("setinfo_text", setinfo_textKO);
+    sessionStorage.setItem("setinfo_text", setinfo_textKO);
 
     var setage_textKO = "나이";
-    localStorage.setItem("setage_text", setage_textKO);
+    sessionStorage.setItem("setage_text", setage_textKO);
 
     var setfarmer_textKO = "농장주";
-    localStorage.setItem("setfarmer_text", setfarmer_textKO);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textKO);
 
     var setwoodcutter_textKO = "나무꾼";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textKO);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textKO);
 
     var setgoldminer_textKO = "금 광부";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textKO);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textKO);
 
     var settype_textKO = "유형";
-    localStorage.setItem("settype_text", settype_textKO);
+    sessionStorage.setItem("settype_text", settype_textKO);
 
     var setclass_textKO = "수업";
-    localStorage.setItem("setclass_text", setclass_textKO);
+    sessionStorage.setItem("setclass_text", setclass_textKO);
 
     var setvillage_textKO = "마을";
-    localStorage.setItem("setvillage_text", setvillage_textKO);
+    sessionStorage.setItem("setvillage_text", setvillage_textKO);
 
     var setvillage_text2KO = "농민 덕분에 자원을 생산하고 왕국의 경제를 개선하십시오!";
-    localStorage.setItem("setvillage_text2", setvillage_text2KO);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2KO);
 
     var setpeasant_textKO = "농부";
-    localStorage.setItem("setpeasant_text", setpeasant_textKO);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textKO);
 
     var setbronze_textKO = "청동";
-    localStorage.setItem("setbronze_text", setbronze_textKO);
+    sessionStorage.setItem("setbronze_text", setbronze_textKO);
 
     var setiron_textKO = "철";
-    localStorage.setItem("setiron_text", setiron_textKO);
+    sessionStorage.setItem("setiron_text", setiron_textKO);
 
     var setancient_textKO = "고대";
-    localStorage.setItem("setancient_text", setancient_textKO);
+    sessionStorage.setItem("setancient_text", setancient_textKO);
 
     var setclassical_textKO = "고전";
-    localStorage.setItem("setclassical_text", setclassical_textKO);
+    sessionStorage.setItem("setclassical_text", setclassical_textKO);
 
     var sethellenistic_textKO = "헬레니즘";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textKO);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textKO);
 
     var setbronzeage_textKO = "청동기 시대";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textKO);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textKO);
 
     var setironage_textKO = "철기 시대";
-    localStorage.setItem("setironage_text", setironage_textKO);
+    sessionStorage.setItem("setironage_text", setironage_textKO);
 
     var setancientage_textKO = "고대 시대";
-    localStorage.setItem("setancientage_text", setancientage_textKO);
+    sessionStorage.setItem("setancientage_text", setancientage_textKO);
 
     var setclassicalage_textKO = "고전 시대";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textKO);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textKO);
 
     var sethellenisticage_textKO = "헬레니즘 시대";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textKO);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textKO);
 
     var setnextage_textKO = "다음 시대";
-    localStorage.setItem("setnextage_text", setnextage_textKO);
+    sessionStorage.setItem("setnextage_text", setnextage_textKO);
 
     var setage_pointsKO = "나이 포인트";
-    localStorage.setItem("setage_points", setage_pointsKO);
+    sessionStorage.setItem("setage_points", setage_pointsKO);
 
     var setkip_text1KO = "왕국 정보";
-    localStorage.setItem("setkip_text1", setkip_text1KO);
+    sessionStorage.setItem("setkip_text1", setkip_text1KO);
 
     var setkip_text2KO = "다음 연령으로 이동하려면 1000 개의 연령 포인트가 필요합니다.";
-    localStorage.setItem("setkip_text2", setkip_text2KO);
+    sessionStorage.setItem("setkip_text2", setkip_text2KO);
 
     var setkip_text3KO = "다음 연령으로 이동하려면 3000 개의 연령 포인트가 필요합니다.";
-    localStorage.setItem("setkip_text3", setkip_text3KO);
+    sessionStorage.setItem("setkip_text3", setkip_text3KO);
 
     var setkip_text4KO = "다음 연령으로 이동하려면 7000 개의 연령 포인트가 필요합니다.";
-    localStorage.setItem("setkip_text4", setkip_text4KO);
+    sessionStorage.setItem("setkip_text4", setkip_text4KO);
 
     var setkip_text5KO = "다음 연령으로 이동하려면 15000 개의 연령 포인트가 필요합니다.";
-    localStorage.setItem("setkip_text5", setkip_text5KO);
+    sessionStorage.setItem("setkip_text5", setkip_text5KO);
 
     var seteconomy_textKO = "경제";
-    localStorage.setItem("seteconomy_text", seteconomy_textKO);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textKO);
 
     var sethour_textKO = "시";
-    localStorage.setItem("sethour_text", sethour_textKO);
+    sessionStorage.setItem("sethour_text", sethour_textKO);
 
     var setfood_textKO = "음식";
-    localStorage.setItem("setfood_text", setfood_textKO);
+    sessionStorage.setItem("setfood_text", setfood_textKO);
 
     var setwood_textKO = "목재";
-    localStorage.setItem("setwood_text", setwood_textKO);
+    sessionStorage.setItem("setwood_text", setwood_textKO);
 
     var setgold_textKO = "금";
-    localStorage.setItem("setgold_text", setgold_textKO);
+    sessionStorage.setItem("setgold_text", setgold_textKO);
 
     var setdiamond_textKO = "다이아몬드";
-    localStorage.setItem("setdiamond_text", setdiamond_textKO);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textKO);
 
     var setpopulation_textKO = "인구";
-    localStorage.setItem("setpopulation_text", setpopulation_textKO);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textKO);
 
     var setkingdomcenter_textKO = "킹덤 센터";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textKO);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textKO);
 
     var setcolonies_textKO = "식민지";
-    localStorage.setItem("setcolonies_text", setcolonies_textKO);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textKO);
 
     var setcities_textKO = "도시";
-    localStorage.setItem("setcities_text", setcities_textKO);
+    sessionStorage.setItem("setcities_text", setcities_textKO);
 
     var setspy_textKO = "스파이";
-    localStorage.setItem("setspy_text", setspy_textKO);
+    sessionStorage.setItem("setspy_text", setspy_textKO);
 
     var setstoragelimit_textKO = "저장 한도";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textKO);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textKO);
 
     var setarcher_textKO = "궁수";
-    localStorage.setItem("setarcher_text", setarcher_textKO);
+    sessionStorage.setItem("setarcher_text", setarcher_textKO);
 
     var setplaces_textKO = "장소";
-    localStorage.setItem("setplaces_text", setplaces_textKO);
+    sessionStorage.setItem("setplaces_text", setplaces_textKO);
 
     var setsearch_textKO = "검색";
-    localStorage.setItem("setsearch_text", setsearch_textKO);
+    sessionStorage.setItem("setsearch_text", setsearch_textKO);
 
     var setsearch_input_textKO = "플레이어, 식민지 및 도시 검색";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textKO);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textKO);
 	
 	window.location.reload();
 	
@@ -2533,247 +2533,247 @@ function settings_languageKO(){
 /* login */
 function login() {
     var setflagEN = "url('images/united_states_flag_icon.png')";
-	localStorage.setItem("setflags", setflagEN);
+	sessionStorage.setItem("setflags", setflagEN);
 	
 	var setflag_languageEN = "English";
-	localStorage.setItem("setflag_language", setflag_languageEN);
+	sessionStorage.setItem("setflag_language", setflag_languageEN);
 	
 	var setflag_head_languageEN = "Language";
-	localStorage.setItem("setflag_head_language", setflag_head_languageEN);
+	sessionStorage.setItem("setflag_head_language", setflag_head_languageEN);
 	
 	var setsettings_languageEN = "Settings";
-	localStorage.setItem("setsettings_language", setsettings_languageEN);
+	sessionStorage.setItem("setsettings_language", setsettings_languageEN);
 	
 	var setworldtext_languageEN = "World ";
-	localStorage.setItem("setworldtext_language", setworldtext_languageEN);
+	sessionStorage.setItem("setworldtext_language", setworldtext_languageEN);
 	
 	var setkp_setting_king_nameEN = "King name";
-	localStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameEN);
+	sessionStorage.setItem("setkp_setting_king_name", setkp_setting_king_nameEN);
 	
 	var setkp_process_textEN = "Process";
-	localStorage.setItem("setkp_process_text", setkp_process_textEN);
+	sessionStorage.setItem("setkp_process_text", setkp_process_textEN);
 	
 	var setkp_messages_textEN = "Messages";
-	localStorage.setItem("setkp_messages_text", setkp_messages_textEN);
+	sessionStorage.setItem("setkp_messages_text", setkp_messages_textEN);
 	
 	var setkp_buydiamonds_textEN = "Buy Diamonds";
-	localStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textEN);
+	sessionStorage.setItem("setkp_buydiamonds_text", setkp_buydiamonds_textEN);
 	
 	var setsetting_a1_bottom_textEN = "King names must contain a maximum of 12 characters.";
-	localStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textEN);
+	sessionStorage.setItem("setsetting_a1_bottom_text", setsetting_a1_bottom_textEN);
 	
 	var setking_name_input_buttonEN = "Save";
-	localStorage.setItem("setking_name_input_button", setking_name_input_buttonEN);
+	sessionStorage.setItem("setking_name_input_button", setking_name_input_buttonEN);
 	
 	var setquests_textEN = "Quests";
-	localStorage.setItem("setquests_text", setquests_textEN);
+	sessionStorage.setItem("setquests_text", setquests_textEN);
 	
 	var setmarket_textEN = "Market";
-	localStorage.setItem("setmarket_text", setmarket_textEN);
+	sessionStorage.setItem("setmarket_text", setmarket_textEN);
 	
 	var setmarket_text2EN = "Craft trade wagons and trade with other kingdoms!";
-	localStorage.setItem("setmarket_text2", setmarket_text2EN);
+	sessionStorage.setItem("setmarket_text2", setmarket_text2EN);
 	
 	var setbuildingcapacity_textEN = "Building capacity:";
-	localStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textEN);
+	sessionStorage.setItem("setbuildingcapacity_text", setbuildingcapacity_textEN);
 	
 	var setannouncement_textEN = "Announcement:";
-	localStorage.setItem("setannouncement_text", setannouncement_textEN);
+	sessionStorage.setItem("setannouncement_text", setannouncement_textEN);
 	
 	var setannouncement_text2EN = "Announcement";
-	localStorage.setItem("setannouncement_text2", setannouncement_text2EN);
+	sessionStorage.setItem("setannouncement_text2", setannouncement_text2EN);
 	
 	var setnews_textEN = "News";
-	localStorage.setItem("setnews_text", setnews_textEN);
+	sessionStorage.setItem("setnews_text", setnews_textEN);
 	
 	var setmenus_military_textEN = "Military";
-	localStorage.setItem("setmenus_military_text", setmenus_military_textEN);
+	sessionStorage.setItem("setmenus_military_text", setmenus_military_textEN);
 	
 	var setmenus_logs_textEN = "Logs";
-	localStorage.setItem("setmenus_logs_text", setmenus_logs_textEN);
+	sessionStorage.setItem("setmenus_logs_text", setmenus_logs_textEN);
 	
 	var setmenus_map_textEN = "Map";
-	localStorage.setItem("setmenus_map_text", setmenus_map_textEN);
+	sessionStorage.setItem("setmenus_map_text", setmenus_map_textEN);
 	
 	var setmenus_allies_textEN = "Allies";
-	localStorage.setItem("setmenus_allies_text", setmenus_allies_textEN);
+	sessionStorage.setItem("setmenus_allies_text", setmenus_allies_textEN);
 	
 	var setmenus_leaderboard_textEN = "Ranking";
-	localStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textEN);
+	sessionStorage.setItem("setmenus_leaderboard_text", setmenus_leaderboard_textEN);
 	
 	var setbonus_text1EN = "Choose one of the treasure chests";
-	localStorage.setItem("setbonus_text1", setbonus_text1EN);
+	sessionStorage.setItem("setbonus_text1", setbonus_text1EN);
 	
 	var setbonus_text2EN = "Your reward";
-	localStorage.setItem("setbonus_text2", setbonus_text2EN);
+	sessionStorage.setItem("setbonus_text2", setbonus_text2EN);
 
     var setnotifications_textEN = "Notifications";
-    localStorage.setItem("setnotifications_text", setnotifications_textEN);
+    sessionStorage.setItem("setnotifications_text", setnotifications_textEN);
 
     var settrade_textEN = "Trade";
-    localStorage.setItem("settrade_text", settrade_textEN);
+    sessionStorage.setItem("settrade_text", settrade_textEN);
 
     var setkings_textEN = "Kings";
-    localStorage.setItem("setkings_text", setkings_textEN);
+    sessionStorage.setItem("setkings_text", setkings_textEN);
     
     var setembassies_textEN = "Embassies";
-    localStorage.setItem("setembassies_text", setembassies_textEN);
+    sessionStorage.setItem("setembassies_text", setembassies_textEN);
     
     var setlbottom_textEN = "You are not a member of an alliance!";
-    localStorage.setItem("setlbottom_text", setlbottom_textEN);
+    sessionStorage.setItem("setlbottom_text", setlbottom_textEN);
 
     var setarmies_textEN = "Armies";
-    localStorage.setItem("setarmies_text", setarmies_textEN);
+    sessionStorage.setItem("setarmies_text", setarmies_textEN);
 
     var setsupportunits_textEN = "Support Units";
-    localStorage.setItem("setsupportunits_text", setsupportunits_textEN);
+    sessionStorage.setItem("setsupportunits_text", setsupportunits_textEN);
 
     var settradewagon_textEN = "Trade Wagon ";
-    localStorage.setItem("settradewagon_text", settradewagon_textEN);
+    sessionStorage.setItem("settradewagon_text", settradewagon_textEN);
 
     var setproduce_textEN = "Produce";
-    localStorage.setItem("setproduce_text", setproduce_textEN);
+    sessionStorage.setItem("setproduce_text", setproduce_textEN);
 
     var setupgrade_textEN = "Upgrade";
-    localStorage.setItem("setupgrade_text", setupgrade_textEN);
+    sessionStorage.setItem("setupgrade_text", setupgrade_textEN);
 
     var setinfo_textEN = "Info";
-    localStorage.setItem("setinfo_text", setinfo_textEN);
+    sessionStorage.setItem("setinfo_text", setinfo_textEN);
 
     var setage_textEN = "Age";
-    localStorage.setItem("setage_text", setage_textEN);
+    sessionStorage.setItem("setage_text", setage_textEN);
 
     var setfarmer_textEN = "Farmer";
-    localStorage.setItem("setfarmer_text", setfarmer_textEN);
+    sessionStorage.setItem("setfarmer_text", setfarmer_textEN);
 
     var setwoodcutter_textEN = "Woodcutter";
-    localStorage.setItem("setwoodcutter_text", setwoodcutter_textEN);
+    sessionStorage.setItem("setwoodcutter_text", setwoodcutter_textEN);
 
     var setgoldminer_textEN = "Gold Miner";
-    localStorage.setItem("setgoldminer_text", setgoldminer_textEN);
+    sessionStorage.setItem("setgoldminer_text", setgoldminer_textEN);
 
     var settype_textEN = "Type";
-    localStorage.setItem("settype_text", settype_textEN);
+    sessionStorage.setItem("settype_text", settype_textEN);
 
     var setclass_textEN = "Class";
-    localStorage.setItem("setclass_text", setclass_textEN);
+    sessionStorage.setItem("setclass_text", setclass_textEN);
 
     var setvillage_textEN = "Village";
-    localStorage.setItem("setvillage_text", setvillage_textEN);
+    sessionStorage.setItem("setvillage_text", setvillage_textEN);
 
     var setvillage_text2EN = "Produce resources and improve the economy of the kingdom thanks to the peasants!";
-    localStorage.setItem("setvillage_text2", setvillage_text2EN);
+    sessionStorage.setItem("setvillage_text2", setvillage_text2EN);
 
     var setpeasant_textEN = "Peasant";
-    localStorage.setItem("setpeasant_text", setpeasant_textEN);
+    sessionStorage.setItem("setpeasant_text", setpeasant_textEN);
 
     var setbronze_textEN = "Bronze";
-    localStorage.setItem("setbronze_text", setbronze_textEN);
+    sessionStorage.setItem("setbronze_text", setbronze_textEN);
 
     var setiron_textEN = "Iron";
-    localStorage.setItem("setiron_text", setiron_textEN);
+    sessionStorage.setItem("setiron_text", setiron_textEN);
 
     var setancient_textEN = "Ancient";
-    localStorage.setItem("setancient_text", setancient_textEN);
+    sessionStorage.setItem("setancient_text", setancient_textEN);
 
     var setclassical_textEN = "Classical";
-    localStorage.setItem("setclassical_text", setclassical_textEN);
+    sessionStorage.setItem("setclassical_text", setclassical_textEN);
 
     var sethellenistic_textEN = "Hellenistic";
-    localStorage.setItem("sethellenistic_text", sethellenistic_textEN);
+    sessionStorage.setItem("sethellenistic_text", sethellenistic_textEN);
 
     var setbronzeage_textEN = "Bronze Age";
-    localStorage.setItem("setbronzeage_text", setbronzeage_textEN);
+    sessionStorage.setItem("setbronzeage_text", setbronzeage_textEN);
 
     var setironage_textEN = "Iron Age";
-    localStorage.setItem("setironage_text", setironage_textEN);
+    sessionStorage.setItem("setironage_text", setironage_textEN);
 
     var setancientage_textEN = "Ancient Age";
-    localStorage.setItem("setancientage_text", setancientage_textEN);
+    sessionStorage.setItem("setancientage_text", setancientage_textEN);
 
     var setclassicalage_textEN = "Classical Age";
-    localStorage.setItem("setclassicalage_text", setclassicalage_textEN);
+    sessionStorage.setItem("setclassicalage_text", setclassicalage_textEN);
 
     var sethellenisticage_textEN = "Hellenistic Age";
-    localStorage.setItem("sethellenisticage_text", sethellenisticage_textEN);
+    sessionStorage.setItem("sethellenisticage_text", sethellenisticage_textEN);
 
     var setnextage_textEN = "Next Age";
-    localStorage.setItem("setnextage_text", setnextage_textEN);
+    sessionStorage.setItem("setnextage_text", setnextage_textEN);
 
     var setage_pointsEN = "Age Points";
-    localStorage.setItem("setage_points", setage_pointsEN);
+    sessionStorage.setItem("setage_points", setage_pointsEN);
 
     var setkip_text1EN = "Kingdom Info";
-    localStorage.setItem("setkip_text1", setkip_text1EN);
+    sessionStorage.setItem("setkip_text1", setkip_text1EN);
 
     var setkip_text2EN = "1000 age points are required to move to the next age.";
-    localStorage.setItem("setkip_text2", setkip_text2EN);
+    sessionStorage.setItem("setkip_text2", setkip_text2EN);
 
     var setkip_text3EN = "3000 age points are required to move to the next age.";
-    localStorage.setItem("setkip_text3", setkip_text3EN);
+    sessionStorage.setItem("setkip_text3", setkip_text3EN);
 
     var setkip_text4EN = "7000 age points are required to move to the next age.";
-    localStorage.setItem("setkip_text4", setkip_text4EN);
+    sessionStorage.setItem("setkip_text4", setkip_text4EN);
 
     var setkip_text5EN = "15000 age points are required to move to the next age.";
-    localStorage.setItem("setkip_text5", setkip_text5EN);
+    sessionStorage.setItem("setkip_text5", setkip_text5EN);
 
     var seteconomy_textEN = "Economy";
-    localStorage.setItem("seteconomy_text", seteconomy_textEN);
+    sessionStorage.setItem("seteconomy_text", seteconomy_textEN);
 
     var sethour_textEN = "Hour";
-    localStorage.setItem("sethour_text", sethour_textEN);
+    sessionStorage.setItem("sethour_text", sethour_textEN);
 
     var setfood_textEN = "Food";
-    localStorage.setItem("setfood_text", setfood_textEN);
+    sessionStorage.setItem("setfood_text", setfood_textEN);
 
     var setwood_textEN = "Wood";
-    localStorage.setItem("setwood_text", setwood_textEN);
+    sessionStorage.setItem("setwood_text", setwood_textEN);
 
     var setgold_textEN = "Gold";
-    localStorage.setItem("setgold_text", setgold_textEN);
+    sessionStorage.setItem("setgold_text", setgold_textEN);
 
     var setdiamond_textEN = "Diamond";
-    localStorage.setItem("setdiamond_text", setdiamond_textEN);
+    sessionStorage.setItem("setdiamond_text", setdiamond_textEN);
 
     var setpopulation_textEN = "Population";
-    localStorage.setItem("setpopulation_text", setpopulation_textEN);
+    sessionStorage.setItem("setpopulation_text", setpopulation_textEN);
 
     var setkingdomcenter_textEN = "Kingdom Center";
-    localStorage.setItem("setkingdomcenter_text", setkingdomcenter_textEN);
+    sessionStorage.setItem("setkingdomcenter_text", setkingdomcenter_textEN);
 
     var setcolonies_textEN = "Colonies";
-    localStorage.setItem("setcolonies_text", setcolonies_textEN);
+    sessionStorage.setItem("setcolonies_text", setcolonies_textEN);
 
     var setcities_textEN = "Cities";
-    localStorage.setItem("setcities_text", setcities_textEN);
+    sessionStorage.setItem("setcities_text", setcities_textEN);
 
     var setspy_textEN = "Spy";
-    localStorage.setItem("setspy_text", setspy_textEN);
+    sessionStorage.setItem("setspy_text", setspy_textEN);
 
     var setstoragelimit_textEN = "Storage Limit";
-    localStorage.setItem("setstoragelimit_text", setstoragelimit_textEN);
+    sessionStorage.setItem("setstoragelimit_text", setstoragelimit_textEN);
 
     var setarcher_textEN = "Archer";
-    localStorage.setItem("setarcher_text", setarcher_textEN);
+    sessionStorage.setItem("setarcher_text", setarcher_textEN);
 
     var setplaces_textEN = "Places";
-    localStorage.setItem("setplaces_text", setplaces_textEN);
+    sessionStorage.setItem("setplaces_text", setplaces_textEN);
 
     var setsearch_textEN = "Search";
-    localStorage.setItem("setsearch_text", setsearch_textEN);
+    sessionStorage.setItem("setsearch_text", setsearch_textEN);
 
     var setsearch_input_textEN = "Search for Players, Colonies and Cities";
-    localStorage.setItem("setsearch_input_text", setsearch_input_textEN);
+    sessionStorage.setItem("setsearch_input_text", setsearch_input_textEN);
 
-    localStorage.setItem("setlogindisplay1", "none");
-    localStorage.setItem("setlogindisplay2", "block");
+    sessionStorage.setItem("setlogindisplay1", "none");
+    sessionStorage.setItem("setlogindisplay2", "block");
 
     var randomX = Math.floor(Math.random() * 100) + 1;
     var randomY = Math.floor(Math.random() * 64) + 1;
 
-    localStorage.setItem("setrandom_mapX", randomX);
-    localStorage.setItem("setrandom_mapY", randomY);
+    sessionStorage.setItem("setrandom_mapX", randomX);
+    sessionStorage.setItem("setrandom_mapY", randomY);
 	
 	window.location.href = "kingdom_page.html";
 };
@@ -2785,29 +2785,29 @@ function login2() {
 /* Save_DATA */
 
 function get_save() {
-	localStorage.getItem("king_name");
-	localStorage.getItem("kip_display_none_kingname");
-	localStorage.getItem("setflags");
-	localStorage.getItem("setflag_language");
-	localStorage.getItem("setflag_head_language");
-	localStorage.getItem("setsettings_language");
-	localStorage.getItem("setworldtext_language");
-	localStorage.getItem("setkp_setting_king_name");
-	localStorage.getItem("setkp_process_text");
-	localStorage.getItem("setkp_messages_text");
-	localStorage.getItem("setkp_buydiamonds_text");
-	localStorage.getItem("setsetting_a1_bottom_text");
-	localStorage.getItem("setking_name_input_button");
-	localStorage.getItem("setquests_text");
-	localStorage.getItem("setmarket_text");
-	localStorage.getItem("setannouncement_text");
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("king_name");
+	sessionStorage.getItem("kip_display_none_kingname");
+	sessionStorage.getItem("setflags");
+	sessionStorage.getItem("setflag_language");
+	sessionStorage.getItem("setflag_head_language");
+	sessionStorage.getItem("setsettings_language");
+	sessionStorage.getItem("setworldtext_language");
+	sessionStorage.getItem("setkp_setting_king_name");
+	sessionStorage.getItem("setkp_process_text");
+	sessionStorage.getItem("setkp_messages_text");
+	sessionStorage.getItem("setkp_buydiamonds_text");
+	sessionStorage.getItem("setsetting_a1_bottom_text");
+	sessionStorage.getItem("setking_name_input_button");
+	sessionStorage.getItem("setquests_text");
+	sessionStorage.getItem("setmarket_text");
+	sessionStorage.getItem("setannouncement_text");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("set_king_name_text").innerHTML = king_name;
 	document.getElementById("settings_king_name_1").style.display = kip_display_none_kingname;
@@ -2842,21 +2842,21 @@ function get_save() {
 };
 
 function academy_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("setupgrade_text");
-	localStorage.getItem("setancient_text");
-	localStorage.getItem("setclassical_text");
-	localStorage.getItem("settoageancient1");
-	localStorage.getItem("settoageancient2");
-	localStorage.getItem("settoageclassical1");
-	localStorage.getItem("settoageclassical2");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("setupgrade_text");
+	sessionStorage.getItem("setancient_text");
+	sessionStorage.getItem("setclassical_text");
+	sessionStorage.getItem("settoageancient1");
+	sessionStorage.getItem("settoageancient2");
+	sessionStorage.getItem("settoageclassical1");
+	sessionStorage.getItem("settoageclassical2");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2904,13 +2904,13 @@ function academy_page_save() {
 };
 
 function allies_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2926,18 +2926,18 @@ function allies_page_save() {
 };
 
 function barracks_army1_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2957,18 +2957,18 @@ function barracks_army1_save() {
 };
 
 function barracks_army2_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -2988,19 +2988,19 @@ function barracks_army2_save() {
 };
 
 function barracks_army3_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setspy_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setspy_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3022,18 +3022,18 @@ function barracks_army3_save() {
 };
 
 function barracks_army4_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setiron_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setiron_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3053,18 +3053,18 @@ function barracks_army4_save() {
 };
 
 function barracks_army5_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setiron_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setiron_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3084,19 +3084,19 @@ function barracks_army5_save() {
 };
 
 function barracks_army6_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setancient_text");
-	localStorage.getItem("setarcher_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setancient_text");
+	sessionStorage.getItem("setarcher_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3117,24 +3117,24 @@ function barracks_army6_save() {
 };
 
 function barracks_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setproduce_text");
-	localStorage.getItem("setupgrade_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("setiron_text");
-	localStorage.getItem("setancient_text");
-	localStorage.getItem("settoageiron1");
-	localStorage.getItem("settoageiron2");
-	localStorage.getItem("settoageancient1");
-	localStorage.getItem("settoageancient2");
-	localStorage.getItem("setspy_text");
-	localStorage.getItem("setarcher_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setproduce_text");
+	sessionStorage.getItem("setupgrade_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("setiron_text");
+	sessionStorage.getItem("setancient_text");
+	sessionStorage.getItem("settoageiron1");
+	sessionStorage.getItem("settoageiron2");
+	sessionStorage.getItem("settoageancient1");
+	sessionStorage.getItem("settoageancient2");
+	sessionStorage.getItem("setspy_text");
+	sessionStorage.getItem("setarcher_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3176,22 +3176,22 @@ function barracks_page_save() {
 };
 
 function bonus_page_save() {
-	localStorage.getItem("setbonus_text1");
-	localStorage.getItem("setbonus_text2");
+	sessionStorage.getItem("setbonus_text1");
+	sessionStorage.getItem("setbonus_text2");
 	
 	document.getElementById("bonus_text1").innerHTML = setbonus_text1;
 	document.getElementById("bonus_text2").innerHTML = setbonus_text2;
 };
 
 function buy_diamond_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setkp_buydiamonds_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setkp_buydiamonds_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3207,18 +3207,18 @@ function buy_diamond_save() {
 };
 
 function castle_army1_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3238,18 +3238,18 @@ function castle_army1_save() {
 };
 
 function castle_army2_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("sethellenistic_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("sethellenistic_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3269,18 +3269,18 @@ function castle_army2_save() {
 };
 
 function castle_info_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3300,19 +3300,19 @@ function castle_info_save() {
 };
 
 function castle_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("setproduce_text");
-	localStorage.getItem("setupgrade_text");
-	localStorage.getItem("sethellenistic_text");
-	localStorage.getItem("settoagehellenistic1");
-	localStorage.getItem("settoagehellenistic2");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("setproduce_text");
+	sessionStorage.getItem("setupgrade_text");
+	sessionStorage.getItem("sethellenistic_text");
+	sessionStorage.getItem("settoagehellenistic1");
+	sessionStorage.getItem("settoagehellenistic2");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3336,66 +3336,66 @@ function castle_page_save() {
 };
 
 function index_save() {
-	localStorage.getItem("setlogindisplay1");
-	localStorage.getItem("setlogindisplay2");
+	sessionStorage.getItem("setlogindisplay1");
+	sessionStorage.getItem("setlogindisplay2");
 	
 	document.getElementById("lp_first").style.display = setlogindisplay1;
 	document.getElementById("lp_end").style.display = setlogindisplay2;
 };
 
 function kingdominfo_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("setfarmer_text");
-	localStorage.getItem("setwoodcutter_text");
-	localStorage.getItem("setgoldminer_text");
-	localStorage.getItem("setpeasant_text");
-	localStorage.getItem("setbronzeage_text");
-	localStorage.getItem("setironage_text");
-	localStorage.getItem("setancientage_text");
-	localStorage.getItem("setclassicalage_text");
-	localStorage.getItem("sethellenisticage_text");
-	localStorage.getItem("setkipdisplay1");
-	localStorage.getItem("setkipdisplay2");
-	localStorage.getItem("setkipdisplay3");
-	localStorage.getItem("setkipdisplay4");
-	localStorage.getItem("setkipdisplay5");
-	localStorage.getItem("setkipnabdisplay1");
-	localStorage.getItem("setkipnabdisplay2");
-	localStorage.getItem("setkipnabdisplay3");
-	localStorage.getItem("setkipnabdisplay4");
-	localStorage.getItem("setnextage_text");
-	localStorage.getItem("setage_img");
-	localStorage.getItem("setage_points");
-	localStorage.getItem("setkip_text1");
-	localStorage.getItem("setkip_text2");
-	localStorage.getItem("setkip_text3");
-	localStorage.getItem("setkip_text4");
-	localStorage.getItem("setkip_text5");
-	localStorage.getItem("setkip_text2_display");
-	localStorage.getItem("setkip_text3_display");
-	localStorage.getItem("setkip_text4_display");
-	localStorage.getItem("setkip_text5_display");
-	localStorage.getItem("seteconomy_text");
-	localStorage.getItem("sethour_text");
-	localStorage.getItem("setfood_text");
-	localStorage.getItem("setwood_text");
-	localStorage.getItem("setgold_text");
-	localStorage.getItem("setdiamond_text");
-	localStorage.getItem("setsupportunits_text");
-	localStorage.getItem("setpopulation_text");
-	localStorage.getItem("setkingdomcenter_text");
-	localStorage.getItem("setcolonies_text");
-	localStorage.getItem("setcities_text");
-	localStorage.getItem("setspy_text");
-	localStorage.getItem("setarmies_text");
-	localStorage.getItem("setstoragelimit_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("setfarmer_text");
+	sessionStorage.getItem("setwoodcutter_text");
+	sessionStorage.getItem("setgoldminer_text");
+	sessionStorage.getItem("setpeasant_text");
+	sessionStorage.getItem("setbronzeage_text");
+	sessionStorage.getItem("setironage_text");
+	sessionStorage.getItem("setancientage_text");
+	sessionStorage.getItem("setclassicalage_text");
+	sessionStorage.getItem("sethellenisticage_text");
+	sessionStorage.getItem("setkipdisplay1");
+	sessionStorage.getItem("setkipdisplay2");
+	sessionStorage.getItem("setkipdisplay3");
+	sessionStorage.getItem("setkipdisplay4");
+	sessionStorage.getItem("setkipdisplay5");
+	sessionStorage.getItem("setkipnabdisplay1");
+	sessionStorage.getItem("setkipnabdisplay2");
+	sessionStorage.getItem("setkipnabdisplay3");
+	sessionStorage.getItem("setkipnabdisplay4");
+	sessionStorage.getItem("setnextage_text");
+	sessionStorage.getItem("setage_img");
+	sessionStorage.getItem("setage_points");
+	sessionStorage.getItem("setkip_text1");
+	sessionStorage.getItem("setkip_text2");
+	sessionStorage.getItem("setkip_text3");
+	sessionStorage.getItem("setkip_text4");
+	sessionStorage.getItem("setkip_text5");
+	sessionStorage.getItem("setkip_text2_display");
+	sessionStorage.getItem("setkip_text3_display");
+	sessionStorage.getItem("setkip_text4_display");
+	sessionStorage.getItem("setkip_text5_display");
+	sessionStorage.getItem("seteconomy_text");
+	sessionStorage.getItem("sethour_text");
+	sessionStorage.getItem("setfood_text");
+	sessionStorage.getItem("setwood_text");
+	sessionStorage.getItem("setgold_text");
+	sessionStorage.getItem("setdiamond_text");
+	sessionStorage.getItem("setsupportunits_text");
+	sessionStorage.getItem("setpopulation_text");
+	sessionStorage.getItem("setkingdomcenter_text");
+	sessionStorage.getItem("setcolonies_text");
+	sessionStorage.getItem("setcities_text");
+	sessionStorage.getItem("setspy_text");
+	sessionStorage.getItem("setarmies_text");
+	sessionStorage.getItem("setstoragelimit_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3481,15 +3481,15 @@ function kingdominfo_page_save() {
 };
 
 function leaderboard_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("king_name");
-	localStorage.getItem("setkings_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("king_name");
+	sessionStorage.getItem("setkings_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("set_king_name_text").innerHTML = king_name;
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
@@ -3508,15 +3508,15 @@ function leaderboard_page_save() {
 };
 
 function leaderboard2_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setkings_text");
-	localStorage.getItem("setlbottom_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setkings_text");
+	sessionStorage.getItem("setlbottom_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3535,14 +3535,14 @@ function leaderboard2_page_save() {
 };
 
 function log_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("settrade_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("settrade_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3560,14 +3560,14 @@ function log_page_save() {
 };
 
 function log2_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("settrade_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("settrade_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3585,9 +3585,9 @@ function log2_page_save() {
 };
 
 function map_page_save() {
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
-	localStorage.getItem("king_name");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("king_name");
 	
 	document.getElementById("map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY).style.backgroundImage = "url('images/castle_icon.png')";
 	document.getElementById("map_div_text_x" + setrandom_mapX + "_y" + setrandom_mapY).style.display = "block";
@@ -3595,16 +3595,16 @@ function map_page_save() {
 };
 
 function map_places_1_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setplaces_text");
-	localStorage.getItem("setcolonies_text");
-	localStorage.getItem("setcities_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setplaces_text");
+	sessionStorage.getItem("setcolonies_text");
+	sessionStorage.getItem("setcities_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3622,16 +3622,16 @@ function map_places_1_save() {
 };
 
 function map_places_2_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setplaces_text");
-	localStorage.getItem("setcolonies_text");
-	localStorage.getItem("setcities_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setplaces_text");
+	sessionStorage.getItem("setcolonies_text");
+	sessionStorage.getItem("setcities_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3649,15 +3649,15 @@ function map_places_2_save() {
 };
 
 function map_search_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setsearch_text");
-	localStorage.getItem("setsearch_input_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setsearch_text");
+	sessionStorage.getItem("setsearch_input_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3674,19 +3674,19 @@ function map_search_save() {
 };
 
 function market_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setmarket_text");
-	localStorage.getItem("setmarket_text2");
-	localStorage.getItem("setbuildingcapacity_text");
-	localStorage.getItem("settradewagon_text");
-	localStorage.getItem("setproduce_text");
-	localStorage.getItem("setupgrade_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setmarket_text");
+	sessionStorage.getItem("setmarket_text2");
+	sessionStorage.getItem("setbuildingcapacity_text");
+	sessionStorage.getItem("settradewagon_text");
+	sessionStorage.getItem("setproduce_text");
+	sessionStorage.getItem("setupgrade_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3707,20 +3707,20 @@ function market_page_save() {
 };
 
 function market_trade_wagon_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("settradewagon_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("settrade_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("settradewagon_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("settrade_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3742,15 +3742,15 @@ function market_trade_wagon_save() {
 };
 
 function messages_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setkp_messages_text");
-	localStorage.getItem("setnotifications_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setkp_messages_text");
+	sessionStorage.getItem("setnotifications_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3769,15 +3769,15 @@ function messages_page_save() {
 
 
 function messages2_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setkp_messages_text");
-	localStorage.getItem("setnotifications_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setkp_messages_text");
+	sessionStorage.getItem("setnotifications_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3795,15 +3795,15 @@ function messages2_page_save() {
 };
 
 function military_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setarmies_text");
-	localStorage.getItem("setsupportunits_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setarmies_text");
+	sessionStorage.getItem("setsupportunits_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3821,15 +3821,15 @@ function military_page_save() {
 };
 
 function military2_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setarmies_text");
-	localStorage.getItem("setsupportunits_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setarmies_text");
+	sessionStorage.getItem("setsupportunits_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3847,16 +3847,16 @@ function military2_page_save() {
 };
 
 function news1_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setannouncement_text2");
-	localStorage.getItem("setnews_text");
-	localStorage.getItem("setembassies_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setannouncement_text2");
+	sessionStorage.getItem("setnews_text");
+	sessionStorage.getItem("setembassies_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3874,16 +3874,16 @@ function news1_page_save() {
 };
 
 function news2_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setannouncement_text2");
-	localStorage.getItem("setnews_text");
-	localStorage.getItem("setembassies_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setannouncement_text2");
+	sessionStorage.getItem("setnews_text");
+	sessionStorage.getItem("setembassies_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3901,15 +3901,15 @@ function news2_page_save() {
 };
 
 function process_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setkp_process_text");
-	localStorage.getItem("settrade_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setkp_process_text");
+	sessionStorage.getItem("settrade_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3927,15 +3927,15 @@ function process_page_save() {
 };
 
 function process2_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setkp_process_text");
-	localStorage.getItem("settrade_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setkp_process_text");
+	sessionStorage.getItem("settrade_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3953,27 +3953,27 @@ function process2_page_save() {
 };
 
 function quest_page_save() {
-	localStorage.getItem("setquests_text");
+	sessionStorage.getItem("setquests_text");
 	
 	document.getElementById("quests_text").innerHTML = setquests_text;
 	document.getElementById("quests_text2").innerHTML = setquests_text;
 };
 
 function village_farmer_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("setfarmer_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setpeasant_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("setfarmer_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setpeasant_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3996,20 +3996,20 @@ function village_farmer_save() {
 };
 
 function village_miner_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("setgoldminer_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setpeasant_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("setgoldminer_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setpeasant_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4032,21 +4032,21 @@ function village_miner_save() {
 };
 
 function village_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setproduce_text");
-	localStorage.getItem("setupgrade_text");
-	localStorage.getItem("buildingcapacity_text");
-	localStorage.getItem("setfarmer_text");
-	localStorage.getItem("setwoodcutter_text");
-	localStorage.getItem("setgoldminer_text");
-	localStorage.getItem("setvillage_text");
-	localStorage.getItem("setvillage_text2");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setproduce_text");
+	sessionStorage.getItem("setupgrade_text");
+	sessionStorage.getItem("buildingcapacity_text");
+	sessionStorage.getItem("setfarmer_text");
+	sessionStorage.getItem("setwoodcutter_text");
+	sessionStorage.getItem("setgoldminer_text");
+	sessionStorage.getItem("setvillage_text");
+	sessionStorage.getItem("setvillage_text2");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4076,20 +4076,20 @@ function village_page_save() {
 };
 
 function village_woodcutter_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("setwoodcutter_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setpeasant_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("setwoodcutter_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setpeasant_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4112,18 +4112,18 @@ function village_woodcutter_save() {
 };
 
 function wall_build1_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4143,17 +4143,17 @@ function wall_build1_save() {
 };
 
 function wall_build2_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4173,16 +4173,16 @@ function wall_build2_save() {
 };
 
 function wall_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setproduce_text");
-	localStorage.getItem("setupgrade_text");
-	localStorage.getItem("setbuildingcapacity_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setproduce_text");
+	sessionStorage.getItem("setupgrade_text");
+	sessionStorage.getItem("setbuildingcapacity_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4201,18 +4201,18 @@ function wall_page_save() {
 };
 
 function workshop_ballista_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setbronze_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setbronze_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4232,18 +4232,18 @@ function workshop_ballista_save() {
 };
 
 function workshop_catapult_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setancient_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setancient_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4263,19 +4263,19 @@ function workshop_catapult_save() {
 };
 
 function workshop_page_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("setproduce_text");
-	localStorage.getItem("setupgrade_text");
-	localStorage.getItem("setbuildingcapacity_text");
-	localStorage.getItem("settoageancient1");
-	localStorage.getItem("settoageancient2");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("setproduce_text");
+	sessionStorage.getItem("setupgrade_text");
+	sessionStorage.getItem("setbuildingcapacity_text");
+	sessionStorage.getItem("settoageancient1");
+	sessionStorage.getItem("settoageancient2");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4303,18 +4303,18 @@ function workshop_page_save() {
 };
 
 function workshop_siege_vehicle_save() {
-	localStorage.getItem("setmenus_military_text");
-	localStorage.getItem("setmenus_logs_text");
-	localStorage.getItem("setmenus_map_text");
-	localStorage.getItem("setmenus_allies_text");
-	localStorage.getItem("setmenus_leaderboard_text");
-	localStorage.getItem("setinfo_text");
-	localStorage.getItem("setage_text");
-	localStorage.getItem("settype_text");
-	localStorage.getItem("setclass_text");
-	localStorage.getItem("setancient_text");
-	localStorage.getItem("setrandom_mapX");
-	localStorage.getItem("setrandom_mapY");
+	sessionStorage.getItem("setmenus_military_text");
+	sessionStorage.getItem("setmenus_logs_text");
+	sessionStorage.getItem("setmenus_map_text");
+	sessionStorage.getItem("setmenus_allies_text");
+	sessionStorage.getItem("setmenus_leaderboard_text");
+	sessionStorage.getItem("setinfo_text");
+	sessionStorage.getItem("setage_text");
+	sessionStorage.getItem("settype_text");
+	sessionStorage.getItem("setclass_text");
+	sessionStorage.getItem("setancient_text");
+	sessionStorage.getItem("setrandom_mapX");
+	sessionStorage.getItem("setrandom_mapY");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4334,25 +4334,25 @@ function workshop_siege_vehicle_save() {
 };
 
 function nextage_i() {
-	localStorage.getItem("setironage_text");
+	sessionStorage.getItem("setironage_text");
 	
-	localStorage.setItem("setkipdisplay1", "none");
-	localStorage.setItem("setkipdisplay2", "block");
-	localStorage.setItem("setkipdisplay3", "none");
-	localStorage.setItem("setkipdisplay4", "none");
-	localStorage.setItem("setkipdisplay5", "none");
+	sessionStorage.setItem("setkipdisplay1", "none");
+	sessionStorage.setItem("setkipdisplay2", "block");
+	sessionStorage.setItem("setkipdisplay3", "none");
+	sessionStorage.setItem("setkipdisplay4", "none");
+	sessionStorage.setItem("setkipdisplay5", "none");
 	
-	localStorage.setItem("setkipnabdisplay1", "none");
+	sessionStorage.setItem("setkipnabdisplay1", "none");
 	
-	localStorage.setItem("setkip_text2_display", "none");
-	localStorage.setItem("setkip_text3_display", "block");
-	localStorage.setItem("setkip_text4_display", "none");
-	localStorage.setItem("setkip_text5_display", "none");
+	sessionStorage.setItem("setkip_text2_display", "none");
+	sessionStorage.setItem("setkip_text3_display", "block");
+	sessionStorage.setItem("setkip_text4_display", "none");
+	sessionStorage.setItem("setkip_text5_display", "none");
 	
-	localStorage.setItem("setage_img", "url('images/age_2_icon.png')");
+	sessionStorage.setItem("setage_img", "url('images/age_2_icon.png')");
 	
-	localStorage.setItem("settoageiron1", "none");
-	localStorage.setItem("settoageiron2", "block");
+	sessionStorage.setItem("settoageiron1", "none");
+	sessionStorage.setItem("settoageiron2", "block");
 	
 	window.location.reload();
 	
@@ -4360,26 +4360,26 @@ function nextage_i() {
 };
 
 function nextage_a() {
-	localStorage.getItem("setancientage_text");
+	sessionStorage.getItem("setancientage_text");
 	
-	localStorage.setItem("setkipdisplay1", "none");
-	localStorage.setItem("setkipdisplay2", "none");
-	localStorage.setItem("setkipdisplay3", "block");
-	localStorage.setItem("setkipdisplay4", "none");
-	localStorage.setItem("setkipdisplay5", "none");
+	sessionStorage.setItem("setkipdisplay1", "none");
+	sessionStorage.setItem("setkipdisplay2", "none");
+	sessionStorage.setItem("setkipdisplay3", "block");
+	sessionStorage.setItem("setkipdisplay4", "none");
+	sessionStorage.setItem("setkipdisplay5", "none");
 	
-	localStorage.setItem("setkipnabdisplay1", "none");
-	localStorage.setItem("setkipnabdisplay2", "none");
+	sessionStorage.setItem("setkipnabdisplay1", "none");
+	sessionStorage.setItem("setkipnabdisplay2", "none");
 	
-	localStorage.setItem("setkip_text2_display", "none");
-	localStorage.setItem("setkip_text3_display", "none");
-	localStorage.setItem("setkip_text4_display", "block");
-	localStorage.setItem("setkip_text5_display", "none");
+	sessionStorage.setItem("setkip_text2_display", "none");
+	sessionStorage.setItem("setkip_text3_display", "none");
+	sessionStorage.setItem("setkip_text4_display", "block");
+	sessionStorage.setItem("setkip_text5_display", "none");
 	
-	localStorage.setItem("setage_img", "url('images/age_3_icon.png')");
+	sessionStorage.setItem("setage_img", "url('images/age_3_icon.png')");
 	
-	localStorage.setItem("settoageancient1", "none");
-	localStorage.setItem("settoageancient2", "block");
+	sessionStorage.setItem("settoageancient1", "none");
+	sessionStorage.setItem("settoageancient2", "block");
 	
 	window.location.reload();
 	
@@ -4387,27 +4387,27 @@ function nextage_a() {
 };
 
 function nextage_c() {
-	localStorage.getItem("setclassicalage_text");
+	sessionStorage.getItem("setclassicalage_text");
 	
-	localStorage.setItem("setkipdisplay1", "none");
-	localStorage.setItem("setkipdisplay2", "none");
-	localStorage.setItem("setkipdisplay3", "none");
-	localStorage.setItem("setkipdisplay4", "block");
-	localStorage.setItem("setkipdisplay5", "none");
+	sessionStorage.setItem("setkipdisplay1", "none");
+	sessionStorage.setItem("setkipdisplay2", "none");
+	sessionStorage.setItem("setkipdisplay3", "none");
+	sessionStorage.setItem("setkipdisplay4", "block");
+	sessionStorage.setItem("setkipdisplay5", "none");
 	
-	localStorage.setItem("setkipnabdisplay1", "none");
-	localStorage.setItem("setkipnabdisplay2", "none");
-	localStorage.setItem("setkipnabdisplay3", "none");
+	sessionStorage.setItem("setkipnabdisplay1", "none");
+	sessionStorage.setItem("setkipnabdisplay2", "none");
+	sessionStorage.setItem("setkipnabdisplay3", "none");
 	
-	localStorage.setItem("setkip_text2_display", "none");
-	localStorage.setItem("setkip_text3_display", "none");
-	localStorage.setItem("setkip_text4_display", "none");
-	localStorage.setItem("setkip_text5_display", "block");
+	sessionStorage.setItem("setkip_text2_display", "none");
+	sessionStorage.setItem("setkip_text3_display", "none");
+	sessionStorage.setItem("setkip_text4_display", "none");
+	sessionStorage.setItem("setkip_text5_display", "block");
 	
-	localStorage.setItem("setage_img", "url('images/age_4_icon.png')");
+	sessionStorage.setItem("setage_img", "url('images/age_4_icon.png')");
 	
-	localStorage.setItem("settoageclassical1", "none");
-	localStorage.setItem("settoageclassical2", "block");
+	sessionStorage.setItem("settoageclassical1", "none");
+	sessionStorage.setItem("settoageclassical2", "block");
 	
 	window.location.reload();
 	
@@ -4415,28 +4415,28 @@ function nextage_c() {
 };
 
 function nextage_h() {
-	localStorage.getItem("sethellenisticage_text");
+	sessionStorage.getItem("sethellenisticage_text");
 	
-	localStorage.setItem("setkipdisplay1", "none");
-	localStorage.setItem("setkipdisplay2", "none");
-	localStorage.setItem("setkipdisplay3", "none");
-	localStorage.setItem("setkipdisplay4", "none");
-	localStorage.setItem("setkipdisplay5", "block");
+	sessionStorage.setItem("setkipdisplay1", "none");
+	sessionStorage.setItem("setkipdisplay2", "none");
+	sessionStorage.setItem("setkipdisplay3", "none");
+	sessionStorage.setItem("setkipdisplay4", "none");
+	sessionStorage.setItem("setkipdisplay5", "block");
 	
-	localStorage.setItem("setkipnabdisplay1", "none");
-	localStorage.setItem("setkipnabdisplay2", "none");
-	localStorage.setItem("setkipnabdisplay3", "none");
-	localStorage.setItem("setkipnabdisplay4", "none");
+	sessionStorage.setItem("setkipnabdisplay1", "none");
+	sessionStorage.setItem("setkipnabdisplay2", "none");
+	sessionStorage.setItem("setkipnabdisplay3", "none");
+	sessionStorage.setItem("setkipnabdisplay4", "none");
 	
-	localStorage.setItem("setkip_text2_display", "none");
-	localStorage.setItem("setkip_text3_display", "none");
-	localStorage.setItem("setkip_text4_display", "none");
-	localStorage.setItem("setkip_text5_display", "none");
+	sessionStorage.setItem("setkip_text2_display", "none");
+	sessionStorage.setItem("setkip_text3_display", "none");
+	sessionStorage.setItem("setkip_text4_display", "none");
+	sessionStorage.setItem("setkip_text5_display", "none");
 	
-	localStorage.setItem("setage_img", "url('images/age_5_icon.png')");
+	sessionStorage.setItem("setage_img", "url('images/age_5_icon.png')");
 	
-	localStorage.setItem("settoagehellenistic1", "none");
-	localStorage.setItem("settoagehellenistic2", "block");
+	sessionStorage.setItem("settoagehellenistic1", "none");
+	sessionStorage.setItem("settoagehellenistic2", "block");
 	
 	window.location.reload();
 	
