@@ -2834,6 +2834,11 @@ function get_save() {
 	document.getElementById("menus_map_text").innerHTML = setmenus_map_text;
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function academy_page_save() {
@@ -2891,6 +2896,11 @@ function academy_page_save() {
 	document.getElementById("academy_classical_cartography2").style.display = settoageclassical2;
 	document.getElementById("academy_classical_masonry1").style.display = settoageclassical1;
 	document.getElementById("academy_classical_masonry2").style.display = settoageclassical2;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function allies_page_save() {
@@ -2908,6 +2918,11 @@ function allies_page_save() {
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
 	document.getElementById("allies_text").innerHTML = setmenus_allies_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function barracks_army1_save() {
@@ -2934,6 +2949,11 @@ function barracks_army1_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function barracks_army2_save() {
@@ -2960,6 +2980,11 @@ function barracks_army2_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function barracks_army3_save() {
@@ -2989,6 +3014,11 @@ function barracks_army3_save() {
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
 	document.getElementById("spy_text1").innerHTML = setspy_text;
 	document.getElementById("spy_text2").innerHTML = setspy_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function barracks_army4_save() {
@@ -3015,6 +3045,11 @@ function barracks_army4_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("iron_text").innerHTML = setiron_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function barracks_army5_save() {
@@ -3041,6 +3076,11 @@ function barracks_army5_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("iron_text").innerHTML = setiron_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function barracks_army6_save() {
@@ -3069,6 +3109,11 @@ function barracks_army6_save() {
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("ancient_text").innerHTML = setancient_text;
 	document.getElementById("archer_text").innerHTML = setarcher_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function barracks_page_save() {
@@ -3123,6 +3168,11 @@ function barracks_page_save() {
 	document.getElementById("spy_text").innerHTML = setspy_text;
 	document.getElementById("archer_text1").innerHTML = setarcher_text;
 	document.getElementById("archer_text2").innerHTML = setarcher_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function bonus_page_save() {
@@ -3149,6 +3199,11 @@ function buy_diamond_save() {
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
 	document.getElementById("kp_buydiamonds_text").innerHTML = setkp_buydiamonds_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function castle_army1_save() {
@@ -3175,6 +3230,11 @@ function castle_army1_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function castle_army2_save() {
@@ -3201,6 +3261,11 @@ function castle_army2_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("hellenistic_text").innerHTML = sethellenistic_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function castle_info_save() {
@@ -3227,6 +3292,11 @@ function castle_info_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function castle_page_save() {
@@ -3258,6 +3328,11 @@ function castle_page_save() {
 	document.getElementById("hellenistic_text").innerHTML = sethellenistic_text;
 	document.getElementById("castle_hellenistic_triarii1").style.display = settoagehellenistic1;
 	document.getElementById("castle_hellenistic_triarii2").style.display = settoagehellenistic2;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function index_save() {
@@ -3398,6 +3473,11 @@ function kingdominfo_page_save() {
 	document.getElementById("cities_text3").innerHTML = setcities_text;
 	document.getElementById("spy_text").innerHTML = setspy_text;
 	document.getElementById("storagelimit_text").innerHTML = setstoragelimit_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function leaderboard_page_save() {
@@ -3420,6 +3500,11 @@ function leaderboard_page_save() {
 	document.getElementById("leaderboard_text").innerHTML = setmenus_leaderboard_text;
 	document.getElementById("kings_text").innerHTML = setkings_text;
 	document.getElementById("allies_text").innerHTML = setmenus_allies_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function leaderboard2_page_save() {
@@ -3442,6 +3527,11 @@ function leaderboard2_page_save() {
 	document.getElementById("kings_text").innerHTML = setkings_text;
 	document.getElementById("allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("lbottom_text").innerHTML = setlbottom_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function log_page_save() {
@@ -3462,6 +3552,11 @@ function log_page_save() {
 	document.getElementById("logs_text").innerHTML = setmenus_logs_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("trade_text").innerHTML = settrade_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function log2_page_save() {
@@ -3482,6 +3577,11 @@ function log2_page_save() {
 	document.getElementById("logs_text").innerHTML = setmenus_logs_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("trade_text").innerHTML = settrade_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function map_page_save() {
@@ -3514,6 +3614,11 @@ function map_places_1_save() {
 	document.getElementById("colonies_text").innerHTML = setcolonies_text;
 	document.getElementById("cities_text").innerHTML = setcities_text;
 	document.getElementById("places_text").innerHTML = setplaces_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function map_places_2_save() {
@@ -3536,6 +3641,11 @@ function map_places_2_save() {
 	document.getElementById("colonies_text").innerHTML = setcolonies_text;
 	document.getElementById("cities_text").innerHTML = setcities_text;
 	document.getElementById("places_text").innerHTML = setplaces_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function map_search_save() {
@@ -3556,6 +3666,11 @@ function map_search_save() {
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
 	document.getElementById("search_text").innerHTML = setsearch_text;
 	document.getElementById("search_input_text").placeholder = setsearch_input_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function market_page_save() {
@@ -3584,6 +3699,11 @@ function market_page_save() {
 	document.getElementById("tradewagon_text").innerHTML = settradewagon_text;
 	document.getElementById("produce_text").innerHTML = setproduce_text;
 	document.getElementById("boost_text").innerHTML = setupgrade_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function market_trade_wagon_save() {
@@ -3614,6 +3734,11 @@ function market_trade_wagon_save() {
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("trade_text").innerHTML = settrade_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function messages_page_save() {
@@ -3635,6 +3760,11 @@ function messages_page_save() {
 	document.getElementById("kp_messages_text").innerHTML = setkp_messages_text;
 	document.getElementById("notifications_text").innerHTML = setnotifications_text;
 	document.getElementById("notifications_text2").innerHTML = setnotifications_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 
@@ -3657,6 +3787,11 @@ function messages2_page_save() {
 	document.getElementById("kp_messages_text").innerHTML = setkp_messages_text;
 	document.getElementById("kp_messages_text2").innerHTML = setkp_messages_text;
 	document.getElementById("notifications_text2").innerHTML = setnotifications_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function military_page_save() {
@@ -3678,6 +3813,11 @@ function military_page_save() {
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("armies_text").innerHTML = setarmies_text;
 	document.getElementById("supportunits_text").innerHTML = setsupportunits_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function military2_page_save() {
@@ -3699,6 +3839,11 @@ function military2_page_save() {
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("armies_text").innerHTML = setarmies_text;
 	document.getElementById("supportunits_text").innerHTML = setsupportunits_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function news1_page_save() {
@@ -3721,6 +3866,11 @@ function news1_page_save() {
 	document.getElementById("announcement_text").innerHTML = setannouncement_text2;
 	document.getElementById("news_text").innerHTML = setnews_text;
 	document.getElementById("embassies_text").innerHTML = setembassies_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function news2_page_save() {
@@ -3743,6 +3893,11 @@ function news2_page_save() {
 	document.getElementById("announcement_text").innerHTML = setannouncement_text2;
 	document.getElementById("news_text").innerHTML = setnews_text;
 	document.getElementById("embassies_text").innerHTML = setembassies_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function process_page_save() {
@@ -3764,6 +3919,11 @@ function process_page_save() {
 	document.getElementById("kp_process_text").innerHTML = setkp_process_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("trade_text").innerHTML = settrade_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function process2_page_save() {
@@ -3785,6 +3945,11 @@ function process2_page_save() {
 	document.getElementById("kp_process_text").innerHTML = setkp_process_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("trade_text").innerHTML = settrade_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function quest_page_save() {
@@ -3823,6 +3988,11 @@ function village_farmer_save() {
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("peasant_text").innerHTML = setpeasant_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function village_miner_save() {
@@ -3854,6 +4024,11 @@ function village_miner_save() {
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("peasant_text").innerHTML = setpeasant_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function village_page_save() {
@@ -3893,6 +4068,11 @@ function village_page_save() {
 	document.getElementById("goldminer_text2").innerHTML = setgoldminer_text;
 	document.getElementById("village_text").innerHTML = setvillage_text;
 	document.getElementById("village_text2").innerHTML = setvillage_text2;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function village_woodcutter_save() {
@@ -3924,6 +4104,11 @@ function village_woodcutter_save() {
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("peasant_text").innerHTML = setpeasant_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function wall_build1_save() {
@@ -3950,6 +4135,11 @@ function wall_build1_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function wall_build2_save() {
@@ -3975,6 +4165,11 @@ function wall_build2_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function wall_page_save() {
@@ -3998,6 +4193,11 @@ function wall_page_save() {
 	document.getElementById("boost_text").innerHTML = setupgrade_text;
 	document.getElementById("boost_text2").innerHTML = setupgrade_text;
 	document.getElementById("buildingcapacity_text").innerHTML = setbuildingcapacity_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function workshop_ballista_save() {
@@ -4024,6 +4224,11 @@ function workshop_ballista_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("bronze_text").innerHTML = setbronze_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function workshop_catapult_save() {
@@ -4050,6 +4255,11 @@ function workshop_catapult_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("ancient_text").innerHTML = setancient_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function workshop_page_save() {
@@ -4085,6 +4295,11 @@ function workshop_page_save() {
 	document.getElementById("workshop_ancient_catapult2").style.display = settoageancient2;
 	document.getElementById("workshop_ancient_siege_vehicle1").style.display = settoageancient1;
 	document.getElementById("workshop_ancient_siege_vehicle2").style.display = settoageancient2;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function workshop_siege_vehicle_save() {
@@ -4111,6 +4326,11 @@ function workshop_siege_vehicle_save() {
 	document.getElementById("type_text").innerHTML = settype_text;
 	document.getElementById("class_text").innerHTML = setclass_text;
 	document.getElementById("ancient_text").innerHTML = setancient_text;
+	document.getElementById("menu_military_button").href = "military_page.html";
+	document.getElementById("menu_logs_button").href = "log_page.html";
+	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
+	document.getElementById("menu_allies_button").href = "allies_page.html";
+	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 };
 
 function nextage_i() {
