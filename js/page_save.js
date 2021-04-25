@@ -2779,9 +2779,9 @@ function login() {
     var arrayXY3 = ["map_div_name_text_x1_y1", "map_div_name_text_x2_y1", "map_div_name_text_x3_y1"];
     var randomXY3 = arrayXY3[Math.floor(Math.random()*arrayXY3.length)];
 
-    localStorage.setItem("rtest1", "randomXY1");
-    localStorage.setItem("rtest2", "randomXY2");
-    localStorage.setItem("rtest3", "randomXY3");
+    localStorage.setItem("rtest1", randomXY1);
+    localStorage.setItem("rtest2", randomXY2);
+    localStorage.setItem("rtest3", randomXY3);
 	
 	window.location.href = "kingdom_page.html";
 };
