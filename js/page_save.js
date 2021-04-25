@@ -3448,7 +3448,7 @@ function map_page_save() {
 	
 	document.getElementById("map_div_img_" + rtest1).style.backgroundImage = "url('images/castle_icon.png')";
 	document.getElementById("map_div_text_" + rtest1).style.display = "block";
-	document.getElementById("map_div_name_text_" + rtest1).innerHtml = king_name;
+	document.getElementById("map_div_name_text_" + rtest1).innerHtml = "SEGO";
 };
 
 function map_places_1_save() {
