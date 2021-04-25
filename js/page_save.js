@@ -108,7 +108,8 @@ var setarcher_text = localStorage.getItem("setarcher_text");
 var setplaces_text = localStorage.getItem("setplaces_text");
 var setsearch_text = localStorage.getItem("setsearch_text");
 var setsearch_input_text = localStorage.getItem("setsearch_input_text");
-var rtest1 = localStorage.getItem("rtest1");
+var setrandom_mapX = localStorage.getItem("setrandom_mapX");
+var setrandom_mapY = localStorage.getItem("setrandom_mapY");
 
 /* kp_settings */
 
@@ -2768,10 +2769,11 @@ function login() {
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
-    var arrayXY1 = ["x1_y1", "x2_y1", "x3_y1"];
-    var randomXY1 = arrayXY1[Math.floor(Math.random()*arrayXY1.length)];
+    var randomX = Math.floor(Math.random() * 10) + 1;
+    var randomY = Math.floor(Math.random() * 10) + 1;
 
-    localStorage.setItem("rtest1", randomXY1);
+    localStorage.setItem("setrandom_mapX", randomX);
+    localStorage.setItem("setrandom_mapY", randomY);
 	
 	window.location.href = "kingdom_page.html";
 };
@@ -3443,12 +3445,13 @@ function log2_page_save() {
 };
 
 function map_page_save() {
-	localStorage.getItem("rtest1");
+	localStorage.getItem("setrandom_mapX");
+	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("king_name");
 	
-	document.getElementById("map_div_img_" + rtest1).style.backgroundImage = "url('images/castle_icon.png')";
-	document.getElementById("map_div_text_" + rtest1).style.display = "block";
-	document.getElementById("map_div_name_text_" + rtest1).innerHTML = king_name;
+	document.getElementById("map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY).style.backgroundImage = "url('images/castle_icon.png')";
+	document.getElementById("map_div_text_x" + setrandom_mapX + "_y" + setrandom_mapY).style.display = "block";
+	document.getElementById("map_div_name_text_x" + setrandom_mapX + "_y" + setrandom_mapY).innerHTML = king_name;
 };
 
 function map_places_1_save() {
