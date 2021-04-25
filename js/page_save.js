@@ -2769,8 +2769,8 @@ function login() {
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
-    var randomX = Math.floor(Math.random() * 10) + 1;
-    var randomY = Math.floor(Math.random() * 10) + 1;
+    var randomX = Math.floor(Math.random() * 100) + 1;
+    var randomY = Math.floor(Math.random() * 64) + 1;
 
     localStorage.setItem("setrandom_mapX", randomX);
     localStorage.setItem("setrandom_mapY", randomY);
