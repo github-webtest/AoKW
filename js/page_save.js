@@ -109,6 +109,8 @@ var setplaces_text = localStorage.getItem("setplaces_text");
 var setsearch_text = localStorage.getItem("setsearch_text");
 var setsearch_input_text = localStorage.getItem("setsearch_input_text");
 var rtest1 = localStorage.getItem("rtest1");
+var rtest2 = localStorage.getItem("rtest2");
+var rtest3 = localStorage.getItem("rtest3");
 
 /* kp_settings */
 
@@ -2768,10 +2770,18 @@ function login() {
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
-    var arrayXY = ["x1_y1", "x2_y1", "x3_y1"];
-    var randomXY = arrayXY[Math.floor(Math.random()*arrayXY.length)];
+    var arrayXY1 = ["map_div_img_x1_y1", "map_div_img_x2_y1", "map_div_img_x3_y1"];
+    var randomXY1 = arrayXY1[Math.floor(Math.random()*arrayXY1.length)];
 
-    localStorage.setItem("rtest1", "randomXY");
+    var arrayXY2 = ["map_div_text_x1_y1", "map_div_text_x2_y1", "map_div_text_x3_y1"];
+    var randomXY2 = arrayXY2[Math.floor(Math.random()*arrayXY2.length)];
+
+    var arrayXY3 = ["map_div_name_text_x1_y1", "map_div_name_text_x2_y1", "map_div_name_text_x3_y1"];
+    var randomXY3 = arrayXY3[Math.floor(Math.random()*arrayXY3.length)];
+
+    localStorage.setItem("rtest1", "randomXY1");
+    localStorage.setItem("rtest2", "randomXY2");
+    localStorage.setItem("rtest3", "randomXY3");
 	
 	window.location.href = "kingdom_page.html";
 };
@@ -3444,11 +3454,13 @@ function log2_page_save() {
 
 function map_page_save() {
 	localStorage.getItem("rtest1");
+	localStorage.getItem("rtest2");
+	localStorage.getItem("rtest3");
 	localStorage.getItem("king_name");
 	
-	document.getElementById("map_div_text_" + rtest1).style.display = "block";
-	document.getElementById("map_div_name_text_" + rtest1).innerHtml = king_name;
-	document.getElementById("map_div_img_" + rtest1).style.backgroundImage = "url('images/castle_icon.png')";
+	document.getElementById(rtest1).style.backgroundImage = "url('images/castle_icon.png')";
+	document.getElementById(rtest2).style.display = "block";
+	document.getElementById(rtest3).innerHtml = king_name;
 };
 
 function map_places_1_save() {
