@@ -4233,6 +4233,8 @@ function village_farmer_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("sethour_text");
+	localStorage.getItem("setfood_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4253,6 +4255,10 @@ function village_farmer_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("food_text1").innerHTML = setfood_text;
+	document.getElementById("food_text2").innerHTML = setfood_text;
+	document.getElementById("hour_text1").innerHTML = sethour_text;
+	document.getElementById("hour_text2").innerHTML = sethour_text;
 };
 
 function village_miner_save() {
@@ -4271,6 +4277,8 @@ function village_miner_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("sethour_text");
+	localStorage.getItem("setgold_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4291,6 +4299,10 @@ function village_miner_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("gold_text1").innerHTML = setgold_text;
+	document.getElementById("gold_text2").innerHTML = setgold_text;
+	document.getElementById("hour_text1").innerHTML = sethour_text;
+	document.getElementById("hour_text2").innerHTML = sethour_text;
 };
 
 function village_page_save() {
@@ -4373,6 +4385,8 @@ function village_woodcutter_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("sethour_text");
+	localStorage.getItem("setwood_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4393,6 +4407,10 @@ function village_woodcutter_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("wood_text1").innerHTML = setwood_text;
+	document.getElementById("wood_text2").innerHTML = setwood_text;
+	document.getElementById("hour_text1").innerHTML = sethour_text;
+	document.getElementById("hour_text2").innerHTML = sethour_text;
 };
 
 function wall_build1_save() {
