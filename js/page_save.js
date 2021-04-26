@@ -119,6 +119,7 @@ var setvillage_text8 = localStorage.getItem("setvillage_text8");
 var setcost_text = localStorage.getItem("setcost_text");
 var setbuy_text = localStorage.getItem("setbuy_text");
 var setproduction_text = localStorage.getItem("setproduction_text");
+var setvkick_text = localStorage.getItem("setvkick_text");
 
 /* kp_settings */
 
@@ -397,6 +398,9 @@ function settings_languageEN(){
 
     var setproduction_textEN = "Production";
     localStorage.setItem("setproduction_text", setproduction_textEN);
+
+    var setvkick_textEN = "Kick the villagers to make room";
+    localStorage.setItem("setvkick_text", setvkick_textEN);
 	
 	window.location.reload();
 	
@@ -664,6 +668,9 @@ function settings_languageDE(){
 
     var setproduction_textDE = "Produktion";
     localStorage.setItem("setproduction_text", setproduction_textDE);
+
+    var setvkick_textDE = "Tritt die Dorfbewohner, um Platz zu schaffen";
+    localStorage.setItem("setvkick_text", setvkick_textDE);
 	
 	window.location.reload();
 	
@@ -931,6 +938,9 @@ function settings_languageFR(){
 
     var setproduction_textFR = "Production";
     localStorage.setItem("setproduction_text", setproduction_textFR);
+
+    var setvkick_textFR = "Frappez les villageois pour faire de la place";
+    localStorage.setItem("setvkick_text", setvkick_textFR);
 	
 	window.location.reload();
 	
@@ -1198,6 +1208,9 @@ function settings_languageRU(){
 
     var setproduction_textRU = "Производство";
     localStorage.setItem("setproduction_text", setproduction_textRU);
+
+    var setvkick_textRU = "Пинайте жителей, чтобы освободить место";
+    localStorage.setItem("setvkick_text", setvkick_textRU);
 	
 	window.location.reload();
 	
@@ -1465,6 +1478,9 @@ function settings_languageTR(){
 
     var setproduction_textTR = "Üretim";
     localStorage.setItem("setproduction_text", setproduction_textTR);
+
+    var setvkick_textTR = "Yer açmak için köylüleri kov";
+    localStorage.setItem("setvkick_text", setvkick_textTR);
 	
 	window.location.reload();
 	
@@ -1732,6 +1748,9 @@ function settings_languagePT(){
 
     var setproduction_textPT = "Produção";
     localStorage.setItem("setproduction_text", setproduction_textPT);
+
+    var setvkick_textPT = "Chute os aldeões para abrir espaço";
+    localStorage.setItem("setvkick_text", setvkick_textPT);
 	
 	window.location.reload();
 	
@@ -2002,6 +2021,9 @@ function settings_languageES(){
 
     var setproduction_textES = "Producción";
     localStorage.setItem("setproduction_text", setproduction_textES);
+
+    var setvkick_textES = "Patea a los aldeanos para hacer espacio";
+    localStorage.setItem("setvkick_text", setvkick_textES);
 	
 	window.location.reload();
 	
@@ -2269,6 +2291,9 @@ function settings_languageZH(){
 
     var setproduction_textZH = "生产";
     localStorage.setItem("setproduction_text", setproduction_textZH);
+
+    var setvkick_textZH = "踢村民腾出空间";
+    localStorage.setItem("setvkick_text", setvkick_textZH);
 	
 	window.location.reload();
 	
@@ -2536,6 +2561,9 @@ function settings_languageJA(){
 
     var setproduction_textJA = "製造";
     localStorage.setItem("setproduction_text", setproduction_textJA);
+
+    var setvkick_textJA = "村人を蹴って部屋を空ける";
+    localStorage.setItem("setvkick_text", setvkick_textJA);
 	
 	window.location.reload();
 	
@@ -2803,6 +2831,9 @@ function settings_languageKO(){
 
     var setproduction_textKO = "생산";
     localStorage.setItem("setproduction_text", setproduction_textKO);
+
+    var setvkick_textKO = "방을 만들기 위해 마을 사람들을 걷어차";
+    localStorage.setItem("setvkick_text", setvkick_textKO);
 	
 	window.location.reload();
 	
@@ -3071,6 +3102,9 @@ function login() {
 
     var setproduction_textEN = "Production";
     localStorage.setItem("setproduction_text", setproduction_textEN);
+
+    var setvkick_textEN = "Kick the villagers to make room";
+    localStorage.setItem("setvkick_text", setvkick_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -4424,6 +4458,7 @@ function village_page_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setdiamond_text");
 	localStorage.getItem("setbuy_text");
+	localStorage.getItem("setvkick_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4465,6 +4500,7 @@ function village_page_save() {
 	document.getElementById("buy_text1").innerHTML = setbuy_text;
 	document.getElementById("buy_text2").innerHTML = setbuy_text;
 	document.getElementById("buy_text3").innerHTML = setbuy_text;
+	document.getElementById("vkick_text").innerHTML = setvkick_text;
 };
 
 function village_woodcutter_save() {
