@@ -110,6 +110,13 @@ var setsearch_text = localStorage.getItem("setsearch_text");
 var setsearch_input_text = localStorage.getItem("setsearch_input_text");
 var setrandom_mapX = localStorage.getItem("setrandom_mapX");
 var setrandom_mapY = localStorage.getItem("setrandom_mapY");
+var setvillage_text3 = localStorage.getItem("setvillage_text3");
+var setvillage_text4 = localStorage.getItem("setvillage_text4");
+var setvillage_text5 = localStorage.getItem("setvillage_text5");
+var setvillage_text6 = localStorage.getItem("setvillage_text6");
+var setvillage_text7 = localStorage.getItem("setvillage_text7");
+var setvillage_text8 = localStorage.getItem("setvillage_text8");
+var setcost_text = localStorage.getItem("setcost_text");
 
 /* kp_settings */
 
@@ -361,6 +368,27 @@ function settings_languageEN(){
 
     var setsearch_input_textEN = "Search for Players, Colonies and Cities";
     localStorage.setItem("setsearch_input_text", setsearch_input_textEN);
+
+    var setvillage_text3EN = "25% more food production";
+    localStorage.setItem("setvillage_text3", setvillage_text3EN);
+
+    var setvillage_text4EN = "Increases food production for 7 days.";
+    localStorage.setItem("setvillage_text4", setvillage_text4EN);
+
+    var setvillage_text5EN = "Increases wood production for 7 days.";
+    localStorage.setItem("setvillage_text5", setvillage_text5EN);
+
+    var setvillage_text6EN = "Increases gold production for 7 days.";
+    localStorage.setItem("setvillage_text6", setvillage_text6EN);
+
+    var setvillage_text7EN = "25% more wood production";
+    localStorage.setItem("setvillage_text7", setvillage_text7EN);
+
+    var setvillage_text8EN = "25% more gold production";
+    localStorage.setItem("setvillage_text8", setvillage_text8EN);
+
+    var setcost_textEN = "Cost";
+    localStorage.setItem("setcost_text", setcost_textEN);
 	
 	window.location.reload();
 	
@@ -601,6 +629,27 @@ function settings_languageDE(){
 
     var setsearch_input_textDE = "Suche nach Spielern, Kolonien und Städten";
     localStorage.setItem("setsearch_input_text", setsearch_input_textDE);
+
+    var setvillage_text3DE = "25% mehr Lebensmittelproduktion";
+    localStorage.setItem("setvillage_text3", setvillage_text3DE);
+
+    var setvillage_text4DE = "Erhöht die Lebensmittelproduktion für 7 Tage.";
+    localStorage.setItem("setvillage_text4", setvillage_text4DE);
+
+    var setvillage_text5DE = "Erhöht die Holzproduktion für 7 Tage.";
+    localStorage.setItem("setvillage_text5", setvillage_text5DE);
+
+    var setvillage_text6DE = "Erhöht die Goldproduktion für 7 Tage.";
+    localStorage.setItem("setvillage_text6", setvillage_text6DE);
+
+    var setvillage_text7DE = "25% mehr Holzproduktion";
+    localStorage.setItem("setvillage_text7", setvillage_text7DE);
+
+    var setvillage_text8DE = "25% mehr Goldproduktion";
+    localStorage.setItem("setvillage_text8", setvillage_text8DE);
+
+    var setcost_textDE = "Kosten";
+    localStorage.setItem("setcost_text", setcost_textDE);
 	
 	window.location.reload();
 	
@@ -841,6 +890,27 @@ function settings_languageFR(){
 
     var setsearch_input_textFR = "Rechercher des joueurs, des colonies et des villes";
     localStorage.setItem("setsearch_input_text", setsearch_input_textFR);
+
+    var setvillage_text3FR = "25% de production alimentaire en plus";
+    localStorage.setItem("setvillage_text3", setvillage_text3FR);
+
+    var setvillage_text4FR = "Augmente la production alimentaire pendant 7 jours.";
+    localStorage.setItem("setvillage_text4", setvillage_text4FR);
+
+    var setvillage_text5FR = "Augmente la production de bois pendant 7 jours.";
+    localStorage.setItem("setvillage_text5", setvillage_text5FR);
+
+    var setvillage_text6FR = "Augmente la production d'or pendant 7 jours.";
+    localStorage.setItem("setvillage_text6", setvillage_text6FR);
+
+    var setvillage_text7FR = "25% de production de bois en plus";
+    localStorage.setItem("setvillage_text7", setvillage_text7FR);
+
+    var setvillage_text8FR = "25% de production d'or en plus";
+    localStorage.setItem("setvillage_text8", setvillage_text8FR);
+
+    var setcost_textFR = "Coût";
+    localStorage.setItem("setcost_text", setcost_textFR);
 	
 	window.location.reload();
 	
@@ -1081,6 +1151,27 @@ function settings_languageRU(){
 
     var setsearch_input_textRU = "Поиск игроков, колоний и городов";
     localStorage.setItem("setsearch_input_text", setsearch_input_textRU);
+
+    var setvillage_text3RU = "На 25% больше производства продуктов питания";
+    localStorage.setItem("setvillage_text3", setvillage_text3RU);
+
+    var setvillage_text4RU = "Увеличивает производство еды на 7 дней.";
+    localStorage.setItem("setvillage_text4", setvillage_text4RU);
+
+    var setvillage_text5RU = "Увеличивает производство древесины на 7 дней.";
+    localStorage.setItem("setvillage_text5", setvillage_text5RU);
+
+    var setvillage_text6RU = "Увеличивает производство золота на 7 дней.";
+    localStorage.setItem("setvillage_text6", setvillage_text6RU);
+
+    var setvillage_text7RU = "На 25% больше производства древесины";
+    localStorage.setItem("setvillage_text7", setvillage_text7RU);
+
+    var setvillage_text8RU = "На 25% больше добычи золота";
+    localStorage.setItem("setvillage_text8", setvillage_text8RU);
+
+    var setcost_textRU = "Расходы";
+    localStorage.setItem("setcost_text", setcost_textRU);
 	
 	window.location.reload();
 	
@@ -1321,6 +1412,27 @@ function settings_languageTR(){
 
     var setsearch_input_textTR = "Oyuncuları, Kolonileri ve Şehirleri Ara";
     localStorage.setItem("setsearch_input_text", setsearch_input_textTR);
+
+    var setvillage_text3TR = "25% daha fazla besin üretimi";
+    localStorage.setItem("setvillage_text3", setvillage_text3TR);
+
+    var setvillage_text4TR = "7 gün boyunca besin üretimini artırır.";
+    localStorage.setItem("setvillage_text4", setvillage_text4TR);
+
+    var setvillage_text5TR = "7 gün boyunca odun üretimini artırır.";
+    localStorage.setItem("setvillage_text5", setvillage_text5TR);
+
+    var setvillage_text6TR = "7 gün boyunca altın üretimini artırır.";
+    localStorage.setItem("setvillage_text6", setvillage_text6TR);
+
+    var setvillage_text7TR = "25% daha fazla odun üretimi";
+    localStorage.setItem("setvillage_text7", setvillage_text7TR);
+
+    var setvillage_text8TR = "25% daha fazla altın üretimi";
+    localStorage.setItem("setvillage_text8", setvillage_text8TR);
+
+    var setcost_textTR = "Maliyet";
+    localStorage.setItem("setcost_text", setcost_textTR);
 	
 	window.location.reload();
 	
@@ -1561,6 +1673,27 @@ function settings_languagePT(){
 
     var setsearch_input_textPT = "Procure jogadores, colônias e cidades";
     localStorage.setItem("setsearch_input_text", setsearch_input_textPT);
+
+    var setvillage_text3PT = "25% mais produção de alimentos";
+    localStorage.setItem("setvillage_text3", setvillage_text3PT);
+
+    var setvillage_text4PT = "Aumenta a produção de alimentos por 7 dias.";
+    localStorage.setItem("setvillage_text4", setvillage_text4PT);
+
+    var setvillage_text5PT = "Aumenta a produção de madeira por 7 dias.";
+    localStorage.setItem("setvillage_text5", setvillage_text5PT);
+
+    var setvillage_text6PT = "Aumenta a produção de ouro por 7 dias.";
+    localStorage.setItem("setvillage_text6", setvillage_text6PT);
+
+    var setvillage_text7PT = "25% mais produção de madeira";
+    localStorage.setItem("setvillage_text7", setvillage_text7PT);
+
+    var setvillage_text8PT = "25% mais produção de ouro";
+    localStorage.setItem("setvillage_text8", setvillage_text8PT);
+
+    var setcost_textPT = "Custo";
+    localStorage.setItem("setcost_text", setcost_textPT);
 	
 	window.location.reload();
 	
@@ -1804,6 +1937,27 @@ function settings_languageES(){
 
     var setsearch_input_textES = "Búsqueda de jugadores, colonias y ciudades";
     localStorage.setItem("setsearch_input_text", setsearch_input_textES);
+
+    var setvillage_text3ES = "25% más de producción de alimentos";
+    localStorage.setItem("setvillage_text3", setvillage_text3ES);
+
+    var setvillage_text4ES = "Aumenta la producción de alimentos durante 7 días.";
+    localStorage.setItem("setvillage_text4", setvillage_text4ES);
+
+    var setvillage_text5ES = "Aumenta la producción de madera durante 7 días.";
+    localStorage.setItem("setvillage_text5", setvillage_text5ES);
+
+    var setvillage_text6ES = "Aumenta la producción de oro durante 7 días.";
+    localStorage.setItem("setvillage_text6", setvillage_text6ES);
+
+    var setvillage_text7ES = "25% más de producción de madera";
+    localStorage.setItem("setvillage_text7", setvillage_text7ES);
+
+    var setvillage_text8ES = "25% más de producción de oro";
+    localStorage.setItem("setvillage_text8", setvillage_text8ES);
+
+    var setcost_textES = "Costo";
+    localStorage.setItem("setcost_text", setcost_textES);
 	
 	window.location.reload();
 	
@@ -2044,6 +2198,27 @@ function settings_languageZH(){
 
     var setsearch_input_textZH = "搜索玩家，殖民地和城市";
     localStorage.setItem("setsearch_input_text", setsearch_input_textZH);
+
+    var setvillage_text3ZH = "粮食生产增加25％";
+    localStorage.setItem("setvillage_text3", setvillage_text3ZH);
+
+    var setvillage_text4ZH = "增加7天的食物产量。";
+    localStorage.setItem("setvillage_text4", setvillage_text4ZH);
+
+    var setvillage_text5ZH = "木材产量提高7天。";
+    localStorage.setItem("setvillage_text5", setvillage_text5ZH);
+
+    var setvillage_text6ZH = "黄金产量提高7天。";
+    localStorage.setItem("setvillage_text6", setvillage_text6ZH);
+
+    var setvillage_text7ZH = "木材产量提高25％";
+    localStorage.setItem("setvillage_text7", setvillage_text7ZH);
+
+    var setvillage_text8ZH = "黄金产量增加25％";
+    localStorage.setItem("setvillage_text8", setvillage_text8ZH);
+
+    var setcost_textZH = "成本";
+    localStorage.setItem("setcost_text", setcost_textZH);
 	
 	window.location.reload();
 	
@@ -2284,6 +2459,27 @@ function settings_languageJA(){
 
     var setsearch_input_textJA = "プレイヤー、コロニー、都市を検索する";
     localStorage.setItem("setsearch_input_text", setsearch_input_textJA);
+
+    var setvillage_text3JA = "食料生産が25％増加";
+    localStorage.setItem("setvillage_text3", setvillage_text3JA);
+
+    var setvillage_text4JA = "7日間の食料生産を増やします。";
+    localStorage.setItem("setvillage_text4", setvillage_text4JA);
+
+    var setvillage_text5JA = "木材生産を7日間増加させます。";
+    localStorage.setItem("setvillage_text5", setvillage_text5JA);
+
+    var setvillage_text6JA = "金の生産量を7日間増やします。";
+    localStorage.setItem("setvillage_text6", setvillage_text6JA);
+
+    var setvillage_text7JA = "木材生産が25％増加";
+    localStorage.setItem("setvillage_text7", setvillage_text7JA);
+
+    var setvillage_text8JA = "金の生産量が25％増加";
+    localStorage.setItem("setvillage_text8", setvillage_text8JA);
+
+    var setcost_textJA = "費用";
+    localStorage.setItem("setcost_text", setcost_textJA);
 	
 	window.location.reload();
 	
@@ -2524,6 +2720,27 @@ function settings_languageKO(){
 
     var setsearch_input_textKO = "플레이어, 식민지 및 도시 검색";
     localStorage.setItem("setsearch_input_text", setsearch_input_textKO);
+
+    var setvillage_text3KO = "25% 더 많은 식량 생산";
+    localStorage.setItem("setvillage_text3", setvillage_text3KO);
+
+    var setvillage_text4KO = "7 일 동안 식량 생산을 증가시킵니다.";
+    localStorage.setItem("setvillage_text4", setvillage_text4KO);
+
+    var setvillage_text5KO = "7 일 동안 목재 생산량을 늘립니다.";
+    localStorage.setItem("setvillage_text5", setvillage_text5KO);
+
+    var setvillage_text6KO = "7 일 동안 금 생산량을 늘립니다.";
+    localStorage.setItem("setvillage_text6", setvillage_text6KO);
+
+    var setvillage_text7KO = "목재 생산량 25% 증가";
+    localStorage.setItem("setvillage_text7", setvillage_text7KO);
+
+    var setvillage_text8KO = "금 생산량 25% 증가";
+    localStorage.setItem("setvillage_text8", setvillage_text8KO);
+
+    var setcost_textKO = "비용";
+    localStorage.setItem("setcost_text", setcost_textKO);
 	
 	window.location.reload();
 	
@@ -2765,6 +2982,27 @@ function login() {
 
     var setsearch_input_textEN = "Search for Players, Colonies and Cities";
     localStorage.setItem("setsearch_input_text", setsearch_input_textEN);
+
+    var setvillage_text3EN = "25% more food production";
+    localStorage.setItem("setvillage_text3", setvillage_text3EN);
+
+    var setvillage_text4EN = "Increases food production for 7 days.";
+    localStorage.setItem("setvillage_text4", setvillage_text4EN);
+
+    var setvillage_text5EN = "Increases wood production for 7 days.";
+    localStorage.setItem("setvillage_text5", setvillage_text5EN);
+
+    var setvillage_text6EN = "Increases gold production for 7 days.";
+    localStorage.setItem("setvillage_text5", setvillage_text6EN);
+
+    var setvillage_text7EN = "25% more wood production";
+    localStorage.setItem("setvillage_text7", setvillage_text7EN);
+
+    var setvillage_text8EN = "25% more gold production";
+    localStorage.setItem("setvillage_text8", setvillage_text8EN);
+
+    var setcost_textEN = "Cost";
+    localStorage.setItem("setcost_text", setcost_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -4047,6 +4285,14 @@ function village_page_save() {
 	localStorage.getItem("setvillage_text2");
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
+	localStorage.getItem("setvillage_text3");
+	localStorage.getItem("setvillage_text4");
+	localStorage.getItem("setvillage_text5");
+	localStorage.getItem("setvillage_text6");
+	localStorage.getItem("setvillage_text7");
+	localStorage.getItem("setvillage_text8");
+	localStorage.getItem("setcost_text");
+	localStorage.getItem("setdiamond_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4073,6 +4319,18 @@ function village_page_save() {
 	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
+	document.getElementById("village_text3").innerHTML = setvillage_text3;
+	document.getElementById("village_text4").innerHTML = setvillage_text4;
+	document.getElementById("village_text5").innerHTML = setvillage_text5;
+	document.getElementById("village_text6").innerHTML = setvillage_text6;
+	document.getElementById("village_text7").innerHTML = setvillage_text7;
+	document.getElementById("village_text8").innerHTML = setvillage_text8;
+	document.getElementById("cost_text1").innerHTML = setcost_text;
+	document.getElementById("cost_text2").innerHTML = setcost_text;
+	document.getElementById("cost_text3").innerHTML = setcost_text;
+	document.getElementById("diamond_text1").innerHTML = setdiamond_text;
+	document.getElementById("diamond_text2").innerHTML = setdiamond_text;
+	document.getElementById("diamond_text3").innerHTML = setdiamond_text;
 };
 
 function village_woodcutter_save() {
