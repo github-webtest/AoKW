@@ -118,6 +118,7 @@ var setvillage_text7 = localStorage.getItem("setvillage_text7");
 var setvillage_text8 = localStorage.getItem("setvillage_text8");
 var setcost_text = localStorage.getItem("setcost_text");
 var setbuy_text = localStorage.getItem("setbuy_text");
+var setproduction_text = localStorage.getItem("setproduction_text");
 
 /* kp_settings */
 
@@ -393,6 +394,9 @@ function settings_languageEN(){
 
     var setbuy_textEN = "Buy";
     localStorage.setItem("setbuy_text", setbuy_textEN);
+
+    var setproduction_textEN = "Production";
+    localStorage.setItem("setproduction_text", setproduction_textEN);
 	
 	window.location.reload();
 	
@@ -657,6 +661,9 @@ function settings_languageDE(){
 
     var setbuy_textDE = "Kaufen";
     localStorage.setItem("setbuy_text", setbuy_textDE);
+
+    var setproduction_textDE = "Produktion";
+    localStorage.setItem("setproduction_text", setproduction_textDE);
 	
 	window.location.reload();
 	
@@ -921,6 +928,9 @@ function settings_languageFR(){
 
     var setbuy_textFR = "Acheter";
     localStorage.setItem("setbuy_text", setbuy_textFR);
+
+    var setproduction_textFR = "Production";
+    localStorage.setItem("setproduction_text", setproduction_textFR);
 	
 	window.location.reload();
 	
@@ -1185,6 +1195,9 @@ function settings_languageRU(){
 
     var setbuy_textRU = "Купить";
     localStorage.setItem("setbuy_text", setbuy_textRU);
+
+    var setproduction_textRU = "Производство";
+    localStorage.setItem("setproduction_text", setproduction_textRU);
 	
 	window.location.reload();
 	
@@ -1449,6 +1462,9 @@ function settings_languageTR(){
 
     var setbuy_textTR = "Satın al";
     localStorage.setItem("setbuy_text", setbuy_textTR);
+
+    var setproduction_textTR = "Üretim";
+    localStorage.setItem("setproduction_text", setproduction_textTR);
 	
 	window.location.reload();
 	
@@ -1713,6 +1729,9 @@ function settings_languagePT(){
 
     var setbuy_textPT = "Comprar";
     localStorage.setItem("setbuy_text", setbuy_textPT);
+
+    var setproduction_textPT = "Produção";
+    localStorage.setItem("setproduction_text", setproduction_textPT);
 	
 	window.location.reload();
 	
@@ -1980,6 +1999,9 @@ function settings_languageES(){
 
     var setbuy_textES = "Comprar";
     localStorage.setItem("setbuy_text", setbuy_textES);
+
+    var setproduction_textES = "Producción";
+    localStorage.setItem("setproduction_text", setproduction_textES);
 	
 	window.location.reload();
 	
@@ -2244,6 +2266,9 @@ function settings_languageZH(){
 
     var setbuy_textZH = "买";
     localStorage.setItem("setbuy_text", setbuy_textZH);
+
+    var setproduction_textZH = "生产";
+    localStorage.setItem("setproduction_text", setproduction_textZH);
 	
 	window.location.reload();
 	
@@ -2508,6 +2533,9 @@ function settings_languageJA(){
 
     var setbuy_textJA = "購入";
     localStorage.setItem("setbuy_text", setbuy_textJA);
+
+    var setproduction_textJA = "製造";
+    localStorage.setItem("setproduction_text", setproduction_textJA);
 	
 	window.location.reload();
 	
@@ -2772,6 +2800,9 @@ function settings_languageKO(){
 
     var setbuy_textKO = "구입";
     localStorage.setItem("setbuy_text", setbuy_textKO);
+
+    var setproduction_textKO = "생산";
+    localStorage.setItem("setproduction_text", setproduction_textKO);
 	
 	window.location.reload();
 	
@@ -3038,6 +3069,9 @@ function login() {
     var setbuy_textEN = "Buy";
     localStorage.setItem("setbuy_text", setbuy_textEN);
 
+    var setproduction_textEN = "Production";
+    localStorage.setItem("setproduction_text", setproduction_textEN);
+
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
@@ -3211,6 +3245,7 @@ function barracks_army1_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3228,6 +3263,7 @@ function barracks_army1_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innnerHTML = setproduction_text;
 };
 
 function barracks_army2_save() {
@@ -3244,6 +3280,7 @@ function barracks_army2_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3261,6 +3298,7 @@ function barracks_army2_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function barracks_army3_save() {
@@ -3278,6 +3316,7 @@ function barracks_army3_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3297,6 +3336,7 @@ function barracks_army3_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function barracks_army4_save() {
@@ -3313,6 +3353,7 @@ function barracks_army4_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3330,6 +3371,7 @@ function barracks_army4_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function barracks_army5_save() {
@@ -3346,6 +3388,7 @@ function barracks_army5_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3363,6 +3406,7 @@ function barracks_army5_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function barracks_army6_save() {
@@ -3380,6 +3424,7 @@ function barracks_army6_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3398,6 +3443,7 @@ function barracks_army6_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function barracks_page_save() {
@@ -3504,6 +3550,7 @@ function castle_army1_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3521,6 +3568,7 @@ function castle_army1_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function castle_army2_save() {
@@ -3537,6 +3585,7 @@ function castle_army2_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3554,6 +3603,7 @@ function castle_army2_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function castle_info_save() {
@@ -3570,6 +3620,7 @@ function castle_info_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3587,6 +3638,7 @@ function castle_info_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function castle_page_save() {
@@ -4012,6 +4064,7 @@ function market_trade_wagon_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4031,6 +4084,7 @@ function market_trade_wagon_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function messages_page_save() {
@@ -4269,6 +4323,7 @@ function village_farmer_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("sethour_text");
 	localStorage.getItem("setfood_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4293,6 +4348,8 @@ function village_farmer_save() {
 	document.getElementById("food_text2").innerHTML = setfood_text;
 	document.getElementById("hour_text1").innerHTML = sethour_text;
 	document.getElementById("hour_text2").innerHTML = sethour_text;
+	document.getElementById("production_text1").innerHTML = setproduction_text;
+	document.getElementById("production_text2").innerHTML = setproduction_text;
 };
 
 function village_miner_save() {
@@ -4313,6 +4370,7 @@ function village_miner_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("sethour_text");
 	localStorage.getItem("setgold_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4337,6 +4395,8 @@ function village_miner_save() {
 	document.getElementById("gold_text2").innerHTML = setgold_text;
 	document.getElementById("hour_text1").innerHTML = sethour_text;
 	document.getElementById("hour_text2").innerHTML = sethour_text;
+	document.getElementById("production_text1").innerHTML = setproduction_text;
+	document.getElementById("production_text2").innerHTML = setproduction_text;
 };
 
 function village_page_save() {
@@ -4425,6 +4485,7 @@ function village_woodcutter_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("sethour_text");
 	localStorage.getItem("setwood_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4449,6 +4510,8 @@ function village_woodcutter_save() {
 	document.getElementById("wood_text2").innerHTML = setwood_text;
 	document.getElementById("hour_text1").innerHTML = sethour_text;
 	document.getElementById("hour_text2").innerHTML = sethour_text;
+	document.getElementById("production_text1").innerHTML = setproduction_text;
+	document.getElementById("production_text2").innerHTML = setproduction_text;
 };
 
 function wall_build1_save() {
@@ -4465,6 +4528,7 @@ function wall_build1_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4482,6 +4546,7 @@ function wall_build1_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function wall_build2_save() {
@@ -4497,6 +4562,7 @@ function wall_build2_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4514,6 +4580,7 @@ function wall_build2_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function wall_page_save() {
@@ -4558,6 +4625,7 @@ function workshop_ballista_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4575,6 +4643,7 @@ function workshop_ballista_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function workshop_catapult_save() {
@@ -4591,6 +4660,7 @@ function workshop_catapult_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4608,6 +4678,7 @@ function workshop_catapult_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function workshop_page_save() {
@@ -4664,6 +4735,7 @@ function workshop_siege_vehicle_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
+	localStorage.getItem("setproduction_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4681,6 +4753,7 @@ function workshop_siege_vehicle_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function nextage_i() {
