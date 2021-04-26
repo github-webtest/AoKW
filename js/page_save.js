@@ -117,6 +117,7 @@ var setvillage_text6 = localStorage.getItem("setvillage_text6");
 var setvillage_text7 = localStorage.getItem("setvillage_text7");
 var setvillage_text8 = localStorage.getItem("setvillage_text8");
 var setcost_text = localStorage.getItem("setcost_text");
+var setbuy_text = localStorage.getItem("setbuy_text");
 
 /* kp_settings */
 
@@ -389,6 +390,9 @@ function settings_languageEN(){
 
     var setcost_textEN = "Cost";
     localStorage.setItem("setcost_text", setcost_textEN);
+
+    var setbuy_textEN = "Buy";
+    localStorage.setItem("setbuy_text", setbuy_textEN);
 	
 	window.location.reload();
 	
@@ -650,6 +654,9 @@ function settings_languageDE(){
 
     var setcost_textDE = "Kosten";
     localStorage.setItem("setcost_text", setcost_textDE);
+
+    var setbuy_textDE = "Kaufen";
+    localStorage.setItem("setbuy_text", setbuy_textDE);
 	
 	window.location.reload();
 	
@@ -911,6 +918,9 @@ function settings_languageFR(){
 
     var setcost_textFR = "Coût";
     localStorage.setItem("setcost_text", setcost_textFR);
+
+    var setbuy_textFR = "Acheter";
+    localStorage.setItem("setbuy_text", setbuy_textFR);
 	
 	window.location.reload();
 	
@@ -1172,6 +1182,9 @@ function settings_languageRU(){
 
     var setcost_textRU = "Расходы";
     localStorage.setItem("setcost_text", setcost_textRU);
+
+    var setbuy_textRU = "Купить";
+    localStorage.setItem("setbuy_text", setbuy_textRU);
 	
 	window.location.reload();
 	
@@ -1433,6 +1446,9 @@ function settings_languageTR(){
 
     var setcost_textTR = "Maliyet";
     localStorage.setItem("setcost_text", setcost_textTR);
+
+    var setbuy_textTR = "Satın al";
+    localStorage.setItem("setbuy_text", setbuy_textTR);
 	
 	window.location.reload();
 	
@@ -1694,6 +1710,9 @@ function settings_languagePT(){
 
     var setcost_textPT = "Custo";
     localStorage.setItem("setcost_text", setcost_textPT);
+
+    var setbuy_textPT = "Comprar";
+    localStorage.setItem("setbuy_text", setbuy_textPT);
 	
 	window.location.reload();
 	
@@ -1958,6 +1977,9 @@ function settings_languageES(){
 
     var setcost_textES = "Costo";
     localStorage.setItem("setcost_text", setcost_textES);
+
+    var setbuy_textES = "Comprar";
+    localStorage.setItem("setbuy_text", setbuy_textES);
 	
 	window.location.reload();
 	
@@ -2219,6 +2241,9 @@ function settings_languageZH(){
 
     var setcost_textZH = "成本";
     localStorage.setItem("setcost_text", setcost_textZH);
+
+    var setbuy_textZH = "买";
+    localStorage.setItem("setbuy_text", setbuy_textZH);
 	
 	window.location.reload();
 	
@@ -2480,6 +2505,9 @@ function settings_languageJA(){
 
     var setcost_textJA = "費用";
     localStorage.setItem("setcost_text", setcost_textJA);
+
+    var setbuy_textJA = "購入";
+    localStorage.setItem("setbuy_text", setbuy_textJA);
 	
 	window.location.reload();
 	
@@ -2741,6 +2769,9 @@ function settings_languageKO(){
 
     var setcost_textKO = "비용";
     localStorage.setItem("setcost_text", setcost_textKO);
+
+    var setbuy_textKO = "구입";
+    localStorage.setItem("setbuy_text", setbuy_textKO);
 	
 	window.location.reload();
 	
@@ -3003,6 +3034,9 @@ function login() {
 
     var setcost_textEN = "Cost";
     localStorage.setItem("setcost_text", setcost_textEN);
+
+    var setbuy_textEN = "Buy";
+    localStorage.setItem("setbuy_text", setbuy_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -4329,6 +4363,7 @@ function village_page_save() {
 	localStorage.getItem("setvillage_text8");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setdiamond_text");
+	localStorage.getItem("setbuy_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4367,6 +4402,9 @@ function village_page_save() {
 	document.getElementById("diamond_text1").innerHTML = setdiamond_text;
 	document.getElementById("diamond_text2").innerHTML = setdiamond_text;
 	document.getElementById("diamond_text3").innerHTML = setdiamond_text;
+	document.getElementById("buy_text1").innerHTML = setbuy_text;
+	document.getElementById("buy_text2").innerHTML = setbuy_text;
+	document.getElementById("buy_text3").innerHTML = setbuy_text;
 };
 
 function village_woodcutter_save() {
