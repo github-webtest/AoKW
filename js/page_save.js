@@ -3263,7 +3263,7 @@ function barracks_army1_save() {
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
-	document.getElementById("production_text").innnerHTML = setproduction_text;
+	document.getElementById("production_text").innerHTML = setproduction_text;
 };
 
 function barracks_army2_save() {
