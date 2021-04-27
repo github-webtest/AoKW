@@ -126,6 +126,7 @@ var setinfantry_text = localStorage.getItem("setinfantry_text");
 var setcavalry_text = localStorage.getItem("setcavalry_text");
 var setranged_text = localStorage.getItem("setranged_text");
 var setintelligence_text = localStorage.getItem("setintelligence_text");
+var setsiege_text = localStorage.getItem("setsiege_text");
 
 /* kp_settings */
 
@@ -425,6 +426,9 @@ function settings_languageEN(){
 
     var setintelligence_textEN = "Intelligence";
     localStorage.setItem("setintelligence_text", setintelligence_textEN);
+
+    var setsiege_textEN = "Siege";
+    localStorage.setItem("setsiege_text", setsiege_textEN);
 	
 	window.location.reload();
 	
@@ -713,6 +717,9 @@ function settings_languageDE(){
 
     var setintelligence_textDE = "Intelligenz";
     localStorage.setItem("setintelligence_text", setintelligence_textDE);
+
+    var setsiege_textDE = "Belagerung";
+    localStorage.setItem("setsiege_text", setsiege_textDE);
 	
 	window.location.reload();
 	
@@ -1001,6 +1008,9 @@ function settings_languageFR(){
 
     var setintelligence_textFR = "Intelligence";
     localStorage.setItem("setintelligence_text", setintelligence_textFR);
+
+    var setsiege_textFR = "Siège";
+    localStorage.setItem("setsiege_text", setsiege_textFR);
 	
 	window.location.reload();
 	
@@ -1289,6 +1299,9 @@ function settings_languageRU(){
 
     var setintelligence_textRU = "Интеллект";
     localStorage.setItem("setintelligence_text", setintelligence_textRU);
+
+    var setsiege_textRU = "Осада";
+    localStorage.setItem("setsiege_text", setsiege_textRU);
 	
 	window.location.reload();
 	
@@ -1577,6 +1590,9 @@ function settings_languageTR(){
 
     var setintelligence_textTR = "İstihbarat";
     localStorage.setItem("setintelligence_text", setintelligence_textTR);
+
+    var setsiege_textTR = "Kuşatma";
+    localStorage.setItem("setsiege_text", setsiege_textTR);
 	
 	window.location.reload();
 	
@@ -1865,6 +1881,9 @@ function settings_languagePT(){
 
     var setintelligence_textPT = "Inteligência";
     localStorage.setItem("setintelligence_text", setintelligence_textPT);
+
+    var setsiege_textPT = "Cerco";
+    localStorage.setItem("setsiege_text", setsiege_textPT);
 	
 	window.location.reload();
 	
@@ -2156,6 +2175,9 @@ function settings_languageES(){
 
     var setintelligence_textES = "Inteligencia";
     localStorage.setItem("setintelligence_text", setintelligence_textES);
+
+    var setsiege_textES = "Cerco";
+    localStorage.setItem("setsiege_text", setsiege_textES);
 	
 	window.location.reload();
 	
@@ -2444,6 +2466,9 @@ function settings_languageZH(){
 
     var setintelligence_textZH = "智力";
     localStorage.setItem("setintelligence_text", setintelligence_textZH);
+
+    var setsiege_textZH = "围城";
+    localStorage.setItem("setsiege_text", setsiege_textZH);
 	
 	window.location.reload();
 	
@@ -2732,6 +2757,9 @@ function settings_languageJA(){
 
     var setintelligence_textJA = "インテリジェンス";
     localStorage.setItem("setintelligence_text", setintelligence_textJA);
+
+    var setsiege_textJA = "包囲";
+    localStorage.setItem("setsiege_text", setsiege_textJA);
 	
 	window.location.reload();
 	
@@ -3020,6 +3048,9 @@ function settings_languageKO(){
 
     var setintelligence_textKO = "지성";
     localStorage.setItem("setintelligence_text", setintelligence_textKO);
+
+    var setsiege_textKO = "포위";
+    localStorage.setItem("setsiege_text", setsiege_textKO);
 	
 	window.location.reload();
 	
@@ -3309,6 +3340,9 @@ function login() {
 
     var setintelligence_textEN = "Intelligence";
     localStorage.setItem("setintelligence_text", setintelligence_textEN);
+
+    var setsiege_textEN = "Siege";
+    localStorage.setItem("setsiege_text", setsiege_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -5045,6 +5079,7 @@ function workshop_siege_vehicle_save() {
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setwarvehicle_text");
 	localStorage.getItem("setupgrade_text");
+	localStorage.getItem("setsiege_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -5065,6 +5100,7 @@ function workshop_siege_vehicle_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("warvehicle_text").innerHTML = setwarvehicle_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
+	document.getElementById("siege_text").innerHTML = setsiege_text;
 };
 
 function nextage_i() {
