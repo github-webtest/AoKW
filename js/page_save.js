@@ -129,6 +129,7 @@ var setintelligence_text = localStorage.getItem("setintelligence_text");
 var setsiege_text = localStorage.getItem("setsiege_text");
 var setdefensebuilding_text = localStorage.getItem("setdefensebuilding_text");
 var setwall_text = localStorage.getItem("setwall_text");
+var setdefensebonus_text = localStorage.getItem("setdefensebonus_text");
 
 /* kp_settings */
 
@@ -437,6 +438,9 @@ function settings_languageEN(){
 
     var setwall_textEN = "Wall";
     localStorage.setItem("setwall_text", setwall_textEN);
+
+    var setdefensebonus_textEN = "Defense Bonus";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textEN);
 	
 	window.location.reload();
 	
@@ -734,6 +738,9 @@ function settings_languageDE(){
 
     var setwall_textDE = "Wand";
     localStorage.setItem("setwall_text", setwall_textDE);
+
+    var setdefensebonus_textDE = "Verteidigungsbonus";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textDE);
 	
 	window.location.reload();
 	
@@ -1031,6 +1038,9 @@ function settings_languageFR(){
 
     var setwall_textFR = "Mur";
     localStorage.setItem("setwall_text", setwall_textFR);
+
+    var setdefensebonus_textFR = "Bonus de défense";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textFR);
 	
 	window.location.reload();
 	
@@ -1328,6 +1338,9 @@ function settings_languageRU(){
 
     var setwall_textRU = "стена";
     localStorage.setItem("setwall_text", setwall_textRU);
+
+    var setdefensebonus_textRU = "Бонус защиты";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textRU);
 	
 	window.location.reload();
 	
@@ -1625,6 +1638,9 @@ function settings_languageTR(){
 
     var setwall_textTR = "Duvar";
     localStorage.setItem("setwall_text", setwall_textTR);
+
+    var setdefensebonus_textTR = "Savunma Bonusu";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textTR);
 	
 	window.location.reload();
 	
@@ -1922,6 +1938,9 @@ function settings_languagePT(){
 
     var setwall_textPT = "Muro";
     localStorage.setItem("setwall_text", setwall_textPT);
+
+    var setdefensebonus_textPT = "Bônus de Defesa";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textPT);
 	
 	window.location.reload();
 	
@@ -2222,6 +2241,9 @@ function settings_languageES(){
 
     var setwall_textES = "Pared";
     localStorage.setItem("setwall_text", setwall_textES);
+
+    var setdefensebonus_textES = "Bono de defensa";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textES);
 	
 	window.location.reload();
 	
@@ -2519,6 +2541,9 @@ function settings_languageZH(){
 
     var setwall_textZH = "墙";
     localStorage.setItem("setwall_text", setwall_textZH);
+
+    var setdefensebonus_textZH = "防御加成";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textZH);
 	
 	window.location.reload();
 	
@@ -2816,6 +2841,9 @@ function settings_languageJA(){
 
     var setwall_textJA = "壁";
     localStorage.setItem("setwall_text", setwall_textJA);
+
+    var setdefensebonus_textJA = "防衛ボーナス";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textJA);
 	
 	window.location.reload();
 	
@@ -3113,6 +3141,9 @@ function settings_languageKO(){
 
     var setwall_textKO = "벽";
     localStorage.setItem("setwall_text", setwall_textKO);
+
+    var setdefensebonus_textKO = "방어 보너스";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textKO);
 	
 	window.location.reload();
 	
@@ -3411,6 +3442,9 @@ function login() {
 
     var setwall_textEN = "Wall";
     localStorage.setItem("setwall_text", setwall_textEN);
+
+    var setdefensebonus_textEN = "Defense Bonus";
+    localStorage.setItem("setdefensebonus_text", setdefensebonus_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -4038,6 +4072,7 @@ function castle_page_save() {
 	localStorage.getItem("settoagehellenistic2");
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
+	localStorage.getItem("setdefensebonus_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4058,6 +4093,7 @@ function castle_page_save() {
 	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
+	document.getElementById("defensebonus_text").innerHTML = setdefensebonus_text;
 };
 
 function index_save() {
@@ -5000,6 +5036,7 @@ function wall_page_save() {
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setwall_text");
+	localStorage.getItem("setdefensebonus_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -5017,6 +5054,7 @@ function wall_page_save() {
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("wall_text").innerHTML = setwall_text;
 	document.getElementById("wall_text2").innerHTML = setwall_text;
+	document.getElementById("defensebonus_text").innerHTML = setdefensebonus_text;
 };
 
 function workshop_ballista_save() {
