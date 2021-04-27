@@ -243,7 +243,7 @@ function settings_languageEN(){
     var setsupportunits_textEN = "Support Units";
     localStorage.setItem("setsupportunits_text", setsupportunits_textEN);
 
-    var settradewagon_textEN = "Trade Wagon ";
+    var settradewagon_textEN = "Trade Wagon";
     localStorage.setItem("settradewagon_text", settradewagon_textEN);
 
     var setproduce_textEN = "Produce";
@@ -540,7 +540,7 @@ function settings_languageDE(){
     var setsupportunits_textDE = "Support-Einheiten";
     localStorage.setItem("setsupportunits_text", setsupportunits_textDE);
 
-    var settradewagon_textDE = "Handelswagen ";
+    var settradewagon_textDE = "Handelswagen";
     localStorage.setItem("settradewagon_text", settradewagon_textDE);
 
     var setproduce_textDE = "Produzieren";
@@ -837,7 +837,7 @@ function settings_languageFR(){
     var setsupportunits_textFR = "Unités de soutien";
     localStorage.setItem("setsupportunits_text", setsupportunits_textFR);
 
-    var settradewagon_textFR = "Wagon de commerce ";
+    var settradewagon_textFR = "Wagon de commerce";
     localStorage.setItem("settradewagon_text", settradewagon_textFR);
 
     var setproduce_textFR = "Produire";
@@ -1134,7 +1134,7 @@ function settings_languageRU(){
     var setsupportunits_textRU = "войска поддержки";
     localStorage.setItem("setsupportunits_text", setsupportunits_textRU);
 
-    var settradewagon_textRU = "Торговый вагон ";
+    var settradewagon_textRU = "Торговый вагон";
     localStorage.setItem("settradewagon_text", settradewagon_textRU);
 
     var setproduce_textRU = "Производить";
@@ -1431,7 +1431,7 @@ function settings_languageTR(){
     var setsupportunits_textTR = "Destek Üniteleri";
     localStorage.setItem("setsupportunits_text", setsupportunits_textTR);
 
-    var settradewagon_textTR = "Ticaret Vagonu ";
+    var settradewagon_textTR = "Ticaret Vagonu";
     localStorage.setItem("settradewagon_text", settradewagon_textTR);
 
     var setproduce_textTR = "Üret";
@@ -1728,7 +1728,7 @@ function settings_languagePT(){
     var setsupportunits_textPT = "Unidades de Apoio";
     localStorage.setItem("setsupportunits_text", setsupportunits_textPT);
 
-    var settradewagon_textPT = "Vagão de comércio ";
+    var settradewagon_textPT = "Vagão de comércio";
     localStorage.setItem("settradewagon_text", settradewagon_textPT);
 
     var setproduce_textPT = "Produzir";
@@ -2028,7 +2028,7 @@ function settings_languageES(){
     var setsupportunits_textES = "Subtenaj Unuoj";
     localStorage.setItem("setsupportunits_text", setsupportunits_textES);
 
-    var settradewagon_textES = "Komerca Ĉaro ";
+    var settradewagon_textES = "Komerca Ĉaro";
     localStorage.setItem("settradewagon_text", settradewagon_textES);
 
     var setproduce_textES = "Produkti";
@@ -2325,7 +2325,7 @@ function settings_languageZH(){
     var setsupportunits_textZH = "支持单位";
     localStorage.setItem("setsupportunits_text", setsupportunits_textZH);
 
-    var settradewagon_textZH = "货车 ";
+    var settradewagon_textZH = "货车";
     localStorage.setItem("settradewagon_text", settradewagon_textZH);
 
     var setproduce_textZH = "生产";
@@ -2622,7 +2622,7 @@ function settings_languageJA(){
     var setsupportunits_textJA = "サポートユニット";
     localStorage.setItem("setsupportunits_text", setsupportunits_textJA);
 
-    var settradewagon_textJA = "トレードワゴン ";
+    var settradewagon_textJA = "トレードワゴン";
     localStorage.setItem("settradewagon_text", settradewagon_textJA);
 
     var setproduce_textJA = "作物";
@@ -2919,7 +2919,7 @@ function settings_languageKO(){
     var setsupportunits_textKO = "지원 단위";
     localStorage.setItem("setsupportunits_text", setsupportunits_textKO);
 
-    var settradewagon_textKO = "무역 왜건 ";
+    var settradewagon_textKO = "무역 왜건";
     localStorage.setItem("settradewagon_text", settradewagon_textKO);
 
     var setproduce_textKO = "생기게 하다";
@@ -3217,7 +3217,7 @@ function login() {
     var setsupportunits_textEN = "Support Units";
     localStorage.setItem("setsupportunits_text", setsupportunits_textEN);
 
-    var settradewagon_textEN = "Trade Wagon ";
+    var settradewagon_textEN = "Trade Wagon";
     localStorage.setItem("settradewagon_text", settradewagon_textEN);
 
     var setproduce_textEN = "Produce";
@@ -4419,7 +4419,7 @@ function market_page_save() {
 	document.getElementById("menus_allies_text").innerHTML = setmenus_allies_text;
 	document.getElementById("menus_leaderboard_text").innerHTML = setmenus_leaderboard_text;
 	document.getElementById("market_text").innerHTML = setmarket_text;
-	document.getElementById("market_text2").innerHTML = setmarket_text2;
+	document.getElementById("buildingdes_text").innerHTML = setmarket_text2;
 	document.getElementById("buildingcapacity_text").innerHTML = setbuildingcapacity_text;
 	document.getElementById("tradewagon_text").innerHTML = settradewagon_text;
 	document.getElementById("produce_text").innerHTML = setproduce_text;
