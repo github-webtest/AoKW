@@ -104,8 +104,6 @@ body{
 /* map_page */
 
 .map_div_all{
-	width: 100%;
-	height: 100vh;
 	float: left;
 	overflow: scroll;
 }
@@ -277,200 +275,146 @@ body{
 }
 
 .map_div_x17{
-	width: 100%;
-	height: 100vh;
 	margin-left: 1700%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x18{
-	width: 100%;
-	height: 100vh;
 	margin-left: 1800%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x19{
-	width: 100%;
-	height: 100vh;
 	margin-left: 1900%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x20{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2000%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x21{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2100%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x22{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2200%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x23{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2300%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x24{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2400%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x25{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2500%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x26{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2600%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x27{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2700%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x28{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2800%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x29{
-	width: 100%;
-	height: 100vh;
 	margin-left: 2900%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x30{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3000%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x31{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3100%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x32{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3200%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x33{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3300%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x34{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3400%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x35{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3500%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x36{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3600%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x37{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3700%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x38{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3800%;
 	margin-top: -100vh;
 	float: left;
 }
 
 .map_div_x39{
-	width: 100%;
-	height: 100vh;
 	margin-left: 3900%;
 	margin-top: -100vh;
 	float: left;
 }
 
-.map_div_x40{
-	width: 100%;
-	height: 100vh;
-	margin-left: 4000%;
-	margin-top: -100vh;
-	float: left;
-}
-
 .map_divs{
-	width: 20.00%;
-	height: 12.50%;
+	width: 75px;
+	height: 90px;
 	float: left;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
