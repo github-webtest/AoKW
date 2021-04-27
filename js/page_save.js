@@ -3485,6 +3485,7 @@ function barracks_army1_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setinfantry_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3505,6 +3506,7 @@ function barracks_army1_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("infantry_text").innerHTML = setinfantry_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function barracks_army2_save() {
@@ -3523,6 +3525,7 @@ function barracks_army2_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setranged_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3543,6 +3546,7 @@ function barracks_army2_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("ranged_text").innerHTML = setranged_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function barracks_army3_save() {
@@ -3562,6 +3566,7 @@ function barracks_army3_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setintelligence_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3583,6 +3588,7 @@ function barracks_army3_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("intelligence_text").innerHTML = setintelligence_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function barracks_army4_save() {
@@ -3601,6 +3607,7 @@ function barracks_army4_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setcavalry_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3621,6 +3628,7 @@ function barracks_army4_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("cavalry_text").innerHTML = setcavalry_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function barracks_army5_save() {
@@ -3639,6 +3647,7 @@ function barracks_army5_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setinfantry_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3659,6 +3668,7 @@ function barracks_army5_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("infantry_text").innerHTML = setinfantry_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function barracks_army6_save() {
@@ -3678,6 +3688,7 @@ function barracks_army6_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setranged_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3699,6 +3710,7 @@ function barracks_army6_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("ranged_text").innerHTML = setranged_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function barracks_page_save() {
@@ -3807,6 +3819,7 @@ function castle_army1_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setinfantry_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3827,6 +3840,7 @@ function castle_army1_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("infantry_text").innerHTML = setinfantry_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function castle_army2_save() {
@@ -3845,6 +3859,7 @@ function castle_army2_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setinfantry_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3865,6 +3880,7 @@ function castle_army2_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
 	document.getElementById("infantry_text").innerHTML = setinfantry_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function castle_info_save() {
@@ -3882,6 +3898,7 @@ function castle_info_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3900,6 +3917,7 @@ function castle_info_save() {
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function castle_page_save() {
@@ -4326,6 +4344,7 @@ function market_trade_wagon_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4346,6 +4365,7 @@ function market_trade_wagon_save() {
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function messages_page_save() {
@@ -4585,6 +4605,7 @@ function village_farmer_save() {
 	localStorage.getItem("sethour_text");
 	localStorage.getItem("setfood_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4611,6 +4632,7 @@ function village_farmer_save() {
 	document.getElementById("hour_text2").innerHTML = sethour_text;
 	document.getElementById("production_text1").innerHTML = setproduction_text;
 	document.getElementById("production_text2").innerHTML = setproduction_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function village_miner_save() {
@@ -4632,6 +4654,7 @@ function village_miner_save() {
 	localStorage.getItem("sethour_text");
 	localStorage.getItem("setgold_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4658,6 +4681,7 @@ function village_miner_save() {
 	document.getElementById("hour_text2").innerHTML = sethour_text;
 	document.getElementById("production_text1").innerHTML = setproduction_text;
 	document.getElementById("production_text2").innerHTML = setproduction_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function village_page_save() {
@@ -4751,6 +4775,7 @@ function village_woodcutter_save() {
 	localStorage.getItem("sethour_text");
 	localStorage.getItem("setwood_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4777,6 +4802,7 @@ function village_woodcutter_save() {
 	document.getElementById("hour_text2").innerHTML = sethour_text;
 	document.getElementById("production_text1").innerHTML = setproduction_text;
 	document.getElementById("production_text2").innerHTML = setproduction_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function wall_build1_save() {
@@ -4794,6 +4820,7 @@ function wall_build1_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4812,6 +4839,7 @@ function wall_build1_save() {
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function wall_build2_save() {
@@ -4828,6 +4856,7 @@ function wall_build2_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4846,6 +4875,7 @@ function wall_build2_save() {
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function wall_page_save() {
@@ -4893,6 +4923,7 @@ function workshop_ballista_save() {
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setwarvehicle_text");
 	localStorage.getItem("setranged_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4913,6 +4944,7 @@ function workshop_ballista_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("warvehicle_text").innerHTML = setwarvehicle_text;
 	document.getElementById("ranged_text").innerHTML = setranged_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function workshop_catapult_save() {
@@ -4932,6 +4964,7 @@ function workshop_catapult_save() {
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setwarvehicle_text");
 	localStorage.getItem("setranged_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4952,6 +4985,7 @@ function workshop_catapult_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("warvehicle_text").innerHTML = setwarvehicle_text;
 	document.getElementById("ranged_text").innerHTML = setranged_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function workshop_page_save() {
@@ -5010,6 +5044,7 @@ function workshop_siege_vehicle_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setwarvehicle_text");
+	localStorage.getItem("setupgrade_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -5029,6 +5064,7 @@ function workshop_siege_vehicle_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("warvehicle_text").innerHTML = setwarvehicle_text;
+	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 };
 
 function nextage_i() {
