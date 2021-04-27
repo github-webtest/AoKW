@@ -103,10 +103,12 @@ body{
 
 /* map_page */
 
-.map_div_all{
+.map_div_icons{
 	width: 100%;
 	height: 100vh;
-	float: left;
+}
+
+.map_div_all{
 	overflow: scroll;
 }
 
