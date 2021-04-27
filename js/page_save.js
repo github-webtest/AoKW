@@ -3152,7 +3152,7 @@ function settings_languageKO(){
 
 /* login */
 function login() {
-    var setflagEN = "url('images/united_states_flag_icon.png')";
+    var setflagEN = "url('images/united_kingdom_flag_icon.png')";
 	localStorage.setItem("setflags", setflagEN);
 	
 	var setflag_languageEN = "English";
