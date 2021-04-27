@@ -127,6 +127,7 @@ var setcavalry_text = localStorage.getItem("setcavalry_text");
 var setranged_text = localStorage.getItem("setranged_text");
 var setintelligence_text = localStorage.getItem("setintelligence_text");
 var setsiege_text = localStorage.getItem("setsiege_text");
+var setdefensebuilding_text = localStorage.getItem("setdefensebuilding_text");
 
 /* kp_settings */
 
@@ -429,6 +430,9 @@ function settings_languageEN(){
 
     var setsiege_textEN = "Siege";
     localStorage.setItem("setsiege_text", setsiege_textEN);
+
+    var setdefensebuilding_textEN = "Defense Building";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textEN);
 	
 	window.location.reload();
 	
@@ -720,6 +724,9 @@ function settings_languageDE(){
 
     var setsiege_textDE = "Belagerung";
     localStorage.setItem("setsiege_text", setsiege_textDE);
+
+    var setdefensebuilding_textDE = "Verteidigungsgebäude";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textDE);
 	
 	window.location.reload();
 	
@@ -1011,6 +1018,9 @@ function settings_languageFR(){
 
     var setsiege_textFR = "Siège";
     localStorage.setItem("setsiege_text", setsiege_textFR);
+
+    var setdefensebuilding_textFR = "Bâtiment de la Défense";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textFR);
 	
 	window.location.reload();
 	
@@ -1302,6 +1312,9 @@ function settings_languageRU(){
 
     var setsiege_textRU = "Осада";
     localStorage.setItem("setsiege_text", setsiege_textRU);
+
+    var setdefensebuilding_textRU = "Здание обороны";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textRU);
 	
 	window.location.reload();
 	
@@ -1593,6 +1606,9 @@ function settings_languageTR(){
 
     var setsiege_textTR = "Kuşatma";
     localStorage.setItem("setsiege_text", setsiege_textTR);
+
+    var setdefensebuilding_textTR = "Savunma Binası";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textTR);
 	
 	window.location.reload();
 	
@@ -1884,6 +1900,9 @@ function settings_languagePT(){
 
     var setsiege_textPT = "Cerco";
     localStorage.setItem("setsiege_text", setsiege_textPT);
+
+    var setdefensebuilding_textPT = "Edifício de Defesa";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textPT);
 	
 	window.location.reload();
 	
@@ -2178,6 +2197,9 @@ function settings_languageES(){
 
     var setsiege_textES = "Cerco";
     localStorage.setItem("setsiege_text", setsiege_textES);
+
+    var setdefensebuilding_textES = "Edificio de defensa";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textES);
 	
 	window.location.reload();
 	
@@ -2469,6 +2491,9 @@ function settings_languageZH(){
 
     var setsiege_textZH = "围城";
     localStorage.setItem("setsiege_text", setsiege_textZH);
+
+    var setdefensebuilding_textZH = "国防大厦";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textZH);
 	
 	window.location.reload();
 	
@@ -2760,6 +2785,9 @@ function settings_languageJA(){
 
     var setsiege_textJA = "包囲";
     localStorage.setItem("setsiege_text", setsiege_textJA);
+
+    var setdefensebuilding_textJA = "防衛ビル";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textJA);
 	
 	window.location.reload();
 	
@@ -3051,6 +3079,9 @@ function settings_languageKO(){
 
     var setsiege_textKO = "포위";
     localStorage.setItem("setsiege_text", setsiege_textKO);
+
+    var setdefensebuilding_textKO = "국방 빌딩";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textKO);
 	
 	window.location.reload();
 	
@@ -3343,6 +3374,9 @@ function login() {
 
     var setsiege_textEN = "Siege";
     localStorage.setItem("setsiege_text", setsiege_textEN);
+
+    var setdefensebuilding_textEN = "Defense Building";
+    localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -3933,6 +3967,7 @@ function castle_info_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setupgrade_text");
+	localStorage.getItem("setdefensebuilding_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3952,6 +3987,7 @@ function castle_info_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
+	document.getElementById("defensebuilding_text").innerHTML = setdefensebuilding_text;
 };
 
 function castle_page_save() {
@@ -4855,6 +4891,7 @@ function wall_build1_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setupgrade_text");
+	localStorage.getItem("setdefensebuilding_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4874,6 +4911,7 @@ function wall_build1_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
+	document.getElementById("defensebuilding_text").innerHTML = setdefensebuilding_text;
 };
 
 function wall_build2_save() {
@@ -4891,6 +4929,7 @@ function wall_build2_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setupgrade_text");
+	localStorage.getItem("setdefensebuilding_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4910,6 +4949,7 @@ function wall_build2_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
+	document.getElementById("defensebuilding_text").innerHTML = setdefensebuilding_text;
 };
 
 function wall_page_save() {
