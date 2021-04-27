@@ -1,4 +1,4 @@
-var sh1 = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+var sh1 = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("map_div_all");
 
 
 
