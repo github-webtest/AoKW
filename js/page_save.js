@@ -125,6 +125,7 @@ var setwarvehicle_text = localStorage.getItem("setwarvehicle_text");
 var setinfantry_text = localStorage.getItem("setinfantry_text");
 var setcavalry_text = localStorage.getItem("setcavalry_text");
 var setranged_text = localStorage.getItem("setranged_text");
+var setintelligence_text = localStorage.getItem("setintelligence_text");
 
 /* kp_settings */
 
@@ -421,6 +422,9 @@ function settings_languageEN(){
 
     var setranged_textEN = "Ranged";
     localStorage.setItem("setranged_text", setranged_textEN);
+
+    var setintelligence_textEN = "Intelligence";
+    localStorage.setItem("setintelligence_text", setintelligence_textEN);
 	
 	window.location.reload();
 	
@@ -706,6 +710,9 @@ function settings_languageDE(){
 
     var setranged_textDE = "Fernkampf";
     localStorage.setItem("setranged_text", setranged_textDE);
+
+    var setintelligence_textDE = "Intelligenz";
+    localStorage.setItem("setintelligence_text", setintelligence_textDE);
 	
 	window.location.reload();
 	
@@ -991,6 +998,9 @@ function settings_languageFR(){
 
     var setranged_textFR = "À distance";
     localStorage.setItem("setranged_text", setranged_textFR);
+
+    var setintelligence_textFR = "Intelligence";
+    localStorage.setItem("setintelligence_text", setintelligence_textFR);
 	
 	window.location.reload();
 	
@@ -1276,6 +1286,9 @@ function settings_languageRU(){
 
     var setranged_textRU = "Дальний бой";
     localStorage.setItem("setranged_text", setranged_textRU);
+
+    var setintelligence_textRU = "Интеллект";
+    localStorage.setItem("setintelligence_text", setintelligence_textRU);
 	
 	window.location.reload();
 	
@@ -1561,6 +1574,9 @@ function settings_languageTR(){
 
     var setranged_textTR = "Menzilli";
     localStorage.setItem("setranged_text", setranged_textTR);
+
+    var setintelligence_textTR = "İstihbarat";
+    localStorage.setItem("setintelligence_text", setintelligence_textTR);
 	
 	window.location.reload();
 	
@@ -1846,6 +1862,9 @@ function settings_languagePT(){
 
     var setranged_textPT = "À distância";
     localStorage.setItem("setranged_text", setranged_textPT);
+
+    var setintelligence_textPT = "Inteligência";
+    localStorage.setItem("setintelligence_text", setintelligence_textPT);
 	
 	window.location.reload();
 	
@@ -2134,6 +2153,9 @@ function settings_languageES(){
 
     var setranged_textES = "A distancia";
     localStorage.setItem("setranged_text", setranged_textES);
+
+    var setintelligence_textES = "Inteligencia";
+    localStorage.setItem("setintelligence_text", setintelligence_textES);
 	
 	window.location.reload();
 	
@@ -2419,6 +2441,9 @@ function settings_languageZH(){
 
     var setranged_textZH = "射程";
     localStorage.setItem("setranged_text", setranged_textZH);
+
+    var setintelligence_textZH = "智力";
+    localStorage.setItem("setintelligence_text", setintelligence_textZH);
 	
 	window.location.reload();
 	
@@ -2704,6 +2729,9 @@ function settings_languageJA(){
 
     var setranged_textJA = "遠隔";
     localStorage.setItem("setranged_text", setranged_textJA);
+
+    var setintelligence_textJA = "インテリジェンス";
+    localStorage.setItem("setintelligence_text", setintelligence_textJA);
 	
 	window.location.reload();
 	
@@ -2989,6 +3017,9 @@ function settings_languageKO(){
 
     var setranged_textKO = "원거리";
     localStorage.setItem("setranged_text", setranged_textKO);
+
+    var setintelligence_textKO = "지성";
+    localStorage.setItem("setintelligence_text", setintelligence_textKO);
 	
 	window.location.reload();
 	
@@ -3276,6 +3307,9 @@ function login() {
     var setranged_textEN = "Ranged";
     localStorage.setItem("setranged_text", setranged_textEN);
 
+    var setintelligence_textEN = "Intelligence";
+    localStorage.setItem("setintelligence_text", setintelligence_textEN);
+
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
@@ -3527,6 +3561,7 @@ function barracks_army3_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setintelligence_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3547,6 +3582,7 @@ function barracks_army3_save() {
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
+	document.getElementById("intelligence_text").innerHTML = setintelligence_text;
 };
 
 function barracks_army4_save() {
