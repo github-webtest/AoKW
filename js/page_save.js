@@ -128,6 +128,7 @@ var setranged_text = localStorage.getItem("setranged_text");
 var setintelligence_text = localStorage.getItem("setintelligence_text");
 var setsiege_text = localStorage.getItem("setsiege_text");
 var setdefensebuilding_text = localStorage.getItem("setdefensebuilding_text");
+var setwall_text = localStorage.getItem("setwall_text");
 
 /* kp_settings */
 
@@ -433,6 +434,9 @@ function settings_languageEN(){
 
     var setdefensebuilding_textEN = "Defense Building";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textEN);
+
+    var setwall_textEN = "Wall";
+    localStorage.setItem("setwall_text", setwall_textEN);
 	
 	window.location.reload();
 	
@@ -727,6 +731,9 @@ function settings_languageDE(){
 
     var setdefensebuilding_textDE = "Verteidigungsgebäude";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textDE);
+
+    var setwall_textDE = "Wand";
+    localStorage.setItem("setwall_text", setwall_textDE);
 	
 	window.location.reload();
 	
@@ -1021,6 +1028,9 @@ function settings_languageFR(){
 
     var setdefensebuilding_textFR = "Bâtiment de la Défense";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textFR);
+
+    var setwall_textFR = "Mur";
+    localStorage.setItem("setwall_text", setwall_textFR);
 	
 	window.location.reload();
 	
@@ -1315,6 +1325,9 @@ function settings_languageRU(){
 
     var setdefensebuilding_textRU = "Здание обороны";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textRU);
+
+    var setwall_textRU = "стена";
+    localStorage.setItem("setwall_text", setwall_textRU);
 	
 	window.location.reload();
 	
@@ -1609,6 +1622,9 @@ function settings_languageTR(){
 
     var setdefensebuilding_textTR = "Savunma Binası";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textTR);
+
+    var setwall_textTR = "Duvar";
+    localStorage.setItem("setwall_text", setwall_textTR);
 	
 	window.location.reload();
 	
@@ -1903,6 +1919,9 @@ function settings_languagePT(){
 
     var setdefensebuilding_textPT = "Edifício de Defesa";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textPT);
+
+    var setwall_textPT = "Muro";
+    localStorage.setItem("setwall_text", setwall_textPT);
 	
 	window.location.reload();
 	
@@ -2200,6 +2219,9 @@ function settings_languageES(){
 
     var setdefensebuilding_textES = "Edificio de defensa";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textES);
+
+    var setwall_textES = "Pared";
+    localStorage.setItem("setwall_text", setwall_textES);
 	
 	window.location.reload();
 	
@@ -2494,6 +2516,9 @@ function settings_languageZH(){
 
     var setdefensebuilding_textZH = "国防大厦";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textZH);
+
+    var setwall_textZH = "墙";
+    localStorage.setItem("setwall_text", setwall_textZH);
 	
 	window.location.reload();
 	
@@ -2788,6 +2813,9 @@ function settings_languageJA(){
 
     var setdefensebuilding_textJA = "防衛ビル";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textJA);
+
+    var setwall_textJA = "壁";
+    localStorage.setItem("setwall_text", setwall_textJA);
 	
 	window.location.reload();
 	
@@ -3082,6 +3110,9 @@ function settings_languageKO(){
 
     var setdefensebuilding_textKO = "국방 빌딩";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textKO);
+
+    var setwall_textKO = "벽";
+    localStorage.setItem("setwall_text", setwall_textKO);
 	
 	window.location.reload();
 	
@@ -3377,6 +3408,9 @@ function login() {
 
     var setdefensebuilding_textEN = "Defense Building";
     localStorage.setItem("setdefensebuilding_text", setdefensebuilding_textEN);
+
+    var setwall_textEN = "Wall";
+    localStorage.setItem("setwall_text", setwall_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -4801,7 +4835,7 @@ function village_page_save() {
 	document.getElementById("goldminer_text").innerHTML = setgoldminer_text;
 	document.getElementById("goldminer_text2").innerHTML = setgoldminer_text;
 	document.getElementById("village_text").innerHTML = setvillage_text;
-	document.getElementById("village_text2").innerHTML = setvillage_text2;
+	document.getElementById("buildingdes_text").innerHTML = setvillage_text2;
 	document.getElementById("menu_military_button").href = "military_page.html";
 	document.getElementById("menu_logs_button").href = "log_page.html";
 	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
@@ -4892,6 +4926,7 @@ function wall_build1_save() {
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setdefensebuilding_text");
+	localStorage.getItem("setwall_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4912,6 +4947,7 @@ function wall_build1_save() {
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("defensebuilding_text").innerHTML = setdefensebuilding_text;
+	document.getElementById("wall_text").innerHTML = setwall_text;
 };
 
 function wall_build2_save() {
@@ -4963,6 +4999,7 @@ function wall_page_save() {
 	localStorage.getItem("setbuildingcapacity_text");
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
+	localStorage.getItem("setwall_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4978,6 +5015,8 @@ function wall_page_save() {
 	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
+	document.getElementById("wall_text").innerHTML = setwall_text;
+	document.getElementById("wall_text2").innerHTML = setwall_text;
 };
 
 function workshop_ballista_save() {
