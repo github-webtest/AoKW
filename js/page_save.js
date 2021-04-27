@@ -148,7 +148,7 @@ function king_name_save() {
 };
 
 function settings_languageEN(){
-    var setflagEN = "url('images/united_states_flag_icon.png')";
+    var setflagEN = "url('images/united_kingdom_flag_icon.png')";
 	localStorage.setItem("setflags", setflagEN);
 	
 	var setflag_languageEN = "English";
