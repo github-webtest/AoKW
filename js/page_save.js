@@ -122,6 +122,9 @@ var setproduction_text = localStorage.getItem("setproduction_text");
 var setvkick_text = localStorage.getItem("setvkick_text");
 var setkick_text = localStorage.getItem("setkick_text");
 var setwarvehicle_text = localStorage.getItem("setwarvehicle_text");
+var setinfantry_text = localStorage.getItem("setinfantry_text");
+var setcavalry_text = localStorage.getItem("setcavalry_text");
+var setranged_text = localStorage.getItem("setranged_text");
 
 /* kp_settings */
 
@@ -409,6 +412,15 @@ function settings_languageEN(){
 
     var setwarvehicle_textEN = "War Vehicle";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textEN);
+
+    var setinfantry_textEN = "Infantry";
+    localStorage.setItem("setinfantry_text", setinfantry_textEN);
+
+    var setcavalry_textEN = "Cavalry";
+    localStorage.setItem("setcavalry_text", setcavalry_textEN);
+
+    var setranged_textEN = "Ranged";
+    localStorage.setItem("setranged_text", setranged_textEN);
 	
 	window.location.reload();
 	
@@ -685,6 +697,15 @@ function settings_languageDE(){
 
     var setwarvehicle_textDE = "Kriegsfahrzeug";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textDE);
+
+    var setinfantry_textDE = "Infanterie";
+    localStorage.setItem("setinfantry_text", setinfantry_textDE);
+
+    var setcavalry_textDE = "Kavallerie";
+    localStorage.setItem("setcavalry_text", setcavalry_textDE);
+
+    var setranged_textDE = "Fernkampf";
+    localStorage.setItem("setranged_text", setranged_textDE);
 	
 	window.location.reload();
 	
@@ -961,6 +982,15 @@ function settings_languageFR(){
 
     var setwarvehicle_textFR = "Véhicule de guerre";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textFR);
+
+    var setinfantry_textFR = "Infanterie";
+    localStorage.setItem("setinfantry_text", setinfantry_textFR);
+
+    var setcavalry_textFR = "Cavalerie";
+    localStorage.setItem("setcavalry_text", setcavalry_textFR);
+
+    var setranged_textFR = "À distance";
+    localStorage.setItem("setranged_text", setranged_textFR);
 	
 	window.location.reload();
 	
@@ -1237,6 +1267,15 @@ function settings_languageRU(){
 
     var setwarvehicle_textRU = "Военная машина";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textRU);
+
+    var setinfantry_textRU = "Пехота";
+    localStorage.setItem("setinfantry_text", setinfantry_textRU);
+
+    var setcavalry_textRU = "Кавалерия";
+    localStorage.setItem("setcavalry_text", setcavalry_textRU);
+
+    var setranged_textRU = "Дальний бой";
+    localStorage.setItem("setranged_text", setranged_textRU);
 	
 	window.location.reload();
 	
@@ -1513,6 +1552,15 @@ function settings_languageTR(){
 
     var setwarvehicle_textTR = "Savaş Aracı";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textTR);
+
+    var setinfantry_textTR = "Piyade";
+    localStorage.setItem("setinfantry_text", setinfantry_textTR);
+
+    var setcavalry_textTR = "Süvari";
+    localStorage.setItem("setcavalry_text", setcavalry_textTR);
+
+    var setranged_textTR = "Menzilli";
+    localStorage.setItem("setranged_text", setranged_textTR);
 	
 	window.location.reload();
 	
@@ -1789,6 +1837,15 @@ function settings_languagePT(){
 
     var setwarvehicle_textPT = "Veículo de guerra";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textPT);
+
+    var setinfantry_textPT = "Infantaria";
+    localStorage.setItem("setinfantry_text", setinfantry_textPT);
+
+    var setcavalry_textPT = "Cavalaria";
+    localStorage.setItem("setcavalry_text", setcavalry_textPT);
+
+    var setranged_textPT = "À distância";
+    localStorage.setItem("setranged_text", setranged_textPT);
 	
 	window.location.reload();
 	
@@ -2068,6 +2125,15 @@ function settings_languageES(){
 
     var setwarvehicle_textES = "Vehículo de guerra";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textES);
+
+    var setinfantry_textES = "Infantería";
+    localStorage.setItem("setinfantry_text", setinfantry_textES);
+
+    var setcavalry_textES = "Caballería";
+    localStorage.setItem("setcavalry_text", setcavalry_textES);
+
+    var setranged_textES = "A distancia";
+    localStorage.setItem("setranged_text", setranged_textES);
 	
 	window.location.reload();
 	
@@ -2344,6 +2410,15 @@ function settings_languageZH(){
 
     var setwarvehicle_textZH = "战车";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textZH);
+
+    var setinfantry_textZH = "步兵";
+    localStorage.setItem("setinfantry_text", setinfantry_textZH);
+
+    var setcavalry_textZH = "骑兵";
+    localStorage.setItem("setcavalry_text", setcavalry_textZH);
+
+    var setranged_textZH = "射程";
+    localStorage.setItem("setranged_text", setranged_textZH);
 	
 	window.location.reload();
 	
@@ -2620,6 +2695,15 @@ function settings_languageJA(){
 
     var setwarvehicle_textJA = "戦争車両";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textJA);
+
+    var setinfantry_textJA = "歩兵";
+    localStorage.setItem("setinfantry_text", setinfantry_textJA);
+
+    var setcavalry_textJA = "騎兵";
+    localStorage.setItem("setcavalry_text", setcavalry_textJA);
+
+    var setranged_textJA = "遠隔";
+    localStorage.setItem("setranged_text", setranged_textJA);
 	
 	window.location.reload();
 	
@@ -2896,6 +2980,15 @@ function settings_languageKO(){
 
     var setwarvehicle_textKO = "전쟁 차량";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textKO);
+
+    var setinfantry_textKO = "보병";
+    localStorage.setItem("setinfantry_text", setinfantry_textKO);
+
+    var setcavalry_textKO = "기병대";
+    localStorage.setItem("setcavalry_text", setcavalry_textKO);
+
+    var setranged_textKO = "원거리";
+    localStorage.setItem("setranged_text", setranged_textKO);
 	
 	window.location.reload();
 	
@@ -3174,6 +3267,15 @@ function login() {
     var setwarvehicle_textEN = "War Vehicle";
     localStorage.setItem("setwarvehicle_text", setwarvehicle_textEN);
 
+    var setinfantry_textEN = "Infantry";
+    localStorage.setItem("setinfantry_text", setinfantry_textEN);
+
+    var setcavalry_textEN = "Cavalry";
+    localStorage.setItem("setcavalry_text", setcavalry_textEN);
+
+    var setranged_textEN = "Ranged";
+    localStorage.setItem("setranged_text", setranged_textEN);
+
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
@@ -3348,6 +3450,7 @@ function barracks_army1_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setinfantry_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3367,6 +3470,7 @@ function barracks_army1_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
+	document.getElementById("infantry_text").innerHTML = setinfantry_text;
 };
 
 function barracks_army2_save() {
@@ -3384,6 +3488,7 @@ function barracks_army2_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setranged_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3403,6 +3508,7 @@ function barracks_army2_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
+	document.getElementById("ranged_text").innerHTML = setranged_text;
 };
 
 function barracks_army3_save() {
@@ -3458,6 +3564,7 @@ function barracks_army4_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setcavalry_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3477,6 +3584,7 @@ function barracks_army4_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
+	document.getElementById("cavalry_text").innerHTML = setcavalry_text;
 };
 
 function barracks_army5_save() {
@@ -3494,6 +3602,7 @@ function barracks_army5_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setinfantry_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3513,6 +3622,7 @@ function barracks_army5_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
+	document.getElementById("infantry_text").innerHTML = setinfantry_text;
 };
 
 function barracks_army6_save() {
@@ -3531,6 +3641,7 @@ function barracks_army6_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setranged_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3551,6 +3662,7 @@ function barracks_army6_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
+	document.getElementById("ranged_text").innerHTML = setranged_text;
 };
 
 function barracks_page_save() {
@@ -3658,6 +3770,7 @@ function castle_army1_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setinfantry_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3677,6 +3790,7 @@ function castle_army1_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
+	document.getElementById("infantry_text").innerHTML = setinfantry_text;
 };
 
 function castle_army2_save() {
@@ -3694,6 +3808,7 @@ function castle_army2_save() {
 	localStorage.getItem("setrandom_mapY");
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
+	localStorage.getItem("setinfantry_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3713,6 +3828,7 @@ function castle_army2_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("military_text").innerHTML = setmenus_military_text;
+	document.getElementById("infantry_text").innerHTML = setinfantry_text;
 };
 
 function castle_info_save() {
@@ -4740,6 +4856,7 @@ function workshop_ballista_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setwarvehicle_text");
+	localStorage.getItem("setranged_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4759,6 +4876,7 @@ function workshop_ballista_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("warvehicle_text").innerHTML = setwarvehicle_text;
+	document.getElementById("ranged_text").innerHTML = setranged_text;
 };
 
 function workshop_catapult_save() {
@@ -4777,6 +4895,7 @@ function workshop_catapult_save() {
 	localStorage.getItem("setcost_text");
 	localStorage.getItem("setproduction_text");
 	localStorage.getItem("setwarvehicle_text");
+	localStorage.getItem("setranged_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4796,6 +4915,7 @@ function workshop_catapult_save() {
 	document.getElementById("cost_text").innerHTML = setcost_text;
 	document.getElementById("production_text").innerHTML = setproduction_text;
 	document.getElementById("warvehicle_text").innerHTML = setwarvehicle_text;
+	document.getElementById("ranged_text").innerHTML = setranged_text;
 };
 
 function workshop_page_save() {
