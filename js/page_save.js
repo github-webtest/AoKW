@@ -3182,6 +3182,7 @@ function settings_languageKO(){
 };
 
 /* login */
+
 function login_w1() {
     var setflagEN = "url('images/united_kingdom_flag_icon.png')";
 	localStorage.setItem("setflags", setflagEN);
@@ -3488,6 +3489,8 @@ function login_w1() {
 
     localStorage.setItem("setrandom_mapX", randomX);
     localStorage.setItem("setrandom_mapY", randomY);
+
+	Android.showToast("Enter World 1");
 	
 	window.location.href = "kingdom_page.html";
 };
@@ -4152,8 +4155,8 @@ function index_save() {
 	localStorage.getItem("setlogindisplay1");
 	localStorage.getItem("setlogindisplay2");
 	
-	document.getElementById("lp_first").style.display = setlogindisplay1;
-	document.getElementById("lp_end").style.display = setlogindisplay2;
+	document.getElementById("lp_first_w1").style.display = setlogindisplay1;
+	document.getElementById("lp_end_w1").style.display = setlogindisplay2;
 };
 
 function kingdominfo_page_save() {
