@@ -12,6 +12,8 @@ body{
 	margin-left: 0px;
 	user-select: none;
 	text-decoration: none;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 /* login_page */

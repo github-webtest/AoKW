@@ -7,28 +7,12 @@
 
 @media only screen and (max-width: 3000px) {
 	body{
-	font-family: Arial;
-	background-color: #393939;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	user-select: none;
-	text-decoration: none;
 	display: none;
 }
 }
 
 @media only screen and (max-width: 768px) {
 	body{
-	font-family: Arial;
-	background-color: #393939;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	user-select: none;
-	text-decoration: none;
 	display: block;
 }
 }
