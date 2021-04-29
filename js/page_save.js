@@ -131,6 +131,7 @@ var setdefensebuilding_text = localStorage.getItem("setdefensebuilding_text");
 var setwall_text = localStorage.getItem("setwall_text");
 var setdefensebonus_text = localStorage.getItem("setdefensebonus_text");
 var setabilities_text = localStorage.getItem("setabilities_text");
+var setbarracks_text = localStorage.getItem("setbarracks_text");
 
 /* kp_settings */
 
@@ -3489,10 +3490,10 @@ function login_w1() {
 
     localStorage.setItem("setrandom_mapX", randomX);
     localStorage.setItem("setrandom_mapY", randomY);
-
-	Android.showToast("Enter World 1");
 	
 	window.location.href = "kingdom_page.html";
+	
+	Android.showToast("Enter World 1");
 };
 
 function login2_w1() {
