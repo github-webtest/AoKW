@@ -20,23 +20,12 @@ function world_2() {
 	window.location.href = "index.html";
 };
 
-function world_3() {
-	localStorage.setItem("setselect_world_text", "3");
-	window.location.href = "index.html";
-};
-
-function world_4() {
-	localStorage.setItem("setselect_world_text", "4");
-	window.location.href = "index.html";
-};
-
-function world_5() {
-	localStorage.setItem("setselect_world_text", "5");
-	window.location.href = "index.html";
-};
-
 function index_save() {
 	localStorage.getItem("setselect_world_text");
 	
 	document.getElementById("select_world_text").innerHTML = setselect_world_text;
+	document.getElementById("select_world_text").value = setselect_world_text;
+}
+
+function logins() {
 }
