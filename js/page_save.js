@@ -3182,7 +3182,7 @@ function settings_languageKO(){
 };
 
 /* login */
-function login() {
+function login_w1() {
     var setflagEN = "url('images/united_kingdom_flag_icon.png')";
 	localStorage.setItem("setflags", setflagEN);
 	
@@ -3492,7 +3492,7 @@ function login() {
 	window.location.href = "kingdom_page.html";
 };
 
-function login2() {
+function login2_w1() {
 	window.location.href = "kingdom_page.html";
 };
 
