@@ -24,8 +24,4 @@ function index_save() {
 	localStorage.getItem("setselect_world_text");
 	
 	document.getElementById("select_world_text").innerHTML = setselect_world_text;
-	document.getElementById("select_world_text").value = setselect_world_text;
-}
-
-function logins() {
-}
+};
