@@ -21,7 +21,11 @@ function world_2() {
 };
 
 function index_save() {
+	localStorage.getItem("setlogindisplay1");
+	localStorage.getItem("setlogindisplay2");
 	localStorage.getItem("setselect_world_text");
 	
 	document.getElementById("select_world_text").innerHTML = setselect_world_text;
+	document.getElementById("lp_first_w1").style.display = setlogindisplay1;
+	document.getElementById("lp_end_w1").style.display = setlogindisplay2;
 };
