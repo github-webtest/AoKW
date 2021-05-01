@@ -3485,8 +3485,8 @@ function login_w1() {
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
-    var randomX = Math.floor(Math.random() * 200) + 1;
-    var randomY = Math.floor(Math.random() * 200) + 1;
+    var randomX = Math.floor(Math.random() * 201) + 1;
+    var randomY = Math.floor(Math.random() * 201) + 1;
 
     localStorage.setItem("setrandom_mapX", randomX);
     localStorage.setItem("setrandom_mapY", randomY);
