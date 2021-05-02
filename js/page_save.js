@@ -3491,10 +3491,7 @@ function login_w1() {
     if (randomX == 17 & randomY == 17){
     localStorage.setItem("setrandom_mapX", randomX + 1);
     localStorage.setItem("setrandom_mapY", randomY + 1);
-    } else {
-	localStorage.setItem("setrandom_mapX", randomX);
-    localStorage.setItem("setrandom_mapY", randomY);
-    } else if (randomX == 38 & randomY == 17) {
+    } else if (randomX == 38 & randomY == 17) {
 	localStorage.setItem("setrandom_mapX", randomX + 1);
     localStorage.setItem("setrandom_mapY", randomY + 1);
     } else if (randomX == 101 & randomY == 17) {
@@ -3617,6 +3614,9 @@ function login_w1() {
     } else if (randomX == 185 & randomY == 185) {
 	localStorage.setItem("setrandom_mapX", randomX + 1);
     localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else {
+	localStorage.setItem("setrandom_mapX", randomX);
+    localStorage.setItem("setrandom_mapY", randomY);
     }
 	
 	window.location.href = "kingdom_page.html";
