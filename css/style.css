@@ -112,7 +112,6 @@ body{
 .map_div_all{
 	overflow: scroll;
 	position: relative;
-	zoom: 105%;
 }
 
 .map_map_icon{
