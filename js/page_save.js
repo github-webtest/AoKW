@@ -132,6 +132,7 @@ var setwall_text = localStorage.getItem("setwall_text");
 var setdefensebonus_text = localStorage.getItem("setdefensebonus_text");
 var setabilities_text = localStorage.getItem("setabilities_text");
 var setbarracks_text = localStorage.getItem("setbarracks_text");
+var setbarracks_text2 = localStorage.getItem("setbarracks_text2");
 
 /* kp_settings */
 
@@ -446,6 +447,12 @@ function settings_languageEN(){
 
     var setabilities_textEN = "Abilities";
     localStorage.setItem("setabilities_text", setabilities_textEN);
+
+    var setbarracks_textEN = "Barracks";
+    localStorage.setItem("setbarracks_text", setbarracks_textEN);
+
+    var setbarracks_text2EN = "Breed and train warriors to strengthen your army!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2EN);
 	
 	window.location.reload();
 	
@@ -749,6 +756,12 @@ function settings_languageDE(){
 
     var setabilities_textDE = "Fähigkeiten";
     localStorage.setItem("setabilities_text", setabilities_textDE);
+
+    var setbarracks_textDE = "Kaserne";
+    localStorage.setItem("setbarracks_text", setbarracks_textDE);
+
+    var setbarracks_text2DE = "Züchte und trainiere Krieger, um deine Armee zu stärken!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2DE);
 	
 	window.location.reload();
 	
@@ -1052,6 +1065,12 @@ function settings_languageFR(){
 
     var setabilities_textFR = "Capacités";
     localStorage.setItem("setabilities_text", setabilities_textFR);
+
+    var setbarracks_textFR = "Caserne";
+    localStorage.setItem("setbarracks_text", setbarracks_textFR);
+
+    var setbarracks_text2FR = "Élevez et entraînez des guerriers pour renforcer votre armée!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2FR);
 	
 	window.location.reload();
 	
@@ -1355,6 +1374,12 @@ function settings_languageRU(){
 
     var setabilities_textRU = "Способности";
     localStorage.setItem("setabilities_text", setabilities_textRU);
+
+    var setbarracks_textRU = "Казармы";
+    localStorage.setItem("setbarracks_text", setbarracks_textRU);
+
+    var setbarracks_text2RU = "Разводите и тренируйте воинов, чтобы усилить свою армию!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2RU);
 	
 	window.location.reload();
 	
@@ -1658,6 +1683,12 @@ function settings_languageTR(){
 
     var setabilities_textTR = "Yetenekler";
     localStorage.setItem("setabilities_text", setabilities_textTR);
+
+    var setbarracks_textTR = "Kışla";
+    localStorage.setItem("setbarracks_text", setbarracks_textTR);
+
+    var setbarracks_text2TR = "Ordunuzu güçlendirmek için savaşçılar yetiştirin ve eğitin!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2TR);
 	
 	window.location.reload();
 	
@@ -1961,6 +1992,12 @@ function settings_languagePT(){
 
     var setabilities_textPT = "Habilidades";
     localStorage.setItem("setabilities_text", setabilities_textPT);
+
+    var setbarracks_textPT = "Quartel";
+    localStorage.setItem("setbarracks_text", setbarracks_textPT);
+
+    var setbarracks_text2PT = "Crie e treine guerreiros para fortalecer seu exército!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2PT);
 	
 	window.location.reload();
 	
@@ -2267,6 +2304,12 @@ function settings_languageES(){
 
     var setabilities_textES = "Habilidades";
     localStorage.setItem("setabilities_text", setabilities_textES);
+
+    var setbarracks_textES = "Cuartel";
+    localStorage.setItem("setbarracks_text", setbarracks_textES);
+
+    var setbarracks_text2ES = "¡Cría y entrena guerreros para fortalecer tu ejército!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2ES);
 	
 	window.location.reload();
 	
@@ -2570,6 +2613,12 @@ function settings_languageZH(){
 
     var setabilities_textZH = "能力";
     localStorage.setItem("setabilities_text", setabilities_textZH);
+
+    var setbarracks_textZH = "军营";
+    localStorage.setItem("setbarracks_text", setbarracks_textZH);
+
+    var setbarracks_text2ZH = "培育和训练战士以增强您的军队！";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2ZH);
 	
 	window.location.reload();
 	
@@ -2873,6 +2922,12 @@ function settings_languageJA(){
 
     var setabilities_textJA = "能力";
     localStorage.setItem("setabilities_text", setabilities_textJA);
+
+    var setbarracks_textJA = "兵舎";
+    localStorage.setItem("setbarracks_text", setbarracks_textJA);
+
+    var setbarracks_text2JA = "あなたの軍隊を強化するために戦士を繁殖させ訓練してください！";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2JA);
 	
 	window.location.reload();
 	
@@ -3176,6 +3231,12 @@ function settings_languageKO(){
 
     var setabilities_textKO = "능력";
     localStorage.setItem("setabilities_text", setabilities_textKO);
+
+    var setbarracks_textKO = "막사";
+    localStorage.setItem("setbarracks_text", setbarracks_textKO);
+
+    var setbarracks_text2KO = "군대를 강화하기 위해 전사를 육성하고 훈련하십시오!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2KO);
 	
 	window.location.reload();
 	
@@ -3481,6 +3542,12 @@ function login_w1() {
 
     var setabilities_textEN = "Abilities";
     localStorage.setItem("setabilities_text", setabilities_textEN);
+
+    var setbarracks_textEN = "Barracks";
+    localStorage.setItem("setbarracks_text", setbarracks_textEN);
+
+    var setbarracks_text2EN = "Breed and train warriors to strengthen your army!";
+    localStorage.setItem("setbarracks_text2", setbarracks_text2EN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -4048,6 +4115,8 @@ function barracks_page_save() {
 	localStorage.getItem("setarcher_text");
 	localStorage.getItem("setrandom_mapX");
 	localStorage.getItem("setrandom_mapY");
+	localStorage.getItem("setbarracks_text");
+	localStorage.getItem("setbarracks_text2");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4086,6 +4155,8 @@ function barracks_page_save() {
 	document.getElementById("menu_map_button").href = "map_page.html#map_div_img_x" + setrandom_mapX + "_y" + setrandom_mapY;
 	document.getElementById("menu_allies_button").href = "allies_page.html";
 	document.getElementById("menu_leaderboard_button").href = "leaderboard_page.html";
+	document.getElementById("barracks_text").innerHTML = setbarracks_text;
+	document.getElementById("buildingdes_text").innerHTML = setbarracks_text2;
 };
 
 function bonus_page_save() {
