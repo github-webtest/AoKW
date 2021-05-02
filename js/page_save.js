@@ -3488,8 +3488,136 @@ function login_w1() {
     var randomX = Math.floor(Math.random() * 201) + 1;
     var randomY = Math.floor(Math.random() * 201) + 1;
 
-    localStorage.setItem("setrandom_mapX", randomX);
+    if (randomX == 17 & randomY == 17){
+    localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else {
+	localStorage.setItem("setrandom_mapX", randomX);
     localStorage.setItem("setrandom_mapY", randomY);
+    } else if (randomX == 38 & randomY == 17) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 101 & randomY == 17) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 164 & randomY == 17) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 185 & randomY == 17) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 17 & randomY == 38) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 38 & randomY == 38) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 80 & randomY == 38) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 122 & randomY == 38) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 164 & randomY == 38) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 185 & randomY == 38) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 59 & randomY == 59) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 101 & randomY == 59) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 143 & randomY == 59) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 38 & randomY == 80) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 80 & randomY == 80) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 122 & randomY == 80) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 164 & randomY == 80) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 17 & randomY == 101) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 59 & randomY == 101) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 101 & randomY == 101) {
+	localStorage.setItem("setrandom_mapX", randomX + 11);
+    localStorage.setItem("setrandom_mapY", randomY + 11);
+    } else if (randomX == 91-111 & randomY == 91-111) {
+	randomX != 91-111;
+    randomY != 91-111;
+    } else if (randomX == 143 & randomY == 101) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 185 & randomY == 101) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 38 & randomY == 122) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 80 & randomY == 122) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 122 & randomY == 122) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 164 & randomY == 122) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 59 & randomY == 143) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 101 & randomY == 143) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 143 & randomY == 143) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 17 & randomY == 164) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 38 & randomY == 164) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 80 & randomY == 164) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 122 & randomY == 164) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 164 & randomY == 164) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 185 & randomY == 164) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 17 & randomY == 185) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 38 & randomY == 185) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 101 & randomY == 185) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 164 & randomY == 185) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    } else if (randomX == 185 & randomY == 185) {
+	localStorage.setItem("setrandom_mapX", randomX + 1);
+    localStorage.setItem("setrandom_mapY", randomY + 1);
+    }
 	
 	window.location.href = "kingdom_page.html";
 	
