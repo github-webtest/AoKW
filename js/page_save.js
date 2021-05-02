@@ -3554,6 +3554,8 @@ function login_w1() {
     } else if (randomX == 91-111 & randomY == 91-111) {
 	randomX != 91-111;
     randomY != 91-111;
+    localStorage.setItem("setrandom_mapX", randomX);
+    localStorage.setItem("setrandom_mapY", randomY);
     } else if (randomX == 143 & randomY == 101) {
 	localStorage.setItem("setrandom_mapX", randomX + 1);
     localStorage.setItem("setrandom_mapY", randomY + 1);
