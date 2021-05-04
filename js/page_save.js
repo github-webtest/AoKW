@@ -134,6 +134,7 @@ var setabilities_text = localStorage.getItem("setabilities_text");
 var setbarracks_text = localStorage.getItem("setbarracks_text");
 var setbarracks_text2 = localStorage.getItem("setbarracks_text2");
 var setstrongagainstcavalry_text = localStorage.getItem("setstrongagainstcavalry_text");
+var setstrongagainstranged_text = localStorage.getItem("setstrongagainstranged_text");
 
 /* kp_settings */
 
@@ -457,6 +458,9 @@ function settings_languageEN(){
 
     var setstrongagainstcavalry_textEN = "Strong against cavalry";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textEN);
+
+    var setstrongagainstranged_textEN = "Strong against ranged";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textEN);
 	
 	window.location.reload();
 	
@@ -769,6 +773,9 @@ function settings_languageDE(){
 
     var setstrongagainstcavalry_textDE = "Stark gegen Kavallerie";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textDE);
+
+    var setstrongagainstranged_textDE = "Stark gegen Fernkampf";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textDE);
 	
 	window.location.reload();
 	
@@ -1081,6 +1088,9 @@ function settings_languageFR(){
 
     var setstrongagainstcavalry_textFR = "Fort contre la cavalerie";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textFR);
+
+    var setstrongagainstranged_textFR = "Fort contre à distance";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textFR);
 	
 	window.location.reload();
 	
@@ -1393,6 +1403,9 @@ function settings_languageRU(){
 
     var setstrongagainstcavalry_textRU = "Сильный против кавалерии";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textRU);
+
+    var setstrongagainstranged_textRU = "Сильный против дальнего боя";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textRU);
 	
 	window.location.reload();
 	
@@ -1705,6 +1718,9 @@ function settings_languageTR(){
 
     var setstrongagainstcavalry_textTR = "Süvarilere karşı güçlü";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textTR);
+
+    var setstrongagainstranged_textTR = "Menzilliye karşı güçlü";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textTR);
 	
 	window.location.reload();
 	
@@ -2017,6 +2033,9 @@ function settings_languagePT(){
 
     var setstrongagainstcavalry_textPT = "Forte contra cavalaria";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textPT);
+
+    var setstrongagainstranged_textPT = "Forte contra longo alcance";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textPT);
 	
 	window.location.reload();
 	
@@ -2332,6 +2351,9 @@ function settings_languageES(){
 
     var setstrongagainstcavalry_textES = "Fuerte contra la caballería";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textES);
+
+    var setstrongagainstranged_textES = "Fuerte contra rango";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textES);
 	
 	window.location.reload();
 	
@@ -2644,6 +2666,9 @@ function settings_languageZH(){
 
     var setstrongagainstcavalry_textZH = "强大的骑兵";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textZH);
+
+    var setstrongagainstranged_textZH = "对抗距离很强";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textZH);
 	
 	window.location.reload();
 	
@@ -2956,6 +2981,9 @@ function settings_languageJA(){
 
     var setstrongagainstcavalry_textJA = "騎兵に強い";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textJA);
+
+    var setstrongagainstranged_textJA = "遠距離に対して強い";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textJA);
 	
 	window.location.reload();
 	
@@ -3268,6 +3296,9 @@ function settings_languageKO(){
 
     var setstrongagainstcavalry_textKO = "기병에 강함";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textKO);
+
+    var setstrongagainstranged_textKO = "원거리에 강함";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textKO);
 	
 	window.location.reload();
 	
@@ -3582,6 +3613,9 @@ function login_w1() {
 
     var setstrongagainstcavalry_textEN = "Strong against cavalry";
     localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textEN);
+
+    var setstrongagainstranged_textEN = "Strong against ranged";
+    localStorage.setItem("setstrongagainstranged_text", setstrongagainstranged_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -3936,6 +3970,7 @@ function barracks_army2_save() {
 	localStorage.getItem("setranged_text");
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
+	localStorage.getItem("setstrongagainstranged_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3958,6 +3993,7 @@ function barracks_army2_save() {
 	document.getElementById("ranged_text").innerHTML = setranged_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
+	document.getElementById("strongagainstranged_text").innerHTML = setstrongagainstranged_text;
 };
 
 function barracks_army3_save() {
