@@ -133,6 +133,7 @@ var setdefensebonus_text = localStorage.getItem("setdefensebonus_text");
 var setabilities_text = localStorage.getItem("setabilities_text");
 var setbarracks_text = localStorage.getItem("setbarracks_text");
 var setbarracks_text2 = localStorage.getItem("setbarracks_text2");
+var setstrongagainstcavalry_text = localStorage.getItem("setstrongagainstcavalry_text");
 
 /* kp_settings */
 
@@ -453,6 +454,9 @@ function settings_languageEN(){
 
     var setbarracks_text2EN = "Breed and train warriors to strengthen your army!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2EN);
+
+    var setstrongagainstcavalry_textEN = "Strong against cavalry";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textEN);
 	
 	window.location.reload();
 	
@@ -762,6 +766,9 @@ function settings_languageDE(){
 
     var setbarracks_text2DE = "Züchte und trainiere Krieger, um deine Armee zu stärken!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2DE);
+
+    var setstrongagainstcavalry_textDE = "Stark gegen Kavallerie";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textDE);
 	
 	window.location.reload();
 	
@@ -1071,6 +1078,9 @@ function settings_languageFR(){
 
     var setbarracks_text2FR = "Élevez et entraînez des guerriers pour renforcer votre armée!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2FR);
+
+    var setstrongagainstcavalry_textFR = "Fort contre la cavalerie";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textFR);
 	
 	window.location.reload();
 	
@@ -1380,6 +1390,9 @@ function settings_languageRU(){
 
     var setbarracks_text2RU = "Разводите и тренируйте воинов, чтобы усилить свою армию!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2RU);
+
+    var setstrongagainstcavalry_textRU = "Сильный против кавалерии";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textRU);
 	
 	window.location.reload();
 	
@@ -1689,6 +1702,9 @@ function settings_languageTR(){
 
     var setbarracks_text2TR = "Ordunuzu güçlendirmek için savaşçılar yetiştirin ve eğitin!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2TR);
+
+    var setstrongagainstcavalry_textTR = "Süvarilere karşı güçlü";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textTR);
 	
 	window.location.reload();
 	
@@ -1998,6 +2014,9 @@ function settings_languagePT(){
 
     var setbarracks_text2PT = "Crie e treine guerreiros para fortalecer seu exército!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2PT);
+
+    var setstrongagainstcavalry_textPT = "Forte contra cavalaria";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textPT);
 	
 	window.location.reload();
 	
@@ -2310,6 +2329,9 @@ function settings_languageES(){
 
     var setbarracks_text2ES = "¡Cría y entrena guerreros para fortalecer tu ejército!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2ES);
+
+    var setstrongagainstcavalry_textES = "Fuerte contra la caballería";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textES);
 	
 	window.location.reload();
 	
@@ -2619,6 +2641,9 @@ function settings_languageZH(){
 
     var setbarracks_text2ZH = "培育和训练战士以增强您的军队！";
     localStorage.setItem("setbarracks_text2", setbarracks_text2ZH);
+
+    var setstrongagainstcavalry_textZH = "强大的骑兵";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textZH);
 	
 	window.location.reload();
 	
@@ -2928,6 +2953,9 @@ function settings_languageJA(){
 
     var setbarracks_text2JA = "あなたの軍隊を強化するために戦士を繁殖させ訓練してください！";
     localStorage.setItem("setbarracks_text2", setbarracks_text2JA);
+
+    var setstrongagainstcavalry_textJA = "騎兵に強い";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textJA);
 	
 	window.location.reload();
 	
@@ -3237,6 +3265,9 @@ function settings_languageKO(){
 
     var setbarracks_text2KO = "군대를 강화하기 위해 전사를 육성하고 훈련하십시오!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2KO);
+
+    var setstrongagainstcavalry_textKO = "기병에 강함";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textKO);
 	
 	window.location.reload();
 	
@@ -3549,6 +3580,9 @@ function login_w1() {
     var setbarracks_text2EN = "Breed and train warriors to strengthen your army!";
     localStorage.setItem("setbarracks_text2", setbarracks_text2EN);
 
+    var setstrongagainstcavalry_textEN = "Strong against cavalry";
+    localStorage.setItem("setstrongagainstcavalry_text", setstrongagainstcavalry_textEN);
+
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
@@ -3858,6 +3892,7 @@ function barracks_army1_save() {
 	localStorage.getItem("setinfantry_text");
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
+	localStorage.getItem("setstrongagainstcavalry_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -3880,6 +3915,7 @@ function barracks_army1_save() {
 	document.getElementById("infantry_text").innerHTML = setinfantry_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
+	document.getElementById("strongagainstcavalry_text").innerHTML = setstrongagainstcavalry_text;
 };
 
 function barracks_army2_save() {
