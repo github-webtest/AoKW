@@ -136,6 +136,7 @@ var setbarracks_text2 = localStorage.getItem("setbarracks_text2");
 var setstrongagainstcavalry_text = localStorage.getItem("setstrongagainstcavalry_text");
 var setstrongagainstranged_text = localStorage.getItem("setstrongagainstranged_text");
 var setspydes_text = localStorage.getItem("setspydes_text");
+var setstrongagainstinfantry_text = localStorage.getItem("setstrongagainstinfantry_text");
 
 /* kp_settings */
 
@@ -465,6 +466,9 @@ function settings_languageEN(){
 
     var setspydes_textEN = "Spy collects military information from kingdoms";
     localStorage.setItem("setspydes_text", setspydes_textEN);
+
+    var setstrongagainstinfantry_textEN = "Strong against infantry";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textEN);
 	
 	window.location.reload();
 	
@@ -783,6 +787,9 @@ function settings_languageDE(){
 
     var setspydes_textDE = "Spion sammelt militärische Informationen aus Königreichen";
     localStorage.setItem("setspydes_text", setspydes_textDE);
+
+    var setstrongagainstinfantry_textDE = "Stark gegen Infanterie";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textDE);
 	
 	window.location.reload();
 	
@@ -1101,6 +1108,9 @@ function settings_languageFR(){
 
     var setspydes_textFR = "Spy recueille des informations militaires des royaumes";
     localStorage.setItem("setspydes_text", setspydes_textFR);
+
+    var setstrongagainstinfantry_textFR = "Fort contre l'infanterie";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textFR);
 	
 	window.location.reload();
 	
@@ -1419,6 +1429,9 @@ function settings_languageRU(){
 
     var setspydes_textRU = "Шпион собирает военную информацию из королевств";
     localStorage.setItem("setspydes_text", setspydes_textRU);
+
+    var setstrongagainstinfantry_textRU = "Сильный против пехоты";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textRU);
 	
 	window.location.reload();
 	
@@ -1737,6 +1750,9 @@ function settings_languageTR(){
 
     var setspydes_textTR = "Casus, krallıklardan askeri bilgi toplar";
     localStorage.setItem("setspydes_text", setspydes_textTR);
+
+    var setstrongagainstinfantry_textTR = "Piyadelere karşı güçlü";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textTR);
 	
 	window.location.reload();
 	
@@ -2055,6 +2071,9 @@ function settings_languagePT(){
 
     var setspydes_textPT = "Spy coleta informações militares de reinos";
     localStorage.setItem("setspydes_text", setspydes_textPT);
+
+    var setstrongagainstinfantry_textPT = "Forte contra infantaria";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textPT);
 	
 	window.location.reload();
 	
@@ -2376,6 +2395,9 @@ function settings_languageES(){
 
     var setspydes_textES = "Spy recopila información militar de reinos";
     localStorage.setItem("setspydes_text", setspydes_textES);
+
+    var setstrongagainstinfantry_textES = "Fuerte contra la infantería";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textES);
 	
 	window.location.reload();
 	
@@ -2694,6 +2716,9 @@ function settings_languageZH(){
 
     var setspydes_textZH = "间谍从王国收集军事信息";
     localStorage.setItem("setspydes_text", setspydes_textZH);
+
+    var setstrongagainstinfantry_textZH = "强烈反对步兵";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textZH);
 	
 	window.location.reload();
 	
@@ -3012,6 +3037,9 @@ function settings_languageJA(){
 
     var setspydes_textJA = "スパイは王国から軍事情報を収集します";
     localStorage.setItem("setspydes_text", setspydes_textJA);
+
+    var setstrongagainstinfantry_textJA = "歩兵に強い";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textJA);
 	
 	window.location.reload();
 	
@@ -3330,6 +3358,9 @@ function settings_languageKO(){
 
     var setspydes_textKO = "스파이는 왕국에서 군사 정보를 수집합니다";
     localStorage.setItem("setspydes_text", setspydes_textKO);
+
+    var setstrongagainstinfantry_textKO = "보병에 강함";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textKO);
 	
 	window.location.reload();
 	
@@ -3650,6 +3681,9 @@ function login_w1() {
 
     var setspydes_textEN = "Spy collects military information from kingdoms";
     localStorage.setItem("setspydes_text", setspydes_textEN);
+
+    var setstrongagainstinfantry_textEN = "Strong against infantry";
+    localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textEN);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -4094,6 +4128,7 @@ function barracks_army4_save() {
 	localStorage.getItem("setcavalry_text");
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
+	localStorage.getItem("setstrongagainstinfantry_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4116,6 +4151,7 @@ function barracks_army4_save() {
 	document.getElementById("cavalry_text").innerHTML = setcavalry_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
+	document.getElementById("strongagainstinfantry_text").innerHTML = setstrongagainstinfantry_text;
 };
 
 function barracks_army5_save() {
