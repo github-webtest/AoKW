@@ -1799,7 +1799,7 @@ function settings_languageTR(){
     var setarmya2_textTR = "Süvari Saldırısı";
     localStorage.setItem("setarmya2_text", setarmya2_textTR);
 
-    var setarmya3_textTR = "Menzilli Saldırı";
+    var setarmya3_textTR = "Menzilli Saldırısı";
     localStorage.setItem("setarmya3_text", setarmya3_textTR);
 	
 	window.location.reload();
