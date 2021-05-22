@@ -137,6 +137,9 @@ var setstrongagainstcavalry_text = localStorage.getItem("setstrongagainstcavalry
 var setstrongagainstranged_text = localStorage.getItem("setstrongagainstranged_text");
 var setspydes_text = localStorage.getItem("setspydes_text");
 var setstrongagainstinfantry_text = localStorage.getItem("setstrongagainstinfantry_text");
+var setarmya1_text = localStorage.getItem("setarmya1_text");
+var setarmya2_text = localStorage.getItem("setarmya2_text");
+var setarmya3_text = localStorage.getItem("setarmya3_text");
 
 /* kp_settings */
 
@@ -469,6 +472,15 @@ function settings_languageEN(){
 
     var setstrongagainstinfantry_textEN = "Strong against infantry";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textEN);
+
+    var setarmya1_textEN = "Infantry Attack";
+    localStorage.setItem("setarmya1_text", setarmya1_textEN);
+
+    var setarmya2_textEN = "Cavalry Attack";
+    localStorage.setItem("setarmya2_text", setarmya2_textEN);
+
+    var setarmya3_textEN = "Ranged Attack";
+    localStorage.setItem("setarmya3_text", setarmya3_textEN);
 	
 	window.location.reload();
 	
@@ -790,6 +802,15 @@ function settings_languageDE(){
 
     var setstrongagainstinfantry_textDE = "Stark gegen Infanterie";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textDE);
+
+    var setarmya1_textDE = "Infanterie Angriff";
+    localStorage.setItem("setarmya1_text", setarmya1_textDE);
+
+    var setarmya2_textDE = "Kavallerie Angriff";
+    localStorage.setItem("setarmya2_text", setarmya2_textDE);
+
+    var setarmya3_textDE = "Fernkampfangriff";
+    localStorage.setItem("setarmya3_text", setarmya3_textDE);
 	
 	window.location.reload();
 	
@@ -1111,6 +1132,15 @@ function settings_languageFR(){
 
     var setstrongagainstinfantry_textFR = "Fort contre l'infanterie";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textFR);
+
+    var setarmya1_textFR = "Attaque d'infanterie";
+    localStorage.setItem("setarmya1_text", setarmya1_textFR);
+
+    var setarmya2_textFR = "Attaque de cavalerie";
+    localStorage.setItem("setarmya2_text", setarmya2_textFR);
+
+    var setarmya3_textFR = "Attaque à distance";
+    localStorage.setItem("setarmya3_text", setarmya3_textFR);
 	
 	window.location.reload();
 	
@@ -1432,6 +1462,15 @@ function settings_languageRU(){
 
     var setstrongagainstinfantry_textRU = "Сильный против пехоты";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textRU);
+
+    var setarmya1_textRU = "Пехота атака";
+    localStorage.setItem("setarmya1_text", setarmya1_textRU);
+
+    var setarmya2_textRU = "Кавалерийская атака";
+    localStorage.setItem("setarmya2_text", setarmya2_textRU);
+
+    var setarmya3_textRU = "Дальняя атака";
+    localStorage.setItem("setarmya3_text", setarmya3_textRU);
 	
 	window.location.reload();
 	
@@ -1753,6 +1792,15 @@ function settings_languageTR(){
 
     var setstrongagainstinfantry_textTR = "Piyadelere karşı güçlü";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textTR);
+
+    var setarmya1_textTR = "Piyade Saldırısı";
+    localStorage.setItem("setarmya1_text", setarmya1_textTR);
+
+    var setarmya2_textTR = "Süvari Saldırısı";
+    localStorage.setItem("setarmya2_text", setarmya2_textTR);
+
+    var setarmya3_textTR = "Menzilli Saldırı";
+    localStorage.setItem("setarmya3_text", setarmya3_textTR);
 	
 	window.location.reload();
 	
@@ -2074,6 +2122,15 @@ function settings_languagePT(){
 
     var setstrongagainstinfantry_textPT = "Forte contra infantaria";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textPT);
+
+    var setarmya1_textPT = "Ataque de infantaria";
+    localStorage.setItem("setarmya1_text", setarmya1_textPT);
+
+    var setarmya2_textPT = "Ataque de cavalaria";
+    localStorage.setItem("setarmya2_text", setarmya2_textPT);
+
+    var setarmya3_textPT = "Ataque à Distância";
+    localStorage.setItem("setarmya3_text", setarmya3_textPT);
 	
 	window.location.reload();
 	
@@ -2398,6 +2455,15 @@ function settings_languageES(){
 
     var setstrongagainstinfantry_textES = "Fuerte contra la infantería";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textES);
+
+    var setarmya1_textES = "Ataque de infantería";
+    localStorage.setItem("setarmya1_text", setarmya1_textES);
+
+    var setarmya2_textES = "Ataque de caballería";
+    localStorage.setItem("setarmya2_text", setarmya2_textES);
+
+    var setarmya3_textES = "Ataque a distancia";
+    localStorage.setItem("setarmya3_text", setarmya3_textES);
 	
 	window.location.reload();
 	
@@ -2719,6 +2785,15 @@ function settings_languageZH(){
 
     var setstrongagainstinfantry_textZH = "强烈反对步兵";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textZH);
+
+    var setarmya1_textZH = "步兵攻击";
+    localStorage.setItem("setarmya1_text", setarmya1_textZH);
+
+    var setarmya2_textZH = "骑兵攻击";
+    localStorage.setItem("setarmya2_text", setarmya2_textZH);
+
+    var setarmya3_textZH = "远程攻击";
+    localStorage.setItem("setarmya3_text", setarmya3_textZH);
 	
 	window.location.reload();
 	
@@ -3040,6 +3115,15 @@ function settings_languageJA(){
 
     var setstrongagainstinfantry_textJA = "歩兵に強い";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textJA);
+
+    var setarmya1_textJA = "歩兵攻撃";
+    localStorage.setItem("setarmya1_text", setarmya1_textJA);
+
+    var setarmya2_textJA = "騎兵攻撃";
+    localStorage.setItem("setarmya2_text", setarmya2_textJA);
+
+    var setarmya3_textJA = "遠隔攻撃";
+    localStorage.setItem("setarmya3_text", setarmya3_textJA);
 	
 	window.location.reload();
 	
@@ -3361,6 +3445,15 @@ function settings_languageKO(){
 
     var setstrongagainstinfantry_textKO = "보병에 강함";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textKO);
+
+    var setarmya1_textKO = "보병 공격";
+    localStorage.setItem("setarmya1_text", setarmya1_textKO);
+
+    var setarmya2_textKO = "기병 공격";
+    localStorage.setItem("setarmya2_text", setarmya2_textKO);
+
+    var setarmya3_textKO = "원거리 공격";
+    localStorage.setItem("setarmya3_text", setarmya3_textKO);
 	
 	window.location.reload();
 	
@@ -3685,6 +3778,15 @@ function login_w1() {
     var setstrongagainstinfantry_textEN = "Strong against infantry";
     localStorage.setItem("setstrongagainstinfantry_text", setstrongagainstinfantry_textEN);
 
+    var setarmya1_textEN = "Infantry Attack";
+    localStorage.setItem("setarmya1_text", setarmya1_textEN);
+
+    var setarmya2_textEN = "Cavalry Attack";
+    localStorage.setItem("setarmya2_text", setarmya2_textEN);
+
+    var setarmya3_textEN = "Ranged Attack";
+    localStorage.setItem("setarmya3_text", setarmya3_textEN);
+
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
 
@@ -3995,6 +4097,9 @@ function barracks_army1_save() {
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
 	localStorage.getItem("setstrongagainstcavalry_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4018,6 +4123,9 @@ function barracks_army1_save() {
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
 	document.getElementById("strongagainstcavalry_text").innerHTML = setstrongagainstcavalry_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function barracks_army2_save() {
@@ -4039,6 +4147,9 @@ function barracks_army2_save() {
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
 	localStorage.getItem("setstrongagainstranged_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4062,6 +4173,9 @@ function barracks_army2_save() {
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
 	document.getElementById("strongagainstranged_text").innerHTML = setstrongagainstranged_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function barracks_army3_save() {
@@ -4084,6 +4198,9 @@ function barracks_army3_save() {
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
 	localStorage.getItem("setspydes_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4108,6 +4225,9 @@ function barracks_army3_save() {
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
 	document.getElementById("spydes_text").innerHTML = setspydes_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function barracks_army4_save() {
@@ -4129,6 +4249,9 @@ function barracks_army4_save() {
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
 	localStorage.getItem("setstrongagainstinfantry_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4152,6 +4275,9 @@ function barracks_army4_save() {
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
 	document.getElementById("strongagainstinfantry_text").innerHTML = setstrongagainstinfantry_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function barracks_army5_save() {
@@ -4173,6 +4299,9 @@ function barracks_army5_save() {
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
 	localStorage.getItem("setstrongagainstinfantry_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4196,6 +4325,9 @@ function barracks_army5_save() {
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
 	document.getElementById("strongagainstinfantry_text").innerHTML = setstrongagainstinfantry_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function barracks_army6_save() {
@@ -4218,6 +4350,9 @@ function barracks_army6_save() {
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
 	localStorage.getItem("setstrongagainstinfantry_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4242,6 +4377,9 @@ function barracks_army6_save() {
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
 	document.getElementById("strongagainstinfantry_text").innerHTML = setstrongagainstinfantry_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function barracks_page_save() {
@@ -4356,6 +4494,9 @@ function castle_army1_save() {
 	localStorage.getItem("setinfantry_text");
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4378,6 +4519,9 @@ function castle_army1_save() {
 	document.getElementById("infantry_text").innerHTML = setinfantry_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function castle_army2_save() {
@@ -4398,6 +4542,9 @@ function castle_army2_save() {
 	localStorage.getItem("setinfantry_text");
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4420,6 +4567,9 @@ function castle_army2_save() {
 	document.getElementById("infantry_text").innerHTML = setinfantry_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function castle_info_save() {
@@ -5493,6 +5643,9 @@ function workshop_ballista_save() {
 	localStorage.getItem("setranged_text");
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -5515,6 +5668,9 @@ function workshop_ballista_save() {
 	document.getElementById("ranged_text").innerHTML = setranged_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function workshop_catapult_save() {
@@ -5536,6 +5692,9 @@ function workshop_catapult_save() {
 	localStorage.getItem("setranged_text");
 	localStorage.getItem("setupgrade_text");
 	localStorage.getItem("setabilities_text");
+	localStorage.getItem("setarmya1_text");
+	localStorage.getItem("setarmya2_text");
+	localStorage.getItem("setarmya3_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -5558,6 +5717,9 @@ function workshop_catapult_save() {
 	document.getElementById("ranged_text").innerHTML = setranged_text;
 	document.getElementById("upgrade_text").innerHTML = setupgrade_text;
 	document.getElementById("abilities_text").innerHTML = setabilities_text;
+	document.getElementById("armya1_text").innerHTML = setarmya1_text;
+	document.getElementById("armya2_text").innerHTML = setarmya2_text;
+	document.getElementById("armya3_text").innerHTML = setarmya3_text;
 };
 
 function workshop_page_save() {
