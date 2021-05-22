@@ -140,6 +140,8 @@ var setstrongagainstinfantry_text = localStorage.getItem("setstrongagainstinfant
 var setarmya1_text = localStorage.getItem("setarmya1_text");
 var setarmya2_text = localStorage.getItem("setarmya2_text");
 var setarmya3_text = localStorage.getItem("setarmya3_text");
+var setarmycastl1ades_text = localStorage.getItem("setarmycastl1ades_text");
+var setarmycastl2ades_text = localStorage.getItem("setarmycastl2ades_text");
 
 /* kp_settings */
 
@@ -481,6 +483,12 @@ function settings_languageEN(){
 
     var setarmya3_textEN = "Ranged Attack";
     localStorage.setItem("setarmya3_text", setarmya3_textEN);
+
+    var setarmycastl1ades_textEN = "Very strong against all units";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textEN);
+
+    var setarmycastl2ades_textEN = "Strong against all units";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textEN);
 	
 	window.location.reload();
 	
@@ -811,6 +819,12 @@ function settings_languageDE(){
 
     var setarmya3_textDE = "Fernkampfangriff";
     localStorage.setItem("setarmya3_text", setarmya3_textDE);
+
+    var setarmycastl1ades_textDE = "Sehr stark gegen alle Einheiten";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textDE);
+
+    var setarmycastl2ades_textDE = "Stark gegen alle Einheiten";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textDE);
 	
 	window.location.reload();
 	
@@ -1141,6 +1155,12 @@ function settings_languageFR(){
 
     var setarmya3_textFR = "Attaque à distance";
     localStorage.setItem("setarmya3_text", setarmya3_textFR);
+
+    var setarmycastl1ades_textFR = "Très fort contre toutes les unités";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textFR);
+
+    var setarmycastl2ades_textFR = "Fort contre toutes les unités";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textFR);
 	
 	window.location.reload();
 	
@@ -1471,6 +1491,12 @@ function settings_languageRU(){
 
     var setarmya3_textRU = "Дальняя атака";
     localStorage.setItem("setarmya3_text", setarmya3_textRU);
+
+    var setarmycastl1ades_textRU = "Очень силен против всех юнитов";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textRU);
+
+    var setarmycastl2ades_textRU = "Сильный против всех юнитов";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textRU);
 	
 	window.location.reload();
 	
@@ -1801,6 +1827,12 @@ function settings_languageTR(){
 
     var setarmya3_textTR = "Menzilli Saldırısı";
     localStorage.setItem("setarmya3_text", setarmya3_textTR);
+
+    var setarmycastl1ades_textTR = "Tüm birimlere karşı çok güçlü";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textTR);
+
+    var setarmycastl2ades_textTR = "Tüm birimlere karşı güçlü";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textTR);
 	
 	window.location.reload();
 	
@@ -2131,6 +2163,12 @@ function settings_languagePT(){
 
     var setarmya3_textPT = "Ataque à Distância";
     localStorage.setItem("setarmya3_text", setarmya3_textPT);
+
+    var setarmycastl1ades_textPT = "Muito forte contra todas as unidades";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textPT);
+
+    var setarmycastl2ades_textPT = "Forte contra todas as unidades";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textPT);
 	
 	window.location.reload();
 	
@@ -2464,6 +2502,12 @@ function settings_languageES(){
 
     var setarmya3_textES = "Ataque a distancia";
     localStorage.setItem("setarmya3_text", setarmya3_textES);
+
+    var setarmycastl1ades_textES = "Muy fuerte contra todas las unidades";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textES);
+
+    var setarmycastl2ades_textES = "Fuerte contra todas las unidades";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textES);
 	
 	window.location.reload();
 	
@@ -2794,6 +2838,12 @@ function settings_languageZH(){
 
     var setarmya3_textZH = "远程攻击";
     localStorage.setItem("setarmya3_text", setarmya3_textZH);
+
+    var setarmycastl1ades_textZH = "对所有部队都很强大";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textZH);
+
+    var setarmycastl2ades_textZH = "对抗所有部队";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textZH);
 	
 	window.location.reload();
 	
@@ -3124,6 +3174,12 @@ function settings_languageJA(){
 
     var setarmya3_textJA = "遠隔攻撃";
     localStorage.setItem("setarmya3_text", setarmya3_textJA);
+
+    var setarmycastl1ades_textJA = "すべてのユニットに対して非常に強い";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textJA);
+
+    var setarmycastl2ades_textJA = "すべてのユニットに強い";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textJA);
 	
 	window.location.reload();
 	
@@ -3454,6 +3510,12 @@ function settings_languageKO(){
 
     var setarmya3_textKO = "원거리 공격";
     localStorage.setItem("setarmya3_text", setarmya3_textKO);
+
+    var setarmycastl1ades_textKO = "모든 유닛에 매우 강함";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textKO);
+
+    var setarmycastl2ades_textKO = "모든 유닛에 강함";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textKO);
 	
 	window.location.reload();
 	
@@ -3786,6 +3848,12 @@ function login_w1() {
 
     var setarmya3_textEN = "Ranged Attack";
     localStorage.setItem("setarmya3_text", setarmya3_textEN);
+
+    var setarmycastl1ades_textKO = "Very strong against all units";
+    localStorage.setItem("setarmycastl1ades_text", setarmycastl1ades_textKO);
+
+    var setarmycastl2ades_textKO = "Strong against all units";
+    localStorage.setItem("setarmycastl2ades_text", setarmycastl2ades_textKO);
 
     localStorage.setItem("setlogindisplay1", "none");
     localStorage.setItem("setlogindisplay2", "block");
@@ -4497,6 +4565,8 @@ function castle_army1_save() {
 	localStorage.getItem("setarmya1_text");
 	localStorage.getItem("setarmya2_text");
 	localStorage.getItem("setarmya3_text");
+	localStorage.getItem("setarmycastl1ades_text");
+	localStorage.getItem("setarmycastl2ades_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4522,6 +4592,8 @@ function castle_army1_save() {
 	document.getElementById("armya1_text").innerHTML = setarmya1_text;
 	document.getElementById("armya2_text").innerHTML = setarmya2_text;
 	document.getElementById("armya3_text").innerHTML = setarmya3_text;
+	document.getElementById("armycastl1ades_text").innerHTML = setarmycastl1ades_text;
+	document.getElementById("armycastl2ades_text").innerHTML = setarmycastl2ades_text;
 };
 
 function castle_army2_save() {
@@ -4545,6 +4617,8 @@ function castle_army2_save() {
 	localStorage.getItem("setarmya1_text");
 	localStorage.getItem("setarmya2_text");
 	localStorage.getItem("setarmya3_text");
+	localStorage.getItem("setarmycastl1ades_text");
+	localStorage.getItem("setarmycastl2ades_text");
 	
 	document.getElementById("menus_military_text").innerHTML = setmenus_military_text;
 	document.getElementById("menus_logs_text").innerHTML = setmenus_logs_text;
@@ -4570,6 +4644,8 @@ function castle_army2_save() {
 	document.getElementById("armya1_text").innerHTML = setarmya1_text;
 	document.getElementById("armya2_text").innerHTML = setarmya2_text;
 	document.getElementById("armya3_text").innerHTML = setarmya3_text;
+	document.getElementById("armycastl1ades_text").innerHTML = setarmycastl1ades_text;
+	document.getElementById("armycastl2ades_text").innerHTML = setarmycastl2ades_text;
 };
 
 function castle_info_save() {
