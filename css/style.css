@@ -2771,6 +2771,7 @@ body{
 	float: left;
 	background-repeat: no-repeat; 
 	background-size: 100% 100%;
+	cursor: pointer;
 }
 
 .bd_buy_divs{
@@ -2783,6 +2784,7 @@ body{
 	float: left;
 	background-repeat: no-repeat; 
 	background-size: 100% 100%;
+	cursor: pointer;
 }
 
 .bd_buy_divs_header_diamond{
